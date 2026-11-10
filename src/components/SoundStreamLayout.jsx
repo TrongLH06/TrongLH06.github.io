@@ -183,6 +183,8 @@ export default function SoundStreamLayout() {
     };
   }, []);
 
+  const currentTrack = playlistQueue[currentTrackIndex] || VERIFIED_AUDIUS_TRACKS[0];
+
   const isCurrentTrackDownloaded = isTrackDownloaded(currentTrack?.id || currentTrack?.audiusId);
 
   const handleToggleDownloadTrack = async (trackToDownload) => {
@@ -215,8 +217,6 @@ export default function SoundStreamLayout() {
       setInstallPrompt(null);
     }
   };
-
-  const currentTrack = playlistQueue[currentTrackIndex] || VERIFIED_AUDIUS_TRACKS[0];
 
   const isCurrentTrackLiked = likedTracks.some(
     (t) => t.id === currentTrack?.id || t.title === currentTrack?.title
