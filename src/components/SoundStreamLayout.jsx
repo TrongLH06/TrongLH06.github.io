@@ -1123,14 +1123,14 @@ export default function SoundStreamLayout() {
               )}
 
               {/* Spotify Live Streaming Badge */}
-              <div className="hidden md:flex items-center gap-2 px-3.5 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-mono">
+              <div className="hidden 2xl:flex items-center gap-2 px-3.5 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-mono shrink-0">
                 <div className="flex items-end gap-0.5 h-3">
                   <span className={`w-0.5 bg-primary h-3 ${isPlaying ? 'animate-[pulse_0.6s_infinite]' : ''}`}></span>
                   <span className={`w-0.5 bg-primary h-2 ${isPlaying ? 'animate-[pulse_0.4s_infinite]' : ''}`}></span>
                   <span className={`w-0.5 bg-primary h-3 ${isPlaying ? 'animate-[pulse_0.8s_infinite]' : ''}`}></span>
                   <span className={`w-0.5 bg-primary h-1.5 ${isPlaying ? 'animate-[pulse_0.5s_infinite]' : ''}`}></span>
                 </div>
-                <span>AUDIUS & SPOTIFY LOSSLESS</span>
+                <span>HI-FI LOSSLESS</span>
               </div>
 
               {/* Audius User Profile / Auth Button */}
@@ -1418,8 +1418,8 @@ export default function SoundStreamLayout() {
         </div>
 
         {/* Center Transport Controls & Scrubber */}
-        <div className="flex flex-col items-center gap-2 max-w-xl w-2/4 px-4">
-          <div className="flex items-center gap-6">
+        <div className="flex flex-col items-center gap-1.5 flex-1 max-w-lg px-4">
+          <div className="flex items-center gap-5">
             <button
               type="button"
               onClick={() => {
@@ -1513,7 +1513,7 @@ export default function SoundStreamLayout() {
         </div>
 
         {/* Right Volume & Spotify Controls */}
-        <div className="flex items-center justify-end gap-3 w-1/4 min-w-[240px]">
+        <div className="flex items-center justify-end gap-2 w-1/4 shrink-0">
           {/* Now Playing View Button */}
           <button
             type="button"
@@ -1554,7 +1554,7 @@ export default function SoundStreamLayout() {
           <button
             type="button"
             onClick={handleCycleSpeed}
-            className="text-[11px] font-mono font-bold text-on-surface-variant hover:text-primary transition-colors cursor-pointer px-1.5 py-0.5 rounded bg-surface-container hover:bg-surface-container-high"
+            className="hidden xl:inline-flex text-[11px] font-mono font-bold text-on-surface-variant hover:text-primary transition-colors cursor-pointer px-1.5 py-0.5 rounded bg-surface-container hover:bg-surface-container-high"
             title={`Tốc độ phát: ${playbackSpeed}x (Phím tắt: S)`}
           >
             {playbackSpeed}x
@@ -1564,7 +1564,7 @@ export default function SoundStreamLayout() {
           <button
             type="button"
             onClick={handleCycleSleepTimer}
-            className={`transition-colors cursor-pointer p-1 rounded-md relative ${
+            className={`hidden xl:inline-flex transition-colors cursor-pointer p-1 rounded-md relative ${
               sleepTimer ? 'text-primary bg-surface-container' : 'text-on-surface-variant hover:text-on-surface'
             }`}
             title={
@@ -1583,7 +1583,7 @@ export default function SoundStreamLayout() {
           <button
             type="button"
             onClick={() => setShowShortcutsModal(true)}
-            className="text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer p-1 rounded-md"
+            className="hidden xl:inline-flex text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer p-1 rounded-md"
             title="Phím tắt Spotify (Phím ? hoặc H)"
           >
             <span className="material-symbols-outlined text-xl">keyboard</span>
