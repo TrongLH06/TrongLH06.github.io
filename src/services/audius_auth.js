@@ -1,87 +1,159 @@
 /**
- * SoundStream Audius Account & Profile Authentication Service
- * Connects with Audius Protocol to load user metadata, verified badges, token balance, and playlists
+ * SoundStream Audius & Spotify Account Service
+ * Supports:
+ * 1. Custom Local Profile (Hồ sơ người dùng cá nhân)
+ * 2. Audius Protocol Web3 Authentication (Kết nối ví/handle Audius thật)
+ * 3. 1-Click Vietnamese Artist Demo Accounts
  */
 
 const APP_NAME = 'SoundStream';
 const AUDIUS_API_BASE = 'https://api.audius.co/v1';
 const USER_STORAGE_KEY = 'soundstream_audius_user';
 
+export const PRESET_AVATARS = [
+  {
+    id: 'av-music-neon',
+    name: 'DJ Neon Vibes',
+    url: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80'
+  },
+  {
+    id: 'av-rocker',
+    name: 'Urban Rocker',
+    url: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80'
+  },
+  {
+    id: 'av-pop-star',
+    name: 'Vocal Star',
+    url: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&auto=format&fit=crop&q=80'
+  },
+  {
+    id: 'av-indie',
+    name: 'Indie Artist',
+    url: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80'
+  },
+  {
+    id: 'av-cyberpunk',
+    name: 'Cyber Wave',
+    url: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300&auto=format&fit=crop&q=80'
+  },
+  {
+    id: 'av-vinyl',
+    name: 'Vinyl Collector',
+    url: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=300&auto=format&fit=crop&q=80'
+  },
+  {
+    id: 'av-vpop-king',
+    name: 'V-Pop King',
+    url: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/0b/38/e30b383e-5818-321a-7626-557b7b0f8ba3/24UMGIM61359.rgb.jpg/600x600bb.jpg'
+  },
+  {
+    id: 'av-audius-official',
+    name: 'Audius Web3',
+    url: 'https://audius.co/assets/TokenAUDIO-B9fxmOIn.png'
+  }
+];
+
 export const DEMO_AUDIUS_ACCOUNTS = [
+  {
+    handle: 'sontungmtp',
+    name: 'Sơn Tùng M-TP',
+    role: 'V-Pop Superstar',
+    bio: 'Nghệ sĩ tiên phong của âm nhạc Việt Nam hiện đại.',
+    avatar: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/0b/38/e30b383e-5818-321a-7626-557b7b0f8ba3/24UMGIM61359.rgb.jpg/600x600bb.jpg',
+    badge: 'V-Pop King',
+    followerCount: 2540000,
+    audioTokenBalance: 8880,
+    isVerified: true
+  },
+  {
+    handle: 'denvau',
+    name: 'Đen Vâu',
+    role: 'Nhạc sĩ & Rapper Mộc Mạc',
+    bio: 'Mang chất thơ mộc mạc và câu chuyện đời thực vào âm nhạc Việt.',
+    avatar: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300&auto=format&fit=crop&q=80',
+    badge: 'Đồng Âm Việt Nam',
+    followerCount: 1890000,
+    audioTokenBalance: 5200,
+    isVerified: true
+  },
+  {
+    handle: 'hieuthuhai',
+    name: 'HIEUTHUHAI',
+    role: 'Hip-Hop / Rap & R&B Star',
+    bio: 'Say Hi & Chông Gai. Âm nhạc thời thượng chinh phục thế hệ trẻ.',
+    avatar: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=300&auto=format&fit=crop&q=80',
+    badge: 'King of Say Hi',
+    followerCount: 1450000,
+    audioTokenBalance: 4600,
+    isVerified: true
+  },
+  {
+    handle: 'vu',
+    name: 'Vũ.',
+    role: 'Hoàng tử Indie Việt',
+    bio: 'Những bản tình ca Indie sâu lắng chạm đến tâm hồn.',
+    avatar: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&auto=format&fit=crop&q=80',
+    badge: 'Indie Legend',
+    followerCount: 980000,
+    audioTokenBalance: 3200,
+    isVerified: true
+  },
   {
     handle: 'audius',
     name: 'Audius Official',
-    role: 'Open Audio Network',
+    role: 'Open Audio Protocol',
     bio: 'The official Audius account! Creating a decentralized streaming music platform.',
     avatar: 'https://audius.co/assets/TokenAUDIO-B9fxmOIn.png',
-    badge: 'Official Protocol'
+    badge: 'Official Protocol',
+    followerCount: 3820000,
+    audioTokenBalance: 50000,
+    isVerified: true
   },
   {
     handle: 'deadmau5',
     name: 'deadmau5',
-    role: 'Legendary Electronic Producer',
-    bio: 'Electronic music producer and early Audius innovator.',
-    avatar: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=300&auto=format&fit=crop&q=80',
-    badge: 'Audius Icon'
-  },
-  {
-    handle: 'sontungmtp',
-    name: 'Sơn Tùng M-TP',
-    role: 'V-Pop King',
-    bio: 'Nghệ sĩ tiên phong của âm nhạc Việt Nam hiện đại.',
-    avatar: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/0b/38/e30b383e-5818-321a-7626-557b7b0f8ba3/24UMGIM61359.rgb.jpg/600x600bb.jpg',
-    badge: 'V-Pop Superstar'
-  },
-  {
-    handle: 'alexvance',
-    name: 'Alex Vance',
-    role: 'Spotify & Audius Curator',
-    bio: 'Music enthusiast exploring lossless audio and global decentralized beats.',
-    avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=300&auto=format&fit=crop&q=80',
-    badge: 'SoundStream Pro'
+    role: 'Electronic Music Pioneer',
+    bio: 'Grammy-nominated producer and decentralized music pioneer.',
+    avatar: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=300&auto=format&fit=crop&q=80',
+    badge: 'EDM Icon',
+    followerCount: 2100000,
+    audioTokenBalance: 12500,
+    isVerified: true
   }
 ];
 
+export const GUEST_USER = {
+  isLoggedIn: false,
+  id: 'guest',
+  handle: 'guest',
+  name: 'Khách',
+  role: 'Khách vãng lai',
+  bio: 'Tài khoản khách trên SoundStream. Đăng nhập để lưu danh sách phát và cá nhân hóa trải nghiệm âm nhạc!',
+  avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=300&auto=format&fit=crop&q=80',
+  followerCount: 0,
+  followingCount: 0,
+  trackCount: 0,
+  playlistCount: 0,
+  audioTokenBalance: 0,
+  isVerified: false
+};
+
 export function getStoredAudiusUser() {
   if (typeof localStorage === 'undefined') {
-    return {
-      isLoggedIn: false,
-      id: 'guest',
-      handle: 'alexvance',
-      name: 'Alex Vance',
-      role: 'SoundStream Guest',
-      bio: 'Tài khoản khách trên SoundStream. Đăng nhập Audius để đồng bộ playlist cá nhân và $AUDIO token!',
-      avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=300&auto=format&fit=crop&q=80',
-      followerCount: 1420,
-      followingCount: 38,
-      trackCount: 0,
-      playlistCount: 4,
-      audioTokenBalance: 0,
-      isVerified: false
-    };
+    return GUEST_USER;
   }
   try {
     const raw = localStorage.getItem(USER_STORAGE_KEY);
-    if (raw) return JSON.parse(raw);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (parsed && parsed.isLoggedIn) {
+        return parsed;
+      }
+    }
   } catch (e) {
     console.warn('Error reading stored user', e);
   }
-  // Default guest user
-  return {
-    isLoggedIn: false,
-    id: 'guest',
-    handle: 'alexvance',
-    name: 'Alex Vance',
-    role: 'SoundStream Guest',
-    bio: 'Tài khoản khách trên SoundStream. Đăng nhập Audius để đồng bộ playlist cá nhân và $AUDIO token!',
-    avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=300&auto=format&fit=crop&q=80',
-    followerCount: 1420,
-    followingCount: 38,
-    trackCount: 0,
-    playlistCount: 4,
-    audioTokenBalance: 0,
-    isVerified: false
-  };
+  return GUEST_USER;
 }
 
 export async function fetchAudiusUserProfile(handle) {
@@ -110,6 +182,7 @@ export async function fetchAudiusUserProfile(handle) {
 
         return {
           isLoggedIn: true,
+          authType: 'audius',
           id: u.id || cleanHandle,
           handle: u.handle || cleanHandle,
           name: u.name || cleanHandle,
@@ -132,14 +205,34 @@ export async function fetchAudiusUserProfile(handle) {
 
   // Fallback demo match or generated profile
   const demo = DEMO_AUDIUS_ACCOUNTS.find((d) => d.handle.toLowerCase() === cleanHandle);
+  if (demo) {
+    return {
+      isLoggedIn: true,
+      authType: 'audius',
+      id: demo.handle,
+      handle: demo.handle,
+      name: demo.name,
+      role: demo.role,
+      bio: demo.bio,
+      avatar: demo.avatar,
+      followerCount: demo.followerCount || 10000,
+      followingCount: 45,
+      trackCount: 12,
+      playlistCount: 4,
+      audioTokenBalance: demo.audioTokenBalance || 1000,
+      isVerified: Boolean(demo.isVerified)
+    };
+  }
+
   return {
     isLoggedIn: true,
+    authType: 'audius',
     id: cleanHandle,
     handle: cleanHandle,
-    name: demo ? demo.name : cleanHandle.toUpperCase(),
-    role: demo ? demo.role : 'Audius Enthusiast',
-    bio: demo ? demo.bio : `Thành viên @${cleanHandle} trên giao thức âm nhạc Audius.`,
-    avatar: demo ? demo.avatar : 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=300&auto=format&fit=crop&q=80',
+    name: cleanHandle.toUpperCase(),
+    role: 'Audius Enthusiast',
+    bio: `Thành viên @${cleanHandle} trên giao thức âm nhạc Audius.`,
+    avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=300&auto=format&fit=crop&q=80',
     followerCount: 2450,
     followingCount: 120,
     trackCount: 5,
@@ -150,7 +243,7 @@ export async function fetchAudiusUserProfile(handle) {
 }
 
 export async function fetchUserPlaylists(userId) {
-  if (!userId) return [];
+  if (!userId || userId === 'guest') return [];
   try {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 4500);
@@ -181,6 +274,55 @@ export async function fetchUserPlaylists(userId) {
   return [];
 }
 
+/**
+ * Đăng nhập nhanh bằng Hồ Sơ Cá Nhân (Local Profile)
+ */
+export function saveCustomUserProfile({ name, bio, avatar }) {
+  const trimmedName = (name || '').trim() || 'Người yêu âm nhạc';
+  const cleanHandle = trimmedName
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/đ/g, 'd')
+    .replace(/[^a-z0-9]/g, '');
+
+  const profile = {
+    isLoggedIn: true,
+    authType: 'custom',
+    id: 'user_' + Date.now(),
+    handle: cleanHandle || 'musiclover',
+    name: trimmedName,
+    role: 'Thành viên SoundStream VIP',
+    bio: (bio || '').trim() || 'Người yêu âm nhạc trực tuyến chất lượng cao.',
+    avatar: avatar || PRESET_AVATARS[0].url,
+    followerCount: 1,
+    followingCount: 12,
+    trackCount: 0,
+    playlistCount: 0,
+    audioTokenBalance: 100,
+    isVerified: true
+  };
+
+  localStorage.setItem(USER_STORAGE_KEY, JSON.stringify(profile));
+  window.dispatchEvent(new CustomEvent('soundstream_auth_change', { detail: profile }));
+  return profile;
+}
+
+/**
+ * Cập nhật thông tin tài khoản hiện có
+ */
+export function updateStoredUserProfile(updates) {
+  const current = getStoredAudiusUser();
+  const updated = {
+    ...current,
+    ...updates,
+    isLoggedIn: true
+  };
+  localStorage.setItem(USER_STORAGE_KEY, JSON.stringify(updated));
+  window.dispatchEvent(new CustomEvent('soundstream_auth_change', { detail: updated }));
+  return updated;
+}
+
 export async function loginAudiusAccount(handle) {
   const profile = await fetchAudiusUserProfile(handle);
   localStorage.setItem(USER_STORAGE_KEY, JSON.stringify(profile));
@@ -190,7 +332,7 @@ export async function loginAudiusAccount(handle) {
 
 export function logoutAudiusAccount() {
   localStorage.removeItem(USER_STORAGE_KEY);
-  const guest = getStoredAudiusUser();
+  const guest = GUEST_USER;
   window.dispatchEvent(new CustomEvent('soundstream_auth_change', { detail: guest }));
   return guest;
 }

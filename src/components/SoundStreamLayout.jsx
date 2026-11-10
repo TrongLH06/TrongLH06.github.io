@@ -69,6 +69,7 @@ export default function SoundStreamLayout() {
   // Audius Account & Profile State
   const [currentUser, setCurrentUser] = useState(getStoredAudiusUser);
   const [showAuthModal, setShowAuthModal] = useState(false);
+  const [showAccountMenu, setShowAccountMenu] = useState(false);
 
   // PWA Offline mode & downloaded music
   const [isOnline, setIsOnline] = useState(typeof navigator !== 'undefined' ? navigator.onLine : true);
@@ -243,7 +244,7 @@ export default function SoundStreamLayout() {
       name: `Danh sách phát của tôi #${count}`,
       description: 'Tạo bởi bạn trên SoundStream',
       trackCount: 0,
-      user: { name: 'Alex Vance', handle: 'alexvance' },
+      user: { name: currentUser?.name || 'Bạn', handle: currentUser?.handle || 'user' },
       artwork: {
         url: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=500&auto=format&fit=crop&q=60',
         mirrors: []
@@ -781,36 +782,102 @@ export default function SoundStreamLayout() {
               </div>
 
               {/* Audius User Profile / Auth Button */}
-              <div
-                onClick={() => setShowAuthModal(true)}
-                className="flex items-center gap-2.5 p-1 pl-2 pr-3.5 rounded-full bg-surface-container-lowest hover:bg-surface-container transition-all cursor-pointer ring-1 ring-white/5 hover:ring-primary/40 group shadow-sm"
-                title="Quản lý tài khoản Audius & Web3"
-              >
-                <div className="w-8 h-8 rounded-full overflow-hidden bg-primary flex items-center justify-center shrink-0 ring-1 ring-primary/40">
-                  {currentUser.avatar ? (
-                    <img src={currentUser.avatar} alt={currentUser.name} className="w-full h-full object-cover" />
-                  ) : (
-                    <span className="material-symbols-outlined text-black text-lg">person</span>
+              {currentUser?.isLoggedIn ? (
+                <div className="relative">
+                  <button
+                    type="button"
+                    onClick={() => setShowAccountMenu((prev) => !prev)}
+                    className="flex items-center gap-2 p-1 pl-1.5 pr-2.5 rounded-full bg-surface-container-lowest hover:bg-surface-container transition-all cursor-pointer ring-1 ring-white/10 hover:ring-primary/50 group shadow-sm"
+                    title="Quản lý hồ sơ tài khoản"
+                  >
+                    <div className="w-8 h-8 rounded-full overflow-hidden bg-primary flex items-center justify-center shrink-0 ring-2 ring-primary/40">
+                      <img src={currentUser.avatar} alt={currentUser.name} className="w-full h-full object-cover" />
+                    </div>
+                    <div className="flex flex-col text-left">
+                      <div className="flex items-center gap-1">
+                        <span className="text-xs font-bold text-white truncate max-w-[100px] group-hover:text-primary transition-colors">
+                          {currentUser.name}
+                        </span>
+                        {currentUser.isVerified && (
+                          <span className="material-symbols-outlined text-primary text-[13px]">verified</span>
+                        )}
+                      </div>
+                      <span className="text-[10px] text-primary font-mono leading-none">
+                        {currentUser.authType === 'audius'
+                          ? `${(currentUser.audioTokenBalance || 0).toLocaleString()} $AUDIO`
+                          : 'VIP Member'}
+                      </span>
+                    </div>
+                    <span className="material-symbols-outlined text-on-surface-variant text-base">expand_more</span>
+                  </button>
+
+                  {/* Account Dropdown Menu */}
+                  {showAccountMenu && (
+                    <div
+                      className="absolute right-0 top-11 w-56 rounded-2xl bg-[#1c1f20] border border-white/10 shadow-2xl p-1.5 z-50 flex flex-col gap-0.5 animate-fade-in"
+                      onMouseLeave={() => setShowAccountMenu(false)}
+                    >
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setShowAccountMenu(false);
+                          setShowAuthModal(true);
+                        }}
+                        className="flex items-center gap-2.5 px-3 py-2 rounded-xl hover:bg-white/10 text-xs font-bold text-white transition cursor-pointer text-left"
+                      >
+                        <span className="material-symbols-outlined text-base text-primary">account_circle</span>
+                        <span>Hồ sơ cá nhân & Cài đặt</span>
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setShowAccountMenu(false);
+                          setCurrentTab('liked');
+                        }}
+                        className="flex items-center gap-2.5 px-3 py-2 rounded-xl hover:bg-white/10 text-xs font-medium text-white transition cursor-pointer text-left"
+                      >
+                        <span className="material-symbols-outlined text-base text-red-400">favorite</span>
+                        <span>Bài hát đã thích ({likedTracks.length})</span>
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setShowAccountMenu(false);
+                          setCurrentTab('library');
+                        }}
+                        className="flex items-center gap-2.5 px-3 py-2 rounded-xl hover:bg-white/10 text-xs font-medium text-white transition cursor-pointer text-left"
+                      >
+                        <span className="material-symbols-outlined text-base text-secondary">library_music</span>
+                        <span>Thư viện playlist</span>
+                      </button>
+                      <div className="h-[1px] bg-white/10 my-1"></div>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setShowAccountMenu(false);
+                          const guest = logoutAudiusAccount();
+                          setCurrentUser(guest);
+                          showToast('Đã đăng xuất tài khoản');
+                        }}
+                        className="flex items-center gap-2.5 px-3 py-2 rounded-xl hover:bg-red-500/10 text-xs font-bold text-red-400 transition cursor-pointer text-left"
+                      >
+                        <span className="material-symbols-outlined text-base">logout</span>
+                        <span>Đăng xuất</span>
+                      </button>
+                    </div>
                   )}
                 </div>
-                <div className="flex flex-col text-left">
-                  <div className="flex items-center gap-1">
-                    <span className="text-xs font-bold text-white truncate max-w-[110px] group-hover:text-primary transition-colors">
-                      {currentUser.name}
-                    </span>
-                    {currentUser.isVerified && (
-                      <span className="material-symbols-outlined text-primary text-[13px]">verified</span>
-                    )}
-                  </div>
-                  {currentUser.isLoggedIn ? (
-                    <span className="text-[10px] text-primary font-mono leading-none">
-                      {(currentUser.audioTokenBalance || 0).toLocaleString()} $AUDIO
-                    </span>
-                  ) : (
-                    <span className="text-[10px] text-on-surface-variant font-mono leading-none">Đăng nhập Audius</span>
-                  )}
-                </div>
-              </div>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => setShowAuthModal(true)}
+                  className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary text-black font-extrabold text-xs uppercase tracking-wider hover:scale-105 active:scale-95 transition shadow-lg shadow-primary/20 cursor-pointer"
+                  title="Đăng nhập hoặc tạo hồ sơ cá nhân"
+                >
+                  <span className="material-symbols-outlined text-base font-black">login</span>
+                  <span>Đăng Nhập</span>
+                </button>
+              )}
             </div>
           </header>
 
@@ -825,6 +892,7 @@ export default function SoundStreamLayout() {
                     onPlayPlaylistAll={handlePlayPlaylistAll}
                     currentTrack={currentTrack}
                     isPlaying={isPlaying}
+                    currentUser={currentUser}
                     onSelectPlaylist={(plId) => {
                       setSelectedPlaylistId(plId);
                       setCurrentTab('playlist');
@@ -1267,9 +1335,16 @@ export default function SoundStreamLayout() {
             isOpen={showAuthModal}
             onClose={() => setShowAuthModal(false)}
             currentUser={currentUser}
+            likedCount={likedTracks.length}
+            playlistCount={customPlaylists.length + sidebarPlaylists.length}
+            offlineCount={downloadedTracks.length}
             onLoginSuccess={(user) => {
               setCurrentUser(user);
-              showToast(`Đã kết nối tài khoản Audius: ${user.name} 🚀`);
+              if (user.isLoggedIn) {
+                showToast(`Chào mừng ${user.name} 🚀`);
+              } else {
+                showToast('Đã đăng xuất tài khoản.');
+              }
             }}
           />
         </Suspense>

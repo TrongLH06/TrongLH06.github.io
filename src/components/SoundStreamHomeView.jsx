@@ -2,11 +2,30 @@ import React, { useState, useEffect } from 'react';
 import { getTrendingTracks, getTrendingPlaylists, getPlaylistTracks, VIETNAMESE_ARTISTS } from '../services/audius.js';
 import AudiusArtworkImage from './AudiusArtworkImage.jsx';
 
-export default function SoundStreamHomeView({ onPlayTrack, onPlayPlaylistAll, currentTrack, isPlaying, onSelectPlaylist }) {
+export default function SoundStreamHomeView({
+  onPlayTrack,
+  onPlayPlaylistAll,
+  currentTrack,
+  isPlaying,
+  onSelectPlaylist,
+  currentUser
+}) {
   const [activeFilter, setActiveFilter] = useState('Tất cả');
   const [audiusTrending, setAudiusTrending] = useState([]);
   const [audiusPlaylists, setAudiusPlaylists] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+
+  const getGreeting = () => {
+    const hour = new Date().getHours();
+    let timeGreeting = 'Chào buổi sáng';
+    if (hour >= 12 && hour < 18) timeGreeting = 'Chào buổi chiều';
+    else if (hour >= 18 || hour < 5) timeGreeting = 'Chào buổi tối';
+
+    if (currentUser?.isLoggedIn && currentUser?.name) {
+      return `${timeGreeting}, ${currentUser.name}`;
+    }
+    return `${timeGreeting}!`;
+  };
 
   // Fetch real trending tracks
   useEffect(() => {
@@ -84,7 +103,7 @@ export default function SoundStreamHomeView({ onPlayTrack, onPlayPlaylistAll, cu
           <div className="flex items-center justify-between">
             <div className="flex items-baseline gap-3">
               <h1 className="text-3xl lg:text-4xl font-extrabold text-on-surface tracking-tight font-headline">
-                Xin chào bạn
+                {getGreeting()}
               </h1>
               <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-surface-container-high text-primary">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
