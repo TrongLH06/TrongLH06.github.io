@@ -13,7 +13,7 @@ const CATEGORIES = [
   { id: 'c7', name: 'Acoustic Buồn', from: '#006450', to: '#01352A', img: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300&auto=format&fit=crop&q=60' }
 ];
 
-export default function SoundStreamSearchView({ onPlayTrack, onPlayPlaylistAll, onSelectPlaylist }) {
+export default function SoundStreamSearchView({ onPlayTrack, onPlayPlaylistAll, onSelectPlaylist, onSelectArtist }) {
   const [query, setQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [playlistResults, setPlaylistResults] = useState([]);
@@ -201,10 +201,15 @@ export default function SoundStreamSearchView({ onPlayTrack, onPlayPlaylistAll, 
               <div
                 key={art.id}
                 onClick={() => {
-                  setQuery(art.name);
-                  setActiveFilter(art.name);
+                  if (onSelectArtist) {
+                    onSelectArtist(art.id);
+                  } else {
+                    setQuery(art.name);
+                    setActiveFilter(art.name);
+                  }
                 }}
                 className="group flex flex-col items-center text-center p-3 rounded-2xl bg-surface-container/60 hover:bg-surface-container-high transition-all duration-300 cursor-pointer shadow hover:-translate-y-1"
+                title={`Mở danh sách bài hát riêng của ${art.name}`}
               >
                 <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden shadow-lg mb-2 ring-2 ring-transparent group-hover:ring-primary transition-all">
                   <img

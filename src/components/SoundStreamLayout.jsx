@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect, lazy, Suspense } from 'react';
 import SoundStreamHomeView from './SoundStreamHomeView.jsx';
 import AudiusArtworkImage from './AudiusArtworkImage.jsx';
-import { getTrendingTracks, getTrendingPlaylists, VERIFIED_AUDIUS_TRACKS } from '../services/audius.js';
+import { getTrendingTracks, getTrendingPlaylists, VERIFIED_AUDIUS_TRACKS, VIETNAMESE_ARTISTS } from '../services/audius.js';
 import { getStoredAudiusUser, fetchUserPlaylists } from '../services/audius_auth.js';
 import {
   getDownloadedTracks,
@@ -15,6 +15,7 @@ const SoundStreamSearchView = lazy(() => import('./SoundStreamSearchView.jsx'));
 const SoundStreamPlaylistView = lazy(() => import('./SoundStreamPlaylistView.jsx'));
 const SoundStreamLibraryView = lazy(() => import('./SoundStreamLibraryView.jsx'));
 const SoundStreamLikedSongsView = lazy(() => import('./SoundStreamLikedSongsView.jsx'));
+const SoundStreamArtistView = lazy(() => import('./SoundStreamArtistView.jsx'));
 const SpotifyRightSidebar = lazy(() => import('./SpotifyRightSidebar.jsx'));
 const AudiusAuthModal = lazy(() => import('./AudiusAuthModal.jsx'));
 
@@ -37,8 +38,9 @@ function ViewSkeleton() {
 }
 
 export default function SoundStreamLayout() {
-  const [currentTab, setCurrentTab] = useState('home'); // 'home' | 'search' | 'playlist' | 'library' | 'liked'
+  const [currentTab, setCurrentTab] = useState('home'); // 'home' | 'search' | 'playlist' | 'library' | 'liked' | 'artist'
   const [selectedPlaylistId, setSelectedPlaylistId] = useState('vn-pl-1');
+  const [selectedArtistId, setSelectedArtistId] = useState('shiki');
   const [sidebarPlaylists, setSidebarPlaylists] = useState([]);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
@@ -255,6 +257,11 @@ export default function SoundStreamLayout() {
     setSelectedPlaylistId(newId);
     setCurrentTab('playlist');
     showToast(`Đã tạo "${newPl.name}"!`);
+  };
+
+  const handleSelectArtist = (artId) => {
+    setSelectedArtistId(artId);
+    setCurrentTab('artist');
   };
 
   const formatTime = (seconds) => {
@@ -665,6 +672,47 @@ export default function SoundStreamLayout() {
 
             <div className="h-px w-full bg-surface-container-high my-1"></div>
 
+            {/* Nghệ Sĩ Riêng (Artist Discography) - Inspired by user's Spotify screenshot */}
+            <div className="flex flex-col gap-1 overflow-y-auto max-h-[175px] pb-2 border-b border-white/5 no-scrollbar">
+              <span className="px-4 text-[11px] font-bold uppercase tracking-wider text-on-surface-variant/70 flex items-center justify-between">
+                <span>Nghệ Sĩ Riêng</span>
+                <span className="text-[10px] text-primary lowercase font-mono">discography</span>
+              </span>
+              {[
+                { id: 'shiki', name: 'Shiki', role: 'Có Đôi Điều EP' },
+                { id: 'sontungmtp', name: 'Sơn Tùng M-TP', role: 'V-Pop King' },
+                { id: 'denvau', name: 'Đen Vâu', role: 'Rapper Quốc Dân' },
+                { id: 'hieuthuhai', name: 'HIEUTHUHAI', role: 'Say Hi Star' },
+                { id: 'obito', name: 'Obito', role: 'Đánh Đổi' },
+                { id: 'vu', name: 'Vũ.', role: 'Indie Legend' },
+                { id: 'soobin', name: 'SOOBIN', role: 'SpaceSpeakers' }
+              ].map((art) => {
+                const isSelected = currentTab === 'artist' && selectedArtistId === art.id;
+                const artData = VIETNAMESE_ARTISTS.find((a) => a.id === art.id);
+                return (
+                  <button
+                    key={art.id}
+                    type="button"
+                    onClick={() => handleSelectArtist(art.id)}
+                    className={`px-3 py-1.5 rounded-xl text-xs truncate transition-all text-left cursor-pointer hover:bg-surface-container flex items-center gap-2.5 ${
+                      isSelected
+                        ? 'text-primary font-bold bg-surface-container shadow-sm'
+                        : 'text-on-surface-variant hover:text-on-surface'
+                    }`}
+                  >
+                    <div className={`w-7 h-7 rounded-full overflow-hidden shrink-0 ring-1 ${isSelected ? 'ring-primary' : 'ring-white/10'}`}>
+                      <img src={artData?.avatar || 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=100'} alt={art.name} className="w-full h-full object-cover" />
+                    </div>
+                    <div className="min-w-0 flex-1 truncate">
+                      <span className="truncate block font-semibold">{art.name}</span>
+                      <span className="text-[10px] text-on-surface-variant/70 block truncate">{art.role}</span>
+                    </div>
+                    {isSelected && <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse shrink-0"></span>}
+                  </button>
+                );
+              })}
+            </div>
+
             {/* Playlists List */}
             <div className="flex flex-col gap-1 overflow-y-auto max-h-[calc(100vh-450px)]">
               <span className="px-4 text-xs font-semibold uppercase tracking-wider text-on-surface-variant/60">
@@ -726,7 +774,7 @@ export default function SoundStreamLayout() {
               <button
                 type="button"
                 onClick={() => {
-                  if (currentTab === 'playlist' || currentTab === 'liked') setCurrentTab('home');
+                  if (currentTab === 'artist' || currentTab === 'playlist' || currentTab === 'liked') setCurrentTab('home');
                   else if (currentTab === 'search') setCurrentTab('home');
                   else if (currentTab === 'library') setCurrentTab('search');
                 }}
@@ -897,6 +945,7 @@ export default function SoundStreamLayout() {
                       setSelectedPlaylistId(plId);
                       setCurrentTab('playlist');
                     }}
+                    onSelectArtist={handleSelectArtist}
                   />
                 )}
 
@@ -908,6 +957,7 @@ export default function SoundStreamLayout() {
                       setSelectedPlaylistId(plId);
                       setCurrentTab('playlist');
                     }}
+                    onSelectArtist={handleSelectArtist}
                   />
                 )}
 
@@ -949,6 +999,22 @@ export default function SoundStreamLayout() {
                       setLikedTracks(likedTracks.filter((t) => t.id !== id));
                       showToast('Đã xóa bài hát khỏi danh sách thích');
                     }}
+                  />
+                )}
+
+                {currentTab === 'artist' && (
+                  <SoundStreamArtistView
+                    artistId={selectedArtistId}
+                    onPlayTrack={handlePlayTrack}
+                    onPlayPlaylistAll={handlePlayPlaylistAll}
+                    currentTrack={currentTrack}
+                    isPlaying={isPlaying}
+                    onTogglePlay={togglePlay}
+                    likedTracks={likedTracks}
+                    onToggleLikeTrack={toggleLikeCurrentTrack}
+                    onToggleDownloadTrack={handleToggleDownloadTrack}
+                    isTrackDownloaded={isTrackDownloaded}
+                    onSelectArtist={handleSelectArtist}
                   />
                 )}
               </Suspense>
@@ -1007,7 +1073,18 @@ export default function SoundStreamLayout() {
             >
               {currentTrack?.title}
             </span>
-            <span className="text-xs text-on-surface-variant truncate hover:underline cursor-pointer">
+            <span
+              onClick={() => {
+                if (currentTrack?.artist) {
+                  const artMatch = VIETNAMESE_ARTISTS.find(
+                    (a) => currentTrack.artist.includes(a.name) || currentTrack.artist.includes(a.shortName)
+                  );
+                  handleSelectArtist(artMatch ? artMatch.id : currentTrack.artist);
+                }
+              }}
+              className="text-xs text-on-surface-variant truncate hover:underline hover:text-primary transition-colors cursor-pointer"
+              title={`Xem danh sách bài hát riêng của ${currentTrack?.artist}`}
+            >
               {currentTrack?.artist}
             </span>
           </div>

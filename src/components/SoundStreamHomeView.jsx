@@ -8,7 +8,8 @@ export default function SoundStreamHomeView({
   currentTrack,
   isPlaying,
   onSelectPlaylist,
-  currentUser
+  currentUser,
+  onSelectArtist
 }) {
   const [activeFilter, setActiveFilter] = useState('Tất cả');
   const [audiusTrending, setAudiusTrending] = useState([]);
@@ -213,8 +214,12 @@ export default function SoundStreamHomeView({
           {VIETNAMESE_ARTISTS.slice(0, 16).map((art) => (
             <div
               key={art.id}
-              onClick={() => setActiveFilter(art.name)}
+              onClick={() => {
+                if (onSelectArtist) onSelectArtist(art.id);
+                else setActiveFilter(art.name);
+              }}
               className="group flex flex-col items-center text-center p-2 rounded-xl hover:bg-surface-container-high transition-all duration-200 cursor-pointer shrink-0 w-24"
+              title={`Mở danh sách bài hát riêng của ${art.name}`}
             >
               <div className="relative w-18 h-18 rounded-full overflow-hidden shadow-lg mb-2 ring-2 ring-transparent group-hover:ring-primary transition-all">
                 <img

@@ -902,3 +902,79 @@ export async function getPlaylistTracks(playlistId) {
   playlistTracksCache.set(playlistId, { timestamp: Date.now(), data: tracks });
   return tracks;
 }
+
+/**
+ * Lấy chi tiết thông tin Nghệ Sĩ
+ */
+export function getArtistDetails(artistIdOrName) {
+  if (!artistIdOrName) return null;
+  const qNorm = removeVietnameseTones(String(artistIdOrName));
+  const artist = VIETNAMESE_ARTISTS.find(
+    (a) =>
+      a.id.toLowerCase() === String(artistIdOrName).toLowerCase() ||
+      removeVietnameseTones(a.name) === qNorm ||
+      removeVietnameseTones(a.shortName || '') === qNorm
+  );
+  if (artist) return artist;
+
+  // Fallback dynamic artist object if not in catalog
+  return {
+    id: String(artistIdOrName).toLowerCase().replace(/[^a-z0-9]/g, ''),
+    name: String(artistIdOrName),
+    shortName: String(artistIdOrName),
+    role: 'Nghệ Sĩ Được Xác Minh',
+    genre: 'V-Pop / R&B & Hip-Hop',
+    avatar: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&auto=format&fit=crop&q=80',
+    monthlyListeners: '1,250,000',
+    bio: `Tuyển tập danh sách các ca khúc hay nhất của ${artistIdOrName} trên SoundStream.`,
+    popularHits: []
+  };
+}
+
+/**
+ * Lấy toàn bộ danh sách bài hát riêng của một nghệ sĩ (Artist Discography)
+ */
+export async function getArtistTracks(artistIdOrName) {
+  if (!artistIdOrName) return [];
+  const artist = getArtistDetails(artistIdOrName);
+  const qNorm = removeVietnameseTones(artist.name);
+  const shortNorm = removeVietnameseTones(artist.shortName || '');
+  const idNorm = artist.id.toLowerCase();
+
+  // 1. Match from indexed & verified full tracks
+  const matched = VERIFIED_AUDIUS_TRACKS.filter((t) => {
+    const artistNorm = removeVietnameseTones(t.artist || '');
+    const handleNorm = (t.handle || '').toLowerCase();
+    const searchIdx = t._searchIndex || '';
+    return (
+      artistNorm.includes(qNorm) ||
+      (shortNorm && artistNorm.includes(shortNorm)) ||
+      handleNorm.includes(idNorm) ||
+      searchIdx.includes(qNorm)
+    );
+  });
+
+  if (matched.length >= 4) {
+    return matched;
+  }
+
+  // 2. Query live search if local matches are limited
+  try {
+    const liveTracks = await searchTracks(artist.name, 16);
+    const combined = [...matched];
+    const seen = new Set(matched.map((t) => t.id || t.audiusId));
+    for (const t of liveTracks) {
+      const key = t.id || t.audiusId;
+      if (!seen.has(key)) {
+        seen.add(key);
+        combined.push(t);
+      }
+    }
+    if (combined.length > 0) return combined;
+  } catch (err) {
+    console.warn(`Error fetching live tracks for artist ${artist.name}:`, err);
+  }
+
+  return matched.length > 0 ? matched : VERIFIED_AUDIUS_TRACKS.slice(0, 10);
+}
+

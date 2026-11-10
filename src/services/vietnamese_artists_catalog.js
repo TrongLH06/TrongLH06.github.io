@@ -260,6 +260,30 @@ export const VIETNAMESE_ARTISTS = [
     bio: 'Nữ ca sĩ trong trẻo tỏa sáng tại Đạp Gió Rẽ Sóng xứ Trung và loạt bản tình ca tuổi trẻ.',
     popularHits: ['Cứ Chill Thôi', 'Không Sao Mà Em Đây Rồi', 'Cảm Nắng', 'Em Đã Biết']
   },
+  {
+    id: 'shiki',
+    category: 'gen_z',
+    name: 'Shiki',
+    shortName: 'Shiki',
+    role: 'Gen Z / R&B & Melodic Star',
+    genre: 'R&B / Soul / Hip-Hop',
+    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&auto=format&fit=crop&q=80',
+    monthlyListeners: '840,000',
+    bio: 'Nghệ sĩ trẻ tài năng với phong cách R&B lãng mạn kết hợp cùng Obito, Tyronee mang lại những giai điệu bắt tai đầy cảm xúc trong EP Có Đôi Điều.',
+    popularHits: ['1000 Ánh Mắt', 'Anh Vẫn Đợi', 'Có Đôi Điều', 'Lặng', 'Night Time', 'Perfect', 'Take Off Your Hands']
+  },
+  {
+    id: 'obito',
+    category: 'rap_viet',
+    name: 'Obito',
+    shortName: 'Obito',
+    role: 'Rapper / Đánh Đổi',
+    genre: 'Hip-Hop / R&B',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop&q=80',
+    monthlyListeners: '1,720,000',
+    bio: 'Chủ nhân album Đánh Đổi, một trong những album Hip-Hop xuất sắc nhất lịch sử nhạc Việt đương đại.',
+    popularHits: ['Hà Nội', 'Đánh Đổi', 'Tell The Kids I Love Them', 'Xuất Phát Điểm', '1000 Ánh Mắt']
+  },
 
   // --- RAP VIỆT & HIP-HOP ALL-STARS ---
   {
@@ -777,6 +801,105 @@ export const VIETNAMESE_ARTISTS = [
 ];
 
 export const FULL_VIETNAMESE_TRACKS = [
+  // --- SHIKI & OBITO (Có Đôi Điều - EP) ---
+  {
+    id: 'aud-shiki-01',
+    audiusId: 'lvBQl',
+    title: '1000 Ánh Mắt',
+    artist: 'Shiki, Obito',
+    handle: 'shiki',
+    genre: 'R&B / Hip-Hop',
+    album: 'Có Đôi Điều - EP',
+    duration: '2:32',
+    durationSeconds: 152,
+    playCount: 920000,
+    audioUrl: 'https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream',
+    img: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&auto=format&fit=crop&q=80'
+  },
+  {
+    id: 'aud-shiki-02',
+    audiusId: '8QPZp',
+    title: 'Anh Vẫn Đợi',
+    artist: 'Shiki',
+    handle: 'shiki',
+    genre: 'R&B / Soul',
+    album: 'Có Đôi Điều - EP',
+    duration: '2:32',
+    durationSeconds: 152,
+    playCount: 780000,
+    audioUrl: 'https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream',
+    img: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&auto=format&fit=crop&q=80'
+  },
+  {
+    id: 'aud-shiki-03',
+    audiusId: 'xWkj3',
+    title: 'Có Đôi Điều',
+    artist: 'Shiki',
+    handle: 'shiki',
+    genre: 'R&B / Ballad',
+    album: 'Có Đôi Điều - EP',
+    duration: '2:54',
+    durationSeconds: 174,
+    playCount: 1120000,
+    audioUrl: 'https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream',
+    img: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&auto=format&fit=crop&q=80'
+  },
+  {
+    id: 'aud-shiki-04',
+    audiusId: 'qP5RB',
+    title: 'Lặng',
+    artist: 'Shiki',
+    handle: 'shiki',
+    genre: 'R&B / Chill',
+    album: 'Có Đôi Điều - EP',
+    duration: '3:16',
+    durationSeconds: 196,
+    playCount: 650000,
+    audioUrl: 'https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream',
+    img: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&auto=format&fit=crop&q=80'
+  },
+  {
+    id: 'aud-shiki-05',
+    audiusId: 'mN5gK',
+    title: 'Night Time',
+    artist: 'Shiki',
+    handle: 'shiki',
+    genre: 'R&B / Trap',
+    album: 'Có Đôi Điều - EP',
+    duration: '3:48',
+    durationSeconds: 228,
+    playCount: 540000,
+    audioUrl: 'https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream',
+    img: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&auto=format&fit=crop&q=80'
+  },
+  {
+    id: 'aud-shiki-06',
+    audiusId: 'P0oQw',
+    title: 'Perfect',
+    artist: 'Shiki, Tyronee',
+    handle: 'shiki',
+    genre: 'R&B / Hip-Hop',
+    album: 'Có Đôi Điều - EP',
+    duration: '3:08',
+    durationSeconds: 188,
+    playCount: 890000,
+    audioUrl: 'https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream',
+    img: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&auto=format&fit=crop&q=80'
+  },
+  {
+    id: 'aud-shiki-07',
+    audiusId: 'eR7tY',
+    title: 'Take Off Your Hands',
+    artist: 'Shiki, Obito',
+    handle: 'shiki',
+    genre: 'R&B / Rap',
+    album: 'Có Đôi Điều - EP',
+    duration: '3:24',
+    durationSeconds: 204,
+    playCount: 760000,
+    audioUrl: 'https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream',
+    img: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&auto=format&fit=crop&q=80'
+  },
   // --- SƠN TÙNG M-TP ---
   {
     id: 'aud-st-01',
