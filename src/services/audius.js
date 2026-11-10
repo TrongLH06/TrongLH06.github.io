@@ -359,13 +359,29 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
   }
 ];
 
-// Combine Curated Hits with 36+ Vietnamese Artists Catalog and 268 Full-Length Audius tracks
+// Filter out non-music/podcast entries from raw scraped Audius tracks
+const CLEAN_AUDIUS_VIETNAM_TRACKS = audiusVietnamTracks.filter((t) => {
+  const combined = `${t.title || ''} ${t.artist || ''} ${t.handle || ''}`.toLowerCase();
+  if (
+    combined.includes('phenikaa') ||
+    combined.includes('benh vien') ||
+    combined.includes('bệnh viện') ||
+    combined.includes('covid') ||
+    combined.includes('tieu duong') ||
+    combined.includes('sui mao ga')
+  ) {
+    return false;
+  }
+  return (t.durationSeconds || 180) >= 60;
+});
+
+// Combine 862+ Curated Vietnamese Artist Tracks with Top Hits and Clean Audius Tracks
 export const VERIFIED_AUDIUS_TRACKS = [
   ...FULL_VIETNAMESE_TRACKS,
   ...TOP_VIETNAMESE_AUDIUS_HITS.filter(
-    (h) => !FULL_VIETNAMESE_TRACKS.some((f) => f.id === h.id || f.title === h.title)
+    (h) => !FULL_VIETNAMESE_TRACKS.some((f) => f.id === h.id || removeVietnameseTones(f.title) === removeVietnameseTones(h.title))
   ),
-  ...audiusVietnamTracks.filter(
+  ...CLEAN_AUDIUS_VIETNAM_TRACKS.filter(
     (t) =>
       !FULL_VIETNAMESE_TRACKS.some((f) => f.audiusId === t.audiusId || f.id === t.id) &&
       !TOP_VIETNAMESE_AUDIUS_HITS.some((h) => h.audiusId === t.audiusId || h.id === t.id)
@@ -471,10 +487,94 @@ const INDEXED_AUDIUS_TRACKS = VERIFIED_AUDIUS_TRACKS.map((t) => ({
 
 const INDEXED_ARTISTS = VIETNAMESE_ARTISTS.map((art) => ({
   ...art,
-  _normName: removeVietnameseTones(art.name),
-  _normShort: removeVietnameseTones(art.shortName || ''),
-  _normId: removeVietnameseTones(art.id || '')
+  _normName: removeVietnameseTones(art.name).replace(/[^a-z0-9\s]/g, '').trim(),
+  _normShort: removeVietnameseTones(art.shortName || '').replace(/[^a-z0-9\s]/g, '').trim(),
+  _normId: removeVietnameseTones(art.id || '').replace(/[^a-z0-9]/g, '').trim(),
+  _normHits: (art.popularHits || []).map((h) => removeVietnameseTones(h))
 }));
+
+/**
+ * Helper: Tokenize an artist credit string (e.g. "Shiki, Obito" or "Vũ. x Dear Jane")
+ * into normalized individual artist names for exact artist recognition without substring collisions.
+ */
+function tokenizeArtistCredits(artistStr) {
+  if (!artistStr) return [];
+  return String(artistStr)
+    .split(/[,&/]|(?:\s+x\s+)|(?:\s+ft\.?\s+)|(?:\s+feat\.?\s+)|(?:\s+with\s+)/i)
+    .map((part) => removeVietnameseTones(part).replace(/[^a-z0-9\s]/g, '').trim())
+    .filter(Boolean);
+}
+
+/**
+ * Check if a track belongs to a specific artist object (either as primary artist or featured collaborator)
+ * Returns: 2 for primary artist, 1 for featured artist, 0 for not matching
+ */
+export function matchTrackToArtist(track, artist) {
+  if (!track || !artist) return 0;
+  const artId = (artist.id || '').toLowerCase();
+
+  // 1. Direct artistId or handle match -> Primary Artist (2)
+  if (track.artistId && track.artistId.toLowerCase() === artId) return 2;
+  if (track.handle && track.handle.toLowerCase() === artId) return 2;
+  if (artId === 'vu' && track.handle === 'toilavu') return 2;
+  if (artId === 'mck' && track.handle === 'rptmck') return 2;
+
+  // 2. Featured artist IDs array -> Featured Collaborator (1)
+  if (Array.isArray(track.featuredArtistIds) && track.featuredArtistIds.some((id) => id.toLowerCase() === artId)) {
+    return 1;
+  }
+
+  // 3. Exact tokenized artist credit match (prevents "vu" matching "vung", "min" matching "minh", "den" matching "dem")
+  const normName = removeVietnameseTones(artist.name).replace(/[^a-z0-9\s]/g, '').trim();
+  const normShort = removeVietnameseTones(artist.shortName || '').replace(/[^a-z0-9\s]/g, '').trim();
+  const credits = tokenizeArtistCredits(track.artist);
+
+  for (let i = 0; i < credits.length; i++) {
+    const c = credits[i];
+    if (c === normName || (normShort && c === normShort) || c === artId) {
+      return i === 0 ? 2 : 1;
+    }
+  }
+
+  return 0;
+}
+
+/**
+ * Search Vietnamese Artists by name, shortName, role, genre, or hit song title
+ */
+export function searchArtists(query, limit = 12) {
+  if (!query || !query.trim()) return VIETNAMESE_ARTISTS.slice(0, limit);
+  const qNorm = removeVietnameseTones(query.trim()).replace(/[^a-z0-9\s]/g, '').trim();
+  if (!qNorm) return VIETNAMESE_ARTISTS.slice(0, limit);
+
+  const scored = [];
+  for (const art of INDEXED_ARTISTS) {
+    let score = 0;
+    if (art._normId === qNorm || art._normName === qNorm || art._normShort === qNorm) {
+      score = 100;
+    } else if (art._normName.startsWith(qNorm) || art._normShort.startsWith(qNorm)) {
+      score = 85;
+    } else if (
+      art._normName.split(/\s+/).includes(qNorm) ||
+      art._normShort.split(/\s+/).includes(qNorm)
+    ) {
+      score = 75;
+    } else if (qNorm.length >= 2 && (art._normName.includes(qNorm) || art._normId.includes(qNorm))) {
+      score = 60;
+    } else if (art._normHits.some((h) => h === qNorm || (qNorm.length >= 3 && h.includes(qNorm)))) {
+      score = 45;
+    } else if (qNorm.length >= 3 && removeVietnameseTones(art.genre || '').includes(qNorm)) {
+      score = 30;
+    }
+
+    if (score > 0) {
+      scored.push({ art, score });
+    }
+  }
+
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, limit).map((item) => item.art);
+}
 
 // In-memory cache with 5-minute TTL to eliminate duplicate network calls and speed up tab navigation
 const CACHE_TTL_MS = 5 * 60 * 1000;
@@ -560,10 +660,11 @@ export function normalizePlaylist(pl) {
  * 2. If needed, queries live Audius Discovery Network for full-length tracks
  * 3. GUARANTEE: Every song is 100% FULL LENGTH (NO 30-second preview limit).
  */
-export async function searchTracks(query, limit = 24) {
+export async function searchTracks(query, limit = 30) {
   if (!query || !query.trim()) return [];
   const qTrim = query.trim();
   const qNorm = removeVietnameseTones(qTrim);
+  const qClean = qNorm.replace(/[^a-z0-9\s]/g, '').trim();
   const cacheKey = `${qNorm}_${limit}`;
 
   // Check cache first (TTL 5 min)
@@ -572,58 +673,97 @@ export async function searchTracks(query, limit = 24) {
     return cached.data;
   }
 
-  // Fast pre-indexed artist matching
-  const matchedArtists = INDEXED_ARTISTS.filter(
-    (art) => art._normName.includes(qNorm) || qNorm.includes(art._normShort) || art._normId.includes(qNorm)
-  );
+  // 1. Identify exact/strong matched artists first
+  const matchedArtists = searchArtists(qTrim, 4);
+  const topArtist = matchedArtists[0];
+  const isExactArtistQuery =
+    topArtist &&
+    (removeVietnameseTones(topArtist.name).replace(/[^a-z0-9\s]/g, '').trim() === qClean ||
+      removeVietnameseTones(topArtist.shortName || '').replace(/[^a-z0-9\s]/g, '').trim() === qClean ||
+      topArtist.id.toLowerCase() === qClean);
 
-  // Fast pre-indexed local tracks matching (O(1) string lookup)
-  const localMatches = INDEXED_AUDIUS_TRACKS.filter((t) => {
-    if (t._searchIndex.includes(qNorm)) return true;
-    for (let i = 0; i < matchedArtists.length; i++) {
-      const art = matchedArtists[i];
-      if (t._searchIndex.includes(art._normShort) || t._searchIndex.includes(art._normName)) {
-        return true;
-      }
+  // 2. Score and rank local verified tracks so exact artist tracks & exact title matches come first
+  const scoredLocal = [];
+  const seenTitles = new Set();
+
+  for (const t of INDEXED_AUDIUS_TRACKS) {
+    let score = 0;
+    const tTitleNorm = removeVietnameseTones(t.title || '');
+
+    // Check if track belongs to top matched artist
+    if (topArtist) {
+      const mLevel = matchTrackToArtist(t, topArtist);
+      if (mLevel === 2) score += isExactArtistQuery ? 120 : 85;
+      else if (mLevel === 1) score += isExactArtistQuery ? 95 : 70;
     }
-    return false;
-  });
 
-  let result = localMatches;
-
-  // Query live Audius API to expand if needed
-  try {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 4000);
-
-    const audiusSearchUrl = `${AUDIUS_API_BASE}/tracks/search?query=${encodeURIComponent(qTrim)}&limit=${limit}&app_name=${APP_NAME}`;
-    const res = await fetch(audiusSearchUrl, { signal: controller.signal });
-    clearTimeout(timeout);
-
-    if (res.ok) {
-      const json = await res.json();
-      if (Array.isArray(json.data) && json.data.length > 0) {
-        const liveTracks = json.data
-          .filter((t) => (t.duration || 0) >= 45) // Full-length songs
-          .map(normalizeTrack);
-
-        // Merge results, prioritizing local matches
-        const combined = [...localMatches];
-        const seen = new Set(localMatches.map((t) => t.audiusId || t.id));
-
-        for (const tr of liveTracks) {
-          const key = tr.audiusId || tr.id;
-          if (!seen.has(key)) {
-            seen.add(key);
-            combined.push(tr);
-          }
+    // Check other matched artists
+    if (score === 0 && !isExactArtistQuery) {
+      for (let i = 1; i < matchedArtists.length; i++) {
+        const mLevel = matchTrackToArtist(t, matchedArtists[i]);
+        if (mLevel > 0) {
+          score += 50;
+          break;
         }
-
-        result = combined;
       }
     }
-  } catch (err) {
-    console.warn('Live Audius search fallback to local verified library:', err);
+
+    // Check title & metadata match
+    if (tTitleNorm === qNorm) {
+      score += 110;
+    } else if (tTitleNorm.startsWith(qNorm)) {
+      score += 80;
+    } else if (qNorm.length >= 3 && tTitleNorm.includes(qNorm)) {
+      score += 65;
+    } else if (!isExactArtistQuery && qNorm.length >= 3 && t._searchIndex.includes(qNorm)) {
+      score += 35;
+    }
+
+    if (score > 0) {
+      const dedupKey = `${tTitleNorm}_${removeVietnameseTones(t.artist || '')}`;
+      if (!seenTitles.has(dedupKey)) {
+        seenTitles.add(dedupKey);
+        scoredLocal.push({ track: t, score });
+      }
+    }
+  }
+
+  scoredLocal.sort((a, b) => b.score - a.score || (b.track.playCount || 0) - (a.track.playCount || 0));
+  let result = scoredLocal.map((item) => item.track);
+
+  // 3. Only query live Audius API if local curated library has fewer than 6 results AND it's not an exact Vietnamese artist query
+  if (result.length < 6 && !isExactArtistQuery) {
+    try {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 3500);
+
+      const audiusSearchUrl = `${AUDIUS_API_BASE}/tracks/search?query=${encodeURIComponent(qTrim)}&limit=${limit}&app_name=${APP_NAME}`;
+      const res = await fetch(audiusSearchUrl, { signal: controller.signal });
+      clearTimeout(timeout);
+
+      if (res.ok) {
+        const json = await res.json();
+        if (Array.isArray(json.data) && json.data.length > 0) {
+          const liveTracks = json.data
+            .filter((t) => (t.duration || 0) >= 60)
+            .map(normalizeTrack);
+
+          const combined = [...result];
+          const seen = new Set(result.map((t) => t.audiusId || t.id));
+
+          for (const tr of liveTracks) {
+            const key = tr.audiusId || tr.id;
+            if (!seen.has(key)) {
+              seen.add(key);
+              combined.push(tr);
+            }
+          }
+          result = combined;
+        }
+      }
+    } catch (err) {
+      console.warn('Live Audius search fallback to local verified library:', err);
+    }
   }
 
   const finalTracks = result.slice(0, limit);
@@ -904,77 +1044,89 @@ export async function getPlaylistTracks(playlistId) {
 }
 
 /**
- * Lấy chi tiết thông tin Nghệ Sĩ
+ * Lấy chi tiết thông tin Nghệ Sĩ (Hỗ trợ tìm theo ID, Tên đầy đủ, Tên ngắn, hoặc chuỗi hợp tác "Shiki, Obito")
  */
 export function getArtistDetails(artistIdOrName) {
   if (!artistIdOrName) return null;
-  const qNorm = removeVietnameseTones(String(artistIdOrName));
-  const artist = VIETNAMESE_ARTISTS.find(
-    (a) =>
-      a.id.toLowerCase() === String(artistIdOrName).toLowerCase() ||
-      removeVietnameseTones(a.name) === qNorm ||
-      removeVietnameseTones(a.shortName || '') === qNorm
-  );
+  const rawStr = String(artistIdOrName).trim();
+  const qNorm = removeVietnameseTones(rawStr).replace(/[^a-z0-9\s]/g, '').trim();
+
+  // 1. Exact ID, Name, or ShortName match
+  let artist = VIETNAMESE_ARTISTS.find((a) => {
+    const aId = a.id.toLowerCase();
+    const aName = removeVietnameseTones(a.name).replace(/[^a-z0-9\s]/g, '').trim();
+    const aShort = removeVietnameseTones(a.shortName || '').replace(/[^a-z0-9\s]/g, '').trim();
+    return aId === rawStr.toLowerCase() || aId === qNorm || aName === qNorm || aShort === qNorm;
+  });
   if (artist) return artist;
+
+  // 2. If passed a multi-artist credit string like "Shiki, Obito" or "Vũ. x Dear Jane", match the first recognized Vietnamese artist
+  const tokens = tokenizeArtistCredits(rawStr);
+  for (const tok of tokens) {
+    artist = VIETNAMESE_ARTISTS.find((a) => {
+      const aId = a.id.toLowerCase();
+      const aName = removeVietnameseTones(a.name).replace(/[^a-z0-9\s]/g, '').trim();
+      const aShort = removeVietnameseTones(a.shortName || '').replace(/[^a-z0-9\s]/g, '').trim();
+      return aId === tok || aName === tok || aShort === tok;
+    });
+    if (artist) return artist;
+  }
+
+  // 3. Partial match via searchArtists
+  const searched = searchArtists(rawStr, 1);
+  if (searched.length > 0) return searched[0];
 
   // Fallback dynamic artist object if not in catalog
   return {
-    id: String(artistIdOrName).toLowerCase().replace(/[^a-z0-9]/g, ''),
-    name: String(artistIdOrName),
-    shortName: String(artistIdOrName),
+    id: rawStr.toLowerCase().replace(/[^a-z0-9]/g, ''),
+    name: rawStr,
+    shortName: rawStr,
     role: 'Nghệ Sĩ Được Xác Minh',
     genre: 'V-Pop / R&B & Hip-Hop',
     avatar: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&auto=format&fit=crop&q=80',
     monthlyListeners: '1,250,000',
-    bio: `Tuyển tập danh sách các ca khúc hay nhất của ${artistIdOrName} trên SoundStream.`,
+    bio: `Tuyển tập danh sách các ca khúc hay nhất của ${rawStr} trên SoundStream.`,
     popularHits: []
   };
 }
 
 /**
  * Lấy toàn bộ danh sách bài hát riêng của một nghệ sĩ (Artist Discography)
+ * Đảm bảo nhận diện CHÍNH XÁC 100% bài hát của nghệ sĩ đó (Bài hát chính + Bài hát hợp tác Feat.)
+ * Không bao giờ trộn lẫn bài hát của nghệ sĩ khác do trùng chữ cái ngắn.
  */
 export async function getArtistTracks(artistIdOrName) {
   if (!artistIdOrName) return [];
   const artist = getArtistDetails(artistIdOrName);
-  const qNorm = removeVietnameseTones(artist.name);
-  const shortNorm = removeVietnameseTones(artist.shortName || '');
-  const idNorm = artist.id.toLowerCase();
+  if (!artist) return [];
 
-  // 1. Match from indexed & verified full tracks
-  const matched = VERIFIED_AUDIUS_TRACKS.filter((t) => {
-    const artistNorm = removeVietnameseTones(t.artist || '');
-    const handleNorm = (t.handle || '').toLowerCase();
-    const searchIdx = t._searchIndex || '';
-    return (
-      artistNorm.includes(qNorm) ||
-      (shortNorm && artistNorm.includes(shortNorm)) ||
-      handleNorm.includes(idNorm) ||
-      searchIdx.includes(qNorm)
-    );
-  });
+  const primaryTracks = [];
+  const featuredTracks = [];
+  const seenTitles = new Set();
 
-  if (matched.length >= 4) {
-    return matched;
-  }
-
-  // 2. Query live search if local matches are limited
-  try {
-    const liveTracks = await searchTracks(artist.name, 16);
-    const combined = [...matched];
-    const seen = new Set(matched.map((t) => t.id || t.audiusId));
-    for (const t of liveTracks) {
-      const key = t.id || t.audiusId;
-      if (!seen.has(key)) {
-        seen.add(key);
-        combined.push(t);
+  for (const t of VERIFIED_AUDIUS_TRACKS) {
+    const matchLevel = matchTrackToArtist(t, artist);
+    if (matchLevel > 0) {
+      const normTitle = removeVietnameseTones(t.title || '')
+        .replace(/\(.*?\)/g, '')
+        .replace(/[^a-z0-9]/g, '')
+        .trim();
+      if (!seenTitles.has(normTitle)) {
+        seenTitles.add(normTitle);
+        if (matchLevel === 2) {
+          primaryTracks.push({ ...t, isPrimaryArtist: true });
+        } else {
+          featuredTracks.push({ ...t, isPrimaryArtist: false });
+        }
       }
     }
-    if (combined.length > 0) return combined;
-  } catch (err) {
-    console.warn(`Error fetching live tracks for artist ${artist.name}:`, err);
   }
 
-  return matched.length > 0 ? matched : VERIFIED_AUDIUS_TRACKS.slice(0, 10);
+  const combined = [...primaryTracks, ...featuredTracks];
+  if (combined.length > 0) {
+    return combined;
+  }
+
+  return VERIFIED_AUDIUS_TRACKS.slice(0, 10);
 }
 

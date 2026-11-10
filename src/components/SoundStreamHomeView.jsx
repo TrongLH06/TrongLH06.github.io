@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getTrendingTracks, getTrendingPlaylists, getPlaylistTracks, VIETNAMESE_ARTISTS } from '../services/audius.js';
+import { getTrendingTracks, getTrendingPlaylists, getPlaylistTracks, VIETNAMESE_ARTISTS, ARTIST_CATEGORIES } from '../services/audius.js';
 import AudiusArtworkImage from './AudiusArtworkImage.jsx';
 
 export default function SoundStreamHomeView({
@@ -12,6 +12,8 @@ export default function SoundStreamHomeView({
   onSelectArtist
 }) {
   const [activeFilter, setActiveFilter] = useState('Tất cả');
+  const [artistCategory, setArtistCategory] = useState('all');
+  const [showAllArtists, setShowAllArtists] = useState(false);
   const [audiusTrending, setAudiusTrending] = useState([]);
   const [audiusPlaylists, setAudiusPlaylists] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -193,49 +195,100 @@ export default function SoundStreamHomeView({
       </div>
 
       {/* Section: Nghệ Sĩ Việt Nam Nổi Bật */}
-      <section className="mt-8 flex flex-col gap-3 px-8">
-        <div className="flex items-center justify-between">
+      <section className="mt-8 flex flex-col gap-3.5 px-8">
+        <div className="flex items-center justify-between flex-wrap gap-2">
           <div>
             <h2 className="text-xl md:text-2xl font-bold text-on-surface tracking-tight font-headline flex items-center gap-2">
-              <span className="material-symbols-outlined text-primary text-2xl">verified</span>
-              <span>Nghệ Sĩ Việt Nam Nổi Bật ({VIETNAMESE_ARTISTS.length})</span>
+              <span className="material-symbols-outlined text-primary text-2xl" style={{ fontVariationSettings: "'FILL' 1" }}>
+                verified
+              </span>
+              <span>Nghệ Sĩ Việt Nam Nổi Bật ({VIETNAMESE_ARTISTS.length} Nghệ Sĩ)</span>
             </h2>
-            <p className="text-xs text-on-surface-variant mt-0.5">Top ca sĩ và rapper được yêu thích nhất trên SoundStream</p>
+            <p className="text-xs text-on-surface-variant mt-0.5">
+              Bấm vào nghệ sĩ để mở danh sách bài hát riêng (8 - 14 bài hát chuẩn mỗi nghệ sĩ)
+            </p>
           </div>
           <button
-            onClick={() => setActiveFilter('Tất cả')}
-            className="text-xs font-bold text-on-surface-variant hover:text-on-surface tracking-wider uppercase transition cursor-pointer"
+            type="button"
+            onClick={() => setShowAllArtists((prev) => !prev)}
+            className="px-3.5 py-1.5 rounded-full bg-surface-container-high hover:bg-primary hover:text-black text-xs font-bold text-primary tracking-wider uppercase transition cursor-pointer flex items-center gap-1"
           >
-            Tất cả
+            <span>{showAllArtists ? 'Thu gọn' : `Xem tất cả (${VIETNAMESE_ARTISTS.length})`}</span>
+            <span className="material-symbols-outlined text-sm">
+              {showAllArtists ? 'expand_less' : 'expand_more'}
+            </span>
           </button>
         </div>
 
-        <div className="flex items-center gap-4 overflow-x-auto pb-2 no-scrollbar">
-          {VIETNAMESE_ARTISTS.slice(0, 16).map((art) => (
-            <div
-              key={art.id}
-              onClick={() => {
-                if (onSelectArtist) onSelectArtist(art.id);
-                else setActiveFilter(art.name);
-              }}
-              className="group flex flex-col items-center text-center p-2 rounded-xl hover:bg-surface-container-high transition-all duration-200 cursor-pointer shrink-0 w-24"
-              title={`Mở danh sách bài hát riêng của ${art.name}`}
-            >
-              <div className="relative w-18 h-18 rounded-full overflow-hidden shadow-lg mb-2 ring-2 ring-transparent group-hover:ring-primary transition-all">
-                <img
-                  src={art.avatar}
-                  alt={art.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                />
+        {/* Category Filter Pills for Home Artists */}
+        <div className="flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar">
+          {ARTIST_CATEGORIES.map((cat) => {
+            const count =
+              cat.id === 'all'
+                ? VIETNAMESE_ARTISTS.length
+                : VIETNAMESE_ARTISTS.filter((a) => a.category === cat.id).length;
+            const isSelected = artistCategory === cat.id;
+            return (
+              <button
+                key={cat.id}
+                type="button"
+                onClick={() => setArtistCategory(cat.id)}
+                className={`px-3 py-1 rounded-full text-xs font-bold transition-all shrink-0 cursor-pointer flex items-center gap-1 ${
+                  isSelected
+                    ? 'bg-primary text-black shadow font-black'
+                    : 'bg-surface-container-high text-on-surface-variant hover:text-white'
+                }`}
+              >
+                <span className="material-symbols-outlined text-xs">{cat.icon}</span>
+                <span>{cat.name}</span>
+                <span className="text-[10px] opacity-75 font-mono">({count})</span>
+              </button>
+            );
+          })}
+        </div>
+
+        <div
+          className={
+            showAllArtists
+              ? 'grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 gap-3 pt-1'
+              : 'flex items-center gap-4 overflow-x-auto pb-2 no-scrollbar'
+          }
+        >
+          {(artistCategory === 'all'
+            ? VIETNAMESE_ARTISTS
+            : VIETNAMESE_ARTISTS.filter((a) => a.category === artistCategory)
+          )
+            .slice(0, showAllArtists ? 100 : 20)
+            .map((art) => (
+              <div
+                key={art.id}
+                onClick={() => {
+                  if (onSelectArtist) onSelectArtist(art.id);
+                  else setActiveFilter(art.name);
+                }}
+                className={`group flex flex-col items-center text-center p-2.5 rounded-2xl bg-surface-container/40 hover:bg-surface-container-high border border-white/5 hover:border-primary/40 transition-all duration-200 cursor-pointer ${
+                  showAllArtists ? '' : 'shrink-0 w-28'
+                }`}
+                title={`Mở danh sách ${(art.popularHits || []).length} bài hát của ${art.name}`}
+              >
+                <div className="relative w-18 h-18 rounded-full overflow-hidden shadow-lg mb-2 ring-2 ring-white/10 group-hover:ring-primary transition-all">
+                  <img
+                    src={art.avatar}
+                    alt={art.name}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <span className="font-bold text-xs text-on-surface truncate w-full group-hover:text-primary transition-colors">
+                  {art.name}
+                </span>
+                <span className="text-[10px] text-on-surface-variant truncate w-full">
+                  {art.role.split('/')[0]}
+                </span>
+                <span className="text-[9px] font-mono text-primary/80 mt-0.5">
+                  {(art.popularHits || []).length} bài hát
+                </span>
               </div>
-              <span className="font-bold text-xs text-on-surface truncate w-full group-hover:text-primary transition-colors">
-                {art.shortName}
-              </span>
-              <span className="text-[10px] text-on-surface-variant truncate w-full">
-                {art.role.split('/')[0]}
-              </span>
-            </div>
-          ))}
+            ))}
         </div>
       </section>
 

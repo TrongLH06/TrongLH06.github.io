@@ -1,8 +1,17 @@
 import React, { useState, useRef, useEffect, lazy, Suspense } from 'react';
 import SoundStreamHomeView from './SoundStreamHomeView.jsx';
 import AudiusArtworkImage from './AudiusArtworkImage.jsx';
-import { getTrendingTracks, getTrendingPlaylists, VERIFIED_AUDIUS_TRACKS, VIETNAMESE_ARTISTS } from '../services/audius.js';
-import { getStoredAudiusUser, fetchUserPlaylists } from '../services/audius_auth.js';
+import {
+  getTrendingTracks,
+  getTrendingPlaylists,
+  searchArtists,
+  searchTracks,
+  getArtistDetails,
+  removeVietnameseTones,
+  VERIFIED_AUDIUS_TRACKS,
+  VIETNAMESE_ARTISTS
+} from '../services/audius.js';
+import { getStoredAudiusUser, fetchUserPlaylists, logoutAudiusAccount } from '../services/audius_auth.js';
 import {
   getDownloadedTracks,
   downloadTrackOffline,
@@ -42,6 +51,13 @@ export default function SoundStreamLayout() {
   const [selectedPlaylistId, setSelectedPlaylistId] = useState('vn-pl-1');
   const [selectedArtistId, setSelectedArtistId] = useState('shiki');
   const [sidebarPlaylists, setSidebarPlaylists] = useState([]);
+  const [sidebarFilter, setSidebarFilter] = useState('artists'); // 'all' | 'artists' | 'playlists'
+  const [sidebarSearch, setSidebarSearch] = useState('');
+  const [topSearchQuery, setTopSearchQuery] = useState('');
+  const [showTopSearchDropdown, setShowTopSearchDropdown] = useState(false);
+  const [topMatchedArtists, setTopMatchedArtists] = useState([]);
+  const [topMatchedTracks, setTopMatchedTracks] = useState([]);
+  const [searchPageInitQuery, setSearchPageInitQuery] = useState('');
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [volume, setVolume] = useState(() => {
@@ -262,7 +278,27 @@ export default function SoundStreamLayout() {
   const handleSelectArtist = (artId) => {
     setSelectedArtistId(artId);
     setCurrentTab('artist');
+    setShowTopSearchDropdown(false);
   };
+
+  // Live top search bar suggestions (matching Vietnamese artists & full-length songs)
+  useEffect(() => {
+    const q = topSearchQuery.trim();
+    if (!q) {
+      setTopMatchedArtists(VIETNAMESE_ARTISTS.slice(0, 6));
+      setTopMatchedTracks(VERIFIED_AUDIUS_TRACKS.slice(0, 5));
+      return;
+    }
+    const arts = searchArtists(q, 6);
+    setTopMatchedArtists(arts);
+    let isCancelled = false;
+    searchTracks(q, 6).then((trs) => {
+      if (!isCancelled) setTopMatchedTracks(trs || []);
+    });
+    return () => {
+      isCancelled = true;
+    };
+  }, [topSearchQuery]);
 
   const formatTime = (seconds) => {
     if (isNaN(seconds) || seconds < 0) return '0:00';
@@ -577,200 +613,279 @@ export default function SoundStreamLayout() {
 
       {/* Main App Container */}
       <div className="flex-1 flex overflow-hidden">
-        {/* Left Sidebar Fixed 64 (w-64) */}
-        <aside className="w-64 bg-surface-container-lowest z-40 flex flex-col justify-between p-4 shrink-0 border-r border-white/5 select-none">
-          <div className="flex flex-col gap-6">
+        {/* Left Sidebar Fixed (w-72) - Full Spotify Modern Library & Artist Directory */}
+        <aside className="w-72 bg-surface-container-lowest z-40 flex flex-col justify-between p-3.5 shrink-0 border-r border-white/5 select-none overflow-hidden">
+          <div className="flex flex-col gap-3 flex-1 min-h-0">
             {/* Logo */}
             <div
               onClick={() => setCurrentTab('home')}
-              className="flex items-center gap-3 px-3 py-2 cursor-pointer group"
+              className="flex items-center justify-between px-2.5 py-1.5 cursor-pointer group shrink-0"
             >
-              <div className="w-9 h-9 rounded-full bg-primary flex items-center justify-center group-hover:scale-105 transition-transform shadow-lg shadow-primary/20">
-                <span className="material-symbols-outlined text-on-primary text-2xl font-bold">graphic_eq</span>
+              <div className="flex items-center gap-3">
+                <div className="w-9 h-9 rounded-full bg-primary flex items-center justify-center group-hover:scale-105 transition-transform shadow-lg shadow-primary/20">
+                  <span className="material-symbols-outlined text-on-primary text-2xl font-bold">graphic_eq</span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="font-headline font-extrabold text-lg tracking-tight text-on-surface leading-tight">
+                    SoundStream
+                  </span>
+                  <span className="text-[10px] font-mono tracking-widest text-primary font-bold uppercase">
+                    {VIETNAMESE_ARTISTS.length} Nghệ Sĩ Việt
+                  </span>
+                </div>
               </div>
-              <div className="flex flex-col">
-                <span className="font-headline font-extrabold text-xl tracking-tight text-on-surface leading-tight">SoundStream</span>
-                <span className="text-[10px] font-mono tracking-widest text-primary font-bold uppercase">Spotify Edition</span>
-              </div>
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleCreatePlaylist();
+                }}
+                className="w-7 h-7 rounded-full bg-surface-container-high hover:bg-primary hover:text-black flex items-center justify-center text-on-surface-variant transition cursor-pointer"
+                title="Tạo danh sách phát mới"
+              >
+                <span className="material-symbols-outlined text-base">add</span>
+              </button>
             </div>
 
-            {/* Primary Nav */}
-            <nav className="flex flex-col gap-1">
+            {/* Primary Compact Nav */}
+            <nav className="grid grid-cols-3 gap-1 bg-surface-container/50 p-1 rounded-2xl shrink-0">
               <button
                 type="button"
                 onClick={() => setCurrentTab('home')}
-                className={`flex items-center gap-4 px-4 py-3 rounded-full transition-all text-left cursor-pointer ${
+                className={`flex items-center justify-center gap-1.5 py-2 rounded-xl transition-all text-xs cursor-pointer ${
                   currentTab === 'home'
-                    ? 'bg-surface-container text-on-surface font-bold shadow-sm'
-                    : 'text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high font-semibold text-sm'
+                    ? 'bg-primary text-black font-black shadow-sm'
+                    : 'text-on-surface-variant hover:text-white font-semibold'
                 }`}
               >
-                <span className="material-symbols-outlined text-2xl">home</span>
+                <span className="material-symbols-outlined text-base">home</span>
                 <span>Trang chủ</span>
               </button>
 
               <button
                 type="button"
                 onClick={() => setCurrentTab('search')}
-                className={`flex items-center gap-4 px-4 py-3 rounded-full transition-all text-left cursor-pointer ${
+                className={`flex items-center justify-center gap-1.5 py-2 rounded-xl transition-all text-xs cursor-pointer ${
                   currentTab === 'search'
-                    ? 'bg-surface-container text-on-surface font-bold shadow-sm'
-                    : 'text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high font-semibold text-sm'
+                    ? 'bg-primary text-black font-black shadow-sm'
+                    : 'text-on-surface-variant hover:text-white font-semibold'
                 }`}
               >
-                <span className="material-symbols-outlined text-2xl">search</span>
-                <span>Tìm kiếm</span>
+                <span className="material-symbols-outlined text-base">search</span>
+                <span>Khám phá</span>
               </button>
 
               <button
                 type="button"
                 onClick={() => setCurrentTab('library')}
-                className={`flex items-center gap-4 px-4 py-3 rounded-full transition-all text-left cursor-pointer ${
+                className={`flex items-center justify-center gap-1.5 py-2 rounded-xl transition-all text-xs cursor-pointer ${
                   currentTab === 'library'
-                    ? 'bg-surface-container text-on-surface font-bold shadow-sm'
-                    : 'text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high font-semibold text-sm'
+                    ? 'bg-primary text-black font-black shadow-sm'
+                    : 'text-on-surface-variant hover:text-white font-semibold'
                 }`}
               >
-                <span className="material-symbols-outlined text-2xl">library_music</span>
+                <span className="material-symbols-outlined text-base">library_music</span>
                 <span>Thư viện</span>
               </button>
             </nav>
 
-            {/* Spotify Quick Actions */}
-            <div className="flex flex-col gap-1 pt-2">
-              <button
-                type="button"
-                onClick={handleCreatePlaylist}
-                className="flex items-center gap-4 px-4 py-2.5 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all text-sm font-medium text-left cursor-pointer"
-              >
-                <div className="w-6 h-6 rounded bg-surface-container-high flex items-center justify-center">
-                  <span className="material-symbols-outlined text-base">add</span>
-                </div>
-                <span>Tạo danh sách phát</span>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => setCurrentTab('liked')}
-                className={`flex items-center gap-4 px-4 py-2.5 rounded-full transition-all text-sm font-medium text-left cursor-pointer ${
-                  currentTab === 'liked'
-                    ? 'text-on-surface bg-surface-container font-semibold'
-                    : 'text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high'
-                }`}
-              >
-                <div className="w-6 h-6 rounded bg-gradient-to-br from-[#450af5] to-[#c4efd9] flex items-center justify-center">
-                  <span className="material-symbols-outlined text-white text-base" style={{ fontVariationSettings: "'FILL' 1" }}>favorite</span>
-                </div>
-                <div className="flex items-center justify-between flex-1">
-                  <span>Bài hát đã thích</span>
-                  <span className="text-[10px] font-mono text-secondary px-1.5 py-0.5 rounded-full bg-surface-container-highest">
-                    {likedTracks.length}
-                  </span>
-                </div>
-              </button>
-            </div>
-
-            <div className="h-px w-full bg-surface-container-high my-1"></div>
-
-            {/* Nghệ Sĩ Riêng (Artist Discography) - Inspired by user's Spotify screenshot */}
-            <div className="flex flex-col gap-1 overflow-y-auto max-h-[175px] pb-2 border-b border-white/5 no-scrollbar">
-              <span className="px-4 text-[11px] font-bold uppercase tracking-wider text-on-surface-variant/70 flex items-center justify-between">
-                <span>Nghệ Sĩ Riêng</span>
-                <span className="text-[10px] text-primary lowercase font-mono">discography</span>
-              </span>
-              {[
-                { id: 'shiki', name: 'Shiki', role: 'Có Đôi Điều EP' },
-                { id: 'sontungmtp', name: 'Sơn Tùng M-TP', role: 'V-Pop King' },
-                { id: 'denvau', name: 'Đen Vâu', role: 'Rapper Quốc Dân' },
-                { id: 'hieuthuhai', name: 'HIEUTHUHAI', role: 'Say Hi Star' },
-                { id: 'obito', name: 'Obito', role: 'Đánh Đổi' },
-                { id: 'vu', name: 'Vũ.', role: 'Indie Legend' },
-                { id: 'soobin', name: 'SOOBIN', role: 'SpaceSpeakers' }
-              ].map((art) => {
-                const isSelected = currentTab === 'artist' && selectedArtistId === art.id;
-                const artData = VIETNAMESE_ARTISTS.find((a) => a.id === art.id);
-                return (
+            {/* Thư Viện Nghệ Sĩ & Playlist Header + Filter Pills */}
+            <div className="flex flex-col gap-2 bg-surface-container/30 rounded-2xl p-2.5 flex-1 min-h-0 border border-white/5">
+              {/* Filter Tabs: Nghệ sĩ (90) | Tất cả | Playlist */}
+              <div className="flex items-center gap-1.5 shrink-0">
+                {[
+                  { id: 'artists', label: `Nghệ sĩ (${VIETNAMESE_ARTISTS.length})` },
+                  { id: 'all', label: 'Tất cả' },
+                  { id: 'playlists', label: 'Playlist' }
+                ].map((f) => (
                   <button
-                    key={art.id}
+                    key={f.id}
                     type="button"
-                    onClick={() => handleSelectArtist(art.id)}
-                    className={`px-3 py-1.5 rounded-xl text-xs truncate transition-all text-left cursor-pointer hover:bg-surface-container flex items-center gap-2.5 ${
-                      isSelected
-                        ? 'text-primary font-bold bg-surface-container shadow-sm'
-                        : 'text-on-surface-variant hover:text-on-surface'
+                    onClick={() => setSidebarFilter(f.id)}
+                    className={`px-2.5 py-1 rounded-full text-[11px] font-bold transition cursor-pointer ${
+                      sidebarFilter === f.id
+                        ? 'bg-white text-black shadow-sm'
+                        : 'bg-surface-container-high text-on-surface-variant hover:text-white'
                     }`}
                   >
-                    <div className={`w-7 h-7 rounded-full overflow-hidden shrink-0 ring-1 ${isSelected ? 'ring-primary' : 'ring-white/10'}`}>
-                      <img src={artData?.avatar || 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=100'} alt={art.name} className="w-full h-full object-cover" />
-                    </div>
-                    <div className="min-w-0 flex-1 truncate">
-                      <span className="truncate block font-semibold">{art.name}</span>
-                      <span className="text-[10px] text-on-surface-variant/70 block truncate">{art.role}</span>
-                    </div>
-                    {isSelected && <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse shrink-0"></span>}
+                    {f.label}
                   </button>
-                );
-              })}
-            </div>
+                ))}
+              </div>
 
-            {/* Playlists List */}
-            <div className="flex flex-col gap-1 overflow-y-auto max-h-[calc(100vh-450px)]">
-              <span className="px-4 text-xs font-semibold uppercase tracking-wider text-on-surface-variant/60">
-                Audius & V-Pop Playlists
-              </span>
-              {[
-                ...(sidebarPlaylists.length > 0
-                  ? sidebarPlaylists
-                  : [
-                      { id: 'vn-pl-1', name: 'Top Hits Việt Nam 2026' },
-                      { id: 'vn-pl-2', name: 'Lo-Fi Chill & Indie Việt' },
-                      { id: 'vn-pl-3', name: 'Rap Việt All-Stars' },
-                      { id: 'audius-pl-1', name: 'Audius Global EDM' }
-                    ]),
-                ...customPlaylists
-              ].map((pl) => (
-                <button
-                  key={pl.id}
-                  type="button"
-                  onClick={() => {
-                    setSelectedPlaylistId(pl.id);
-                    setCurrentTab('playlist');
-                  }}
-                  className={`px-4 py-2 rounded-lg text-sm truncate transition-colors text-left cursor-pointer hover:bg-surface-container flex items-center justify-between ${
-                    currentTab === 'playlist' && selectedPlaylistId === pl.id
-                      ? 'text-primary font-bold bg-surface-container'
-                      : 'text-on-surface-variant hover:text-on-surface'
-                  }`}
-                >
-                  <span className="truncate">{pl.name}</span>
-                  {pl.trackCount && (
-                    <span className="text-[10px] opacity-60 font-mono ml-1">
-                      {pl.trackCount}
-                    </span>
-                  )}
-                </button>
-              ))}
+              {/* Quick Filter Input inside Sidebar */}
+              <div className="relative shrink-0">
+                <span className="material-symbols-outlined absolute left-2.5 top-1.5 text-sm text-on-surface-variant">
+                  search
+                </span>
+                <input
+                  type="text"
+                  value={sidebarSearch}
+                  onChange={(e) => setSidebarSearch(e.target.value)}
+                  placeholder="Tìm nhanh nghệ sĩ, playlist..."
+                  className="w-full h-7 pl-8 pr-6 rounded-lg bg-surface-container-high/80 text-[11px] text-white placeholder:text-on-surface-variant/60 focus:outline-none focus:ring-1 focus:ring-primary border border-white/5"
+                />
+                {sidebarSearch && (
+                  <button
+                    type="button"
+                    onClick={() => setSidebarSearch('')}
+                    className="absolute right-2 top-1.5 text-on-surface-variant hover:text-white cursor-pointer"
+                  >
+                    <span className="material-symbols-outlined text-xs">close</span>
+                  </button>
+                )}
+              </div>
+
+              {/* Scrollable Library List (Liked Songs + 90 Vietnamese Artists + Playlists) */}
+              <div className="flex-1 overflow-y-auto flex flex-col gap-1 pr-0.5 no-scrollbar">
+                {/* Pinned Liked Songs Item */}
+                {sidebarFilter !== 'artists' && !sidebarSearch && (
+                  <button
+                    type="button"
+                    onClick={() => setCurrentTab('liked')}
+                    className={`p-2 rounded-xl transition-all text-left cursor-pointer flex items-center gap-2.5 shrink-0 ${
+                      currentTab === 'liked'
+                        ? 'bg-surface-container-high text-white font-bold'
+                        : 'hover:bg-surface-container text-on-surface-variant hover:text-white'
+                    }`}
+                  >
+                    <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#450af5] to-[#1ed760] flex items-center justify-center shrink-0 shadow">
+                      <span className="material-symbols-outlined text-white text-lg" style={{ fontVariationSettings: "'FILL' 1" }}>
+                        favorite
+                      </span>
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <span className="text-xs font-bold text-white block truncate">Bài hát đã thích</span>
+                      <span className="text-[10px] text-primary font-mono block truncate">
+                        Danh sách phát • {likedTracks.length} bài
+                      </span>
+                    </div>
+                  </button>
+                )}
+
+                {/* Vietnamese Artists Directory (All 90 Artists!) */}
+                {(sidebarFilter === 'all' || sidebarFilter === 'artists') &&
+                  VIETNAMESE_ARTISTS.filter((art) => {
+                    if (!sidebarSearch.trim()) return true;
+                    const q = removeVietnameseTones(sidebarSearch);
+                    return (
+                      removeVietnameseTones(art.name).includes(q) ||
+                      removeVietnameseTones(art.shortName || '').includes(q) ||
+                      removeVietnameseTones(art.role || '').includes(q)
+                    );
+                  }).map((art) => {
+                    const isSelected = currentTab === 'artist' && selectedArtistId === art.id;
+                    return (
+                      <button
+                        key={art.id}
+                        type="button"
+                        onClick={() => handleSelectArtist(art.id)}
+                        className={`p-1.5 rounded-xl text-xs transition-all text-left cursor-pointer hover:bg-surface-container flex items-center gap-2.5 shrink-0 ${
+                          isSelected
+                            ? 'text-primary font-bold bg-surface-container-high shadow-sm ring-1 ring-primary/30'
+                            : 'text-on-surface-variant hover:text-on-surface'
+                        }`}
+                      >
+                        <div
+                          className={`w-9 h-9 rounded-full overflow-hidden shrink-0 ring-1 ${
+                            isSelected ? 'ring-primary' : 'ring-white/10'
+                          }`}
+                        >
+                          <img src={art.avatar} alt={art.name} className="w-full h-full object-cover" />
+                        </div>
+                        <div className="min-w-0 flex-1">
+                          <div className="flex items-center gap-1">
+                            <span className={`truncate font-bold ${isSelected ? 'text-primary' : 'text-white'}`}>
+                              {art.name}
+                            </span>
+                            <span className="material-symbols-outlined text-primary text-[11px] shrink-0" style={{ fontVariationSettings: "'FILL' 1" }}>
+                              verified
+                            </span>
+                          </div>
+                          <span className="text-[10px] text-on-surface-variant/75 block truncate">
+                            Nghệ sĩ • {(art.popularHits || []).length} bài hát
+                          </span>
+                        </div>
+                        {isSelected && (
+                          <span className="w-2 h-2 rounded-full bg-primary animate-pulse shrink-0"></span>
+                        )}
+                      </button>
+                    );
+                  })}
+
+                {/* Playlists Directory */}
+                {(sidebarFilter === 'all' || sidebarFilter === 'playlists') &&
+                  [
+                    ...(sidebarPlaylists.length > 0
+                      ? sidebarPlaylists
+                      : [
+                          { id: 'vn-pl-1', name: 'Top Hits Việt Nam 2026', trackCount: 22 },
+                          { id: 'vn-pl-2', name: 'Ký Ức V-Pop 8x/9x', trackCount: 16 },
+                          { id: 'vn-pl-3', name: 'Anh Trai Say Hi & Chông Gai', trackCount: 18 },
+                          { id: 'vn-pl-4', name: 'Rap Việt All-Stars', trackCount: 20 }
+                        ]),
+                    ...customPlaylists
+                  ]
+                    .filter((pl) => {
+                      if (!sidebarSearch.trim()) return true;
+                      return removeVietnameseTones(pl.name).includes(removeVietnameseTones(sidebarSearch));
+                    })
+                    .map((pl) => {
+                      const isPlSelected = currentTab === 'playlist' && selectedPlaylistId === pl.id;
+                      return (
+                        <button
+                          key={pl.id}
+                          type="button"
+                          onClick={() => {
+                            setSelectedPlaylistId(pl.id);
+                            setCurrentTab('playlist');
+                          }}
+                          className={`p-1.5 rounded-xl text-xs transition-colors text-left cursor-pointer hover:bg-surface-container flex items-center gap-2.5 shrink-0 ${
+                            isPlSelected
+                              ? 'text-primary font-bold bg-surface-container-high'
+                              : 'text-on-surface-variant hover:text-on-surface'
+                          }`}
+                        >
+                          <div className="w-9 h-9 rounded-lg overflow-hidden bg-surface-container-high shrink-0">
+                            <img
+                              src={pl.artwork?.url || 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=100'}
+                              alt={pl.name}
+                              className="w-full h-full object-cover"
+                            />
+                          </div>
+                          <div className="min-w-0 flex-1">
+                            <span className="truncate block font-semibold text-white">{pl.name}</span>
+                            <span className="text-[10px] text-on-surface-variant/75 block truncate">
+                              Danh sách phát • {pl.trackCount || 15} bài
+                            </span>
+                          </div>
+                        </button>
+                      );
+                    })}
+              </div>
             </div>
           </div>
 
           {/* Bottom Desktop App CTA */}
-          <div className="px-3">
+          <div className="px-2 pt-2 shrink-0 flex items-center justify-between text-[11px] text-on-surface-variant">
             <button
               type="button"
-              onClick={() => showToast('SoundStream Spotify Web Player Active!')}
-              className="flex items-center gap-2 text-xs font-semibold text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer"
+              onClick={() => showToast(`Kho nhạc Việt: ${VIETNAMESE_ARTISTS.length} nghệ sĩ & ${VERIFIED_AUDIUS_TRACKS.length} bài hát!`)}
+              className="flex items-center gap-1.5 font-semibold hover:text-primary transition-colors cursor-pointer"
             >
-              <span className="material-symbols-outlined text-sm">hub</span>
-              <span>Spotify Web Mode Active</span>
+              <span className="material-symbols-outlined text-sm text-primary">verified</span>
+              <span>{VIETNAMESE_ARTISTS.length} Nghệ Sĩ • {VERIFIED_AUDIUS_TRACKS.length} Bài</span>
             </button>
+            <span className="font-mono text-[10px] text-primary">Hi-Fi</span>
           </div>
         </aside>
 
         {/* Right Content Area */}
         <div className="flex-1 flex flex-col min-w-0 overflow-hidden relative">
-          {/* Top Fixed Header */}
-          <header className="h-16 bg-surface/80 backdrop-blur-xl z-30 flex items-center justify-between px-8 shadow-[0_1px_8px_rgba(0,0,0,0.04)] border-b border-white/5 shrink-0">
-            <div className="flex items-center gap-2">
+          {/* Top Fixed Header (Spotify Modern Layout with Centered Home + Live Search Bar) */}
+          <header className="h-16 bg-surface/90 backdrop-blur-xl z-30 flex items-center justify-between gap-4 px-6 shadow-[0_1px_8px_rgba(0,0,0,0.12)] border-b border-white/5 shrink-0">
+            {/* Left Navigation Arrows */}
+            <div className="flex items-center gap-2 shrink-0">
               <button
                 type="button"
                 onClick={() => {
@@ -787,13 +902,202 @@ export default function SoundStreamLayout() {
                 type="button"
                 onClick={() => {
                   if (currentTab === 'home') setCurrentTab('search');
-                  else if (currentTab === 'search') setCurrentTab('playlist');
+                  else if (currentTab === 'search') setCurrentTab('artist');
                 }}
                 className="w-8 h-8 rounded-full bg-surface-container-lowest flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer"
                 title="Tiếp theo"
               >
                 <span className="material-symbols-outlined text-xl">chevron_right</span>
               </button>
+            </div>
+
+            {/* Center: Home Button + Global Interactive Search Bar (Matching Spotify Screenshot) */}
+            <div className="flex items-center gap-2.5 flex-1 max-w-xl relative">
+              <button
+                type="button"
+                onClick={() => {
+                  setCurrentTab('home');
+                  setShowTopSearchDropdown(false);
+                }}
+                className={`w-10 h-10 rounded-full flex items-center justify-center transition-all shrink-0 cursor-pointer ${
+                  currentTab === 'home'
+                    ? 'bg-surface-container-highest text-white ring-1 ring-primary/40'
+                    : 'bg-surface-container-high text-on-surface-variant hover:text-white hover:scale-105'
+                }`}
+                title="Trang chủ"
+              >
+                <span className="material-symbols-outlined text-xl" style={currentTab === 'home' ? { fontVariationSettings: "'FILL' 1" } : {}}>
+                  home
+                </span>
+              </button>
+
+              <div className="relative flex-1">
+                <span className="material-symbols-outlined absolute left-3.5 top-2.5 text-on-surface-variant text-xl pointer-events-none">
+                  search
+                </span>
+                <input
+                  type="text"
+                  value={topSearchQuery}
+                  onFocus={() => setShowTopSearchDropdown(true)}
+                  onChange={(e) => {
+                    setTopSearchQuery(e.target.value);
+                    setShowTopSearchDropdown(true);
+                  }}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' && topSearchQuery.trim()) {
+                      setSearchPageInitQuery(topSearchQuery.trim());
+                      setCurrentTab('search');
+                      setShowTopSearchDropdown(false);
+                    }
+                  }}
+                  placeholder="Bạn muốn phát nội dung gì? (Tìm nghệ sĩ, bài hát Việt...)"
+                  className="w-full h-10 pl-10 pr-20 rounded-full bg-surface-container-high hover:bg-surface-container-highest focus:bg-surface-container-highest text-xs sm:text-sm text-white placeholder:text-on-surface-variant focus:outline-none focus:ring-2 focus:ring-primary border border-white/10 transition-all"
+                />
+                <div className="absolute right-3 top-2 flex items-center gap-1.5">
+                  {topSearchQuery && (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setTopSearchQuery('');
+                        setSearchPageInitQuery('');
+                      }}
+                      className="text-on-surface-variant hover:text-white p-0.5 cursor-pointer"
+                      title="Xóa"
+                    >
+                      <span className="material-symbols-outlined text-base">close</span>
+                    </button>
+                  )}
+                  <span className="w-px h-4 bg-white/15"></span>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowTopSearchDropdown(false);
+                      setCurrentTab('search');
+                    }}
+                    className="text-on-surface-variant hover:text-primary p-0.5 cursor-pointer"
+                    title="Duyệt tìm tất cả nghệ sĩ & thể loại"
+                  >
+                    <span className="material-symbols-outlined text-lg">travel_explore</span>
+                  </button>
+                </div>
+
+                {/* Live Instant Search Dropdown (Artists + Songs) */}
+                {showTopSearchDropdown && (
+                  <div
+                    onMouseLeave={() => setShowTopSearchDropdown(false)}
+                    className="absolute left-0 right-0 top-12 rounded-2xl bg-[#181b1c] border border-white/15 shadow-2xl p-3 z-50 max-h-[75vh] overflow-y-auto flex flex-col gap-3"
+                  >
+                    <div className="flex items-center justify-between px-2">
+                      <span className="text-[11px] font-bold uppercase tracking-wider text-primary font-mono">
+                        {topSearchQuery.trim()
+                          ? `Kết quả nhanh cho "${topSearchQuery}"`
+                          : 'Nghệ sĩ & Bài hát đề xuất'}
+                      </span>
+                      <button
+                        type="button"
+                        onClick={() => setShowTopSearchDropdown(false)}
+                        className="text-xs text-on-surface-variant hover:text-white cursor-pointer"
+                      >
+                        Đóng
+                      </button>
+                    </div>
+
+                    {/* Matched Artists Section */}
+                    {topMatchedArtists.length > 0 && (
+                      <div className="flex flex-col gap-1">
+                        <span className="px-2 text-[10px] font-bold uppercase tracking-wider text-on-surface-variant">
+                          Nghệ sĩ Việt Nam ({topMatchedArtists.length})
+                        </span>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-1">
+                          {topMatchedArtists.map((art) => (
+                            <button
+                              key={art.id}
+                              type="button"
+                              onClick={() => handleSelectArtist(art.id)}
+                              className="flex items-center gap-2.5 p-2 rounded-xl hover:bg-white/10 text-left transition cursor-pointer group"
+                            >
+                              <img
+                                src={art.avatar}
+                                alt={art.name}
+                                className="w-10 h-10 rounded-full object-cover ring-1 ring-primary/40 shrink-0"
+                              />
+                              <div className="min-w-0 flex-1">
+                                <div className="flex items-center gap-1">
+                                  <span className="text-xs font-bold text-white truncate group-hover:text-primary">
+                                    {art.name}
+                                  </span>
+                                  <span className="material-symbols-outlined text-primary text-xs" style={{ fontVariationSettings: "'FILL' 1" }}>
+                                    verified
+                                  </span>
+                                </div>
+                                <span className="text-[10px] text-on-surface-variant block truncate">
+                                  {art.role} • {(art.popularHits || []).length} bài hát
+                                </span>
+                              </div>
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Matched Songs Section */}
+                    {topMatchedTracks.length > 0 && (
+                      <div className="flex flex-col gap-1 border-t border-white/10 pt-2">
+                        <span className="px-2 text-[10px] font-bold uppercase tracking-wider text-on-surface-variant">
+                          Bài hát phát ngay ({topMatchedTracks.length})
+                        </span>
+                        {topMatchedTracks.map((tr) => (
+                          <div
+                            key={tr.id}
+                            onClick={() => {
+                              handlePlayTrack(tr);
+                              setShowTopSearchDropdown(false);
+                            }}
+                            className="flex items-center justify-between gap-3 p-2 rounded-xl hover:bg-white/10 transition cursor-pointer group"
+                          >
+                            <div className="flex items-center gap-2.5 min-w-0 flex-1">
+                              <img
+                                src={tr.img}
+                                alt={tr.title}
+                                className="w-9 h-9 rounded-lg object-cover shrink-0"
+                              />
+                              <div className="min-w-0 flex-1">
+                                <p className="text-xs font-bold text-white truncate group-hover:text-primary">
+                                  {tr.title}
+                                </p>
+                                <p className="text-[10px] text-on-surface-variant truncate">
+                                  {tr.artist}
+                                </p>
+                              </div>
+                            </div>
+                            <span className="material-symbols-outlined text-primary text-xl opacity-80 group-hover:opacity-100">
+                              play_circle
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+
+                    {/* View All Results Button */}
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setSearchPageInitQuery(topSearchQuery.trim());
+                        setCurrentTab('search');
+                        setShowTopSearchDropdown(false);
+                      }}
+                      className="w-full py-2 rounded-xl bg-primary/15 hover:bg-primary text-primary hover:text-black font-bold text-xs transition cursor-pointer flex items-center justify-center gap-1.5"
+                    >
+                      <span className="material-symbols-outlined text-base">manage_search</span>
+                      <span>
+                        {topSearchQuery.trim()
+                          ? `Xem tất cả kết quả cho "${topSearchQuery}"`
+                          : `Mở Đại Từ Điển ${VIETNAMESE_ARTISTS.length} Nghệ Sĩ Việt Nam`}
+                      </span>
+                    </button>
+                  </div>
+                )}
+              </div>
             </div>
 
             <div className="flex items-center gap-3">
@@ -958,6 +1262,7 @@ export default function SoundStreamLayout() {
                       setCurrentTab('playlist');
                     }}
                     onSelectArtist={handleSelectArtist}
+                    initialQuery={searchPageInitQuery}
                   />
                 )}
 
@@ -1075,10 +1380,10 @@ export default function SoundStreamLayout() {
             </span>
             <span
               onClick={() => {
-                if (currentTrack?.artist) {
-                  const artMatch = VIETNAMESE_ARTISTS.find(
-                    (a) => currentTrack.artist.includes(a.name) || currentTrack.artist.includes(a.shortName)
-                  );
+                if (currentTrack?.artistId) {
+                  handleSelectArtist(currentTrack.artistId);
+                } else if (currentTrack?.artist) {
+                  const artMatch = getArtistDetails(currentTrack.artist);
                   handleSelectArtist(artMatch ? artMatch.id : currentTrack.artist);
                 }
               }}
