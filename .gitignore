@@ -32,3 +32,4 @@ dist-ssr
 stream_test.mp3
 test_trending.json
 itunes_test.json
+*.bat
