@@ -33,3 +33,4 @@ stream_test.mp3
 test_trending.json
 itunes_test.json
 *.bat
+.ssh_deploy_key*
