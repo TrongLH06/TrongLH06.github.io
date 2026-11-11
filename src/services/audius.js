@@ -6,7 +6,7 @@
 
 import { audiusVietnamTracks } from './audius_vietnam_full.js';
 import { ARTIST_CATEGORIES, VIETNAMESE_ARTISTS, FULL_VIETNAMESE_TRACKS } from './vietnamese_artists_catalog.js';
-import { searchLiveVietnameseMusic, resolveAppleMusicVietnamTrack } from './multi_source_audio.js';
+import { isMatchingTrackAndArtist } from './multi_source_audio.js';
 
 export { ARTIST_CATEGORIES, VIETNAMESE_ARTISTS, FULL_VIETNAMESE_TRACKS };
 
@@ -21,7 +21,7 @@ export const AUDIUS_DISCOVERY_NODES = [
   'https://discoveryprovider3.audius.co'
 ];
 
-// Verified 100% live Audius stream IDs (tested HTTP 302 -> creatornode cidstream)
+// Verified 100% live full-length Audius stream IDs (tested HTTP 302 -> creatornode cidstream)
 export const VERIFIED_WORKING_AUDIUS_IDS = [
   'lvBQl', 'Yolgk', 'GR6X8pw', 'B0bZm', '95oWG',
   '9mgmo', '2RNEp', 'bQ53O', 'Ma7bo', '0OwaV',
@@ -52,40 +52,63 @@ export async function fetchAudiusJson(endpointPath, timeoutMs = 4000) {
 }
 
 /**
- * Resolve a guaranteed playable audio URL for any track:
- * - retryIndex === 0: Try exact Vietnamese song stream from Apple Music VN CDN (if available), else track.audioUrl
- * - retryIndex >= 1: Rotate across Audius discovery nodes & verified stream IDs so playback never stalls
+ * Resolve a guaranteed full-length playable Audius stream URL for any track
+ * (Never substitutes 30-second Apple Music previewUrl for full-track playback):
+ * - Uses track's own full-length Audius stream ID across AUDIUS_DISCOVERY_NODES
+ * - On retry or dead ID ('NllmY', 'aavaw'), queries live Audius /v1/tracks/search matched by title & artist
+ *   or rotates across track.streamMirrors and VERIFIED_WORKING_AUDIUS_IDS.
  */
 export async function resolvePlayableAudioUrl(track, retryIndex = 0) {
   if (!track) return `${AUDIUS_API_BASE}/tracks/lvBQl/stream?app_name=${APP_NAME}`;
 
-  // On initial play or first error recovery, check exact Vietnamese song audio from Apple Music VN CDN
-  if (retryIndex <= 1) {
-    if (track.appleAudioUrl) return track.appleAudioUrl;
-    const appleMatch = await resolveAppleMusicVietnamTrack(track);
-    if (appleMatch && appleMatch.audioUrl) {
-      track.appleAudioUrl = appleMatch.audioUrl;
-      return appleMatch.audioUrl;
-    }
+  const rawId = String(track.audiusId || track.id || '').replace(/^aud-/, '');
+  const isDeadOrSyntheticId = !rawId || ['NllmY', 'aavaw'].includes(rawId) || rawId.includes('-');
+
+  // 1. If track has explicit streamMirrors from Audius API and we are retrying, try mirror first
+  if (retryIndex > 0 && Array.isArray(track.streamMirrors) && track.streamMirrors.length > 0 && !isDeadOrSyntheticId) {
+    const mirrorHost = track.streamMirrors[(retryIndex - 1) % track.streamMirrors.length].replace(/\/+$/, '');
+    return `${mirrorHost}/v1/tracks/${rawId}/stream?app_name=${APP_NAME}`;
   }
 
-  // Determine clean Audius ID, replacing known dead/404 IDs
-  const rawId = String(track.audiusId || track.id || '').replace(/^aud-/, '');
+  // 2. If ID is dead/synthetic or initial stream failed, try finding a matching full-length track on live Audius
+  if ((isDeadOrSyntheticId || retryIndex === 1) && track.title && !track._searchedLiveAudiusId) {
+    track._searchedLiveAudiusId = true;
+    try {
+      const q = `${track.title} ${track.artist || ''}`.trim();
+      const json = await fetchAudiusJson(
+        `/tracks/search?query=${encodeURIComponent(q)}&limit=5&app_name=${APP_NAME}`,
+        3000
+      );
+      if (json && Array.isArray(json.data)) {
+        const matched = json.data.find(
+          (t) =>
+            t?.id &&
+            (t.duration || 0) >= 60 &&
+            isMatchingTrackAndArtist(t.title, t.user?.name || t.user?.handle || '', track.title, track.artist)
+        );
+        if (matched?.id) {
+          track.audiusId = String(matched.id);
+          const host = AUDIUS_DISCOVERY_NODES[retryIndex % AUDIUS_DISCOVERY_NODES.length];
+          return `${host}/v1/tracks/${matched.id}/stream?app_name=${APP_NAME}`;
+        }
+      }
+    } catch (e) {}
+  }
+
+  // 3. Rotate across Audius discovery nodes and verified full-length stream IDs
   const isKnownValid = VERIFIED_WORKING_AUDIUS_IDS.includes(rawId);
   const hashIdx = Math.abs(
     String(track.title || track.id || '0')
       .split('')
       .reduce((acc, ch) => acc + ch.charCodeAt(0), 0) + retryIndex
   );
-  const fallbackAudiusId =
-    retryIndex === 0 && rawId && !['NllmY', 'aavaw'].includes(rawId) && !rawId.includes('-')
-      ? rawId
-      : isKnownValid && retryIndex <= 1
+  const resolvedId =
+    !isDeadOrSyntheticId && (retryIndex === 0 || isKnownValid)
       ? rawId
       : VERIFIED_WORKING_AUDIUS_IDS[hashIdx % VERIFIED_WORKING_AUDIUS_IDS.length];
 
   const host = AUDIUS_DISCOVERY_NODES[retryIndex % AUDIUS_DISCOVERY_NODES.length];
-  return `${host}/v1/tracks/${fallbackAudiusId}/stream?app_name=${APP_NAME}`;
+  return `${host}/v1/tracks/${resolvedId}/stream?app_name=${APP_NAME}`;
 }
 
 // Function to normalize Vietnamese strings for accent-insensitive search
@@ -733,6 +756,9 @@ export async function searchArtistsAsync(query, limit = 12) {
           u.profile_picture?.['150x150'] ||
           'https://i.scdn.co/image/ab6761610000e5eb8885185d1e914c51c15c3a13';
 
+        const isVerified = Boolean(u.is_verified);
+        const followerCount = typeof u.follower_count === 'number' ? u.follower_count : null;
+
         const dynArtist = {
           id: `audius-user-${u.id || u.handle || normKey}`,
           audiusUserId: u.id,
@@ -740,11 +766,12 @@ export async function searchArtistsAsync(query, limit = 12) {
           name: u.name,
           shortName: u.name,
           handle: u.handle,
-          role: 'Nghệ Sĩ Audius Đã Xác Minh',
+          isVerified,
+          role: isVerified ? 'Nghệ Sĩ Audius Đã Xác Minh' : 'Nghệ Sĩ Audius',
           genre: 'Audius / V-Pop',
           avatar: avatarUrl,
-          monthlyListeners: Number(u.follower_count || 12500).toLocaleString(),
-          bio: u.bio || `Trang nghệ sĩ chính thức của ${u.name} (@${u.handle}) trên mạng lưới Audius.`,
+          monthlyListeners: followerCount !== null ? followerCount.toLocaleString() : null,
+          bio: u.bio || `Trang nghệ sĩ của ${u.name} (@${u.handle}) trên mạng lưới Audius.`,
           popularHits: []
         };
         DYNAMIC_ARTISTS_CACHE.set(dynArtist.id.toLowerCase(), dynArtist);
@@ -794,7 +821,12 @@ export function normalizeTrack(track) {
     album: track.album || track.collectionName || 'Audius Full Track',
     duration: durString,
     durationSeconds: durSec,
-    playCount: track.playCount || track.play_count || 125000,
+    playCount:
+      typeof track.playCount === 'number'
+        ? track.playCount
+        : typeof track.play_count === 'number'
+        ? track.play_count
+        : null,
     audioUrl: streamUrl,
     streamMirrors: Array.isArray(track.stream?.mirrors) ? track.stream.mirrors : [],
     img: imgUrl,
@@ -820,8 +852,13 @@ export function normalizePlaylist(pl) {
     id: String(pl.id),
     name: pl.playlist_name || pl.name || 'Audius Playlist',
     description: pl.description || 'Tuyển chọn từ mạng lưới Audius Decentralized Audio Protocol',
-    trackCount: pl.track_count || pl.trackCount || (Array.isArray(pl.tracks) ? pl.tracks.length : 10),
-    totalPlayCount: pl.total_play_count || pl.playCount || 54200,
+    trackCount: pl.track_count ?? pl.trackCount ?? (Array.isArray(pl.tracks) ? pl.tracks.length : 0),
+    totalPlayCount:
+      typeof pl.total_play_count === 'number'
+        ? pl.total_play_count
+        : typeof pl.playCount === 'number'
+        ? pl.playCount
+        : null,
     user: {
       name: pl.user?.name || 'Audius Creator',
       handle: pl.user?.handle || 'audius',
@@ -912,25 +949,7 @@ export async function searchTracks(query, limit = 30) {
   scoredLocal.sort((a, b) => b.score - a.score || (b.track.playCount || 0) - (a.track.playCount || 0));
   let result = scoredLocal.map((item) => item.track);
 
-  // 3. Query live YouTube Music + Apple Music Vietnam + Audius if local catalog has < 8 results
-  if (result.length < 8 && !isExactArtistQuery) {
-    try {
-      const liveVnTracks = await searchLiveVietnameseMusic(qTrim, 12);
-      if (Array.isArray(liveVnTracks) && liveVnTracks.length > 0) {
-        const combined = [...result];
-        const seen = new Set(result.map((t) => `${removeVietnameseTones(t.title)}_${removeVietnameseTones(t.artist)}`));
-        for (const lt of liveVnTracks) {
-          const k = `${removeVietnameseTones(lt.title)}_${removeVietnameseTones(lt.artist)}`;
-          if (!seen.has(k)) {
-            seen.add(k);
-            combined.push(lt);
-          }
-        }
-        result = combined;
-      }
-    } catch (e) {}
-  }
-
+  // 3. Supplement with full-length tracks from live Audius Discovery Network when local results < 6
   if (result.length < 6 && !isExactArtistQuery) {
     try {
       const json = await fetchAudiusJson(
@@ -1262,16 +1281,17 @@ export function getArtistDetails(artistIdOrName) {
   const searched = searchArtists(rawStr, 1);
   if (searched.length > 0) return searched[0];
 
-  // Fallback dynamic artist object if not in catalog
+  // Fallback dynamic artist object if not in catalog (no fake verified badge or listener counts)
   return {
     id: rawStr.toLowerCase().replace(/[^a-z0-9]/g, ''),
     name: rawStr,
     shortName: rawStr,
-    role: 'Nghệ Sĩ Được Xác Minh',
+    isVerified: false,
+    role: 'Nghệ sĩ',
     genre: 'V-Pop / R&B & Hip-Hop',
     avatar: 'https://i.scdn.co/image/ab6761610000e5eb8885185d1e914c51c15c3a13',
-    monthlyListeners: '1,250,000',
-    bio: `Tuyển tập danh sách các ca khúc hay nhất của ${rawStr} trên SoundStream.`,
+    monthlyListeners: null,
+    bio: `Tuyển tập danh sách các ca khúc của ${rawStr} trên SoundStream.`,
     popularHits: []
   };
 }
@@ -1313,22 +1333,27 @@ export async function getArtistTracks(artistIdOrName) {
     return combined;
   }
 
-  // Supplement with live tracks if artist is dynamically discovered or has < 6 local tracks
+  // Supplement with full-length Audius tracks matched by artist if local tracks < 6
   try {
-    const liveTracks = await searchLiveVietnameseMusic(artist.name, 10);
-    for (const lt of liveTracks) {
-      const normTitle = removeVietnameseTones(lt.title || '').replace(/[^a-z0-9]/g, '').trim();
-      if (!seenTitles.has(normTitle)) {
-        seenTitles.add(normTitle);
-        combined.push({ ...lt, isPrimaryArtist: true });
+    const json = await fetchAudiusJson(
+      `/tracks/search?query=${encodeURIComponent(artist.name)}&limit=12&app_name=${APP_NAME}`,
+      3500
+    );
+    if (json && Array.isArray(json.data)) {
+      for (const raw of json.data) {
+        if ((raw.duration || 0) < 60) continue;
+        const lt = normalizeTrack(raw);
+        if (matchTrackToArtist(lt, artist) > 0 || isMatchingTrackAndArtist(lt.title, lt.artist, lt.title, artist.name)) {
+          const normTitle = removeVietnameseTones(lt.title || '').replace(/[^a-z0-9]/g, '').trim();
+          if (!seenTitles.has(normTitle)) {
+            seenTitles.add(normTitle);
+            combined.push({ ...lt, isPrimaryArtist: true });
+          }
+        }
       }
     }
   } catch (e) {}
 
-  if (combined.length > 0) {
-    return combined;
-  }
-
-  return VERIFIED_AUDIUS_TRACKS.slice(0, 10);
+  return combined;
 }
 

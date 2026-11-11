@@ -123,6 +123,7 @@ export default function SoundStreamLayout() {
 
   const audioRef = useRef(null);
   const progressBarRef = useRef(null);
+  const shouldAutoPlayRef = useRef(false);
 
   const showToast = (msg) => {
     setToastMessage(msg);
@@ -443,10 +444,16 @@ export default function SoundStreamLayout() {
         currentTrack.audioUrl = resolvedUrl;
         audioRef.current.src = resolvedUrl;
       }
-      if (isPlaying) {
-        audioRef.current.play().catch((err) => {
-          console.warn('Playback gesture required:', err);
-        });
+      if (shouldAutoPlayRef.current || isPlaying) {
+        audioRef.current
+          .play()
+          .then(() => {
+            if (!isCancelled) setIsPlaying(true);
+          })
+          .catch((err) => {
+            console.warn('Playback gesture required or stream error:', err);
+            if (!isCancelled) setIsPlaying(false);
+          });
       }
     });
 
@@ -458,10 +465,13 @@ export default function SoundStreamLayout() {
   const togglePlay = () => {
     if (!audioRef.current) return;
     if (isPlaying) {
+      shouldAutoPlayRef.current = false;
       audioRef.current.pause();
       setIsPlaying(false);
     } else {
-      audioRef.current.play()
+      shouldAutoPlayRef.current = true;
+      audioRef.current
+        .play()
         .then(() => {
           setIsPlaying(true);
         })
@@ -470,13 +480,16 @@ export default function SoundStreamLayout() {
           const fallbackUrl = await resolvePlayableAudioUrl(currentTrack, 1);
           if (fallbackUrl && audioRef.current) {
             audioRef.current.src = fallbackUrl;
-            audioRef.current.play()
+            audioRef.current
+              .play()
               .then(() => setIsPlaying(true))
               .catch(() => {
+                shouldAutoPlayRef.current = false;
                 setIsPlaying(false);
                 showToast('Không thể phát bài hát này.');
               });
           } else {
+            shouldAutoPlayRef.current = false;
             setIsPlaying(false);
             showToast('Không thể phát bài hát này.');
           }
@@ -487,6 +500,7 @@ export default function SoundStreamLayout() {
   const handlePlayTrack = (track) => {
     if (!track) return;
     track._retryCount = 0;
+    shouldAutoPlayRef.current = true;
     const foundIdx = playlistQueue.findIndex(
       (t) => t.id === track.id || t.title.toLowerCase() === (track.title || '').toLowerCase()
     );
@@ -498,7 +512,6 @@ export default function SoundStreamLayout() {
       setCurrentTrackIndex(0);
     }
 
-    setIsPlaying(true);
     showToast(`Đang phát: "${track.title}" - ${track.artist} 🎵`);
     resolvePlayableAudioUrl(track, 0).then((resolvedUrl) => {
       if (audioRef.current) {
@@ -507,16 +520,20 @@ export default function SoundStreamLayout() {
           audioRef.current.src = resolvedUrl;
         }
         audioRef.current.currentTime = 0;
-        audioRef.current.play().catch(() => { });
+        audioRef.current
+          .play()
+          .then(() => setIsPlaying(true))
+          .catch(() => setIsPlaying(false));
       }
     });
   };
 
   const handlePlayPlaylistAll = (tracks) => {
     if (!tracks || tracks.length === 0) return;
+    tracks[0]._retryCount = 0;
+    shouldAutoPlayRef.current = true;
     setPlaylistQueue(tracks);
     setCurrentTrackIndex(0);
-    setIsPlaying(true);
     showToast(`Đang phát toàn bộ playlist (${tracks.length} bài hát) 🎵`);
     resolvePlayableAudioUrl(tracks[0], 0).then((resolvedUrl) => {
       if (audioRef.current) {
@@ -525,7 +542,10 @@ export default function SoundStreamLayout() {
           audioRef.current.src = resolvedUrl;
         }
         audioRef.current.currentTime = 0;
-        audioRef.current.play().catch(() => { });
+        audioRef.current
+          .play()
+          .then(() => setIsPlaying(true))
+          .catch(() => setIsPlaying(false));
       }
     });
   };
@@ -540,37 +560,46 @@ export default function SoundStreamLayout() {
         if (fallbackUrl && audioRef.current) {
           currentTrack.audioUrl = fallbackUrl;
           audioRef.current.src = fallbackUrl;
-          audioRef.current.play().catch(() => { });
+          audioRef.current
+            .play()
+            .then(() => setIsPlaying(true))
+            .catch(() => setIsPlaying(false));
         }
       });
       return;
     }
 
-    showToast(`Không thể tải bài "${currentTrack?.title}". Chuyển bài tiếp theo...`);
-    setTimeout(() => {
-      handleNextTrack();
-    }, 1200);
+    // Do not auto-skip infinitely when a track fails across all sources
+    shouldAutoPlayRef.current = false;
+    setIsPlaying(false);
+    showToast(`Không thể phát bài "${currentTrack?.title}". Vui lòng thử lại hoặc chọn bài khác.`);
   };
 
   const handleNextTrack = () => {
     if (playlistQueue.length === 0) return;
+    shouldAutoPlayRef.current = true;
     if (isShuffle) {
       const nextIdx = Math.floor(Math.random() * playlistQueue.length);
       setCurrentTrackIndex(nextIdx);
     } else {
       setCurrentTrackIndex((prev) => (prev + 1) % playlistQueue.length);
     }
-    setIsPlaying(true);
   };
 
   const handlePrevTrack = () => {
     if (playlistQueue.length === 0) return;
+    shouldAutoPlayRef.current = true;
     if (currentTime > 3) {
-      if (audioRef.current) audioRef.current.currentTime = 0;
+      if (audioRef.current) {
+        audioRef.current.currentTime = 0;
+        audioRef.current
+          .play()
+          .then(() => setIsPlaying(true))
+          .catch(() => setIsPlaying(false));
+      }
       setCurrentTime(0);
     } else {
       setCurrentTrackIndex((prev) => (prev - 1 + playlistQueue.length) % playlistQueue.length);
-      setIsPlaying(true);
     }
   };
 

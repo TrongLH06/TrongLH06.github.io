@@ -296,11 +296,13 @@ export default function SoundStreamSearchView({
                     </div>
                     <div className="flex-1 flex flex-col items-center sm:items-start text-center sm:text-left min-w-0">
                       <div className="flex items-center gap-2 mb-1">
-                        <span className="material-symbols-outlined text-primary text-base" style={{ fontVariationSettings: "'FILL' 1" }}>
-                          verified
-                        </span>
+                        {matched.isVerified !== false && (
+                          <span className="material-symbols-outlined text-primary text-base" style={{ fontVariationSettings: "'FILL' 1" }}>
+                            verified
+                          </span>
+                        )}
                         <span className="text-xs uppercase font-mono font-bold text-primary tracking-wider">
-                          Nghệ Sĩ Được Xác Minh • {(matched.popularHits || []).length} Bài Hát Chính Thức
+                          {matched.isVerified !== false ? 'Nghệ Sĩ Được Xác Minh' : 'Nghệ Sĩ'} • {(matched.popularHits || []).length} Bài Hát Chính Thức
                         </span>
                       </div>
                       <h1
@@ -310,7 +312,13 @@ export default function SoundStreamSearchView({
                         {matched.name}
                       </h1>
                       <p className="text-xs font-semibold text-on-surface-variant mt-1">
-                        {matched.role} • {matched.genre} • <span className="font-mono text-white">{matched.monthlyListeners}</span> người nghe hàng tháng
+                        {matched.role} • {matched.genre}
+                        {matched.monthlyListeners ? (
+                          <>
+                            {' • '}
+                            <span className="font-mono text-white">{matched.monthlyListeners}</span> người nghe hàng tháng
+                          </>
+                        ) : null}
                       </p>
                       <p className="text-xs text-white/75 mt-1.5 max-w-2xl line-clamp-2">
                         {matched.bio}

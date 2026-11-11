@@ -183,15 +183,17 @@ export default function SoundStreamArtistView({
           {/* Artist Metadata */}
           <div className="flex-1 flex flex-col items-center sm:items-start text-center sm:text-left min-w-0">
             <div className="flex items-center gap-2 flex-wrap justify-center sm:justify-start mb-1.5">
-              <div className="flex items-center gap-1.5 text-white text-xs font-bold">
-                <span
-                  className="material-symbols-outlined text-[#3d91f4] text-lg"
-                  style={{ fontVariationSettings: "'FILL' 1" }}
-                >
-                  verified
-                </span>
-                <span>Nghệ sĩ được xác minh</span>
-              </div>
+              {artist?.isVerified !== false && (
+                <div className="flex items-center gap-1.5 text-white text-xs font-bold">
+                  <span
+                    className="material-symbols-outlined text-[#3d91f4] text-lg"
+                    style={{ fontVariationSettings: "'FILL' 1" }}
+                  >
+                    verified
+                  </span>
+                  <span>Nghệ sĩ được xác minh</span>
+                </div>
+              )}
               {categoryInfo && (
                 <span className="px-2.5 py-0.5 rounded-full bg-white/10 text-white/90 text-[11px] font-semibold flex items-center gap-1">
                   <span className="material-symbols-outlined text-xs text-[#1ed760]">{categoryInfo.icon}</span>
@@ -211,9 +213,13 @@ export default function SoundStreamArtistView({
             )}
 
             <div className="flex items-center gap-2 mt-3 text-xs sm:text-sm text-white/80 font-medium flex-wrap justify-center sm:justify-start">
-              <span className="text-white font-bold">{artist?.monthlyListeners || '1,500,000'}</span>
-              <span>người nghe hàng tháng</span>
-              <span>•</span>
+              {artist?.monthlyListeners && (
+                <>
+                  <span className="text-white font-bold">{artist.monthlyListeners}</span>
+                  <span>người nghe hàng tháng</span>
+                  <span>•</span>
+                </>
+              )}
               <span className="text-[#1ed760] font-bold">{tracks.length} bài hát</span>
               <span>•</span>
               <span className="text-white/70">{artist?.genre || 'V-Pop'}</span>

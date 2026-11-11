@@ -93,7 +93,9 @@ export default function SpotifyRightSidebar({
                   {currentTrack.genre || 'V-Pop'}
                 </span>
                 <span>• {currentTrack.duration || '3:30'}</span>
-                <span>• {(currentTrack.playCount || 120000).toLocaleString()} lượt nghe</span>
+                {typeof currentTrack.playCount === 'number' && currentTrack.playCount > 0 && (
+                  <span>• {currentTrack.playCount.toLocaleString()} lượt nghe</span>
+                )}
               </div>
             </div>
 
@@ -106,9 +108,11 @@ export default function SpotifyRightSidebar({
                 </div>
                 <div className="flex flex-col min-w-0">
                   <span className="font-bold text-sm text-on-surface truncate">{currentTrack.artist}</span>
-                  <span className="text-xs text-primary font-semibold flex items-center gap-1">
-                    <span className="material-symbols-outlined text-sm">verified</span> Nghệ sĩ đã xác minh
-                  </span>
+                  {currentTrack.isVerified !== false && (
+                    <span className="text-xs text-primary font-semibold flex items-center gap-1">
+                      <span className="material-symbols-outlined text-sm">verified</span> Nghệ sĩ đã xác minh
+                    </span>
+                  )}
                 </div>
               </div>
               <p className="text-xs text-secondary leading-relaxed line-clamp-3">
