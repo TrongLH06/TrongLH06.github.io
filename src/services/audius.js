@@ -63,9 +63,9 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
     durationSeconds: 250,
     playCount: 825400,
     audioUrl: 'https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream',
-    img: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&auto=format&fit=crop&q=80',
+    img: 'https://cdn-images.dzcdn.net/images/artist/736c5b8ff5a001b724fb92c7471c9f1d/500x500-000000-80-0-0.jpg',
     artwork: {
-      url: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&auto=format&fit=crop&q=80',
+      url: 'https://cdn-images.dzcdn.net/images/artist/736c5b8ff5a001b724fb92c7471c9f1d/500x500-000000-80-0-0.jpg',
       mirrors: []
     }
   },
@@ -171,9 +171,9 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
     durationSeconds: 200,
     playCount: 462000,
     audioUrl: 'https://api.audius.co/v1/tracks/YZawm/stream?app_name=SoundStream',
-    img: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80',
+    img: 'https://cdn-images.dzcdn.net/images/artist/731891d7627e78e25ea9e507d3fd8333/500x500-000000-80-0-0.jpg',
     artwork: {
-      url: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80',
+      url: 'https://cdn-images.dzcdn.net/images/artist/731891d7627e78e25ea9e507d3fd8333/500x500-000000-80-0-0.jpg',
       mirrors: []
     }
   },
@@ -261,9 +261,9 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
     durationSeconds: 171,
     playCount: 562000,
     audioUrl: 'https://api.audius.co/v1/tracks/kJ503/stream?app_name=SoundStream',
-    img: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&auto=format&fit=crop&q=80',
+    img: 'https://cdn-images.dzcdn.net/images/artist/9bd431c75ea8b685c763e0957a1a72d2/500x500-000000-80-0-0.jpg',
     artwork: {
-      url: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&auto=format&fit=crop&q=80',
+      url: 'https://cdn-images.dzcdn.net/images/artist/9bd431c75ea8b685c763e0957a1a72d2/500x500-000000-80-0-0.jpg',
       mirrors: []
     }
   },
@@ -279,9 +279,9 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
     durationSeconds: 218,
     playCount: 684000,
     audioUrl: 'https://api.audius.co/v1/tracks/dYZA4/stream?app_name=SoundStream',
-    img: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=600&auto=format&fit=crop&q=80',
+    img: 'https://cdn-images.dzcdn.net/images/artist/9bd431c75ea8b685c763e0957a1a72d2/500x500-000000-80-0-0.jpg',
     artwork: {
-      url: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=600&auto=format&fit=crop&q=80',
+      url: 'https://cdn-images.dzcdn.net/images/artist/9bd431c75ea8b685c763e0957a1a72d2/500x500-000000-80-0-0.jpg',
       mirrors: []
     }
   },
@@ -333,9 +333,9 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
     durationSeconds: 174,
     playCount: 432000,
     audioUrl: 'https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream',
-    img: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=600&auto=format&fit=crop&q=80',
+    img: 'https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg',
     artwork: {
-      url: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=600&auto=format&fit=crop&q=80',
+      url: 'https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg',
       mirrors: []
     }
   },
@@ -351,9 +351,9 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
     durationSeconds: 1328,
     playCount: 1530000,
     audioUrl: 'https://api.audius.co/v1/tracks/JE6A2/stream?app_name=SoundStream',
-    img: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&auto=format&fit=crop&q=80',
+    img: 'https://cdn-images.dzcdn.net/images/artist/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg',
     artwork: {
-      url: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&auto=format&fit=crop&q=80',
+      url: 'https://cdn-images.dzcdn.net/images/artist/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg',
       mirrors: []
     }
   }
@@ -407,7 +407,7 @@ export const VERIFIED_AUDIUS_PLAYLISTS = [
     trackCount: 16,
     user: { name: 'V-Pop Nostalgia', handle: 'vpop_golden', isVerified: true },
     artwork: {
-      url: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&auto=format&fit=crop&q=80',
+      url: 'https://cdn-images.dzcdn.net/images/artist/a53d47ab3b948026c53d9fc43958e61e/500x500-000000-80-0-0.jpg',
       mirrors: []
     }
   },
@@ -440,7 +440,7 @@ export const VERIFIED_AUDIUS_PLAYLISTS = [
     trackCount: 15,
     user: { name: 'Gen Z Vibes', handle: 'genz_viet', isVerified: true },
     artwork: {
-      url: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80',
+      url: 'https://cdn-images.dzcdn.net/images/artist/ee2f42bb7a077ee88b189f4edf422b3e/500x500-000000-80-0-0.jpg',
       mirrors: []
     }
   },
@@ -451,7 +451,7 @@ export const VERIFIED_AUDIUS_PLAYLISTS = [
     trackCount: 18,
     user: { name: 'Soul of V-Pop', handle: 'vpop_ballad', isVerified: true },
     artwork: {
-      url: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop&q=80',
+      url: 'https://cdn-images.dzcdn.net/images/artist/c98e6b8293a577dbc996f3bd45e926c9/500x500-000000-80-0-0.jpg',
       mirrors: []
     }
   },
@@ -473,7 +473,7 @@ export const VERIFIED_AUDIUS_PLAYLISTS = [
     trackCount: 15,
     user: { name: 'Audius Editorial', handle: 'audius', isVerified: true },
     artwork: {
-      url: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&auto=format&fit=crop&q=80',
+      url: 'https://audius.co/assets/TokenAUDIO-B9fxmOIn.png',
       mirrors: []
     }
   }
