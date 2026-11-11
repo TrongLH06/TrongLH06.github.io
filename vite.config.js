@@ -20,7 +20,11 @@ export default defineConfig({
           if (id.includes('node_modules')) {
             return 'vendor';
           }
-          if (id.includes('audius_vietnam_full') || id.includes('vietnamese_artists_catalog')) {
+          if (
+            id.includes('audius_vietnam_full') ||
+            id.includes('vietnamese_artists_catalog') ||
+            id.includes('spotify_avatars')
+          ) {
             return 'music-catalog';
           }
         }

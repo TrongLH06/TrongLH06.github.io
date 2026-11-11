@@ -572,9 +572,11 @@ export default function SoundStreamArtistView({
               />
             </div>
             <div className="flex-1 text-center md:text-left">
-              <div className="text-sm font-bold text-white mb-1">
-                {artist?.monthlyListeners || '1,500,000'} người nghe hàng tháng
-              </div>
+              {artist?.monthlyListeners && (
+                <div className="text-sm font-bold text-white mb-1">
+                  {artist.monthlyListeners} người nghe hàng tháng
+                </div>
+              )}
               <p className="text-sm text-[#b3b3b3] leading-relaxed max-w-3xl">
                 {artist?.bio}
               </p>

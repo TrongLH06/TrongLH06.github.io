@@ -5,10 +5,34 @@
  */
 
 import { audiusVietnamTracks } from './audius_vietnam_full.js';
-import { ARTIST_CATEGORIES, VIETNAMESE_ARTISTS, FULL_VIETNAMESE_TRACKS } from './vietnamese_artists_catalog.js';
+import {
+  ARTIST_CATEGORIES,
+  VIETNAMESE_ARTISTS as BASE_VIETNAMESE_ARTISTS,
+  FULL_VIETNAMESE_TRACKS as BASE_FULL_VIETNAMESE_TRACKS
+} from './vietnamese_artists_catalog.js';
+import {
+  SPOTIFY_ARTIST_AVATARS,
+  EXTRA_SPOTIFY_POPULAR_ARTISTS,
+  EXTRA_SPOTIFY_POPULAR_TRACKS
+} from './spotify_avatars.js';
 import { isMatchingTrackAndArtist } from './multi_source_audio.js';
 
-export { ARTIST_CATEGORIES, VIETNAMESE_ARTISTS, FULL_VIETNAMESE_TRACKS };
+export const VIETNAMESE_ARTISTS = [
+  ...BASE_VIETNAMESE_ARTISTS.map((art) => ({
+    ...art,
+    avatar: SPOTIFY_ARTIST_AVATARS[art.id] || art.avatar
+  })),
+  ...EXTRA_SPOTIFY_POPULAR_ARTISTS.filter(
+    (extra) => !BASE_VIETNAMESE_ARTISTS.some((b) => b.id === extra.id)
+  )
+];
+
+export const FULL_VIETNAMESE_TRACKS = [
+  ...BASE_FULL_VIETNAMESE_TRACKS,
+  ...EXTRA_SPOTIFY_POPULAR_TRACKS
+];
+
+export { ARTIST_CATEGORIES };
 
 const APP_NAME = 'SoundStream';
 const AUDIUS_API_BASE = 'https://api.audius.co/v1';
