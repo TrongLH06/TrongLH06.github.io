@@ -271,8 +271,8 @@ export default function SoundStreamHomeView({
                 }`}
                 title={`Mở danh sách ${(art.popularHits || []).length} bài hát của ${art.name}`}
               >
-                <div className="relative w-18 h-18 rounded-full overflow-hidden shadow-lg mb-2 ring-2 ring-white/10 group-hover:ring-primary transition-all">
-                  <img
+                <div className="relative w-18 h-18 rounded-full overflow-hidden shadow-lg mb-2 ring-2 ring-white/10 group-hover:ring-primary transition-all bg-[#282828]">
+                  <AudiusArtworkImage
                     src={art.avatar}
                     alt={art.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
@@ -485,10 +485,10 @@ export default function SoundStreamHomeView({
             {/* Inline Audio Waveform Visualizer */}
             <div className="my-4 p-3 bg-surface-container-lowest/60 rounded-xl flex items-center gap-3">
               <div className="w-10 h-10 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container-high">
-                <img
+                <AudiusArtworkImage
                   className="w-full h-full object-cover"
                   alt="Radio"
-                  src={audiusTrending[0]?.img || 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=100&auto=format&fit=crop&q=60'}
+                  src={audiusTrending[0]?.img}
                 />
               </div>
               <div className="flex-1 min-w-0">

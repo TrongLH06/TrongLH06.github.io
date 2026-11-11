@@ -16,10 +16,10 @@ const CATEGORIES = [
   { id: 'c1', name: 'V-Pop Hits', from: '#147230', to: '#0A3D19', img: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/25/53/6d/25536d14-c747-c636-97a9-a0add507eece/197188197605.jpg/600x600bb.jpg' },
   { id: 'c2', name: 'Rap Việt / Hiphop', from: '#E01E5A', to: '#700F2D', img: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8e/bb/ff/8ebbff69-0b36-118d-6dab-d2b3a9c3d677/602448945051_Cover.jpg/600x600bb.jpg' },
   { id: 'c3', name: 'Indie & Chill', from: '#6C5CE7', to: '#392E87', img: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c2/7e/23/c27e23b0-9730-b12a-3800-61b4c22462de/artwork.jpg/600x600bb.jpg' },
-  { id: 'c4', name: 'Lo-Fi Chill Beats', from: '#1E3264', to: '#0A1633', img: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=300&auto=format&fit=crop&q=60' },
-  { id: 'c5', name: 'Ballad Trữ Tình', from: '#8400E7', to: '#45037d', img: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=300&auto=format&fit=crop&q=60' },
-  { id: 'c6', name: 'Anh Trai Say Hi', from: '#0D73EC', to: '#043A78', img: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300&auto=format&fit=crop&q=60' },
-  { id: 'c7', name: 'Acoustic Buồn', from: '#006450', to: '#01352A', img: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300&auto=format&fit=crop&q=60' }
+  { id: 'c4', name: 'Lo-Fi Chill Beats', from: '#1E3264', to: '#0A1633', img: 'https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg' },
+  { id: 'c5', name: 'Ballad Trữ Tình', from: '#8400E7', to: '#45037d', img: 'https://cdn-images.dzcdn.net/images/artist/c98e6b8293a577dbc996f3bd45e926c9/500x500-000000-80-0-0.jpg' },
+  { id: 'c6', name: 'Anh Trai Say Hi', from: '#0D73EC', to: '#043A78', img: 'https://cdn-images.dzcdn.net/images/artist/731891d7627e78e25ea9e507d3fd8333/500x500-000000-80-0-0.jpg' },
+  { id: 'c7', name: 'Acoustic Buồn', from: '#006450', to: '#01352A', img: 'https://cdn-images.dzcdn.net/images/artist/3b39de9719ace79996aa2a893a1d42c7/500x500-000000-80-0-0.jpg' }
 ];
 
 export default function SoundStreamSearchView({
@@ -246,8 +246,8 @@ export default function SoundStreamSearchView({
                 className="group flex flex-col items-center text-center p-3 rounded-2xl bg-surface-container/60 hover:bg-surface-container-high transition-all duration-300 cursor-pointer shadow hover:-translate-y-1 border border-white/5 hover:border-primary/40"
                 title={`Mở danh sách ${(art.popularHits || []).length} bài hát của ${art.name}`}
               >
-                <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden shadow-lg mb-2 ring-2 ring-white/10 group-hover:ring-primary transition-all">
-                  <img
+                <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden shadow-lg mb-2 ring-2 ring-white/10 group-hover:ring-primary transition-all bg-[#282828]">
+                  <AudiusArtworkImage
                     src={art.avatar}
                     alt={art.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
@@ -281,9 +281,9 @@ export default function SoundStreamSearchView({
                   <div className="p-6 rounded-2xl bg-gradient-to-r from-[#0e3b36] via-surface-container-high to-surface-container flex flex-col sm:flex-row items-center gap-6 border border-primary/30 shadow-xl">
                     <div
                       onClick={() => onSelectArtist && onSelectArtist(matched.id)}
-                      className="w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden shadow-2xl flex-shrink-0 ring-4 ring-primary/40 cursor-pointer group"
+                      className="w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden shadow-2xl flex-shrink-0 ring-4 ring-primary/40 cursor-pointer group bg-[#282828]"
                     >
-                      <img
+                      <AudiusArtworkImage
                         src={matched.avatar}
                         alt={matched.name}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform"
@@ -365,7 +365,7 @@ export default function SoundStreamSearchView({
                         onClick={() => onSelectArtist && onSelectArtist(art.id)}
                         className="group flex items-center gap-3 p-2.5 pr-4 rounded-2xl bg-surface-container-high hover:bg-surface-container-highest border border-white/5 hover:border-primary/40 cursor-pointer shrink-0 transition-all"
                       >
-                        <img
+                        <AudiusArtworkImage
                           src={art.avatar}
                           alt={art.name}
                           className="w-12 h-12 rounded-full object-cover ring-2 ring-white/10 group-hover:ring-primary"

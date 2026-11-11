@@ -82,7 +82,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Đen",
     "role": "Rapper Quốc Dân",
     "genre": "Rap Việt / Storytelling",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/f9817109258089a609fe01a4b9bd7054/500x500-000000-80-0-0.jpg",
+    "avatar": "https://cdn-images.dzcdn.net/images/artist/da485d4cbf15cccb0f94a720ce03f2c3/500x500-000000-80-0-0.jpg",
     "monthlyListeners": "3,250,000",
     "bio": "Rapper với ca từ mộc mạc, triết lý sống gần gũi chạm đến trái tim hàng triệu khán giả.",
     "popularHits": [
@@ -206,7 +206,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Jack",
     "role": "Ngôi Sao Triệu View",
     "genre": "V-Pop / Dân Gian Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/4a85f4598c6464619085847a73ac9179/500x500-000000-80-0-0.jpg",
+    "avatar": "https://cdn-images.dzcdn.net/images/artist/6724716bf1929e7648dba73078cb42bf/500x500-000000-80-0-0.jpg",
     "monthlyListeners": "2,820,000",
     "bio": "Ca sĩ sở hữu chất giọng luyến láy miền Tây độc đáo và kho hit triệu view bùng nổ mạng xã hội.",
     "popularHits": [
@@ -327,7 +327,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "MONO",
     "role": "Tân Binh Quái Vật V-Pop",
     "genre": "V-Pop / Synthwave & R&B",
-    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+    "avatar": "https://cdn-images.dzcdn.net/images/artist/aaf176ce82042b58498d91515a4a45c3/500x500-000000-80-0-0.jpg",
     "monthlyListeners": "2,350,000",
     "bio": "Gây bão toàn cõi mạng ngay từ màn debut với Waiting For You và tư duy âm nhạc thời thượng.",
     "popularHits": [
@@ -447,7 +447,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Phương Ly",
     "role": "Nàng Thơ V-Pop",
     "genre": "V-Pop / Cute Pop",
-    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/1d/44/bb1d449b-0f01-3cd4-a7db-cb3494910015/197338502679.jpg/600x600bb.jpg",
+    "avatar": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec38bc011b0/500x500-000000-80-0-0.jpg",
     "monthlyListeners": "1,920,000",
     "bio": "Nàng thơ mang đến những giai điệu ngọt ngào, tích cực như ánh mặt trời cho làng nhạc Việt.",
     "popularHits": [
@@ -751,7 +751,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "JustaTee",
     "role": "Ông Hoàng Melodic V-Pop & R&B",
     "genre": "R&B / Melodic Rap",
-    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/df/49/59df49c3-e2d2-5100-948e-498ac96357ed/5054197233067.jpg/600x600bb.jpg",
+    "avatar": "https://cdn-images.dzcdn.net/images/cover/90e8865dfce0e4b4982cf6e7827ac7be/500x500-000000-80-0-0.jpg",
     "monthlyListeners": "2,890,000",
     "bio": "Giám đốc âm nhạc quyền lực đứng sau thành công rực rỡ của Rap Việt và Anh Trai Say Hi.",
     "popularHits": [
@@ -775,7 +775,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Rhymastic",
     "role": "Phù Thủy Âm Nhạc SpaceSpeakers",
     "genre": "Rap Việt / Electronic & R&B",
-    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bc/28/55/bc28556d-7b90-4626-e672-7d80f7f99ed7/190295176259.jpg/600x600bb.jpg",
+    "avatar": "https://cdn-images.dzcdn.net/images/cover/e784d5f6f06d3734cb7014697f94d147/500x500-000000-80-0-0.jpg",
     "monthlyListeners": "2,420,000",
     "bio": "Nhà sản xuất kiêm rapper thiên tài, người tạo nên siêu phẩm Yêu 5 và loạt hit đẳng cấp.",
     "popularHits": [
@@ -842,7 +842,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "HURRYKNG",
     "role": "Chiến Binh Tổ Đội GERDNANG",
     "genre": "Rap Việt / Trap & R&B",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/72ce3a8922a0df932aa2725d46452cd5/500x500-000000-80-0-0.jpg",
+    "avatar": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
     "monthlyListeners": "1,980,000",
     "bio": "Mảnh ghép tài năng của GERDNANG gây bão với kỹ năng rap sắc bén và visual điển trai.",
     "popularHits": [
@@ -864,7 +864,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Pháp Kiều",
     "role": "Rapper Cá Tính & Biến Hóa",
     "genre": "Rap Việt / Trap & Drill",
-    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+    "avatar": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
     "monthlyListeners": "1,890,000",
     "bio": "Hiện tượng Rap Việt và Say Hi với phong cách biểu diễn tự tin, năng lượng bùng nổ.",
     "popularHits": [
@@ -911,7 +911,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Chillies",
     "role": "Ban Nhạc Pop-Rock Số 1",
     "genre": "Indie / Pop-Rock",
-    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+    "avatar": "https://cdn-images.dzcdn.net/images/cover/417fade4de3f2441c2d9196ad6873943/500x500-000000-80-0-0.jpg",
     "monthlyListeners": "2,320,000",
     "bio": "Nhóm nhạc indie lãng mạn với giai điệu rộn ràng và những câu chuyện tình thanh xuân.",
     "popularHits": [
@@ -1073,7 +1073,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Erik",
     "role": "Hoàng Tử R&B Ballad",
     "genre": "V-Pop / R&B Ballad",
-    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/bd/ec/a5/bdeca513-106d-36a1-012e-18faf94c307d/197187572564.jpg/600x600bb.jpg",
+    "avatar": "https://cdn-images.dzcdn.net/images/artist/f0f911332477d28107dcdf533a02025e/500x500-000000-80-0-0.jpg",
     "monthlyListeners": "2,180,000",
     "bio": "Giọng hát ấm áp da diết với những bản tình ca ballad lãng mạn đầy cảm xúc.",
     "popularHits": [
@@ -1521,7 +1521,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Chông Gai",
     "role": "Đại Nhạc Hội Bản Sắc Việt",
     "genre": "Live Stage / Rock & Dân Tộc",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/32ac9237de901da6adcf123f6a8f3c41/500x500-000000-80-0-0.jpg",
+    "avatar": "https://cdn-images.dzcdn.net/images/cover/6ecc1dd3829c6569524639f99402742e/500x500-000000-80-0-0.jpg",
     "monthlyListeners": "4,200,000",
     "bio": "33 Anh Tài đưa tinh hoa văn hóa, lịch sử và âm nhạc dân tộc thăng hoa đỉnh cao cảm xúc.",
     "popularHits": [
@@ -1792,7 +1792,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "LyLy",
     "role": "Nữ Hitmaker Ngọt Ngào",
     "genre": "V-Pop / R&B & Acoustic Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/90fd51cb154087c20c540552c51dd0b6/500x500-000000-80-0-0.jpg",
+    "avatar": "https://cdn-images.dzcdn.net/images/artist/22b49671952380d0c0f4dc4edaa9623b/500x500-000000-80-0-0.jpg",
     "monthlyListeners": "2,050,000",
     "bio": "Ca sĩ - nhạc sĩ đứng sau 24H, Không Sao Mà Em Đây Rồi và những bản song ca tình tứ cùng Anh Tú.",
     "popularHits": [
@@ -2098,9 +2098,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4359000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/0b/38/e30b383e-5818-321a-7626-557b7b0f8ba3/24UMGIM61359.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/0b/38/e30b383e-5818-321a-7626-557b7b0f8ba3/24UMGIM61359.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2120,9 +2120,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 4149000,
     "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2142,9 +2142,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 276,
     "playCount": 3939000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/5c/57/135c57dd-5297-81f3-0f56-1ac5dad47f8c/23UM1IM10890.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c8438aa0b4888e893f4187ff2e0e4f7f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/5c/57/135c57dd-5297-81f3-0f56-1ac5dad47f8c/23UM1IM10890.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c8438aa0b4888e893f4187ff2e0e4f7f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2164,9 +2164,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 260,
     "playCount": 3729000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/66/29/38662963-6827-88c3-23c8-28571ceeb1a2/23UM1IM08525.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/66/29/38662963-6827-88c3-23c8-28571ceeb1a2/23UM1IM08525.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2186,9 +2186,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 233,
     "playCount": 3519000,
     "audioUrl": "https://api.audius.co/v1/tracks/Yolgk/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/98/cf/4a/98cf4a6d-6542-5944-f645-041fd66f542c/23UM1IM12207.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/98/cf/4a/98cf4a6d-6542-5944-f645-041fd66f542c/23UM1IM12207.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2208,9 +2208,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 246,
     "playCount": 3309000,
     "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/94/01/97/940197e4-8334-6dc9-c7a8-bc1df81ec7e2/23UM1IM08345.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c8438aa0b4888e893f4187ff2e0e4f7f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/94/01/97/940197e4-8334-6dc9-c7a8-bc1df81ec7e2/23UM1IM08345.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c8438aa0b4888e893f4187ff2e0e4f7f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2230,9 +2230,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 270,
     "playCount": 3099000,
     "audioUrl": "https://api.audius.co/v1/tracks/bQ53O/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/2c/27/6a2c27aa-f0fe-82c3-32fc-882fc4b53426/23UM1IM10639.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/2c/27/6a2c27aa-f0fe-82c3-32fc-882fc4b53426/23UM1IM10639.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2252,9 +2252,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2889000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/8a/82/718a8228-ad61-6750-9c35-d2ffb59fe9c4/5034644776330.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/8a/82/718a8228-ad61-6750-9c35-d2ffb59fe9c4/5034644776330.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2274,9 +2274,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 250,
     "playCount": 2679000,
     "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/0b/38/e30b383e-5818-321a-7626-557b7b0f8ba3/24UMGIM61359.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c8438aa0b4888e893f4187ff2e0e4f7f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/0b/38/e30b383e-5818-321a-7626-557b7b0f8ba3/24UMGIM61359.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c8438aa0b4888e893f4187ff2e0e4f7f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2296,9 +2296,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2469000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/63/1b/1a/631b1a1d-f87c-2864-1b9f-47ffd625e33f/23UM1IM10806.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2318,9 +2318,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2259000,
     "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/5c/57/135c57dd-5297-81f3-0f56-1ac5dad47f8c/23UM1IM10890.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/5c/57/135c57dd-5297-81f3-0f56-1ac5dad47f8c/23UM1IM10890.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2340,9 +2340,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2049000,
     "audioUrl": "https://api.audius.co/v1/tracks/bQ53O/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/66/29/38662963-6827-88c3-23c8-28571ceeb1a2/23UM1IM08525.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c8438aa0b4888e893f4187ff2e0e4f7f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/66/29/38662963-6827-88c3-23c8-28571ceeb1a2/23UM1IM08525.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c8438aa0b4888e893f4187ff2e0e4f7f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2362,9 +2362,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 1839000,
     "audioUrl": "https://api.audius.co/v1/tracks/Yolgk/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/98/cf/4a/98cf4a6d-6542-5944-f645-041fd66f542c/23UM1IM12207.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/98/cf/4a/98cf4a6d-6542-5944-f645-041fd66f542c/23UM1IM12207.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2384,9 +2384,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 1629000,
     "audioUrl": "https://api.audius.co/v1/tracks/9mgmo/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/94/01/97/940197e4-8334-6dc9-c7a8-bc1df81ec7e2/23UM1IM08345.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/94/01/97/940197e4-8334-6dc9-c7a8-bc1df81ec7e2/23UM1IM08345.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2406,9 +2406,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 4101000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RpN1/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/6f/ad/cb6fad6d-03c3-8eb9-6f69-64e4e61240cf/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0343ffbcbcc17cb9b243989c922ef4eb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/6f/ad/cb6fad6d-03c3-8eb9-6f69-64e4e61240cf/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0343ffbcbcc17cb9b243989c922ef4eb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2428,9 +2428,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3891000,
     "audioUrl": "https://api.audius.co/v1/tracks/wpqWK/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b0/8d/36/b08d3630-a7db-de74-f668-e297389b1f05/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/da485d4cbf15cccb0f94a720ce03f2c3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b0/8d/36/b08d3630-a7db-de74-f668-e297389b1f05/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/da485d4cbf15cccb0f94a720ce03f2c3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2451,9 +2451,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 200,
     "playCount": 3681000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RpN1/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/6f/ad/cb6fad6d-03c3-8eb9-6f69-64e4e61240cf/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6148351936ff26215c610cad6f4be1cd/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/6f/ad/cb6fad6d-03c3-8eb9-6f69-64e4e61240cf/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6148351936ff26215c610cad6f4be1cd/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2473,9 +2473,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3471000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b0/8d/36/b08d3630-a7db-de74-f668-e297389b1f05/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0343ffbcbcc17cb9b243989c922ef4eb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b0/8d/36/b08d3630-a7db-de74-f668-e297389b1f05/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0343ffbcbcc17cb9b243989c922ef4eb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2495,9 +2495,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3261000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RpN1/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/6f/ad/cb6fad6d-03c3-8eb9-6f69-64e4e61240cf/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/da485d4cbf15cccb0f94a720ce03f2c3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/6f/ad/cb6fad6d-03c3-8eb9-6f69-64e4e61240cf/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/da485d4cbf15cccb0f94a720ce03f2c3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2517,9 +2517,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3051000,
     "audioUrl": "https://api.audius.co/v1/tracks/wpqWK/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b0/8d/36/b08d3630-a7db-de74-f668-e297389b1f05/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6148351936ff26215c610cad6f4be1cd/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b0/8d/36/b08d3630-a7db-de74-f668-e297389b1f05/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6148351936ff26215c610cad6f4be1cd/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2539,9 +2539,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 216,
     "playCount": 2841000,
     "audioUrl": "https://api.audius.co/v1/tracks/wpqWK/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/6f/ad/cb6fad6d-03c3-8eb9-6f69-64e4e61240cf/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0343ffbcbcc17cb9b243989c922ef4eb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/6f/ad/cb6fad6d-03c3-8eb9-6f69-64e4e61240cf/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0343ffbcbcc17cb9b243989c922ef4eb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2561,9 +2561,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2631000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b0/8d/36/b08d3630-a7db-de74-f668-e297389b1f05/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/da485d4cbf15cccb0f94a720ce03f2c3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b0/8d/36/b08d3630-a7db-de74-f668-e297389b1f05/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/da485d4cbf15cccb0f94a720ce03f2c3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2583,9 +2583,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2421000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RpN1/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/6f/ad/cb6fad6d-03c3-8eb9-6f69-64e4e61240cf/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6148351936ff26215c610cad6f4be1cd/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/6f/ad/cb6fad6d-03c3-8eb9-6f69-64e4e61240cf/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6148351936ff26215c610cad6f4be1cd/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2605,9 +2605,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2211000,
     "audioUrl": "https://api.audius.co/v1/tracks/wpqWK/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b0/8d/36/b08d3630-a7db-de74-f668-e297389b1f05/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0343ffbcbcc17cb9b243989c922ef4eb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b0/8d/36/b08d3630-a7db-de74-f668-e297389b1f05/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0343ffbcbcc17cb9b243989c922ef4eb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2627,9 +2627,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2001000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/6f/ad/cb6fad6d-03c3-8eb9-6f69-64e4e61240cf/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/da485d4cbf15cccb0f94a720ce03f2c3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/6f/ad/cb6fad6d-03c3-8eb9-6f69-64e4e61240cf/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/da485d4cbf15cccb0f94a720ce03f2c3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2649,9 +2649,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 1791000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b0/8d/36/b08d3630-a7db-de74-f668-e297389b1f05/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6148351936ff26215c610cad6f4be1cd/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b0/8d/36/b08d3630-a7db-de74-f668-e297389b1f05/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6148351936ff26215c610cad6f4be1cd/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2671,9 +2671,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 1581000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RpN1/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/6f/ad/cb6fad6d-03c3-8eb9-6f69-64e4e61240cf/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0343ffbcbcc17cb9b243989c922ef4eb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/6f/ad/cb6fad6d-03c3-8eb9-6f69-64e4e61240cf/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0343ffbcbcc17cb9b243989c922ef4eb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2694,9 +2694,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4058000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/c3/40/d9c34087-a55e-fa27-2ab1-7c1dd4a1185a/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2ffa1c5d2c0ab57b35fe8ad58c61df4e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/c3/40/d9c34087-a55e-fa27-2ab1-7c1dd4a1185a/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2ffa1c5d2c0ab57b35fe8ad58c61df4e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2716,9 +2716,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3848000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/f2/96/2ff296b2-167d-81dc-290c-5ced7e263aaf/31779.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a53d47ab3b948026c53d9fc43958e61e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/f2/96/2ff296b2-167d-81dc-290c-5ced7e263aaf/31779.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a53d47ab3b948026c53d9fc43958e61e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2738,9 +2738,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3638000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/c3/40/d9c34087-a55e-fa27-2ab1-7c1dd4a1185a/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6ff15ef7c5570259122470f359fcbd7c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/c3/40/d9c34087-a55e-fa27-2ab1-7c1dd4a1185a/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6ff15ef7c5570259122470f359fcbd7c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2760,9 +2760,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3428000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/f2/96/2ff296b2-167d-81dc-290c-5ced7e263aaf/31779.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2ffa1c5d2c0ab57b35fe8ad58c61df4e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/f2/96/2ff296b2-167d-81dc-290c-5ced7e263aaf/31779.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2ffa1c5d2c0ab57b35fe8ad58c61df4e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2782,9 +2782,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3218000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/c3/40/d9c34087-a55e-fa27-2ab1-7c1dd4a1185a/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a53d47ab3b948026c53d9fc43958e61e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/c3/40/d9c34087-a55e-fa27-2ab1-7c1dd4a1185a/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a53d47ab3b948026c53d9fc43958e61e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2804,9 +2804,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3008000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/f2/96/2ff296b2-167d-81dc-290c-5ced7e263aaf/31779.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6ff15ef7c5570259122470f359fcbd7c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/f2/96/2ff296b2-167d-81dc-290c-5ced7e263aaf/31779.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6ff15ef7c5570259122470f359fcbd7c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2826,9 +2826,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2798000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/c3/40/d9c34087-a55e-fa27-2ab1-7c1dd4a1185a/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2ffa1c5d2c0ab57b35fe8ad58c61df4e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/c3/40/d9c34087-a55e-fa27-2ab1-7c1dd4a1185a/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2ffa1c5d2c0ab57b35fe8ad58c61df4e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2848,9 +2848,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2588000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/f2/96/2ff296b2-167d-81dc-290c-5ced7e263aaf/31779.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a53d47ab3b948026c53d9fc43958e61e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/f2/96/2ff296b2-167d-81dc-290c-5ced7e263aaf/31779.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a53d47ab3b948026c53d9fc43958e61e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2870,9 +2870,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2378000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/c3/40/d9c34087-a55e-fa27-2ab1-7c1dd4a1185a/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6ff15ef7c5570259122470f359fcbd7c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/c3/40/d9c34087-a55e-fa27-2ab1-7c1dd4a1185a/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6ff15ef7c5570259122470f359fcbd7c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2892,9 +2892,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2168000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/f2/96/2ff296b2-167d-81dc-290c-5ced7e263aaf/31779.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2ffa1c5d2c0ab57b35fe8ad58c61df4e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/f2/96/2ff296b2-167d-81dc-290c-5ced7e263aaf/31779.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2ffa1c5d2c0ab57b35fe8ad58c61df4e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2914,9 +2914,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 1958000,
     "audioUrl": "https://api.audius.co/v1/tracks/Ma7bo/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/c3/40/d9c34087-a55e-fa27-2ab1-7c1dd4a1185a/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a53d47ab3b948026c53d9fc43958e61e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/c3/40/d9c34087-a55e-fa27-2ab1-7c1dd4a1185a/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a53d47ab3b948026c53d9fc43958e61e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2939,9 +2939,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 1748000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/f2/96/2ff296b2-167d-81dc-290c-5ced7e263aaf/31779.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6ff15ef7c5570259122470f359fcbd7c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/f2/96/2ff296b2-167d-81dc-290c-5ced7e263aaf/31779.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6ff15ef7c5570259122470f359fcbd7c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2961,9 +2961,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 185,
     "playCount": 4445000,
     "audioUrl": "https://api.audius.co/v1/tracks/xP14j/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/80/bc/67/80bc6745-2237-0025-d13e-fb1874b2b39a/886449935581.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5ee7d6a6ee76d04e61a90f745b0100cb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/80/bc/67/80bc6745-2237-0025-d13e-fb1874b2b39a/886449935581.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5ee7d6a6ee76d04e61a90f745b0100cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -2983,9 +2983,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 4235000,
     "audioUrl": "https://api.audius.co/v1/tracks/4AJVa/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/75/2f/5e/752f5ebb-2c75-0082-1376-fb557500ea63/886449980376.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/93e3c718b9816c6505f6f1086ee7cee7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/75/2f/5e/752f5ebb-2c75-0082-1376-fb557500ea63/886449980376.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/93e3c718b9816c6505f6f1086ee7cee7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3005,9 +3005,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4025000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e7/f2/47/e7f247b4-4e17-754c-fd30-d689853eaed5/196589139481.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b0801156337949061bd91cafb557640a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e7/f2/47/e7f247b4-4e17-754c-fd30-d689853eaed5/196589139481.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b0801156337949061bd91cafb557640a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3027,9 +3027,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3815000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/47/95/92/4795925a-bee3-79c3-3900-7e89f831af48/196589364418.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2f620c90d5ab1636d2beeed7f42695ac/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/47/95/92/4795925a-bee3-79c3-3900-7e89f831af48/196589364418.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2f620c90d5ab1636d2beeed7f42695ac/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3049,9 +3049,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3605000,
     "audioUrl": "https://api.audius.co/v1/tracks/xz5krNj/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c2/5a/25/c25a256d-42b8-b51f-cdfb-c3bf4b3bd8ad/196872580556.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/213e41c9dd54df577db2a90c62fd349a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c2/5a/25/c25a256d-42b8-b51f-cdfb-c3bf4b3bd8ad/196872580556.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/213e41c9dd54df577db2a90c62fd349a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3071,9 +3071,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3395000,
     "audioUrl": "https://api.audius.co/v1/tracks/xP14j/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/93/1f/65931f2b-00eb-c4d4-1a3f-00c4e96ca804/886448073956.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5ee7d6a6ee76d04e61a90f745b0100cb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/93/1f/65931f2b-00eb-c4d4-1a3f-00c4e96ca804/886448073956.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5ee7d6a6ee76d04e61a90f745b0100cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3093,9 +3093,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3185000,
     "audioUrl": "https://api.audius.co/v1/tracks/4AJVa/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/42/ba/8b/42ba8b08-d5bd-9986-a315-e80a65da8aa9/197338168295.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/93e3c718b9816c6505f6f1086ee7cee7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/42/ba/8b/42ba8b08-d5bd-9986-a315-e80a65da8aa9/197338168295.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/93e3c718b9816c6505f6f1086ee7cee7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3115,9 +3115,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2975000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/02/8b/2d/028b2d86-b03b-719f-2178-135a09a0cc51/197338904114.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b0801156337949061bd91cafb557640a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/02/8b/2d/028b2d86-b03b-719f-2178-135a09a0cc51/197338904114.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b0801156337949061bd91cafb557640a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3137,9 +3137,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2765000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/97/65/43/976543b8-977d-feae-a1f6-a122f44a9c19/886449802081.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2f620c90d5ab1636d2beeed7f42695ac/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/97/65/43/976543b8-977d-feae-a1f6-a122f44a9c19/886449802081.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2f620c90d5ab1636d2beeed7f42695ac/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3159,9 +3159,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2555000,
     "audioUrl": "https://api.audius.co/v1/tracks/xz5krNj/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/80/bc/67/80bc6745-2237-0025-d13e-fb1874b2b39a/886449935581.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/213e41c9dd54df577db2a90c62fd349a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/80/bc/67/80bc6745-2237-0025-d13e-fb1874b2b39a/886449935581.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/213e41c9dd54df577db2a90c62fd349a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3181,9 +3181,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2345000,
     "audioUrl": "https://api.audius.co/v1/tracks/xP14j/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/75/2f/5e/752f5ebb-2c75-0082-1376-fb557500ea63/886449980376.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5ee7d6a6ee76d04e61a90f745b0100cb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/75/2f/5e/752f5ebb-2c75-0082-1376-fb557500ea63/886449980376.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5ee7d6a6ee76d04e61a90f745b0100cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3203,9 +3203,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4187000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/25/53/6d/25536d14-c747-c636-97a9-a0add507eece/197188197605.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/d31a7f0e3550c077bebdc755d23c5ba3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/25/53/6d/25536d14-c747-c636-97a9-a0add507eece/197188197605.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/d31a7f0e3550c077bebdc755d23c5ba3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3225,9 +3225,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3977000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/ff/62/04ff6269-63ad-c356-bc8f-31f1503a35a8/197188768409.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/57ee6f4cb9b7f75f2642da4cec39d1ff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/ff/62/04ff6269-63ad-c356-bc8f-31f1503a35a8/197188768409.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/57ee6f4cb9b7f75f2642da4cec39d1ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3248,9 +3248,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3767000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/a7/09/73a7093d-2f0c-3961-2db0-e75afe80f41d/197188746445.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cbdec7c30f36db70847dd66dbbe07e1b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/a7/09/73a7093d-2f0c-3961-2db0-e75afe80f41d/197188746445.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cbdec7c30f36db70847dd66dbbe07e1b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3270,9 +3270,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3557000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/93/74/1d937492-d126-aafb-c228-00e8d9edf59d/197188784836.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8d2585f31296945d0b24690bfcce37de/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/93/74/1d937492-d126-aafb-c228-00e8d9edf59d/197188784836.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8d2585f31296945d0b24690bfcce37de/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3292,9 +3292,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3347000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f3/de/2a/f3de2a9b-6059-9318-d49b-86e48a8bab5f/7316475890378_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/d31a7f0e3550c077bebdc755d23c5ba3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f3/de/2a/f3de2a9b-6059-9318-d49b-86e48a8bab5f/7316475890378_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/d31a7f0e3550c077bebdc755d23c5ba3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3314,9 +3314,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3137000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/4f/17/54/4f17543d-115c-2a29-e0ea-2f0aba7e7284/5021732007766.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/57ee6f4cb9b7f75f2642da4cec39d1ff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/4f/17/54/4f17543d-115c-2a29-e0ea-2f0aba7e7284/5021732007766.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/57ee6f4cb9b7f75f2642da4cec39d1ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3336,9 +3336,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2927000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/29/9a/fd299a22-6cca-36b9-c928-3d48786b483f/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cbdec7c30f36db70847dd66dbbe07e1b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/29/9a/fd299a22-6cca-36b9-c928-3d48786b483f/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cbdec7c30f36db70847dd66dbbe07e1b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3358,9 +3358,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2717000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/25/53/6d/25536d14-c747-c636-97a9-a0add507eece/197188197605.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8d2585f31296945d0b24690bfcce37de/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/25/53/6d/25536d14-c747-c636-97a9-a0add507eece/197188197605.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8d2585f31296945d0b24690bfcce37de/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3380,9 +3380,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2507000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/ff/62/04ff6269-63ad-c356-bc8f-31f1503a35a8/197188768409.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/d31a7f0e3550c077bebdc755d23c5ba3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/ff/62/04ff6269-63ad-c356-bc8f-31f1503a35a8/197188768409.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/d31a7f0e3550c077bebdc755d23c5ba3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3402,9 +3402,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2297000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/a7/09/73a7093d-2f0c-3961-2db0-e75afe80f41d/197188746445.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/57ee6f4cb9b7f75f2642da4cec39d1ff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/a7/09/73a7093d-2f0c-3961-2db0-e75afe80f41d/197188746445.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/57ee6f4cb9b7f75f2642da4cec39d1ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3424,9 +3424,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 4058000,
     "audioUrl": "https://api.audius.co/v1/tracks/kJ503/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/c9/c9/b6c9c926-a521-fd99-39ef-cd535d11292e/24UMGIM73081.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/87465ab591c838ec324882198ff3bc1e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/c9/c9/b6c9c926-a521-fd99-39ef-cd535d11292e/24UMGIM73081.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/87465ab591c838ec324882198ff3bc1e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3446,9 +3446,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 308,
     "playCount": 3848000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/d2/5c/97d25cf4-0513-fa4a-809c-6c85502d4fda/085365595453.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/d2/5c/97d25cf4-0513-fa4a-809c-6c85502d4fda/085365595453.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3468,9 +3468,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3638000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/b6/83/3fb6831f-c79d-9255-c67a-4b0738eaa503/24UMGIM76557.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/b6/83/3fb6831f-c79d-9255-c67a-4b0738eaa503/24UMGIM76557.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3490,9 +3490,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3428000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0b/db/67/0bdb67ba-4e23-30d2-4b9c-87f1ded1b5e8/5026854189833.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c13728d7ff0e0e2e3aac8fc4e6fad783/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0b/db/67/0bdb67ba-4e23-30d2-4b9c-87f1ded1b5e8/5026854189833.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c13728d7ff0e0e2e3aac8fc4e6fad783/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3512,9 +3512,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3218000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d3/04/7a/d3047abe-24a0-762b-0dc4-b21b52f3860f/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/87465ab591c838ec324882198ff3bc1e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d3/04/7a/d3047abe-24a0-762b-0dc4-b21b52f3860f/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/87465ab591c838ec324882198ff3bc1e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3534,9 +3534,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 218,
     "playCount": 3008000,
     "audioUrl": "https://api.audius.co/v1/tracks/dYZA4/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/3b/69/783b6924-180a-8d5f-e359-b951dc63d68e/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/3b/69/783b6924-180a-8d5f-e359-b951dc63d68e/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3556,9 +3556,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 171,
     "playCount": 2798000,
     "audioUrl": "https://api.audius.co/v1/tracks/kJ503/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/23/98/26239816-57f7-9101-dc33-e739c06dcc8b/190296034534.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/23/98/26239816-57f7-9101-dc33-e739c06dcc8b/190296034534.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3578,9 +3578,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2588000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/d3/23/f8/d323f8d1-7448-5a06-3c67-cd4e6d80fbba/767A4110-DB31-11E6-8338-4BB62E18DA69.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c13728d7ff0e0e2e3aac8fc4e6fad783/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/d3/23/f8/d323f8d1-7448-5a06-3c67-cd4e6d80fbba/767A4110-DB31-11E6-8338-4BB62E18DA69.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c13728d7ff0e0e2e3aac8fc4e6fad783/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3600,9 +3600,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2378000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/07/55/e40755c1-9a5b-70ad-9947-f23e04be31fb/5034644411613_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/87465ab591c838ec324882198ff3bc1e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/07/55/e40755c1-9a5b-70ad-9947-f23e04be31fb/5034644411613_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/87465ab591c838ec324882198ff3bc1e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3622,9 +3622,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2168000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/b9/c8/03b9c861-ff77-ea76-7f3a-78cd5b90bec8/197338745595.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/b9/c8/03b9c861-ff77-ea76-7f3a-78cd5b90bec8/197338745595.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3644,9 +3644,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 1958000,
     "audioUrl": "https://api.audius.co/v1/tracks/kJ503/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8e/80/87/8e808723-6d5b-3e6f-787a-64f9fd0c3671/197338735909.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8e/80/87/8e808723-6d5b-3e6f-787a-64f9fd0c3671/197338735909.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3666,9 +3666,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 1748000,
     "audioUrl": "https://api.audius.co/v1/tracks/dYZA4/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/a3/ef/c2a3ef39-ff1e-0081-b73d-9315c6f9f912/24UMGIM84019.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c13728d7ff0e0e2e3aac8fc4e6fad783/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/a3/ef/c2a3ef39-ff1e-0081-b73d-9315c6f9f912/24UMGIM84019.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c13728d7ff0e0e2e3aac8fc4e6fad783/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3688,9 +3688,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 1538000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fb/ab/9d/fbab9da2-d1e3-4bd2-f30a-6caae35c390d/24UMGIM91048.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/87465ab591c838ec324882198ff3bc1e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fb/ab/9d/fbab9da2-d1e3-4bd2-f30a-6caae35c390d/24UMGIM91048.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/87465ab591c838ec324882198ff3bc1e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3710,9 +3710,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 254,
     "playCount": 4230000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzEK7/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6b/f3/49/6bf34996-65c5-04f1-331b-03b10c1785e4/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6be8036f9b31110e2ed517ff3f8087a4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6b/f3/49/6bf34996-65c5-04f1-331b-03b10c1785e4/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6be8036f9b31110e2ed517ff3f8087a4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3732,9 +3732,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4020000,
     "audioUrl": "https://api.audius.co/v1/tracks/8zdRP/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/39/c9/4c39c91c-8959-3876-a9d7-f17552cf2447/7316476316525.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cbc69f5c32a1a836f1947e7813e11fdd/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/39/c9/4c39c91c-8959-3876-a9d7-f17552cf2447/7316476316525.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cbc69f5c32a1a836f1947e7813e11fdd/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3754,9 +3754,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 192,
     "playCount": 3810000,
     "audioUrl": "https://api.audius.co/v1/tracks/640g3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e2/8b/5f/e28b5f07-1fb2-22bf-5d8f-735c0f5c19a1/197189789939.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/d4eff25350f00d19d2c7cf523d266a95/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e2/8b/5f/e28b5f07-1fb2-22bf-5d8f-735c0f5c19a1/197189789939.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/d4eff25350f00d19d2c7cf523d266a95/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3776,9 +3776,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3600000,
     "audioUrl": "https://api.audius.co/v1/tracks/Ma7bo/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/8c/98/788c98c3-009e-3cc2-c1dc-ffc88ed8cce8/196874717189.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/73cc4cb5bcfcbafa4a66a4d7a22a7af5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/8c/98/788c98c3-009e-3cc2-c1dc-ffc88ed8cce8/196874717189.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/73cc4cb5bcfcbafa4a66a4d7a22a7af5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3798,9 +3798,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3390000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzEK7/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/9b/af/a29baf4f-0441-473c-c703-f7a759abdff7/196874705902.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a09793b5f876ad4d10473b3dec34f92d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/9b/af/a29baf4f-0441-473c-c703-f7a759abdff7/196874705902.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a09793b5f876ad4d10473b3dec34f92d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3820,9 +3820,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3180000,
     "audioUrl": "https://api.audius.co/v1/tracks/8zdRP/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2e/e1/16/2ee11608-4ee9-5609-2c79-f68f173a7b01/196874738894.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3683cdda5c49d34cda83e18a3751a3a5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2e/e1/16/2ee11608-4ee9-5609-2c79-f68f173a7b01/196874738894.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3683cdda5c49d34cda83e18a3751a3a5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3842,9 +3842,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2970000,
     "audioUrl": "https://api.audius.co/v1/tracks/640g3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/ef/86/41ef86ce-34c4-c932-0f69-48516c7bb938/196874738887.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ef62ae7386c04cde758ff89e32f2a614/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/ef/86/41ef86ce-34c4-c932-0f69-48516c7bb938/196874738887.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ef62ae7386c04cde758ff89e32f2a614/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3864,9 +3864,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2760000,
     "audioUrl": "https://api.audius.co/v1/tracks/Ma7bo/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6b/f3/49/6bf34996-65c5-04f1-331b-03b10c1785e4/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/03c1430c77bd2c33c2cb080197cb7ad4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6b/f3/49/6bf34996-65c5-04f1-331b-03b10c1785e4/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/03c1430c77bd2c33c2cb080197cb7ad4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3886,9 +3886,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2550000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzEK7/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/39/c9/4c39c91c-8959-3876-a9d7-f17552cf2447/7316476316525.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6be8036f9b31110e2ed517ff3f8087a4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/39/c9/4c39c91c-8959-3876-a9d7-f17552cf2447/7316476316525.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6be8036f9b31110e2ed517ff3f8087a4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3908,9 +3908,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2340000,
     "audioUrl": "https://api.audius.co/v1/tracks/8zdRP/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e2/8b/5f/e28b5f07-1fb2-22bf-5d8f-735c0f5c19a1/197189789939.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cbc69f5c32a1a836f1947e7813e11fdd/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e2/8b/5f/e28b5f07-1fb2-22bf-5d8f-735c0f5c19a1/197189789939.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cbc69f5c32a1a836f1947e7813e11fdd/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3930,9 +3930,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2130000,
     "audioUrl": "https://api.audius.co/v1/tracks/640g3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/8c/98/788c98c3-009e-3cc2-c1dc-ffc88ed8cce8/196874717189.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/d4eff25350f00d19d2c7cf523d266a95/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/8c/98/788c98c3-009e-3cc2-c1dc-ffc88ed8cce8/196874717189.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/d4eff25350f00d19d2c7cf523d266a95/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3952,9 +3952,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 4445000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/46/8e/b5468e0a-c397-a7f0-1a3f-4b29cd1d01f4/196873530987.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/33224a27047e61591cf1a8626a67941b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/46/8e/b5468e0a-c397-a7f0-1a3f-4b29cd1d01f4/196873530987.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/33224a27047e61591cf1a8626a67941b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3974,9 +3974,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 4235000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/35/07/25350748-fb48-01a8-4497-23e111b8bbaf/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0b4bd5b675fcc3bae2bf7355ca5a990b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/35/07/25350748-fb48-01a8-4497-23e111b8bbaf/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0b4bd5b675fcc3bae2bf7355ca5a990b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -3996,9 +3996,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4025000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/b5/5b/e3b55b98-000c-328d-3fbc-6d08af2ecd1b/196873554969.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e3/b5/5b/e3b55b98-000c-328d-3fbc-6d08af2ecd1b/196873554969.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4018,9 +4018,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3815000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2c/b3/d3/2cb3d3ab-0513-5ee2-f0e7-0c7e8fe324cd/886448075547.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/33224a27047e61591cf1a8626a67941b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2c/b3/d3/2cb3d3ab-0513-5ee2-f0e7-0c7e8fe324cd/886448075547.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/33224a27047e61591cf1a8626a67941b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4040,9 +4040,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3605000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d0/07/78/d007785c-8f79-0942-6b90-ee25fe73c5cd/886448338994.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0b4bd5b675fcc3bae2bf7355ca5a990b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d0/07/78/d007785c-8f79-0942-6b90-ee25fe73c5cd/886448338994.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0b4bd5b675fcc3bae2bf7355ca5a990b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4062,9 +4062,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3395000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8b/33/6d/8b336de6-833a-2361-32b5-e56205fde868/196872221367.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8b/33/6d/8b336de6-833a-2361-32b5-e56205fde868/196872221367.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4084,9 +4084,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3185000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/23/c5/dc23c54a-9b51-e19f-8275-b7901c98f0ee/886447568187.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/33224a27047e61591cf1a8626a67941b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dc/23/c5/dc23c54a-9b51-e19f-8275-b7901c98f0ee/886447568187.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/33224a27047e61591cf1a8626a67941b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4106,9 +4106,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2975000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b2/26/1a/b2261a87-b399-7fd3-8a45-4dc61794490b/886448064008.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0b4bd5b675fcc3bae2bf7355ca5a990b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b2/26/1a/b2261a87-b399-7fd3-8a45-4dc61794490b/886448064008.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0b4bd5b675fcc3bae2bf7355ca5a990b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4128,9 +4128,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2765000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ad/ae/5e/adae5ec5-2127-2843-cdfd-3ca6326b2609/886447567913.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ad/ae/5e/adae5ec5-2127-2843-cdfd-3ca6326b2609/886447567913.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4150,9 +4150,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2555000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/bb/16/f3bb16db-e0c9-97d1-847c-e5e112673e2c/196872236101.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/33224a27047e61591cf1a8626a67941b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/bb/16/f3bb16db-e0c9-97d1-847c-e5e112673e2c/196872236101.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/33224a27047e61591cf1a8626a67941b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4172,9 +4172,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 4144000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d5/b0/03/d5b00304-ac9a-fadc-940b-a96887660ee2/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9ddc64beb80405602a85eb93344117fe/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d5/b0/03/d5b00304-ac9a-fadc-940b-a96887660ee2/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9ddc64beb80405602a85eb93344117fe/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4194,9 +4194,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3934000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b4/09/58/b4095827-6ef6-f3ce-f17d-1b5270c7b9b7/198391289538.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a3bf52e60a2d7fcc3d297edf7598c3ad/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b4/09/58/b4095827-6ef6-f3ce-f17d-1b5270c7b9b7/198391289538.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a3bf52e60a2d7fcc3d297edf7598c3ad/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4216,9 +4216,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3724000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/94/8c/e6/948ce63e-0eed-d7d5-f793-92b34cb6124b/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/eac0e39b9d9859c8d22102baf2a7e4ec/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/94/8c/e6/948ce63e-0eed-d7d5-f793-92b34cb6124b/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/eac0e39b9d9859c8d22102baf2a7e4ec/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4238,9 +4238,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3514000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/cb/d9/1c/cbd91c9a-72db-8c68-c897-b1653a0ff989/00602577389948.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a67780d38557f8ef871eb7abb67e7dd6/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/cb/d9/1c/cbd91c9a-72db-8c68-c897-b1653a0ff989/00602577389948.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a67780d38557f8ef871eb7abb67e7dd6/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4260,9 +4260,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3304000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/57/99/41/5799412f-0b01-d7e9-ec12-9047d2af1801/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/af84c5a6584932db0f1ea4a21020f7c3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/57/99/41/5799412f-0b01-d7e9-ec12-9047d2af1801/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/af84c5a6584932db0f1ea4a21020f7c3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4282,9 +4282,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3094000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/82/d6/7b/82d67bb2-2292-5f3e-7a1a-aa6845f8bcc4/859729978219_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b1229dcc1c4c4560dd652e0544cc11a7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/82/d6/7b/82d67bb2-2292-5f3e-7a1a-aa6845f8bcc4/859729978219_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b1229dcc1c4c4560dd652e0544cc11a7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4304,9 +4304,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2884000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/d4/b0/c7d4b0f1-d9d4-e4c3-bd5e-313bf6472df1/3617667517825_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7d6a81be5e58c8aaefa6473dc23f9ebf/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/d4/b0/c7d4b0f1-d9d4-e4c3-bd5e-313bf6472df1/3617667517825_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7d6a81be5e58c8aaefa6473dc23f9ebf/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4326,9 +4326,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2674000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f4/33/37/f4333715-2eea-08e5-41c6-8008b79574cb/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/13b6690afec7a970a41a2256dd3003fd/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f4/33/37/f4333715-2eea-08e5-41c6-8008b79574cb/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/13b6690afec7a970a41a2256dd3003fd/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4348,9 +4348,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2464000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a5/42/3b/a5423ba2-8ffd-110a-f2bc-949a968d7b1b/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2f5758a402f68f1b5797e8396ab62694/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a5/42/3b/a5423ba2-8ffd-110a-f2bc-949a968d7b1b/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2f5758a402f68f1b5797e8396ab62694/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4370,9 +4370,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2254000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d5/b0/03/d5b00304-ac9a-fadc-940b-a96887660ee2/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6aa32bf275a6fa6c49ca71b3fb73fc10/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d5/b0/03/d5b00304-ac9a-fadc-940b-a96887660ee2/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6aa32bf275a6fa6c49ca71b3fb73fc10/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4392,9 +4392,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2044000,
     "audioUrl": "https://api.audius.co/v1/tracks/Ma7bo/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b4/09/58/b4095827-6ef6-f3ce-f17d-1b5270c7b9b7/198391289538.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9ddc64beb80405602a85eb93344117fe/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b4/09/58/b4095827-6ef6-f3ce-f17d-1b5270c7b9b7/198391289538.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9ddc64beb80405602a85eb93344117fe/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4414,9 +4414,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4273000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6e/73/e8/6e73e853-55b9-3d12-1404-7aba3d846a1f/193483215983.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8657f00fce23d60e14184678e54af89f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6e/73/e8/6e73e853-55b9-3d12-1404-7aba3d846a1f/193483215983.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8657f00fce23d60e14184678e54af89f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4436,9 +4436,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 4063000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fc/90/43/fc90439a-8c8f-55c4-e94c-7b19d681ac69/192562552018.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f0e470e8e8897a3d5c9b98d5c2d1b564/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fc/90/43/fc90439a-8c8f-55c4-e94c-7b19d681ac69/192562552018.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f0e470e8e8897a3d5c9b98d5c2d1b564/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4458,9 +4458,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3853000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/03/43/6803430b-5505-7079-442d-f86c922d9882/085365390690.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0e4434fab9a35df45a97232554c638ef/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/03/43/6803430b-5505-7079-442d-f86c922d9882/085365390690.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0e4434fab9a35df45a97232554c638ef/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4480,9 +4480,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3643000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/38/08/40/38084053-3b22-bce0-ce8e-21c2d4e058de/893614818907.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8657f00fce23d60e14184678e54af89f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/38/08/40/38084053-3b22-bce0-ce8e-21c2d4e058de/893614818907.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8657f00fce23d60e14184678e54af89f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4502,9 +4502,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3433000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f6/8a/b9/f68ab914-0ccd-89c5-e6c8-14439c589632/190296442872.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f0e470e8e8897a3d5c9b98d5c2d1b564/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f6/8a/b9/f68ab914-0ccd-89c5-e6c8-14439c589632/190296442872.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f0e470e8e8897a3d5c9b98d5c2d1b564/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4524,9 +4524,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3223000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dd/08/02/dd080203-7318-239f-f98b-eefe08fa778a/196292945300.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0e4434fab9a35df45a97232554c638ef/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dd/08/02/dd080203-7318-239f-f98b-eefe08fa778a/196292945300.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0e4434fab9a35df45a97232554c638ef/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4546,9 +4546,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3013000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6e/73/e8/6e73e853-55b9-3d12-1404-7aba3d846a1f/193483215983.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8657f00fce23d60e14184678e54af89f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6e/73/e8/6e73e853-55b9-3d12-1404-7aba3d846a1f/193483215983.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8657f00fce23d60e14184678e54af89f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4568,9 +4568,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2803000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fc/90/43/fc90439a-8c8f-55c4-e94c-7b19d681ac69/192562552018.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f0e470e8e8897a3d5c9b98d5c2d1b564/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fc/90/43/fc90439a-8c8f-55c4-e94c-7b19d681ac69/192562552018.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f0e470e8e8897a3d5c9b98d5c2d1b564/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4590,9 +4590,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2593000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/03/43/6803430b-5505-7079-442d-f86c922d9882/085365390690.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0e4434fab9a35df45a97232554c638ef/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/03/43/6803430b-5505-7079-442d-f86c922d9882/085365390690.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0e4434fab9a35df45a97232554c638ef/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4612,9 +4612,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2383000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/38/08/40/38084053-3b22-bce0-ce8e-21c2d4e058de/893614818907.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8657f00fce23d60e14184678e54af89f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/38/08/40/38084053-3b22-bce0-ce8e-21c2d4e058de/893614818907.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8657f00fce23d60e14184678e54af89f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4634,9 +4634,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2173000,
     "audioUrl": "https://api.audius.co/v1/tracks/Ma7bo/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f6/8a/b9/f68ab914-0ccd-89c5-e6c8-14439c589632/190296442872.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f0e470e8e8897a3d5c9b98d5c2d1b564/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f6/8a/b9/f68ab914-0ccd-89c5-e6c8-14439c589632/190296442872.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f0e470e8e8897a3d5c9b98d5c2d1b564/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4656,9 +4656,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 277,
     "playCount": 4230000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/29/af/e829af94-46d8-0010-58a9-aa4ab931eb59/20UM1IM07398.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3aee686c20a01b23cf94fa7ed2c657b1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/29/af/e829af94-46d8-0010-58a9-aa4ab931eb59/20UM1IM07398.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3aee686c20a01b23cf94fa7ed2c657b1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4679,9 +4679,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 4020000,
     "audioUrl": "https://api.audius.co/v1/tracks/NYvGx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/34/50/2c3450d6-b496-1bf2-3559-0f655b568281/820200719713.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c297d51562fc30cd29ce9805f5368ee6/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/34/50/2c3450d6-b496-1bf2-3559-0f655b568281/820200719713.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c297d51562fc30cd29ce9805f5368ee6/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4706,9 +4706,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 315,
     "playCount": 3810000,
     "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/29/af/e829af94-46d8-0010-58a9-aa4ab931eb59/20UM1IM07398.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f9b6e83170bb1e6596396a282ede58f9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/29/af/e829af94-46d8-0010-58a9-aa4ab931eb59/20UM1IM07398.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f9b6e83170bb1e6596396a282ede58f9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4728,9 +4728,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3600000,
     "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/34/50/2c3450d6-b496-1bf2-3559-0f655b568281/820200719713.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9bbc1831a52ca6c4e95be14eabea63fe/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/34/50/2c3450d6-b496-1bf2-3559-0f655b568281/820200719713.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9bbc1831a52ca6c4e95be14eabea63fe/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4750,9 +4750,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 284,
     "playCount": 3390000,
     "audioUrl": "https://api.audius.co/v1/tracks/NY2QqJN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/29/af/e829af94-46d8-0010-58a9-aa4ab931eb59/20UM1IM07398.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3aee686c20a01b23cf94fa7ed2c657b1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/29/af/e829af94-46d8-0010-58a9-aa4ab931eb59/20UM1IM07398.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3aee686c20a01b23cf94fa7ed2c657b1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4772,9 +4772,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3180000,
     "audioUrl": "https://api.audius.co/v1/tracks/91OyO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/34/50/2c3450d6-b496-1bf2-3559-0f655b568281/820200719713.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c297d51562fc30cd29ce9805f5368ee6/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/34/50/2c3450d6-b496-1bf2-3559-0f655b568281/820200719713.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c297d51562fc30cd29ce9805f5368ee6/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4794,9 +4794,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 179,
     "playCount": 2970000,
     "audioUrl": "https://api.audius.co/v1/tracks/NYvGx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/29/af/e829af94-46d8-0010-58a9-aa4ab931eb59/20UM1IM07398.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f9b6e83170bb1e6596396a282ede58f9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/29/af/e829af94-46d8-0010-58a9-aa4ab931eb59/20UM1IM07398.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f9b6e83170bb1e6596396a282ede58f9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4816,9 +4816,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 200,
     "playCount": 2760000,
     "audioUrl": "https://api.audius.co/v1/tracks/YZawm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/34/50/2c3450d6-b496-1bf2-3559-0f655b568281/820200719713.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9bbc1831a52ca6c4e95be14eabea63fe/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/34/50/2c3450d6-b496-1bf2-3559-0f655b568281/820200719713.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9bbc1831a52ca6c4e95be14eabea63fe/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4838,9 +4838,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 210,
     "playCount": 2550000,
     "audioUrl": "https://api.audius.co/v1/tracks/91OyO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/29/af/e829af94-46d8-0010-58a9-aa4ab931eb59/20UM1IM07398.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3aee686c20a01b23cf94fa7ed2c657b1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/29/af/e829af94-46d8-0010-58a9-aa4ab931eb59/20UM1IM07398.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3aee686c20a01b23cf94fa7ed2c657b1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4860,9 +4860,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2340000,
     "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/34/50/2c3450d6-b496-1bf2-3559-0f655b568281/820200719713.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c297d51562fc30cd29ce9805f5368ee6/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/34/50/2c3450d6-b496-1bf2-3559-0f655b568281/820200719713.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c297d51562fc30cd29ce9805f5368ee6/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4882,9 +4882,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2130000,
     "audioUrl": "https://api.audius.co/v1/tracks/NY2QqJN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/29/af/e829af94-46d8-0010-58a9-aa4ab931eb59/20UM1IM07398.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f9b6e83170bb1e6596396a282ede58f9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/29/af/e829af94-46d8-0010-58a9-aa4ab931eb59/20UM1IM07398.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f9b6e83170bb1e6596396a282ede58f9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4907,9 +4907,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 1920000,
     "audioUrl": "https://api.audius.co/v1/tracks/91OyO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/34/50/2c3450d6-b496-1bf2-3559-0f655b568281/820200719713.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9bbc1831a52ca6c4e95be14eabea63fe/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/34/50/2c3450d6-b496-1bf2-3559-0f655b568281/820200719713.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9bbc1831a52ca6c4e95be14eabea63fe/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4932,9 +4932,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 1710000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/29/af/e829af94-46d8-0010-58a9-aa4ab931eb59/20UM1IM07398.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3aee686c20a01b23cf94fa7ed2c657b1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/29/af/e829af94-46d8-0010-58a9-aa4ab931eb59/20UM1IM07398.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3aee686c20a01b23cf94fa7ed2c657b1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4954,9 +4954,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3972000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ba437aa4306f861e2947fbf9f36fa590/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ba437aa4306f861e2947fbf9f36fa590/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4976,9 +4976,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3762000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a5b08212d4773b070d689dc8661fc368/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a5b08212d4773b070d689dc8661fc368/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -4998,9 +4998,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3552000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/22f24690a7ebb38273df670abbc0671d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/22f24690a7ebb38273df670abbc0671d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5020,9 +5020,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3342000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/af2a6e953ecc3d4b2bc547cf6345c0eb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/af2a6e953ecc3d4b2bc547cf6345c0eb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5042,9 +5042,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3132000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/909e4e122a3db7e3c3f821c4e289e2c5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/909e4e122a3db7e3c3f821c4e289e2c5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5064,9 +5064,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2922000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6b7f9fb755f8e33ef8d7cba85202ed06/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6b7f9fb755f8e33ef8d7cba85202ed06/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5086,9 +5086,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2712000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2bf87760e50827cec57318705bb64afa/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2bf87760e50827cec57318705bb64afa/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5108,9 +5108,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2502000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f93ef49d606dad5c6e81525f3a68d522/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f93ef49d606dad5c6e81525f3a68d522/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5130,9 +5130,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2292000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/45e8d6fe7a583042335d3c550db15427/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/45e8d6fe7a583042335d3c550db15427/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5152,9 +5152,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2082000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3cb73f2b38e78f7477db413c956f61f8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3cb73f2b38e78f7477db413c956f61f8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5174,9 +5174,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 1872000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ba437aa4306f861e2947fbf9f36fa590/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ba437aa4306f861e2947fbf9f36fa590/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5196,9 +5196,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 1662000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a5b08212d4773b070d689dc8661fc368/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/42/b6/13/42b6139f-7e7a-c801-9823-f48522ad002e/22UMGIM86209.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a5b08212d4773b070d689dc8661fc368/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5218,9 +5218,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4230000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cb/42/10/cb421004-d27a-6c08-a542-fa2e7ac3bb58/23UM1IM21988.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ee2f42bb7a077ee88b189f4edf422b3e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cb/42/10/cb421004-d27a-6c08-a542-fa2e7ac3bb58/23UM1IM21988.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ee2f42bb7a077ee88b189f4edf422b3e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5240,9 +5240,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4020000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8f/6b/8d/8f6b8d5d-dcb4-3205-6e11-2af72f46437b/23UM1IM65964.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1ff74ac5b35955c8d4fe115ac1d1f41f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8f/6b/8d/8f6b8d5d-dcb4-3205-6e11-2af72f46437b/23UM1IM65964.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1ff74ac5b35955c8d4fe115ac1d1f41f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5262,9 +5262,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3810000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/bd/2c/02/bd2c02e2-c3e8-83f8-8112-ff932e685ff3/22UM1IM16562.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4f5a90c5b8cf46080729c027a7e8b08e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/bd/2c/02/bd2c02e2-c3e8-83f8-8112-ff932e685ff3/22UM1IM16562.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4f5a90c5b8cf46080729c027a7e8b08e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5284,9 +5284,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3600000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/4e/11/454e11ba-66e9-bc85-cdf7-01331fe11303/25UM2IM10673.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e51d04c071c3dddc98982695169b119d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/4e/11/454e11ba-66e9-bc85-cdf7-01331fe11303/25UM2IM10673.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e51d04c071c3dddc98982695169b119d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5306,9 +5306,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3390000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/6a/eb/dc6aebab-f475-360f-a14f-b6e634ebaec4/25UM2IM04756.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/eee9fd32ca9e163c11dc20132b8f2498/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/6a/eb/dc6aebab-f475-360f-a14f-b6e634ebaec4/25UM2IM04756.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/eee9fd32ca9e163c11dc20132b8f2498/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5328,9 +5328,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3180000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b1/19/75/b11975d6-5279-be9f-bd7b-2cb0e7280a36/22UM1IM38799.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a82c8c10842bd341da735b3dc1a2b475/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b1/19/75/b11975d6-5279-be9f-bd7b-2cb0e7280a36/22UM1IM38799.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a82c8c10842bd341da735b3dc1a2b475/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5350,9 +5350,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2970000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ae/ef/c5/aeefc5c2-3bcb-6360-8ea7-96d3ddd3ac3f/22UMGIM70817.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ee2f42bb7a077ee88b189f4edf422b3e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ae/ef/c5/aeefc5c2-3bcb-6360-8ea7-96d3ddd3ac3f/22UMGIM70817.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ee2f42bb7a077ee88b189f4edf422b3e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5372,9 +5372,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2760000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cb/42/10/cb421004-d27a-6c08-a542-fa2e7ac3bb58/23UM1IM21988.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1ff74ac5b35955c8d4fe115ac1d1f41f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cb/42/10/cb421004-d27a-6c08-a542-fa2e7ac3bb58/23UM1IM21988.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1ff74ac5b35955c8d4fe115ac1d1f41f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5394,9 +5394,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2550000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8f/6b/8d/8f6b8d5d-dcb4-3205-6e11-2af72f46437b/23UM1IM65964.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4f5a90c5b8cf46080729c027a7e8b08e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8f/6b/8d/8f6b8d5d-dcb4-3205-6e11-2af72f46437b/23UM1IM65964.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4f5a90c5b8cf46080729c027a7e8b08e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5416,9 +5416,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2340000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/bd/2c/02/bd2c02e2-c3e8-83f8-8112-ff932e685ff3/22UM1IM16562.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e51d04c071c3dddc98982695169b119d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/bd/2c/02/bd2c02e2-c3e8-83f8-8112-ff932e685ff3/22UM1IM16562.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e51d04c071c3dddc98982695169b119d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5438,9 +5438,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2130000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/4e/11/454e11ba-66e9-bc85-cdf7-01331fe11303/25UM2IM10673.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/eee9fd32ca9e163c11dc20132b8f2498/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/4e/11/454e11ba-66e9-bc85-cdf7-01331fe11303/25UM2IM10673.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/eee9fd32ca9e163c11dc20132b8f2498/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5460,9 +5460,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 1920000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/6a/eb/dc6aebab-f475-360f-a14f-b6e634ebaec4/25UM2IM04756.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a82c8c10842bd341da735b3dc1a2b475/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/6a/eb/dc6aebab-f475-360f-a14f-b6e634ebaec4/25UM2IM04756.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a82c8c10842bd341da735b3dc1a2b475/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5482,9 +5482,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4058000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/cc/ae/b9ccae0b-aa3d-88fc-b928-50c7c3672697/22UM1IM32723.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6b94bade0da7500e110a01643bcacd0e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/cc/ae/b9ccae0b-aa3d-88fc-b928-50c7c3672697/22UM1IM32723.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6b94bade0da7500e110a01643bcacd0e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5504,9 +5504,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3848000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/9d/e8/339de857-5263-da66-4718-f4c199f00df0/22UMGIM65920.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a80f83edf15f192b7f66f1c69e5f7816/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/9d/e8/339de857-5263-da66-4718-f4c199f00df0/22UMGIM65920.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a80f83edf15f192b7f66f1c69e5f7816/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5526,9 +5526,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3638000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/a2/2a/2fa22a9e-4366-9f78-222f-d595c489a73c/0.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/358b25302d6fe22115bac15aa6b0f482/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/a2/2a/2fa22a9e-4366-9f78-222f-d595c489a73c/0.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/358b25302d6fe22115bac15aa6b0f482/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5548,9 +5548,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3428000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f5/99/2b/f5992bd1-5e31-a4aa-7142-f647dcb24c9c/23UMGIM03698.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6b94bade0da7500e110a01643bcacd0e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f5/99/2b/f5992bd1-5e31-a4aa-7142-f647dcb24c9c/23UMGIM03698.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6b94bade0da7500e110a01643bcacd0e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5570,9 +5570,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3218000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f5/e8/68/f5e8682d-38fd-c5d4-5ae1-0377994e9334/196922744402_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a80f83edf15f192b7f66f1c69e5f7816/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f5/e8/68/f5e8682d-38fd-c5d4-5ae1-0377994e9334/196922744402_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a80f83edf15f192b7f66f1c69e5f7816/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5592,9 +5592,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3008000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/cc/ae/b9ccae0b-aa3d-88fc-b928-50c7c3672697/22UM1IM32723.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/358b25302d6fe22115bac15aa6b0f482/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b9/cc/ae/b9ccae0b-aa3d-88fc-b928-50c7c3672697/22UM1IM32723.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/358b25302d6fe22115bac15aa6b0f482/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5614,9 +5614,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2798000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/9d/e8/339de857-5263-da66-4718-f4c199f00df0/22UMGIM65920.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6b94bade0da7500e110a01643bcacd0e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/9d/e8/339de857-5263-da66-4718-f4c199f00df0/22UMGIM65920.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6b94bade0da7500e110a01643bcacd0e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5636,9 +5636,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2588000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/a2/2a/2fa22a9e-4366-9f78-222f-d595c489a73c/0.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a80f83edf15f192b7f66f1c69e5f7816/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/a2/2a/2fa22a9e-4366-9f78-222f-d595c489a73c/0.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a80f83edf15f192b7f66f1c69e5f7816/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5658,9 +5658,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2378000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f5/99/2b/f5992bd1-5e31-a4aa-7142-f647dcb24c9c/23UMGIM03698.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/358b25302d6fe22115bac15aa6b0f482/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f5/99/2b/f5992bd1-5e31-a4aa-7142-f647dcb24c9c/23UMGIM03698.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/358b25302d6fe22115bac15aa6b0f482/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5680,9 +5680,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2168000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f5/e8/68/f5e8682d-38fd-c5d4-5ae1-0377994e9334/196922744402_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6b94bade0da7500e110a01643bcacd0e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f5/e8/68/f5e8682d-38fd-c5d4-5ae1-0377994e9334/196922744402_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6b94bade0da7500e110a01643bcacd0e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5702,9 +5702,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 4574000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/9a/64/769a6474-d57b-28bb-b6e6-32631e806816/7316475890354_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ff83c84dd85cde6bfd35e0c500fd9846/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/9a/64/769a6474-d57b-28bb-b6e6-32631e806816/7316475890354_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ff83c84dd85cde6bfd35e0c500fd9846/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5724,9 +5724,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 4364000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/fe/76/8cfe76ea-ae62-efb4-8e67-e0f457dda6e5/198704849893_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4dcd66cd48aaeefd5e660b2419212ee8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/fe/76/8cfe76ea-ae62-efb4-8e67-e0f457dda6e5/198704849893_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4dcd66cd48aaeefd5e660b2419212ee8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5746,9 +5746,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4154000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/ad/a5/52ada51c-4431-2095-4f25-7500bf4d8bd9/7316477026096_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/11ef3d01031884985664ef0adebbae3c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/ad/a5/52ada51c-4431-2095-4f25-7500bf4d8bd9/7316477026096_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/11ef3d01031884985664ef0adebbae3c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5768,9 +5768,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3944000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/3f/e5/b03fe5d8-c011-f1c2-3ca5-bbe163f459b4/7316481299875_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1c5939b2ed3570491fdf96926c196aec/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/3f/e5/b03fe5d8-c011-f1c2-3ca5-bbe163f459b4/7316481299875_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1c5939b2ed3570491fdf96926c196aec/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5790,9 +5790,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3734000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/f7/89/def7899e-76f9-1bde-2eba-5a1dc932d8e3/7316476935825_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cdaa830dbdae2395a03da6868968530e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/f7/89/def7899e-76f9-1bde-2eba-5a1dc932d8e3/7316476935825_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cdaa830dbdae2395a03da6868968530e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5814,9 +5814,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3524000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b8/dd/94b8dd36-fb27-96f8-e04d-ed06135045da/823375117377_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ff83c84dd85cde6bfd35e0c500fd9846/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b8/dd/94b8dd36-fb27-96f8-e04d-ed06135045da/823375117377_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ff83c84dd85cde6bfd35e0c500fd9846/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5836,9 +5836,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3314000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/5c/b4/4b5cb4b6-3128-b91e-a2be-3add31dc9d3d/7316476935849_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4dcd66cd48aaeefd5e660b2419212ee8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/5c/b4/4b5cb4b6-3128-b91e-a2be-3add31dc9d3d/7316476935849_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4dcd66cd48aaeefd5e660b2419212ee8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5858,9 +5858,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3104000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/cf/5a/97cf5ac9-07a9-f6a5-9031-91e6d175f767/7316477026102_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/11ef3d01031884985664ef0adebbae3c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/cf/5a/97cf5ac9-07a9-f6a5-9031-91e6d175f767/7316477026102_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/11ef3d01031884985664ef0adebbae3c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5880,9 +5880,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2894000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/91/2e/27912e05-4819-46f1-dd6a-691349d627fe/7316477026119_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1c5939b2ed3570491fdf96926c196aec/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/91/2e/27912e05-4819-46f1-dd6a-691349d627fe/7316477026119_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1c5939b2ed3570491fdf96926c196aec/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5902,9 +5902,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2684000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d9/bd/7b/d9bd7b96-b403-712f-0a94-09e75573484f/198704958960_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cdaa830dbdae2395a03da6868968530e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d9/bd/7b/d9bd7b96-b403-712f-0a94-09e75573484f/198704958960_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cdaa830dbdae2395a03da6868968530e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5924,9 +5924,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2474000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/57/2a/d1572a88-e7cd-d16b-8cae-222e00709a65/7316478132536_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ff83c84dd85cde6bfd35e0c500fd9846/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/57/2a/d1572a88-e7cd-d16b-8cae-222e00709a65/7316478132536_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ff83c84dd85cde6bfd35e0c500fd9846/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5949,9 +5949,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4273000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5971,9 +5971,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 4063000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/08/44/ab084423-fdcb-eac5-e7f3-1bff4f732884/5034644493367.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/08/44/ab084423-fdcb-eac5-e7f3-1bff4f732884/5034644493367.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -5993,9 +5993,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3853000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/b6/da/65b6da8c-93c6-02c3-10cd-a3e9679211ed/5034644094748.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6e52b60a4cd71601d1bf91432d5a3e07/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/b6/da/65b6da8c-93c6-02c3-10cd-a3e9679211ed/5034644094748.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6e52b60a4cd71601d1bf91432d5a3e07/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6015,9 +6015,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3643000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4677f41d76d4534d064b2e0b490f0df3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4677f41d76d4534d064b2e0b490f0df3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6037,9 +6037,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3433000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/63/33/2b6333f8-1bf1-a7db-dc34-8415a2a50d46/7316479200012.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2b/63/33/2b6333f8-1bf1-a7db-dc34-8415a2a50d46/7316479200012.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6059,9 +6059,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3223000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/c5/48/f9c54843-7027-ab73-e563-99375fbb264b/5034644095868.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/c5/48/f9c54843-7027-ab73-e563-99375fbb264b/5034644095868.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6081,9 +6081,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3013000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6e52b60a4cd71601d1bf91432d5a3e07/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6e52b60a4cd71601d1bf91432d5a3e07/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6103,9 +6103,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2803000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/08/44/ab084423-fdcb-eac5-e7f3-1bff4f732884/5034644493367.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4677f41d76d4534d064b2e0b490f0df3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/08/44/ab084423-fdcb-eac5-e7f3-1bff4f732884/5034644493367.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4677f41d76d4534d064b2e0b490f0df3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6128,9 +6128,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2593000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/b6/da/65b6da8c-93c6-02c3-10cd-a3e9679211ed/5034644094748.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/b6/da/65b6da8c-93c6-02c3-10cd-a3e9679211ed/5034644094748.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6150,9 +6150,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2383000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6173,9 +6173,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4187000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/1d/44/bb1d449b-0f01-3cd4-a7db-cb3494910015/197338502679.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/1d/44/bb1d449b-0f01-3cd4-a7db-cb3494910015/197338502679.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6195,9 +6195,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3977000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/7e/c4/937ec49e-3285-4d81-0637-7145d5d11ab8/3615939030089.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b650d9e8cccd0d8831a9765d8f7f5060/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/7e/c4/937ec49e-3285-4d81-0637-7145d5d11ab8/3615939030089.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b650d9e8cccd0d8831a9765d8f7f5060/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6217,9 +6217,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3767000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/38/cb/8338cb4c-b309-de54-9441-efa850223a41/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/04863a59a85a3047a9f88676b30986ff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/38/cb/8338cb4c-b309-de54-9441-efa850223a41/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/04863a59a85a3047a9f88676b30986ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6239,9 +6239,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3557000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/cc/ff/75ccff02-0bab-e690-3062-aac9ec53f3b1/5054197790058.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/cc/ff/75ccff02-0bab-e690-3062-aac9ec53f3b1/5054197790058.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6261,9 +6261,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3347000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/da/5d/11da5d21-735c-ffc4-e83e-24708555f722/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b650d9e8cccd0d8831a9765d8f7f5060/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/da/5d/11da5d21-735c-ffc4-e83e-24708555f722/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b650d9e8cccd0d8831a9765d8f7f5060/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6283,9 +6283,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3137000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/1d/44/bb1d449b-0f01-3cd4-a7db-cb3494910015/197338502679.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/04863a59a85a3047a9f88676b30986ff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/1d/44/bb1d449b-0f01-3cd4-a7db-cb3494910015/197338502679.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/04863a59a85a3047a9f88676b30986ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6305,9 +6305,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2927000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/7e/c4/937ec49e-3285-4d81-0637-7145d5d11ab8/3615939030089.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/7e/c4/937ec49e-3285-4d81-0637-7145d5d11ab8/3615939030089.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6327,9 +6327,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2717000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/38/cb/8338cb4c-b309-de54-9441-efa850223a41/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b650d9e8cccd0d8831a9765d8f7f5060/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/38/cb/8338cb4c-b309-de54-9441-efa850223a41/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b650d9e8cccd0d8831a9765d8f7f5060/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6349,9 +6349,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2507000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/cc/ff/75ccff02-0bab-e690-3062-aac9ec53f3b1/5054197790058.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/04863a59a85a3047a9f88676b30986ff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/cc/ff/75ccff02-0bab-e690-3062-aac9ec53f3b1/5054197790058.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/04863a59a85a3047a9f88676b30986ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6371,9 +6371,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2297000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/da/5d/11da5d21-735c-ffc4-e83e-24708555f722/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/da/5d/11da5d21-735c-ffc4-e83e-24708555f722/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6393,9 +6393,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3972000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0be20e5d8ad5a7771cc73bbb3b241c4f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0be20e5d8ad5a7771cc73bbb3b241c4f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6415,9 +6415,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3762000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c209bcbc07b35c2292b8a800f4cc4abc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c209bcbc07b35c2292b8a800f4cc4abc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6437,9 +6437,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3552000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/16c082b31188852ef9ae9b68b13131d2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/16c082b31188852ef9ae9b68b13131d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6459,9 +6459,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3342000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0be20e5d8ad5a7771cc73bbb3b241c4f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0be20e5d8ad5a7771cc73bbb3b241c4f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6481,9 +6481,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3132000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c209bcbc07b35c2292b8a800f4cc4abc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c209bcbc07b35c2292b8a800f4cc4abc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6503,9 +6503,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2922000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/16c082b31188852ef9ae9b68b13131d2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/16c082b31188852ef9ae9b68b13131d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6525,9 +6525,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2712000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0be20e5d8ad5a7771cc73bbb3b241c4f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0be20e5d8ad5a7771cc73bbb3b241c4f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6547,9 +6547,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2502000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c209bcbc07b35c2292b8a800f4cc4abc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c209bcbc07b35c2292b8a800f4cc4abc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6569,9 +6569,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2292000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/16c082b31188852ef9ae9b68b13131d2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/16c082b31188852ef9ae9b68b13131d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6591,9 +6591,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2082000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0be20e5d8ad5a7771cc73bbb3b241c4f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0be20e5d8ad5a7771cc73bbb3b241c4f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6613,9 +6613,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3929000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/f7/dc/b6f7dcc9-ee0d-1e98-583c-7b2a0d035349/3616550240345.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8e792cbc715d6c2516fe3133b49eeeb5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/f7/dc/b6f7dcc9-ee0d-1e98-583c-7b2a0d035349/3616550240345.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8e792cbc715d6c2516fe3133b49eeeb5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6635,9 +6635,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3719000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/03/24/3f032402-2c40-5f62-768e-88e7d9f6523d/3616845318186.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5116fc7860c27c5c7f880a1da6553221/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/03/24/3f032402-2c40-5f62-768e-88e7d9f6523d/3616845318186.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5116fc7860c27c5c7f880a1da6553221/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6658,9 +6658,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3509000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/cb/f3/85cbf3c3-0969-0d20-f782-46dc9fd118d5/21UMGIM52949.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/674a990a03af522aa2b854a019f6a383/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/cb/f3/85cbf3c3-0969-0d20-f782-46dc9fd118d5/21UMGIM52949.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/674a990a03af522aa2b854a019f6a383/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6680,9 +6680,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3299000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5a/37/c8/5a37c86e-2ca3-48e0-04b5-d47a175dd651/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c501e36847d4424ef5b3313e3a38bf2a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5a/37/c8/5a37c86e-2ca3-48e0-04b5-d47a175dd651/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c501e36847d4424ef5b3313e3a38bf2a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6702,9 +6702,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3089000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/68/64/336864a5-924e-828f-ff0a-2b5add49f11d/artwork.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8e792cbc715d6c2516fe3133b49eeeb5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/68/64/336864a5-924e-828f-ff0a-2b5add49f11d/artwork.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8e792cbc715d6c2516fe3133b49eeeb5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6724,9 +6724,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2879000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/f7/dc/b6f7dcc9-ee0d-1e98-583c-7b2a0d035349/3616550240345.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5116fc7860c27c5c7f880a1da6553221/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/f7/dc/b6f7dcc9-ee0d-1e98-583c-7b2a0d035349/3616550240345.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5116fc7860c27c5c7f880a1da6553221/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6746,9 +6746,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2669000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/03/24/3f032402-2c40-5f62-768e-88e7d9f6523d/3616845318186.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/674a990a03af522aa2b854a019f6a383/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/03/24/3f032402-2c40-5f62-768e-88e7d9f6523d/3616845318186.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/674a990a03af522aa2b854a019f6a383/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6768,9 +6768,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2459000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/cb/f3/85cbf3c3-0969-0d20-f782-46dc9fd118d5/21UMGIM52949.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c501e36847d4424ef5b3313e3a38bf2a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/cb/f3/85cbf3c3-0969-0d20-f782-46dc9fd118d5/21UMGIM52949.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c501e36847d4424ef5b3313e3a38bf2a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6790,9 +6790,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2249000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5a/37/c8/5a37c86e-2ca3-48e0-04b5-d47a175dd651/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8e792cbc715d6c2516fe3133b49eeeb5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5a/37/c8/5a37c86e-2ca3-48e0-04b5-d47a175dd651/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8e792cbc715d6c2516fe3133b49eeeb5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6812,9 +6812,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2039000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/68/64/336864a5-924e-828f-ff0a-2b5add49f11d/artwork.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5116fc7860c27c5c7f880a1da6553221/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/68/64/336864a5-924e-828f-ff0a-2b5add49f11d/artwork.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5116fc7860c27c5c7f880a1da6553221/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6834,9 +6834,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 1829000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/f7/dc/b6f7dcc9-ee0d-1e98-583c-7b2a0d035349/3616550240345.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/674a990a03af522aa2b854a019f6a383/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/f7/dc/b6f7dcc9-ee0d-1e98-583c-7b2a0d035349/3616550240345.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/674a990a03af522aa2b854a019f6a383/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6858,9 +6858,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4316000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f7/f6/0c/f7f60cd1-cc3c-69e0-dff2-cffb5466d97d/190295180461.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f7/f6/0c/f7f60cd1-cc3c-69e0-dff2-cffb5466d97d/190295180461.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6880,9 +6880,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 4106000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4d/f2/74/4df274bb-29c7-46e1-2070-6cf454ffaaa1/190296695209.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4d/f2/74/4df274bb-29c7-46e1-2070-6cf454ffaaa1/190296695209.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6902,9 +6902,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3896000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1c/31/79/1c317974-2e9a-a199-25b9-7fb041fa843f/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0fda253ef0a1e6c2aef6c36c24e6dda2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1c/31/79/1c317974-2e9a-a199-25b9-7fb041fa843f/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0fda253ef0a1e6c2aef6c36c24e6dda2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6924,9 +6924,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3686000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/17/5b/f0175b65-eacd-8c3e-5c55-4b3c062d9f1e/196871942805.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/17/5b/f0175b65-eacd-8c3e-5c55-4b3c062d9f1e/196871942805.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6946,9 +6946,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3476000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/06/c4/89/06c489a9-84c8-7347-8635-7c91b0d617e4/190296162916.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/06/c4/89/06c489a9-84c8-7347-8635-7c91b0d617e4/190296162916.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6968,9 +6968,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3266000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/7e/02/f47e0246-93c4-fe32-28be-eb388800b495/3616556346508.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0fda253ef0a1e6c2aef6c36c24e6dda2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/7e/02/f47e0246-93c4-fe32-28be-eb388800b495/3616556346508.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0fda253ef0a1e6c2aef6c36c24e6dda2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -6990,9 +6990,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3056000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/df/06/91df0648-8db7-e4d7-03c9-ee8c20174268/3616406231152.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/df/06/91df0648-8db7-e4d7-03c9-ee8c20174268/3616406231152.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7012,9 +7012,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2846000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/02/88/13028849-93af-40ce-799e-52aa45e9ab65/196873403731.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/02/88/13028849-93af-40ce-799e-52aa45e9ab65/196873403731.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7034,9 +7034,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 330,
     "playCount": 2636000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/4d/06/4f4d062d-2645-0048-f39e-d18d76855aaf/196872677355.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0fda253ef0a1e6c2aef6c36c24e6dda2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4f/4d/06/4f4d062d-2645-0048-f39e-d18d76855aaf/196872677355.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0fda253ef0a1e6c2aef6c36c24e6dda2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7057,9 +7057,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4015000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7079,9 +7079,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 330,
     "playCount": 3805000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/13/4a/95134ac4-2bd6-b913-761c-82ffb58911eb/1200220247714.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/d431a3c450a3d0b4e7145bfc4cfbbb67/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/13/4a/95134ac4-2bd6-b913-761c-82ffb58911eb/1200220247714.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/d431a3c450a3d0b4e7145bfc4cfbbb67/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7101,9 +7101,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3595000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c459f8c2e1679ce4dfb9dbaaa2228441/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c459f8c2e1679ce4dfb9dbaaa2228441/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7123,9 +7123,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3385000,
     "audioUrl": "https://api.audius.co/v1/tracks/P9bJR/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/13/4a/95134ac4-2bd6-b913-761c-82ffb58911eb/1200220247714.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/86f6902f667799e367b133015c627eff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/13/4a/95134ac4-2bd6-b913-761c-82ffb58911eb/1200220247714.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/86f6902f667799e367b133015c627eff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7145,9 +7145,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3175000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7167,9 +7167,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2965000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/13/4a/95134ac4-2bd6-b913-761c-82ffb58911eb/1200220247714.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/d431a3c450a3d0b4e7145bfc4cfbbb67/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/13/4a/95134ac4-2bd6-b913-761c-82ffb58911eb/1200220247714.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/d431a3c450a3d0b4e7145bfc4cfbbb67/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7190,9 +7190,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2755000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c459f8c2e1679ce4dfb9dbaaa2228441/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c459f8c2e1679ce4dfb9dbaaa2228441/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7212,9 +7212,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2545000,
     "audioUrl": "https://api.audius.co/v1/tracks/P9bJR/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/13/4a/95134ac4-2bd6-b913-761c-82ffb58911eb/1200220247714.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/86f6902f667799e367b133015c627eff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/13/4a/95134ac4-2bd6-b913-761c-82ffb58911eb/1200220247714.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/86f6902f667799e367b133015c627eff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7234,9 +7234,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2335000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7256,9 +7256,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4015000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1eb7ef667035a6b588533f8a8974f649/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1eb7ef667035a6b588533f8a8974f649/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7278,9 +7278,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3805000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/9e/4b/ca9e4b1d-f373-d568-3ee4-9c360f6192ab/1200220258147.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/9e/4b/ca9e4b1d-f373-d568-3ee4-9c360f6192ab/1200220258147.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7300,9 +7300,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3595000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/16867c8550c5905849bf21597b968610/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/16867c8550c5905849bf21597b968610/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7322,9 +7322,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3385000,
     "audioUrl": "https://api.audius.co/v1/tracks/P9bJR/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/9e/4b/ca9e4b1d-f373-d568-3ee4-9c360f6192ab/1200220258147.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1eb7ef667035a6b588533f8a8974f649/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/9e/4b/ca9e4b1d-f373-d568-3ee4-9c360f6192ab/1200220258147.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1eb7ef667035a6b588533f8a8974f649/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7345,9 +7345,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3175000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7367,9 +7367,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2965000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/9e/4b/ca9e4b1d-f373-d568-3ee4-9c360f6192ab/1200220258147.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/16867c8550c5905849bf21597b968610/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/9e/4b/ca9e4b1d-f373-d568-3ee4-9c360f6192ab/1200220258147.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/16867c8550c5905849bf21597b968610/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7389,9 +7389,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2755000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1eb7ef667035a6b588533f8a8974f649/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1eb7ef667035a6b588533f8a8974f649/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7411,9 +7411,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2545000,
     "audioUrl": "https://api.audius.co/v1/tracks/P9bJR/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/9e/4b/ca9e4b1d-f373-d568-3ee4-9c360f6192ab/1200220258147.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/9e/4b/ca9e4b1d-f373-d568-3ee4-9c360f6192ab/1200220258147.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7433,9 +7433,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2335000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/16867c8550c5905849bf21597b968610/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/16867c8550c5905849bf21597b968610/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7455,9 +7455,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2125000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/9e/4b/ca9e4b1d-f373-d568-3ee4-9c360f6192ab/1200220258147.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1eb7ef667035a6b588533f8a8974f649/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/9e/4b/ca9e4b1d-f373-d568-3ee4-9c360f6192ab/1200220258147.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1eb7ef667035a6b588533f8a8974f649/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7477,9 +7477,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 1915000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/93/2e/79/932e7998-e79d-e8dd-76c4-4594c70cc8b4/1200220247707.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7499,9 +7499,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 4101000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/78/4a/12/784a12a4-4344-6031-529a-f77e16f588d6/196626496423.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b77397fec2dd7fe57658526dcfc6c777/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/78/4a/12/784a12a4-4344-6031-529a-f77e16f588d6/196626496423.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b77397fec2dd7fe57658526dcfc6c777/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7521,9 +7521,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3891000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ad/69/c3/ad69c316-8324-629c-404a-abe9bb877e00/197188116262.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9df8283cf4b2c6b8b81f23b49157997d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ad/69/c3/ad69c316-8324-629c-404a-abe9bb877e00/197188116262.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9df8283cf4b2c6b8b81f23b49157997d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7543,9 +7543,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3681000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/a7/44/b7a74422-4b59-390c-a9d0-2028d28d0144/1200214343408.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e036afb3845c13f8727ee4f3eb8078c4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/a7/44/b7a74422-4b59-390c-a9d0-2028d28d0144/1200214343408.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e036afb3845c13f8727ee4f3eb8078c4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7565,9 +7565,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 165,
     "playCount": 3471000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/5a/2b/755a2b98-4e6a-b022-c574-e76200ceb05d/26UMGIM01474.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b77397fec2dd7fe57658526dcfc6c777/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/5a/2b/755a2b98-4e6a-b022-c574-e76200ceb05d/26UMGIM01474.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b77397fec2dd7fe57658526dcfc6c777/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7587,9 +7587,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3261000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/78/4a/12/784a12a4-4344-6031-529a-f77e16f588d6/196626496423.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9df8283cf4b2c6b8b81f23b49157997d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/78/4a/12/784a12a4-4344-6031-529a-f77e16f588d6/196626496423.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9df8283cf4b2c6b8b81f23b49157997d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7609,9 +7609,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3051000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ad/69/c3/ad69c316-8324-629c-404a-abe9bb877e00/197188116262.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e036afb3845c13f8727ee4f3eb8078c4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ad/69/c3/ad69c316-8324-629c-404a-abe9bb877e00/197188116262.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e036afb3845c13f8727ee4f3eb8078c4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7631,9 +7631,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 197,
     "playCount": 2841000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/a7/44/b7a74422-4b59-390c-a9d0-2028d28d0144/1200214343408.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b77397fec2dd7fe57658526dcfc6c777/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/a7/44/b7a74422-4b59-390c-a9d0-2028d28d0144/1200214343408.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b77397fec2dd7fe57658526dcfc6c777/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7654,9 +7654,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 244,
     "playCount": 2631000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/5a/2b/755a2b98-4e6a-b022-c574-e76200ceb05d/26UMGIM01474.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9df8283cf4b2c6b8b81f23b49157997d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/5a/2b/755a2b98-4e6a-b022-c574-e76200ceb05d/26UMGIM01474.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9df8283cf4b2c6b8b81f23b49157997d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7676,9 +7676,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2421000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/78/4a/12/784a12a4-4344-6031-529a-f77e16f588d6/196626496423.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e036afb3845c13f8727ee4f3eb8078c4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/78/4a/12/784a12a4-4344-6031-529a-f77e16f588d6/196626496423.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e036afb3845c13f8727ee4f3eb8078c4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7698,9 +7698,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2211000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ad/69/c3/ad69c316-8324-629c-404a-abe9bb877e00/197188116262.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b77397fec2dd7fe57658526dcfc6c777/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ad/69/c3/ad69c316-8324-629c-404a-abe9bb877e00/197188116262.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b77397fec2dd7fe57658526dcfc6c777/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7720,9 +7720,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2001000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/a7/44/b7a74422-4b59-390c-a9d0-2028d28d0144/1200214343408.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9df8283cf4b2c6b8b81f23b49157997d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/a7/44/b7a74422-4b59-390c-a9d0-2028d28d0144/1200214343408.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9df8283cf4b2c6b8b81f23b49157997d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7742,9 +7742,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 1791000,
     "audioUrl": "https://api.audius.co/v1/tracks/P9bJR/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/5a/2b/755a2b98-4e6a-b022-c574-e76200ceb05d/26UMGIM01474.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e036afb3845c13f8727ee4f3eb8078c4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/5a/2b/755a2b98-4e6a-b022-c574-e76200ceb05d/26UMGIM01474.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e036afb3845c13f8727ee4f3eb8078c4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7764,9 +7764,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4015000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d8/87/d7/d887d7f7-6568-c81c-2bc5-24f9285d0690/00602458392609_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a21657942cc386cb7d2ed5b3393a02e6/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d8/87/d7/d887d7f7-6568-c81c-2bc5-24f9285d0690/00602458392609_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a21657942cc386cb7d2ed5b3393a02e6/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7786,9 +7786,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3805000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/51/93/2951935f-56d1-080c-c322-ddcaa810909f/198704391408_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/934aca53777d0dfee293696834068981/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/51/93/2951935f-56d1-080c-c322-ddcaa810909f/198704391408_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/934aca53777d0dfee293696834068981/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7808,9 +7808,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3595000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/17/ec/ff17ec15-efc2-060b-dddd-a4eae2430270/00602455486226_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/07d51fed4e04c176cc3e742c2fcf86b6/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/17/ec/ff17ec15-efc2-060b-dddd-a4eae2430270/00602455486226_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/07d51fed4e04c176cc3e742c2fcf86b6/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7830,9 +7830,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3385000,
     "audioUrl": "https://api.audius.co/v1/tracks/P9bJR/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/8e/67/738e67a8-bd1b-32b8-62c3-1a7c58fcc496/198704157950_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/69899c726113ab4063de6ad4157720a7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/8e/67/738e67a8-bd1b-32b8-62c3-1a7c58fcc496/198704157950_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/69899c726113ab4063de6ad4157720a7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7852,9 +7852,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3175000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fb/88/15/fb88150b-c961-756c-4e5d-4750c8ccae33/197190030846_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f7c05c057fc3acf32d92b134c30409ed/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fb/88/15/fb88150b-c961-756c-4e5d-4750c8ccae33/197190030846_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f7c05c057fc3acf32d92b134c30409ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7875,9 +7875,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 244,
     "playCount": 2965000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/67/ca/2867ca65-08ca-fc45-b1bc-8f025e552ab2/198704530876_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a21657942cc386cb7d2ed5b3393a02e6/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/67/ca/2867ca65-08ca-fc45-b1bc-8f025e552ab2/198704530876_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a21657942cc386cb7d2ed5b3393a02e6/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7897,9 +7897,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2755000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/4c/2b/984c2b0b-b918-eafd-9697-7ff1bd76cff5/5021732861832.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/934aca53777d0dfee293696834068981/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/4c/2b/984c2b0b-b918-eafd-9697-7ff1bd76cff5/5021732861832.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/934aca53777d0dfee293696834068981/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7919,9 +7919,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2545000,
     "audioUrl": "https://api.audius.co/v1/tracks/P9bJR/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/a7/df/23a7df70-8632-96e4-8522-4a1b67b6276c/5021732856234.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/07d51fed4e04c176cc3e742c2fcf86b6/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/a7/df/23a7df70-8632-96e4-8522-4a1b67b6276c/5021732856234.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/07d51fed4e04c176cc3e742c2fcf86b6/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7941,9 +7941,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2335000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d8/87/d7/d887d7f7-6568-c81c-2bc5-24f9285d0690/00602458392609_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/69899c726113ab4063de6ad4157720a7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d8/87/d7/d887d7f7-6568-c81c-2bc5-24f9285d0690/00602458392609_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/69899c726113ab4063de6ad4157720a7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7963,9 +7963,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2125000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/51/93/2951935f-56d1-080c-c322-ddcaa810909f/198704391408_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f7c05c057fc3acf32d92b134c30409ed/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/51/93/2951935f-56d1-080c-c322-ddcaa810909f/198704391408_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f7c05c057fc3acf32d92b134c30409ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -7985,9 +7985,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 1915000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/17/ec/ff17ec15-efc2-060b-dddd-a4eae2430270/00602455486226_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a21657942cc386cb7d2ed5b3393a02e6/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/17/ec/ff17ec15-efc2-060b-dddd-a4eae2430270/00602455486226_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a21657942cc386cb7d2ed5b3393a02e6/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8007,9 +8007,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 210,
     "playCount": 4015000,
     "audioUrl": "https://api.audius.co/v1/tracks/91OyO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/77cd177aecd48081a22f25c6ad5c310c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/77cd177aecd48081a22f25c6ad5c310c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8029,9 +8029,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3805000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5887121a23465de78e6f188d39748aca/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5887121a23465de78e6f188d39748aca/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8051,9 +8051,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3595000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6fa9fa71937367800050268631754f21/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6fa9fa71937367800050268631754f21/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8073,9 +8073,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3385000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4363603677be218ba0788dfb11b4d3c9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4363603677be218ba0788dfb11b4d3c9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8095,9 +8095,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3175000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3615effe9559e23fbc6b6083a2e3705d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3615effe9559e23fbc6b6083a2e3705d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8117,9 +8117,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2965000,
     "audioUrl": "https://api.audius.co/v1/tracks/RYM51/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/77cd177aecd48081a22f25c6ad5c310c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/77cd177aecd48081a22f25c6ad5c310c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8139,9 +8139,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2755000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5887121a23465de78e6f188d39748aca/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5887121a23465de78e6f188d39748aca/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8161,9 +8161,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2545000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6fa9fa71937367800050268631754f21/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6fa9fa71937367800050268631754f21/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8183,9 +8183,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2335000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4363603677be218ba0788dfb11b4d3c9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4363603677be218ba0788dfb11b4d3c9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8205,9 +8205,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2125000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3615effe9559e23fbc6b6083a2e3705d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3615effe9559e23fbc6b6083a2e3705d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8227,9 +8227,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 1915000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/77cd177aecd48081a22f25c6ad5c310c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/77cd177aecd48081a22f25c6ad5c310c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8249,9 +8249,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 1705000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5887121a23465de78e6f188d39748aca/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/38/f2/1738f206-e042-954c-66df-3ef40e3e7e4d/3616844063612_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5887121a23465de78e6f188d39748aca/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8271,9 +8271,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 4015000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/207fdd77a711995eb3f5eb051a435371/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/207fdd77a711995eb3f5eb051a435371/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8293,9 +8293,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3805000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/981c6fec7ad28405e60926e03fbd5144/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/981c6fec7ad28405e60926e03fbd5144/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8315,9 +8315,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3595000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e0f5e0b90defec28bee389f97f194c99/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e0f5e0b90defec28bee389f97f194c99/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8337,9 +8337,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3385000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0fd11c9842e5e296b07868dacee28d94/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0fd11c9842e5e296b07868dacee28d94/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8359,9 +8359,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3175000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0a6edc1ff1fcd7c16c22207a8ab41e01/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0a6edc1ff1fcd7c16c22207a8ab41e01/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8381,9 +8381,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 174,
     "playCount": 2965000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/207fdd77a711995eb3f5eb051a435371/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/207fdd77a711995eb3f5eb051a435371/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8403,9 +8403,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2755000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/981c6fec7ad28405e60926e03fbd5144/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/981c6fec7ad28405e60926e03fbd5144/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8425,9 +8425,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2545000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e0f5e0b90defec28bee389f97f194c99/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e0f5e0b90defec28bee389f97f194c99/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8447,9 +8447,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2335000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0fd11c9842e5e296b07868dacee28d94/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0fd11c9842e5e296b07868dacee28d94/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8469,9 +8469,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2125000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0a6edc1ff1fcd7c16c22207a8ab41e01/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0a6edc1ff1fcd7c16c22207a8ab41e01/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8491,9 +8491,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 1915000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/207fdd77a711995eb3f5eb051a435371/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/207fdd77a711995eb3f5eb051a435371/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8514,9 +8514,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4015000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3a/48/93/3a489327-9939-cd14-13e6-d32b991bed74/5054197800085.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3a/48/93/3a489327-9939-cd14-13e6-d32b991bed74/5054197800085.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8536,9 +8536,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3805000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e6/8c/e5/e68ce572-81ee-76a4-20bb-b3d07b52611f/5021732434210.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e6/8c/e5/e68ce572-81ee-76a4-20bb-b3d07b52611f/5021732434210.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8559,9 +8559,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3595000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a7/1f/b4/a71fb4b9-4423-d9ea-7222-7535e6bcd5e0/0.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7a4a4aea9905af7cbbf00515b04a8480/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a7/1f/b4/a71fb4b9-4423-d9ea-7222-7535e6bcd5e0/0.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7a4a4aea9905af7cbbf00515b04a8480/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8581,9 +8581,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3385000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a0/57/70/a05770de-63f8-d4e3-20f3-179eae339bc9/190296096259.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a0/57/70/a05770de-63f8-d4e3-20f3-179eae339bc9/190296096259.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8603,9 +8603,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3175000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d5/e9/e8/d5e9e8c5-35e1-d27b-5806-0ce84a250322/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d5/e9/e8/d5e9e8c5-35e1-d27b-5806-0ce84a250322/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8625,9 +8625,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 240,
     "playCount": 2965000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/bd/e4/87bde462-9e7d-4aef-a27e-49c4b241e960/3617051381797.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7a4a4aea9905af7cbbf00515b04a8480/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/bd/e4/87bde462-9e7d-4aef-a27e-49c4b241e960/3617051381797.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7a4a4aea9905af7cbbf00515b04a8480/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8647,9 +8647,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2755000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/bd/81/fcbd8121-29b9-00e9-e696-fb843f890d66/190296382178.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/bd/81/fcbd8121-29b9-00e9-e696-fb843f890d66/190296382178.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8669,9 +8669,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2545000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5d/ca/b5/5dcab50e-b6c4-8780-266e-e375b0739049/25UM1IM51572.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5d/ca/b5/5dcab50e-b6c4-8780-266e-e375b0739049/25UM1IM51572.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8691,9 +8691,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2335000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/dc/f9/84/dcf984e9-1daa-dfa5-4a34-b974c4b8e27e/190295090999.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7a4a4aea9905af7cbbf00515b04a8480/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/dc/f9/84/dcf984e9-1daa-dfa5-4a34-b974c4b8e27e/190295090999.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7a4a4aea9905af7cbbf00515b04a8480/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8713,9 +8713,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2125000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/89/3f/22893f0c-5120-faac-af6c-e9fa435c5a79/25UM1IM48174.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/89/3f/22893f0c-5120-faac-af6c-e9fa435c5a79/25UM1IM48174.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8735,9 +8735,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 1915000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/d5/59/f6d55902-5857-2ed7-76d8-2e505adb15a9/5021732342713.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/d5/59/f6d55902-5857-2ed7-76d8-2e505adb15a9/5021732342713.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8757,9 +8757,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4015000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/57/f2/f9/57f2f9dc-5c0d-af53-0933-034446f5db42/3615932550157_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6c88812275b03e7dbd9d40a1ad18887a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/57/f2/f9/57f2f9dc-5c0d-af53-0933-034446f5db42/3615932550157_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6c88812275b03e7dbd9d40a1ad18887a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8779,9 +8779,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3805000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/7a/8d/fa7a8d1f-1e56-de9c-15e4-a2fa83158ffe/3615938230305_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/27077827e56fb5dc651c91c49e896f64/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/7a/8d/fa7a8d1f-1e56-de9c-15e4-a2fa83158ffe/3615938230305_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/27077827e56fb5dc651c91c49e896f64/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8801,9 +8801,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3595000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/c7/33/3ec73305-a289-37f1-4a05-eb859127e414/3616556838317_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b0b468bb36cdfea55ae2ebaedba43459/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/c7/33/3ec73305-a289-37f1-4a05-eb859127e414/3616556838317_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b0b468bb36cdfea55ae2ebaedba43459/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8823,9 +8823,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3385000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/7f/45/0d7f451f-633f-1cc6-2b42-a74e09b5b9e1/198704463822_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0c175b51b4096bf0aef5e1361f945e02/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/7f/45/0d7f451f-633f-1cc6-2b42-a74e09b5b9e1/198704463822_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0c175b51b4096bf0aef5e1361f945e02/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8845,9 +8845,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3175000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/46/fc/2f46fc5c-950c-71d6-3e11-65d68cbd79ec/3616552213040_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6c88812275b03e7dbd9d40a1ad18887a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/46/fc/2f46fc5c-950c-71d6-3e11-65d68cbd79ec/3616552213040_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6c88812275b03e7dbd9d40a1ad18887a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8867,9 +8867,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2965000,
     "audioUrl": "https://api.audius.co/v1/tracks/RYM51/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/c6/72/33c672e7-f7d2-e602-0e23-0d396dea1cd9/3616402375867_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/27077827e56fb5dc651c91c49e896f64/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/c6/72/33c672e7-f7d2-e602-0e23-0d396dea1cd9/3616402375867_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/27077827e56fb5dc651c91c49e896f64/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8889,9 +8889,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2755000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6a/fb/7a/6afb7ad0-504b-3010-47d2-b3590a27e894/197338696262.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b0b468bb36cdfea55ae2ebaedba43459/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6a/fb/7a/6afb7ad0-504b-3010-47d2-b3590a27e894/197338696262.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b0b468bb36cdfea55ae2ebaedba43459/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8911,9 +8911,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2545000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/a7/11/67a7110a-8b23-b275-7ba0-84a33d62cee5/3614593911765_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0c175b51b4096bf0aef5e1361f945e02/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/a7/11/67a7110a-8b23-b275-7ba0-84a33d62cee5/3614593911765_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0c175b51b4096bf0aef5e1361f945e02/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8933,9 +8933,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2335000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/d4/7c/69d47c7a-e800-4960-e175-79cb8b32d97c/3616849485822_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6c88812275b03e7dbd9d40a1ad18887a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/d4/7c/69d47c7a-e800-4960-e175-79cb8b32d97c/3616849485822_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6c88812275b03e7dbd9d40a1ad18887a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8955,9 +8955,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2125000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/57/f2/f9/57f2f9dc-5c0d-af53-0933-034446f5db42/3615932550157_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/27077827e56fb5dc651c91c49e896f64/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/57/f2/f9/57f2f9dc-5c0d-af53-0933-034446f5db42/3615932550157_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/27077827e56fb5dc651c91c49e896f64/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8977,9 +8977,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4144000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/50/8f/01508f25-cae4-f911-400e-7ae883413bc8/728990944387_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/69964e1a96837a01e5f7d9e3e72f6a91/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/50/8f/01508f25-cae4-f911-400e-7ae883413bc8/728990944387_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/69964e1a96837a01e5f7d9e3e72f6a91/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -8999,9 +8999,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3934000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/50/d5/1150d53d-cece-1334-2618-59ac05442288/050811007538_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/386e56e181de6a4d20ce504785fd0bf6/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/50/d5/1150d53d-cece-1334-2618-59ac05442288/050811007538_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/386e56e181de6a4d20ce504785fd0bf6/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9021,9 +9021,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3724000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/67/af/0d/67af0dfa-8292-1747-b4f4-7cc9b48c2a98/7316474841708_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/54f978b46eb6c3532018c8532fe538f2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/67/af/0d/67af0dfa-8292-1747-b4f4-7cc9b48c2a98/7316474841708_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/54f978b46eb6c3532018c8532fe538f2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9043,9 +9043,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3514000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/b2/3f/a1b23ff8-5209-5a96-21ed-dfcc2fcddb44/728990962251_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a1/b2/3f/a1b23ff8-5209-5a96-21ed-dfcc2fcddb44/728990962251_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9065,9 +9065,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3304000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a7/2b/6a/a72b6ab7-b69b-d08a-321d-b4f566c9c719/197338502846.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/69964e1a96837a01e5f7d9e3e72f6a91/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a7/2b/6a/a72b6ab7-b69b-d08a-321d-b4f566c9c719/197338502846.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/69964e1a96837a01e5f7d9e3e72f6a91/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9087,9 +9087,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3094000,
     "audioUrl": "https://api.audius.co/v1/tracks/RYM51/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/f5/72/78f57222-1d26-611e-cbf2-306920a97afa/26UM1IM05207.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/386e56e181de6a4d20ce504785fd0bf6/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/f5/72/78f57222-1d26-611e-cbf2-306920a97afa/26UM1IM05207.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/386e56e181de6a4d20ce504785fd0bf6/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9109,9 +9109,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2884000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2f/30/71/2f307124-a500-de82-a8d1-ae19424c39d6/197338574157.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/54f978b46eb6c3532018c8532fe538f2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2f/30/71/2f307124-a500-de82-a8d1-ae19424c39d6/197338574157.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/54f978b46eb6c3532018c8532fe538f2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9131,9 +9131,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2674000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5f/89/9e/5f899e34-fce3-a889-3a9a-7a381a24051b/823375256281_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5f/89/9e/5f899e34-fce3-a889-3a9a-7a381a24051b/823375256281_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9154,9 +9154,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4144000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/df/49/59df49c3-e2d2-5100-948e-498ac96357ed/5054197233067.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/90e8865dfce0e4b4982cf6e7827ac7be/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/df/49/59df49c3-e2d2-5100-948e-498ac96357ed/5054197233067.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/90e8865dfce0e4b4982cf6e7827ac7be/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9176,9 +9176,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3934000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e6/fd/e1e6fd8d-5849-a21b-3bde-240cf794e773/197338908037.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ef6c6d878e68bcd73ff95e906e611ccb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e6/fd/e1e6fd8d-5849-a21b-3bde-240cf794e773/197338908037.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ef6c6d878e68bcd73ff95e906e611ccb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9198,9 +9198,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3724000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/df/49/59df49c3-e2d2-5100-948e-498ac96357ed/5054197233067.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/12cd10482621e6fc31a325cca73b8bf1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/df/49/59df49c3-e2d2-5100-948e-498ac96357ed/5054197233067.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/12cd10482621e6fc31a325cca73b8bf1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9221,9 +9221,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3514000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e6/fd/e1e6fd8d-5849-a21b-3bde-240cf794e773/197338908037.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/126dfd09d891de665e0d13f8f2d845be/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e6/fd/e1e6fd8d-5849-a21b-3bde-240cf794e773/197338908037.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/126dfd09d891de665e0d13f8f2d845be/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9244,9 +9244,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 200,
     "playCount": 3304000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RpN1/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/df/49/59df49c3-e2d2-5100-948e-498ac96357ed/5054197233067.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/df/49/59df49c3-e2d2-5100-948e-498ac96357ed/5054197233067.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9266,9 +9266,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3094000,
     "audioUrl": "https://api.audius.co/v1/tracks/RYM51/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e6/fd/e1e6fd8d-5849-a21b-3bde-240cf794e773/197338908037.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/32657ae670976777aed59210d8342688/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e6/fd/e1e6fd8d-5849-a21b-3bde-240cf794e773/197338908037.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/32657ae670976777aed59210d8342688/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9288,9 +9288,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2884000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/df/49/59df49c3-e2d2-5100-948e-498ac96357ed/5054197233067.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/25ab0fae70a3844cb682812a12ab89bf/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/df/49/59df49c3-e2d2-5100-948e-498ac96357ed/5054197233067.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/25ab0fae70a3844cb682812a12ab89bf/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9310,9 +9310,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2674000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e6/fd/e1e6fd8d-5849-a21b-3bde-240cf794e773/197338908037.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/907613cc2d094780efed2c5035b2223a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e6/fd/e1e6fd8d-5849-a21b-3bde-240cf794e773/197338908037.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/907613cc2d094780efed2c5035b2223a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9332,9 +9332,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2464000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/df/49/59df49c3-e2d2-5100-948e-498ac96357ed/5054197233067.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3a9c57bc2b57fb9598b4170da31c302e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/df/49/59df49c3-e2d2-5100-948e-498ac96357ed/5054197233067.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3a9c57bc2b57fb9598b4170da31c302e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9354,9 +9354,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2254000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e6/fd/e1e6fd8d-5849-a21b-3bde-240cf794e773/197338908037.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/90e8865dfce0e4b4982cf6e7827ac7be/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e6/fd/e1e6fd8d-5849-a21b-3bde-240cf794e773/197338908037.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/90e8865dfce0e4b4982cf6e7827ac7be/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9376,9 +9376,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2044000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/df/49/59df49c3-e2d2-5100-948e-498ac96357ed/5054197233067.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ef6c6d878e68bcd73ff95e906e611ccb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/df/49/59df49c3-e2d2-5100-948e-498ac96357ed/5054197233067.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ef6c6d878e68bcd73ff95e906e611ccb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9398,9 +9398,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4187000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bc/28/55/bc28556d-7b90-4626-e672-7d80f7f99ed7/190295176259.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e784d5f6f06d3734cb7014697f94d147/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bc/28/55/bc28556d-7b90-4626-e672-7d80f7f99ed7/190295176259.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e784d5f6f06d3734cb7014697f94d147/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9420,9 +9420,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3977000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7a/3e/50/7a3e5002-10bb-1ef0-95e7-7d151836e979/1200214070908.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f5d1604a60b742b522ffe7a3b4a8329d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7a/3e/50/7a3e5002-10bb-1ef0-95e7-7d151836e979/1200214070908.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f5d1604a60b742b522ffe7a3b4a8329d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9442,9 +9442,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3767000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/45/d6/5145d662-7807-53a6-886a-02e8df3bf0ed/190296070570.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3a71b184ab430e6726631b35119c2172/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/45/d6/5145d662-7807-53a6-886a-02e8df3bf0ed/190296070570.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3a71b184ab430e6726631b35119c2172/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9464,9 +9464,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3557000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f7/f6/0c/f7f60cd1-cc3c-69e0-dff2-cffb5466d97d/190295180461.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3be4649a591aee843048aad447e3315e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f7/f6/0c/f7f60cd1-cc3c-69e0-dff2-cffb5466d97d/190295180461.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3be4649a591aee843048aad447e3315e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9486,9 +9486,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3347000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/c9/c9/b6c9c926-a521-fd99-39ef-cd535d11292e/24UMGIM73081.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/be786ede59d398ed06f86b05a58650ff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/c9/c9/b6c9c926-a521-fd99-39ef-cd535d11292e/24UMGIM73081.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/be786ede59d398ed06f86b05a58650ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9508,9 +9508,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3137000,
     "audioUrl": "https://api.audius.co/v1/tracks/RYM51/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/78/0d/1e780d6a-074f-81c1-f071-fe372b3528a2/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e784d5f6f06d3734cb7014697f94d147/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/78/0d/1e780d6a-074f-81c1-f071-fe372b3528a2/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e784d5f6f06d3734cb7014697f94d147/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9530,9 +9530,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2927000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/1d/c0/c71dc00f-b56c-f832-acbe-af7e14f05708/24UMGIM84019.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f5d1604a60b742b522ffe7a3b4a8329d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/1d/c0/c71dc00f-b56c-f832-acbe-af7e14f05708/24UMGIM84019.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f5d1604a60b742b522ffe7a3b4a8329d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9552,9 +9552,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2717000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/b9/c8/03b9c861-ff77-ea76-7f3a-78cd5b90bec8/197338745595.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3a71b184ab430e6726631b35119c2172/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/b9/c8/03b9c861-ff77-ea76-7f3a-78cd5b90bec8/197338745595.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3a71b184ab430e6726631b35119c2172/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9574,9 +9574,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2507000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/a3/ef/c2a3ef39-ff1e-0081-b73d-9315c6f9f912/24UMGIM84019.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3be4649a591aee843048aad447e3315e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/a3/ef/c2a3ef39-ff1e-0081-b73d-9315c6f9f912/24UMGIM84019.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3be4649a591aee843048aad447e3315e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9596,9 +9596,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2297000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e2/54/a2/e254a2f8-8748-c1f5-4cc8-9647220f6c6f/0.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/be786ede59d398ed06f86b05a58650ff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e2/54/a2/e254a2f8-8748-c1f5-4cc8-9647220f6c6f/0.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/be786ede59d398ed06f86b05a58650ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9618,9 +9618,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4488000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/fc/7c/b2fc7c51-6d08-7e5a-45b1-6e4d554d82ba/085365391628.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2aa0442076eee1a491237e0528f932bc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/fc/7c/b2fc7c51-6d08-7e5a-45b1-6e4d554d82ba/085365391628.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2aa0442076eee1a491237e0528f932bc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9640,9 +9640,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4278000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/80/54/c180547a-1d65-0cba-7fb8-c80e0720af2c/25UMGIM62177.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/890b5c80547d2fe13124ffe0bc1a1f06/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/80/54/c180547a-1d65-0cba-7fb8-c80e0720af2c/25UMGIM62177.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/890b5c80547d2fe13124ffe0bc1a1f06/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9662,9 +9662,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4068000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/dc/fa/cfdcfaf3-a370-c463-f574-9de75297bdaf/25UM2IM02426.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/de45b29e87b4e9e01caf4af25c28ab00/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/dc/fa/cfdcfaf3-a370-c463-f574-9de75297bdaf/25UM2IM02426.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/de45b29e87b4e9e01caf4af25c28ab00/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9684,9 +9684,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3858000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/2e/f1/132ef1f6-d957-287c-a2cd-17f8639594de/198846727684.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2aa0442076eee1a491237e0528f932bc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/2e/f1/132ef1f6-d957-287c-a2cd-17f8639594de/198846727684.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2aa0442076eee1a491237e0528f932bc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9706,9 +9706,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3648000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e4/d6/50/e4d65043-5c4f-7cb8-27bc-998f886cf9dd/198846704890.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/890b5c80547d2fe13124ffe0bc1a1f06/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e4/d6/50/e4d65043-5c4f-7cb8-27bc-998f886cf9dd/198846704890.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/890b5c80547d2fe13124ffe0bc1a1f06/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9728,9 +9728,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3438000,
     "audioUrl": "https://api.audius.co/v1/tracks/RYM51/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/fc/7c/b2fc7c51-6d08-7e5a-45b1-6e4d554d82ba/085365391628.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/de45b29e87b4e9e01caf4af25c28ab00/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/fc/7c/b2fc7c51-6d08-7e5a-45b1-6e4d554d82ba/085365391628.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/de45b29e87b4e9e01caf4af25c28ab00/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9750,9 +9750,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3228000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/80/54/c180547a-1d65-0cba-7fb8-c80e0720af2c/25UMGIM62177.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2aa0442076eee1a491237e0528f932bc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/80/54/c180547a-1d65-0cba-7fb8-c80e0720af2c/25UMGIM62177.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2aa0442076eee1a491237e0528f932bc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9772,9 +9772,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3018000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/dc/fa/cfdcfaf3-a370-c463-f574-9de75297bdaf/25UM2IM02426.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/890b5c80547d2fe13124ffe0bc1a1f06/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/dc/fa/cfdcfaf3-a370-c463-f574-9de75297bdaf/25UM2IM02426.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/890b5c80547d2fe13124ffe0bc1a1f06/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9794,9 +9794,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2808000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/2e/f1/132ef1f6-d957-287c-a2cd-17f8639594de/198846727684.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/de45b29e87b4e9e01caf4af25c28ab00/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/2e/f1/132ef1f6-d957-287c-a2cd-17f8639594de/198846727684.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/de45b29e87b4e9e01caf4af25c28ab00/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9816,9 +9816,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 4574000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1d/95/b3/1d95b376-ae6e-de03-a0c4-57ba64cdb112/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b87287fa11a9e5d235f3c7c4cb78f8d2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1d/95/b3/1d95b376-ae6e-de03-a0c4-57ba64cdb112/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b87287fa11a9e5d235f3c7c4cb78f8d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9838,9 +9838,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 4364000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1f/62/95/1f629574-ad96-0895-41b0-2f00034509cc/196871829748.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a39c6f40a486704a3cef9ade8ec092c1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1f/62/95/1f629574-ad96-0895-41b0-2f00034509cc/196871829748.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a39c6f40a486704a3cef9ade8ec092c1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9862,9 +9862,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4154000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/b7/9c/fcb79cd6-58bb-cfeb-5467-936988d4322e/5034644033242.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5a51111132739cd8625d3593ebd85328/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/b7/9c/fcb79cd6-58bb-cfeb-5467-936988d4322e/5034644033242.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5a51111132739cd8625d3593ebd85328/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9887,9 +9887,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3944000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/65/ca/eb/65caebf5-a89d-1484-b0da-8997b661dfd7/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f26776b3a6711cf683688bf1e00d7d2d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/65/ca/eb/65caebf5-a89d-1484-b0da-8997b661dfd7/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f26776b3a6711cf683688bf1e00d7d2d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9909,9 +9909,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3734000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/99/93/1c99933d-db1f-506e-0990-15f2cab18878/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b87287fa11a9e5d235f3c7c4cb78f8d2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/99/93/1c99933d-db1f-506e-0990-15f2cab18878/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b87287fa11a9e5d235f3c7c4cb78f8d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9931,9 +9931,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3524000,
     "audioUrl": "https://api.audius.co/v1/tracks/RYM51/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1d/95/b3/1d95b376-ae6e-de03-a0c4-57ba64cdb112/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a39c6f40a486704a3cef9ade8ec092c1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1d/95/b3/1d95b376-ae6e-de03-a0c4-57ba64cdb112/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a39c6f40a486704a3cef9ade8ec092c1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9953,9 +9953,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3314000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1f/62/95/1f629574-ad96-0895-41b0-2f00034509cc/196871829748.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5a51111132739cd8625d3593ebd85328/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1f/62/95/1f629574-ad96-0895-41b0-2f00034509cc/196871829748.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5a51111132739cd8625d3593ebd85328/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9975,9 +9975,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3104000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/b7/9c/fcb79cd6-58bb-cfeb-5467-936988d4322e/5034644033242.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f26776b3a6711cf683688bf1e00d7d2d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/b7/9c/fcb79cd6-58bb-cfeb-5467-936988d4322e/5034644033242.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f26776b3a6711cf683688bf1e00d7d2d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -9997,9 +9997,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2894000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/65/ca/eb/65caebf5-a89d-1484-b0da-8997b661dfd7/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b87287fa11a9e5d235f3c7c4cb78f8d2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/65/ca/eb/65caebf5-a89d-1484-b0da-8997b661dfd7/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b87287fa11a9e5d235f3c7c4cb78f8d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10021,9 +10021,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4144000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/77/4c/3c/774c3c40-70cb-8ad6-7644-fc3843b2d079/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/77/4c/3c/774c3c40-70cb-8ad6-7644-fc3843b2d079/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10043,9 +10043,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3934000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/11/29/3411298f-e84c-2a76-1a4c-947b50bf0a2f/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/11/29/3411298f-e84c-2a76-1a4c-947b50bf0a2f/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10070,9 +10070,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 315,
     "playCount": 3724000,
     "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/80/54/c180547a-1d65-0cba-7fb8-c80e0720af2c/25UMGIM62177.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/80/54/c180547a-1d65-0cba-7fb8-c80e0720af2c/25UMGIM62177.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10092,9 +10092,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3514000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/57/80/de5780af-86a5-2ec9-a951-a01783c310c0/5034644008370.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/77c20eed06f49399796600ee338e025d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/57/80/de5780af-86a5-2ec9-a951-a01783c310c0/5034644008370.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/77c20eed06f49399796600ee338e025d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10114,9 +10114,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 200,
     "playCount": 3304000,
     "audioUrl": "https://api.audius.co/v1/tracks/YZawm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e4/35/e1e43528-f3aa-e393-a00c-f5822bc7ac1c/197338517857.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e4/35/e1e43528-f3aa-e393-a00c-f5822bc7ac1c/197338517857.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10136,9 +10136,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3094000,
     "audioUrl": "https://api.audius.co/v1/tracks/RYM51/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fc/cc/a2/fccca294-1225-4e8a-c56f-c5d8fba99826/22UMGIM25595.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fc/cc/a2/fccca294-1225-4e8a-c56f-c5d8fba99826/22UMGIM25595.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10158,9 +10158,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2884000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/43/15/4a/43154a2a-0b0e-65c4-866b-2aae894bc0ef/196626944412.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/43/15/4a/43154a2a-0b0e-65c4-866b-2aae894bc0ef/196626944412.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10180,9 +10180,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2674000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/b5/a1/0eb5a17a-1b4e-dbb2-911a-30d25c379515/085365300491.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/77c20eed06f49399796600ee338e025d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0e/b5/a1/0eb5a17a-1b4e-dbb2-911a-30d25c379515/085365300491.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/77c20eed06f49399796600ee338e025d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10202,9 +10202,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2464000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/63/78/43/63784317-dbb3-366b-b4cc-3ef76bd000ce/085365322868.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/63/78/43/63784317-dbb3-366b-b4cc-3ef76bd000ce/085365322868.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10227,9 +10227,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4187000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10249,9 +10249,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3977000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/08/44/ab084423-fdcb-eac5-e7f3-1bff4f732884/5034644493367.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/16f80e4e171235e14877927d3e94cac7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/08/44/ab084423-fdcb-eac5-e7f3-1bff4f732884/5034644493367.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/16f80e4e171235e14877927d3e94cac7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10271,9 +10271,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3767000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e90c6a9a90ffdbffc5cf658649140973/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e90c6a9a90ffdbffc5cf658649140973/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10293,9 +10293,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3557000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/08/44/ab084423-fdcb-eac5-e7f3-1bff4f732884/5034644493367.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/08/44/ab084423-fdcb-eac5-e7f3-1bff4f732884/5034644493367.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10315,9 +10315,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3347000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4677f41d76d4534d064b2e0b490f0df3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4677f41d76d4534d064b2e0b490f0df3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10337,9 +10337,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3137000,
     "audioUrl": "https://api.audius.co/v1/tracks/RYM51/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/08/44/ab084423-fdcb-eac5-e7f3-1bff4f732884/5034644493367.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/08/44/ab084423-fdcb-eac5-e7f3-1bff4f732884/5034644493367.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10364,9 +10364,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 315,
     "playCount": 2927000,
     "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/16f80e4e171235e14877927d3e94cac7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/16f80e4e171235e14877927d3e94cac7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10386,9 +10386,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2717000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/08/44/ab084423-fdcb-eac5-e7f3-1bff4f732884/5034644493367.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e90c6a9a90ffdbffc5cf658649140973/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/08/44/ab084423-fdcb-eac5-e7f3-1bff4f732884/5034644493367.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e90c6a9a90ffdbffc5cf658649140973/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10408,9 +10408,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2507000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10430,9 +10430,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 258,
     "playCount": 3929000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f86958964697811e57de4f1c3924fbb3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f86958964697811e57de4f1c3924fbb3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10452,9 +10452,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3719000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cf74a3b1034ca350d2d10ee1418a49df/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cf74a3b1034ca350d2d10ee1418a49df/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10474,9 +10474,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3509000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e06288279440ca15830f7be0f95933ed/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e06288279440ca15830f7be0f95933ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10496,9 +10496,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3299000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f86958964697811e57de4f1c3924fbb3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f86958964697811e57de4f1c3924fbb3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10518,9 +10518,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 330,
     "playCount": 3089000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cf74a3b1034ca350d2d10ee1418a49df/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cf74a3b1034ca350d2d10ee1418a49df/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10540,9 +10540,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2879000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e06288279440ca15830f7be0f95933ed/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e06288279440ca15830f7be0f95933ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10562,9 +10562,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2669000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f86958964697811e57de4f1c3924fbb3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f86958964697811e57de4f1c3924fbb3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10584,9 +10584,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2459000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cf74a3b1034ca350d2d10ee1418a49df/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cf74a3b1034ca350d2d10ee1418a49df/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10606,9 +10606,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2249000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e06288279440ca15830f7be0f95933ed/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e06288279440ca15830f7be0f95933ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10628,9 +10628,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2039000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f86958964697811e57de4f1c3924fbb3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f86958964697811e57de4f1c3924fbb3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10650,9 +10650,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 1829000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cf74a3b1034ca350d2d10ee1418a49df/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cf74a3b1034ca350d2d10ee1418a49df/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10672,9 +10672,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 1619000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e06288279440ca15830f7be0f95933ed/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e06288279440ca15830f7be0f95933ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10694,9 +10694,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4144000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/417fade4de3f2441c2d9196ad6873943/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/417fade4de3f2441c2d9196ad6873943/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10716,9 +10716,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3934000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/96ac09bf706fdd12293a7a87868d371e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/96ac09bf706fdd12293a7a87868d371e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10740,9 +10740,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3724000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10762,9 +10762,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3514000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10784,9 +10784,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3304000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/417fade4de3f2441c2d9196ad6873943/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/417fade4de3f2441c2d9196ad6873943/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10806,9 +10806,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3094000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/96ac09bf706fdd12293a7a87868d371e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/96ac09bf706fdd12293a7a87868d371e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10828,9 +10828,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2884000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10850,9 +10850,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2674000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10872,9 +10872,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2464000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/417fade4de3f2441c2d9196ad6873943/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/417fade4de3f2441c2d9196ad6873943/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10894,9 +10894,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2254000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/96ac09bf706fdd12293a7a87868d371e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/96ac09bf706fdd12293a7a87868d371e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10916,9 +10916,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2044000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10938,9 +10938,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 1834000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/13/85/ce1385a8-96cc-45e0-aa49-20ef78aec604/190295301095.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10960,9 +10960,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3972000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1b/67/4a/1b674adb-8249-641c-ab7e-81443642e6f2/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a787edcc0701f742d99973b4243aa281/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1b/67/4a/1b674adb-8249-641c-ab7e-81443642e6f2/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a787edcc0701f742d99973b4243aa281/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -10982,9 +10982,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3762000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/68/35/fc/6835fc8b-c0b7-02dc-4d3c-c23a41462953/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c86594942e6dc28e3e4e22f272310e24/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/68/35/fc/6835fc8b-c0b7-02dc-4d3c-c23a41462953/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c86594942e6dc28e3e4e22f272310e24/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11004,9 +11004,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3552000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/c3/c0/e4c3c02b-2dea-b07f-e74e-70252ae1d1f3/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6c423774b2de80e8693e02398c6f3985/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/c3/c0/e4c3c02b-2dea-b07f-e74e-70252ae1d1f3/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6c423774b2de80e8693e02398c6f3985/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11026,9 +11026,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3342000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1b/67/4a/1b674adb-8249-641c-ab7e-81443642e6f2/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/454ef3f66631d86c3852bda8591dbdea/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1b/67/4a/1b674adb-8249-641c-ab7e-81443642e6f2/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/454ef3f66631d86c3852bda8591dbdea/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11048,9 +11048,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3132000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/68/35/fc/6835fc8b-c0b7-02dc-4d3c-c23a41462953/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/89012048dacad463ff3483245ca237b9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/68/35/fc/6835fc8b-c0b7-02dc-4d3c-c23a41462953/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/89012048dacad463ff3483245ca237b9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11070,9 +11070,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2922000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/c3/c0/e4c3c02b-2dea-b07f-e74e-70252ae1d1f3/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f4101efe220f009edcd42d941ce2e8dd/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/c3/c0/e4c3c02b-2dea-b07f-e74e-70252ae1d1f3/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f4101efe220f009edcd42d941ce2e8dd/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11092,9 +11092,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2712000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1b/67/4a/1b674adb-8249-641c-ab7e-81443642e6f2/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a787edcc0701f742d99973b4243aa281/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1b/67/4a/1b674adb-8249-641c-ab7e-81443642e6f2/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a787edcc0701f742d99973b4243aa281/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11114,9 +11114,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2502000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/68/35/fc/6835fc8b-c0b7-02dc-4d3c-c23a41462953/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c86594942e6dc28e3e4e22f272310e24/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/68/35/fc/6835fc8b-c0b7-02dc-4d3c-c23a41462953/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c86594942e6dc28e3e4e22f272310e24/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11136,9 +11136,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2292000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/c3/c0/e4c3c02b-2dea-b07f-e74e-70252ae1d1f3/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6c423774b2de80e8693e02398c6f3985/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/c3/c0/e4c3c02b-2dea-b07f-e74e-70252ae1d1f3/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6c423774b2de80e8693e02398c6f3985/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11158,9 +11158,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2082000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1b/67/4a/1b674adb-8249-641c-ab7e-81443642e6f2/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/454ef3f66631d86c3852bda8591dbdea/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1b/67/4a/1b674adb-8249-641c-ab7e-81443642e6f2/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/454ef3f66631d86c3852bda8591dbdea/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11180,9 +11180,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 1872000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/68/35/fc/6835fc8b-c0b7-02dc-4d3c-c23a41462953/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/89012048dacad463ff3483245ca237b9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/68/35/fc/6835fc8b-c0b7-02dc-4d3c-c23a41462953/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/89012048dacad463ff3483245ca237b9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11202,9 +11202,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4058000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c7/69/f2/c769f246-a538-3de3-0e20-3442a0465cda/886447260593.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8d35790fafbc4c16358050d7246b5e2b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c7/69/f2/c769f246-a538-3de3-0e20-3442a0465cda/886447260593.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8d35790fafbc4c16358050d7246b5e2b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11224,9 +11224,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3848000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d5/9d/9c/d59d9caf-ec40-3770-3f58-bf109d9c059a/E91B372C-DB88-11E6-9CEE-B5BC2E18DA69.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b470f8cfd8cdbe308680090d1b614327/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d5/9d/9c/d59d9caf-ec40-3770-3f58-bf109d9c059a/E91B372C-DB88-11E6-9CEE-B5BC2E18DA69.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b470f8cfd8cdbe308680090d1b614327/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11247,9 +11247,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3638000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c7/69/f2/c769f246-a538-3de3-0e20-3442a0465cda/886447260593.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a602f0ca2899eb698c6ffe03d90189e7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c7/69/f2/c769f246-a538-3de3-0e20-3442a0465cda/886447260593.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a602f0ca2899eb698c6ffe03d90189e7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11269,9 +11269,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3428000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d5/9d/9c/d59d9caf-ec40-3770-3f58-bf109d9c059a/E91B372C-DB88-11E6-9CEE-B5BC2E18DA69.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8d35790fafbc4c16358050d7246b5e2b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d5/9d/9c/d59d9caf-ec40-3770-3f58-bf109d9c059a/E91B372C-DB88-11E6-9CEE-B5BC2E18DA69.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8d35790fafbc4c16358050d7246b5e2b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11292,9 +11292,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3218000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c7/69/f2/c769f246-a538-3de3-0e20-3442a0465cda/886447260593.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b470f8cfd8cdbe308680090d1b614327/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c7/69/f2/c769f246-a538-3de3-0e20-3442a0465cda/886447260593.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b470f8cfd8cdbe308680090d1b614327/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11314,9 +11314,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3008000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d5/9d/9c/d59d9caf-ec40-3770-3f58-bf109d9c059a/E91B372C-DB88-11E6-9CEE-B5BC2E18DA69.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a602f0ca2899eb698c6ffe03d90189e7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d5/9d/9c/d59d9caf-ec40-3770-3f58-bf109d9c059a/E91B372C-DB88-11E6-9CEE-B5BC2E18DA69.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a602f0ca2899eb698c6ffe03d90189e7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11336,9 +11336,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2798000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c7/69/f2/c769f246-a538-3de3-0e20-3442a0465cda/886447260593.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8d35790fafbc4c16358050d7246b5e2b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c7/69/f2/c769f246-a538-3de3-0e20-3442a0465cda/886447260593.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8d35790fafbc4c16358050d7246b5e2b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11358,9 +11358,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2588000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d5/9d/9c/d59d9caf-ec40-3770-3f58-bf109d9c059a/E91B372C-DB88-11E6-9CEE-B5BC2E18DA69.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b470f8cfd8cdbe308680090d1b614327/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d5/9d/9c/d59d9caf-ec40-3770-3f58-bf109d9c059a/E91B372C-DB88-11E6-9CEE-B5BC2E18DA69.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b470f8cfd8cdbe308680090d1b614327/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11380,9 +11380,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2378000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c7/69/f2/c769f246-a538-3de3-0e20-3442a0465cda/886447260593.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a602f0ca2899eb698c6ffe03d90189e7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c7/69/f2/c769f246-a538-3de3-0e20-3442a0465cda/886447260593.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a602f0ca2899eb698c6ffe03d90189e7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11402,9 +11402,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2168000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d5/9d/9c/d59d9caf-ec40-3770-3f58-bf109d9c059a/E91B372C-DB88-11E6-9CEE-B5BC2E18DA69.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8d35790fafbc4c16358050d7246b5e2b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d5/9d/9c/d59d9caf-ec40-3770-3f58-bf109d9c059a/E91B372C-DB88-11E6-9CEE-B5BC2E18DA69.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8d35790fafbc4c16358050d7246b5e2b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11424,9 +11424,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4187000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f6/7e/46f67e2e-d82a-fcd2-e887-94cbd97a4200/3617051605473_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/edee57432ae2d11ab3394d95b9214f7c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f6/7e/46f67e2e-d82a-fcd2-e887-94cbd97a4200/3617051605473_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/edee57432ae2d11ab3394d95b9214f7c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11446,9 +11446,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3977000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/0a/3b/bb0a3b4b-c18e-a5f9-856b-6ac47a700dc6/37148.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3fd78878e861bf45fdd08459d5056afd/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/0a/3b/bb0a3b4b-c18e-a5f9-856b-6ac47a700dc6/37148.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3fd78878e861bf45fdd08459d5056afd/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11468,9 +11468,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3767000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/da/8d/0f/da8d0f0f-4371-ca31-e4ff-886a5de23d03/3617052483742_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9724ab527fadc5e8e2ff3ebdfccfc701/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/da/8d/0f/da8d0f0f-4371-ca31-e4ff-886a5de23d03/3617052483742_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9724ab527fadc5e8e2ff3ebdfccfc701/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11490,9 +11490,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3557000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/52/87/e3/5287e3ae-2b9f-54c9-658a-8fcf18310bcc/190296442780.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/160c72084162c1ec3724ad4c950c805d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/52/87/e3/5287e3ae-2b9f-54c9-658a-8fcf18310bcc/190296442780.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/160c72084162c1ec3724ad4c950c805d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11512,9 +11512,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3347000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/63/ac/7363ac30-b61f-0c5a-27f2-33102a4a6c72/190296162824.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/edee57432ae2d11ab3394d95b9214f7c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/73/63/ac/7363ac30-b61f-0c5a-27f2-33102a4a6c72/190296162824.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/edee57432ae2d11ab3394d95b9214f7c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11534,9 +11534,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3137000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/2c/ed/d72ced96-3934-1fc5-8d95-24a0ff2ab678/3617053095852_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3fd78878e861bf45fdd08459d5056afd/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/2c/ed/d72ced96-3934-1fc5-8d95-24a0ff2ab678/3617053095852_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3fd78878e861bf45fdd08459d5056afd/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11556,9 +11556,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2927000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c5/32/b3/c532b388-7c89-5e7b-b3bd-6986fde0db6e/893614819072.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9724ab527fadc5e8e2ff3ebdfccfc701/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c5/32/b3/c532b388-7c89-5e7b-b3bd-6986fde0db6e/893614819072.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9724ab527fadc5e8e2ff3ebdfccfc701/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11578,9 +11578,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2717000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/95/5a/19955a3e-a16c-5f44-4503-83a3872fb9e5/3617229238830_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/160c72084162c1ec3724ad4c950c805d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/19/95/5a/19955a3e-a16c-5f44-4503-83a3872fb9e5/3617229238830_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/160c72084162c1ec3724ad4c950c805d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11600,9 +11600,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2507000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/af/b2/a3afb236-8f49-3f69-e54c-9cee842d5dbe/3617662512115_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/edee57432ae2d11ab3394d95b9214f7c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/af/b2/a3afb236-8f49-3f69-e54c-9cee842d5dbe/3617662512115_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/edee57432ae2d11ab3394d95b9214f7c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11622,9 +11622,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 4316000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/53/a9/57/53a957bb-4f53-bbf8-a0e2-ca1e2d0fce11/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2a291a7ec11748f8ca0a7623239df1e8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/53/a9/57/53a957bb-4f53-bbf8-a0e2-ca1e2d0fce11/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2a291a7ec11748f8ca0a7623239df1e8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11644,9 +11644,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 4106000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/c0/d1/62c0d19f-14b6-f3c8-0ff0-c86a75ebcc64/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a32eb9d30e83d94beba2141f3c792bbb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/c0/d1/62c0d19f-14b6-f3c8-0ff0-c86a75ebcc64/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a32eb9d30e83d94beba2141f3c792bbb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11666,9 +11666,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3896000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/62/65/54/6265548e-a294-9c8a-5eb1-1025834591af/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/bf89fd933f679f17dd3a39a731cf0345/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/62/65/54/6265548e-a294-9c8a-5eb1-1025834591af/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/bf89fd933f679f17dd3a39a731cf0345/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11688,9 +11688,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3686000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/9b/11/659b1102-e159-82d3-539e-b701335884a0/5063268050328_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2a291a7ec11748f8ca0a7623239df1e8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/9b/11/659b1102-e159-82d3-539e-b701335884a0/5063268050328_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2a291a7ec11748f8ca0a7623239df1e8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11710,9 +11710,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3476000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ec/27/9d/ec279dba-d80e-2504-ae20-3c142ae6e5fa/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a32eb9d30e83d94beba2141f3c792bbb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ec/27/9d/ec279dba-d80e-2504-ae20-3c142ae6e5fa/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a32eb9d30e83d94beba2141f3c792bbb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11732,9 +11732,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3266000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a8/bb/b8/a8bbb888-dff5-1fd2-ccad-60dc2e26ca07/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/bf89fd933f679f17dd3a39a731cf0345/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a8/bb/b8/a8bbb888-dff5-1fd2-ccad-60dc2e26ca07/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/bf89fd933f679f17dd3a39a731cf0345/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11754,9 +11754,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3056000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/94/94/66/94946652-a7a0-9ee2-844f-704ab40a029d/5063268969859_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2a291a7ec11748f8ca0a7623239df1e8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/94/94/66/94946652-a7a0-9ee2-844f-704ab40a029d/5063268969859_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2a291a7ec11748f8ca0a7623239df1e8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11776,9 +11776,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2846000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/53/a9/57/53a957bb-4f53-bbf8-a0e2-ca1e2d0fce11/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a32eb9d30e83d94beba2141f3c792bbb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/53/a9/57/53a957bb-4f53-bbf8-a0e2-ca1e2d0fce11/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a32eb9d30e83d94beba2141f3c792bbb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11798,9 +11798,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2636000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/c0/d1/62c0d19f-14b6-f3c8-0ff0-c86a75ebcc64/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/bf89fd933f679f17dd3a39a731cf0345/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/c0/d1/62c0d19f-14b6-f3c8-0ff0-c86a75ebcc64/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/bf89fd933f679f17dd3a39a731cf0345/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11820,9 +11820,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2426000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/62/65/54/6265548e-a294-9c8a-5eb1-1025834591af/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2a291a7ec11748f8ca0a7623239df1e8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/62/65/54/6265548e-a294-9c8a-5eb1-1025834591af/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2a291a7ec11748f8ca0a7623239df1e8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11842,9 +11842,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4230000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/f1/5e/5cf15e58-5e7f-25b9-0a7b-b71a82ca7960/3616550790499_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a115068d71b76969acdd58187d28a3df/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/f1/5e/5cf15e58-5e7f-25b9-0a7b-b71a82ca7960/3616550790499_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a115068d71b76969acdd58187d28a3df/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11864,9 +11864,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 4020000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/b1/1d/5ab11dfa-71ae-b8e0-3c2f-0cb8499e83d5/0.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/bef54f9893f51408f45c1d9e176b9f14/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/b1/1d/5ab11dfa-71ae-b8e0-3c2f-0cb8499e83d5/0.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/bef54f9893f51408f45c1d9e176b9f14/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11886,9 +11886,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3810000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/f1/5e/5cf15e58-5e7f-25b9-0a7b-b71a82ca7960/3616550790499_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a9bc90fdfa5695a4d0ff1f800ce49e73/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/f1/5e/5cf15e58-5e7f-25b9-0a7b-b71a82ca7960/3616550790499_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a9bc90fdfa5695a4d0ff1f800ce49e73/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11908,9 +11908,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3600000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/b1/1d/5ab11dfa-71ae-b8e0-3c2f-0cb8499e83d5/0.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2006eaeb4bc03356d60bdd3491fd973f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/b1/1d/5ab11dfa-71ae-b8e0-3c2f-0cb8499e83d5/0.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2006eaeb4bc03356d60bdd3491fd973f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11930,9 +11930,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3390000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/f1/5e/5cf15e58-5e7f-25b9-0a7b-b71a82ca7960/3616550790499_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a115068d71b76969acdd58187d28a3df/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/f1/5e/5cf15e58-5e7f-25b9-0a7b-b71a82ca7960/3616550790499_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a115068d71b76969acdd58187d28a3df/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11952,9 +11952,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3180000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/b1/1d/5ab11dfa-71ae-b8e0-3c2f-0cb8499e83d5/0.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/bef54f9893f51408f45c1d9e176b9f14/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/b1/1d/5ab11dfa-71ae-b8e0-3c2f-0cb8499e83d5/0.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/bef54f9893f51408f45c1d9e176b9f14/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11974,9 +11974,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2970000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/f1/5e/5cf15e58-5e7f-25b9-0a7b-b71a82ca7960/3616550790499_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a9bc90fdfa5695a4d0ff1f800ce49e73/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/f1/5e/5cf15e58-5e7f-25b9-0a7b-b71a82ca7960/3616550790499_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a9bc90fdfa5695a4d0ff1f800ce49e73/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -11996,9 +11996,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2760000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/b1/1d/5ab11dfa-71ae-b8e0-3c2f-0cb8499e83d5/0.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2006eaeb4bc03356d60bdd3491fd973f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/b1/1d/5ab11dfa-71ae-b8e0-3c2f-0cb8499e83d5/0.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2006eaeb4bc03356d60bdd3491fd973f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12018,9 +12018,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2550000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/f1/5e/5cf15e58-5e7f-25b9-0a7b-b71a82ca7960/3616550790499_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a115068d71b76969acdd58187d28a3df/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/f1/5e/5cf15e58-5e7f-25b9-0a7b-b71a82ca7960/3616550790499_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a115068d71b76969acdd58187d28a3df/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12040,9 +12040,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 4144000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/d0/7a/8ad07a28-8401-d9be-e501-d1d1596b1795/7290114293150_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3a13b8405cc068d642b2d3a6f5e6f196/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8a/d0/7a/8ad07a28-8401-d9be-e501-d1d1596b1795/7290114293150_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3a13b8405cc068d642b2d3a6f5e6f196/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12062,9 +12062,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3934000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/b8/11/b2b81163-a8c9-00dc-a9fd-b59a14915b3f/197190249880.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8452286097c74a3efff9f7c74adea684/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/b8/11/b2b81163-a8c9-00dc-a9fd-b59a14915b3f/197190249880.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8452286097c74a3efff9f7c74adea684/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12084,9 +12084,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3724000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/51/60/16/51601607-1a01-d11f-6692-50f3fe4c5565/886449882595.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1e1bc901c28fadcd52b34ce09111c6ed/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/51/60/16/51601607-1a01-d11f-6692-50f3fe4c5565/886449882595.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1e1bc901c28fadcd52b34ce09111c6ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12106,9 +12106,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3514000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d6/0d/f9/d60df948-48bc-64b1-c1cf-6ed68ff8f67f/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3a13b8405cc068d642b2d3a6f5e6f196/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d6/0d/f9/d60df948-48bc-64b1-c1cf-6ed68ff8f67f/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3a13b8405cc068d642b2d3a6f5e6f196/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12128,9 +12128,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3304000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9a/b6/7d/9ab67d3c-27a1-fbab-7bf4-339608061799/3616844111153.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8452286097c74a3efff9f7c74adea684/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9a/b6/7d/9ab67d3c-27a1-fbab-7bf4-339608061799/3616844111153.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8452286097c74a3efff9f7c74adea684/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12150,9 +12150,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3094000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/70/14/fb/7014fb7a-ad65-cf9e-9f7d-06ff89c9d94d/886449572847.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1e1bc901c28fadcd52b34ce09111c6ed/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/70/14/fb/7014fb7a-ad65-cf9e-9f7d-06ff89c9d94d/886449572847.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1e1bc901c28fadcd52b34ce09111c6ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12172,9 +12172,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2884000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/52/d0/55/52d0558c-7f4a-d2e7-095f-1a3bba4a4366/196589493033.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3a13b8405cc068d642b2d3a6f5e6f196/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/52/d0/55/52d0558c-7f4a-d2e7-095f-1a3bba4a4366/196589493033.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3a13b8405cc068d642b2d3a6f5e6f196/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12194,9 +12194,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2674000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/14/60/4e/14604e3c-fd0f-74b1-4986-205977c35bdf/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8452286097c74a3efff9f7c74adea684/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/14/60/4e/14604e3c-fd0f-74b1-4986-205977c35bdf/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8452286097c74a3efff9f7c74adea684/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12216,9 +12216,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2464000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/c5/48/f9c54843-7027-ab73-e563-99375fbb264b/5034644095868.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1e1bc901c28fadcd52b34ce09111c6ed/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/c5/48/f9c54843-7027-ab73-e563-99375fbb264b/5034644095868.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1e1bc901c28fadcd52b34ce09111c6ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12238,9 +12238,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2254000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/cb/c1/e7cbc1d5-b938-4469-7a32-b39b484f8b20/198830983300.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3a13b8405cc068d642b2d3a6f5e6f196/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/cb/c1/e7cbc1d5-b938-4469-7a32-b39b484f8b20/198830983300.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3a13b8405cc068d642b2d3a6f5e6f196/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12260,9 +12260,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3972000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/bd/ec/a5/bdeca513-106d-36a1-012e-18faf94c307d/197187572564.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/01a10a36e62661af6235d6fd6223742d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/bd/ec/a5/bdeca513-106d-36a1-012e-18faf94c307d/197187572564.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/01a10a36e62661af6235d6fd6223742d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12282,9 +12282,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3762000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/2b/e4/ce2be4be-4bad-a72e-00f1-5fa4c624c229/759004309083_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/2b/e4/ce2be4be-4bad-a72e-00f1-5fa4c624c229/759004309083_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12304,9 +12304,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3552000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/86/3e/c9/863ec9ad-e55b-7a8a-7594-c3ff125c430a/197338362723.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0d24ac950bb68e6d6925d759bd7175ca/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/86/3e/c9/863ec9ad-e55b-7a8a-7594-c3ff125c430a/197338362723.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0d24ac950bb68e6d6925d759bd7175ca/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12326,9 +12326,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3342000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/de/53/36de533a-0432-130e-a991-1c08567450a2/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/01a10a36e62661af6235d6fd6223742d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/de/53/36de533a-0432-130e-a991-1c08567450a2/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/01a10a36e62661af6235d6fd6223742d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12349,9 +12349,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3132000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/32/70/e13270f6-b81c-ef09-175f-4958d5a986b1/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/32/70/e13270f6-b81c-ef09-175f-4958d5a986b1/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12371,9 +12371,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2922000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6e/cf/17/6ecf1706-f092-1859-d0f2-3c6140cd3647/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0d24ac950bb68e6d6925d759bd7175ca/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6e/cf/17/6ecf1706-f092-1859-d0f2-3c6140cd3647/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0d24ac950bb68e6d6925d759bd7175ca/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12393,9 +12393,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2712000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/f9/fe/8f/f9fe8f50-eadd-380f-b9b2-ec0f695940de/27e2c2f5-6a07-4b71-b363-9c6839dd0960.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/01a10a36e62661af6235d6fd6223742d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/f9/fe/8f/f9fe8f50-eadd-380f-b9b2-ec0f695940de/27e2c2f5-6a07-4b71-b363-9c6839dd0960.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/01a10a36e62661af6235d6fd6223742d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12415,9 +12415,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2502000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/bd/ec/a5/bdeca513-106d-36a1-012e-18faf94c307d/197187572564.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/bd/ec/a5/bdeca513-106d-36a1-012e-18faf94c307d/197187572564.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12437,9 +12437,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2292000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/2b/e4/ce2be4be-4bad-a72e-00f1-5fa4c624c229/759004309083_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0d24ac950bb68e6d6925d759bd7175ca/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/2b/e4/ce2be4be-4bad-a72e-00f1-5fa4c624c229/759004309083_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0d24ac950bb68e6d6925d759bd7175ca/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12459,9 +12459,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2082000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/86/3e/c9/863ec9ad-e55b-7a8a-7594-c3ff125c430a/197338362723.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/01a10a36e62661af6235d6fd6223742d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/86/3e/c9/863ec9ad-e55b-7a8a-7594-c3ff125c430a/197338362723.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/01a10a36e62661af6235d6fd6223742d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12481,9 +12481,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 4445000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/41/ce/c141ce00-f9eb-6d9e-0420-640d5f9b0518/5034644707082.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/814a2e494c2e8dc46255f113bab0f08d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/41/ce/c141ce00-f9eb-6d9e-0420-640d5f9b0518/5034644707082.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/814a2e494c2e8dc46255f113bab0f08d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12503,9 +12503,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 4235000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/67/a6/c5/67a6c588-8b41-27b6-6a4e-1838deb97cc7/5054526396869_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a2526bfe1c42080462d4635dc8664ac3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/67/a6/c5/67a6c588-8b41-27b6-6a4e-1838deb97cc7/5054526396869_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a2526bfe1c42080462d4635dc8664ac3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12525,9 +12525,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 4025000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f6/77/7e/f6777e54-ea7c-79db-5bdb-cc93e662e43e/5034644785936.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3026e9516b135830198518a0d0a69b4a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f6/77/7e/f6777e54-ea7c-79db-5bdb-cc93e662e43e/5034644785936.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3026e9516b135830198518a0d0a69b4a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12547,9 +12547,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3815000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/e1/4f/36e14f2b-c952-e9ff-22b9-e76423a750f2/5026854579542.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ea03c49095062954e48f8f0edbc283ee/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/e1/4f/36e14f2b-c952-e9ff-22b9-e76423a750f2/5026854579542.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ea03c49095062954e48f8f0edbc283ee/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12569,9 +12569,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3605000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/9e/73/e99e73b6-614d-d336-725b-14694b7b39fe/5034644290775.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c9fd4ea19c47dfc535b2e9399ea8d997/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/9e/73/e99e73b6-614d-d336-725b-14694b7b39fe/5034644290775.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c9fd4ea19c47dfc535b2e9399ea8d997/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12591,9 +12591,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3395000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/08/8f/71088f71-a49a-4f30-f2b8-1ec32a80cc78/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/581204911b3132a209728d7e762b951d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/08/8f/71088f71-a49a-4f30-f2b8-1ec32a80cc78/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/581204911b3132a209728d7e762b951d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12613,9 +12613,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3185000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d0/dd/be/d0ddbe8c-c386-377e-9096-f00522c76658/4894972618549.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c44eeb438957c139f382e0adcb14e4e2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d0/dd/be/d0ddbe8c-c386-377e-9096-f00522c76658/4894972618549.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c44eeb438957c139f382e0adcb14e4e2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12635,9 +12635,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2975000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/19/f5/c719f531-4fa6-5736-61e8-06f93b854a52/0194236223798.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4ee6c72f9f08398833cc6184cc3b6ae8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/19/f5/c719f531-4fa6-5736-61e8-06f93b854a52/0194236223798.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4ee6c72f9f08398833cc6184cc3b6ae8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12657,9 +12657,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2765000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/39/5b/cd395b11-0938-3bb3-b4a9-9332fb0ac05f/5026854918143.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ba5f2ff13f61a3ca740f1e3e4f3528ce/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/39/5b/cd395b11-0938-3bb3-b4a9-9332fb0ac05f/5026854918143.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ba5f2ff13f61a3ca740f1e3e4f3528ce/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12679,9 +12679,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2555000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/77/7a/bf777ab6-97d7-7e09-82dd-f8f0d79fd756/4894972630343.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/814a2e494c2e8dc46255f113bab0f08d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/77/7a/bf777ab6-97d7-7e09-82dd-f8f0d79fd756/4894972630343.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/814a2e494c2e8dc46255f113bab0f08d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12701,9 +12701,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2345000,
     "audioUrl": "https://api.audius.co/v1/tracks/Ma7bo/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/41/ce/c141ce00-f9eb-6d9e-0420-640d5f9b0518/5034644707082.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a2526bfe1c42080462d4635dc8664ac3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/41/ce/c141ce00-f9eb-6d9e-0420-640d5f9b0518/5034644707082.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a2526bfe1c42080462d4635dc8664ac3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12724,9 +12724,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2135000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/67/a6/c5/67a6c588-8b41-27b6-6a4e-1838deb97cc7/5054526396869_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3026e9516b135830198518a0d0a69b4a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/67/a6/c5/67a6c588-8b41-27b6-6a4e-1838deb97cc7/5054526396869_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3026e9516b135830198518a0d0a69b4a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12746,9 +12746,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4316000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/15/d4/f3/15d4f394-c6dd-175a-97c3-1a5cec9a7613/196589227874.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/13e1a4718d051c3d3d4c7b369836e11f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/15/d4/f3/15d4f394-c6dd-175a-97c3-1a5cec9a7613/196589227874.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/13e1a4718d051c3d3d4c7b369836e11f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12768,9 +12768,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 182,
     "playCount": 4106000,
     "audioUrl": "https://api.audius.co/v1/tracks/xz5krNj/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/22/ff/1d/22ff1d5f-2c6e-af5d-17e2-ee8c73fe59fd/196589345868.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8f4149b938c304f68a8cadcf310d5a81/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/22/ff/1d/22ff1d5f-2c6e-af5d-17e2-ee8c73fe59fd/196589345868.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8f4149b938c304f68a8cadcf310d5a81/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12791,9 +12791,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3896000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/3b/69/783b6924-180a-8d5f-e359-b951dc63d68e/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/3b/69/783b6924-180a-8d5f-e359-b951dc63d68e/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12813,9 +12813,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3686000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/a5/4b/05a54bed-1efb-90f4-aebb-98eb8b2cd7c3/7316475883721_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e1efa4472c7c0c9c35934c78162639b6/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/05/a5/4b/05a54bed-1efb-90f4-aebb-98eb8b2cd7c3/7316475883721_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e1efa4472c7c0c9c35934c78162639b6/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12835,9 +12835,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3476000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/61/9c/ed619cd1-165f-577c-619b-295fcc6d4050/7316472607566_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/13e1a4718d051c3d3d4c7b369836e11f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/61/9c/ed619cd1-165f-577c-619b-295fcc6d4050/7316472607566_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/13e1a4718d051c3d3d4c7b369836e11f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12857,9 +12857,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3266000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/4a/ad/354aad3e-233b-ee02-c191-2560f758e325/7316475890620_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8f4149b938c304f68a8cadcf310d5a81/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/4a/ad/354aad3e-233b-ee02-c191-2560f758e325/7316475890620_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8f4149b938c304f68a8cadcf310d5a81/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12879,9 +12879,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3056000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ff/4e/25/ff4e25c6-199a-5e7c-b595-fc577eba6aed/190296174810.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ff/4e/25/ff4e25c6-199a-5e7c-b595-fc577eba6aed/190296174810.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12901,9 +12901,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2846000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/47/91/64/479164a7-71d3-c0e5-348c-3300290edcbf/T400000087.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e1efa4472c7c0c9c35934c78162639b6/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/47/91/64/479164a7-71d3-c0e5-348c-3300290edcbf/T400000087.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e1efa4472c7c0c9c35934c78162639b6/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12923,9 +12923,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2636000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/de/9b/65de9b97-7ec5-accc-de20-4635a13e0739/4571625710064_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/13e1a4718d051c3d3d4c7b369836e11f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/de/9b/65de9b97-7ec5-accc-de20-4635a13e0739/4571625710064_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/13e1a4718d051c3d3d4c7b369836e11f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12945,9 +12945,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2426000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/0e/b1/710eb18f-b453-791c-64cc-a768c017f0ca/7316475702411_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8f4149b938c304f68a8cadcf310d5a81/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/0e/b1/710eb18f-b453-791c-64cc-a768c017f0ca/7316475702411_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8f4149b938c304f68a8cadcf310d5a81/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12967,9 +12967,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2216000,
     "audioUrl": "https://api.audius.co/v1/tracks/Ma7bo/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/15/d4/f3/15d4f394-c6dd-175a-97c3-1a5cec9a7613/196589227874.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/15/d4/f3/15d4f394-c6dd-175a-97c3-1a5cec9a7613/196589227874.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -12989,9 +12989,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 4359000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ea/bc/51/eabc5187-35f1-2e67-4f70-3a7bb2f5bafd/197338288740.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6005d6b56581e7edb839f7b8c5d3b348/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ea/bc/51/eabc5187-35f1-2e67-4f70-3a7bb2f5bafd/197338288740.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6005d6b56581e7edb839f7b8c5d3b348/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13013,9 +13013,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 4149000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/27/45/bb274519-c99c-9a6e-9237-e031f11c728d/197338365342.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/bd7d52daed2d986d3656a4a9118a23d2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/27/45/bb274519-c99c-9a6e-9237-e031f11c728d/197338365342.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/bd7d52daed2d986d3656a4a9118a23d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13035,9 +13035,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3939000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1f/62/95/1f629574-ad96-0895-41b0-2f00034509cc/196871829748.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0b15ddf60801eb94df0f76947bf47c4a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1f/62/95/1f629574-ad96-0895-41b0-2f00034509cc/196871829748.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0b15ddf60801eb94df0f76947bf47c4a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13057,9 +13057,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3729000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1c/83/c9/1c83c94e-0f7b-66b6-031b-b590c182ace4/197338709351.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6005d6b56581e7edb839f7b8c5d3b348/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1c/83/c9/1c83c94e-0f7b-66b6-031b-b590c182ace4/197338709351.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6005d6b56581e7edb839f7b8c5d3b348/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13079,9 +13079,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3519000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/05/77/15057707-dbb1-eba0-e189-6ab13bfd739b/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/bd7d52daed2d986d3656a4a9118a23d2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/05/77/15057707-dbb1-eba0-e189-6ab13bfd739b/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/bd7d52daed2d986d3656a4a9118a23d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13101,9 +13101,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3309000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/32/49/f3/3249f3fa-45de-ced3-0e71-884fded77a60/25UM2IM00143.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0b15ddf60801eb94df0f76947bf47c4a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/32/49/f3/3249f3fa-45de-ced3-0e71-884fded77a60/25UM2IM00143.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0b15ddf60801eb94df0f76947bf47c4a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13123,9 +13123,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3099000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d5/33/38/d53338d4-8473-52b7-a072-01b0e7c4e0c0/190296533730.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6005d6b56581e7edb839f7b8c5d3b348/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d5/33/38/d53338d4-8473-52b7-a072-01b0e7c4e0c0/190296533730.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6005d6b56581e7edb839f7b8c5d3b348/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13145,9 +13145,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2889000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/e2/bb/50e2bb62-bccb-dc8e-15fd-08adcf99e268/5026854234168.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/bd7d52daed2d986d3656a4a9118a23d2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/e2/bb/50e2bb62-bccb-dc8e-15fd-08adcf99e268/5026854234168.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/bd7d52daed2d986d3656a4a9118a23d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13167,9 +13167,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2679000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ea/bc/51/eabc5187-35f1-2e67-4f70-3a7bb2f5bafd/197338288740.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0b15ddf60801eb94df0f76947bf47c4a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ea/bc/51/eabc5187-35f1-2e67-4f70-3a7bb2f5bafd/197338288740.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0b15ddf60801eb94df0f76947bf47c4a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13189,9 +13189,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2469000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/27/45/bb274519-c99c-9a6e-9237-e031f11c728d/197338365342.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6005d6b56581e7edb839f7b8c5d3b348/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/27/45/bb274519-c99c-9a6e-9237-e031f11c728d/197338365342.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6005d6b56581e7edb839f7b8c5d3b348/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13211,9 +13211,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4445000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a5/3e/b1/a53eb187-cb52-feae-f3a3-cc76b4c1d7a6/5021732011367.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c27180f95bf0792bb76ad3aaada91f1d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a5/3e/b1/a53eb187-cb52-feae-f3a3-cc76b4c1d7a6/5021732011367.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c27180f95bf0792bb76ad3aaada91f1d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13233,9 +13233,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4235000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/70/d0/2e/70d02ec1-2df5-d584-bd3a-f5f742c0f08b/190296390104.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c587aab956ae7d61c9ad9dc40ebca449/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/70/d0/2e/70d02ec1-2df5-d584-bd3a-f5f742c0f08b/190296390104.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c587aab956ae7d61c9ad9dc40ebca449/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13255,9 +13255,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 4025000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e5/a0/02/e5a002cb-f4e0-c50b-f691-c3c464a72ec0/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9bd8bf00ffc625fc7336a68413b375be/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e5/a0/02/e5a002cb-f4e0-c50b-f691-c3c464a72ec0/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9bd8bf00ffc625fc7336a68413b375be/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13277,9 +13277,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3815000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/45/a3/e145a309-7a3e-3157-4bc2-b30fed537184/190296355905.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/447b19e1f53e2583e210550e5b11194f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e1/45/a3/e145a309-7a3e-3157-4bc2-b30fed537184/190296355905.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/447b19e1f53e2583e210550e5b11194f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13299,9 +13299,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3605000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/83/e9/bd/83e9bde0-bde4-6b95-8424-678ad1d4d9e6/5021732011459.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0d52797a332e4f3e3839b1321fbeedb0/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/83/e9/bd/83e9bde0-bde4-6b95-8424-678ad1d4d9e6/5021732011459.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0d52797a332e4f3e3839b1321fbeedb0/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13321,9 +13321,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3395000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/a3/c1/d3a3c16b-bec7-836d-8c79-feb9358c85a5/190296390425.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b7c37b2eb063e968ca18500089eaa301/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/a3/c1/d3a3c16b-bec7-836d-8c79-feb9358c85a5/190296390425.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b7c37b2eb063e968ca18500089eaa301/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13343,9 +13343,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3185000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/51/3f/85/513f8580-7e4d-956d-e966-c2ef26cafe3b/190296390067.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4824c9970ac17d128c4bcddbfefc6f17/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/51/3f/85/513f8580-7e4d-956d-e966-c2ef26cafe3b/190296390067.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4824c9970ac17d128c4bcddbfefc6f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13365,9 +13365,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2975000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/8e/08/828e081b-d8a4-fb6e-6052-1847d96ef5a0/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c27180f95bf0792bb76ad3aaada91f1d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/82/8e/08/828e081b-d8a4-fb6e-6052-1847d96ef5a0/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c27180f95bf0792bb76ad3aaada91f1d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13387,9 +13387,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2765000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/8d/43/f2/8d43f221-2c92-672c-c626-c20739c5c406/190296171659.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c587aab956ae7d61c9ad9dc40ebca449/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/8d/43/f2/8d43f221-2c92-672c-c626-c20739c5c406/190296171659.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c587aab956ae7d61c9ad9dc40ebca449/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13409,9 +13409,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2555000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/1e/34/161e34bd-3fb7-4446-a4e3-7e706021eb6b/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9bd8bf00ffc625fc7336a68413b375be/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/1e/34/161e34bd-3fb7-4446-a4e3-7e706021eb6b/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9bd8bf00ffc625fc7336a68413b375be/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13431,9 +13431,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4316000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/83/1f/47/831f476f-6d66-0b3f-d548-7902a2d5ceab/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0d90f0a245a655e059a0377a30b21f73/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/83/1f/47/831f476f-6d66-0b3f-d548-7902a2d5ceab/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0d90f0a245a655e059a0377a30b21f73/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13453,9 +13453,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 4106000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/14/b9/80/14b980c6-392c-f3b1-10a8-b3c100992f8b/1200214083861.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/18e5e6b23224d2f5ed50ee136dbf3fff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/14/b9/80/14b980c6-392c-f3b1-10a8-b3c100992f8b/1200214083861.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/18e5e6b23224d2f5ed50ee136dbf3fff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13475,9 +13475,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3896000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5a/18/18/5a18188e-3c7c-8912-2ed0-9e0e8d308028/5021732007858.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6965cf5c1cbd399abebe21306bc2a8c0/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5a/18/18/5a18188e-3c7c-8912-2ed0-9e0e8d308028/5021732007858.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6965cf5c1cbd399abebe21306bc2a8c0/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13497,9 +13497,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3686000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ae/87/cb/ae87cb1b-019f-b04e-bacc-026be05137cd/820233107617.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/91faef79ea4b4b96abbd7ade82c5e4ec/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ae/87/cb/ae87cb1b-019f-b04e-bacc-026be05137cd/820233107617.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/91faef79ea4b4b96abbd7ade82c5e4ec/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13519,9 +13519,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3476000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2f/c6/be/2fc6bee5-8109-1175-8676-8d5d823dec5c/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0d90f0a245a655e059a0377a30b21f73/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2f/c6/be/2fc6bee5-8109-1175-8676-8d5d823dec5c/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0d90f0a245a655e059a0377a30b21f73/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13541,9 +13541,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3266000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/b4/62/33b46250-90e5-ed4a-1498-4b7e49761dcc/197338628867.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/18e5e6b23224d2f5ed50ee136dbf3fff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/b4/62/33b46250-90e5-ed4a-1498-4b7e49761dcc/197338628867.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/18e5e6b23224d2f5ed50ee136dbf3fff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13563,9 +13563,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3056000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/e5/8a/13e58a22-0761-8bb8-451a-1e3a085cd55a/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6965cf5c1cbd399abebe21306bc2a8c0/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/e5/8a/13e58a22-0761-8bb8-451a-1e3a085cd55a/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6965cf5c1cbd399abebe21306bc2a8c0/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13585,9 +13585,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2846000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/83/1f/47/831f476f-6d66-0b3f-d548-7902a2d5ceab/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/91faef79ea4b4b96abbd7ade82c5e4ec/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/83/1f/47/831f476f-6d66-0b3f-d548-7902a2d5ceab/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/91faef79ea4b4b96abbd7ade82c5e4ec/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13607,9 +13607,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2636000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/14/b9/80/14b980c6-392c-f3b1-10a8-b3c100992f8b/1200214083861.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0d90f0a245a655e059a0377a30b21f73/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/14/b9/80/14b980c6-392c-f3b1-10a8-b3c100992f8b/1200214083861.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0d90f0a245a655e059a0377a30b21f73/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13629,9 +13629,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4316000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/f0/19/3e/f0193eda-5b83-95d8-5179-a78d4950b678/19UMGIM50346.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4c35179b8d84209bb88b77a0e29c30d3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/f0/19/3e/f0193eda-5b83-95d8-5179-a78d4950b678/19UMGIM50346.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4c35179b8d84209bb88b77a0e29c30d3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13651,9 +13651,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 4106000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/12/d1/90/12d1909a-4d76-b418-61cb-6e54e36900c9/23UM1IM59211.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/45d3c56f82fd53e5bdbd6f61caa691ce/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/12/d1/90/12d1909a-4d76-b418-61cb-6e54e36900c9/23UM1IM59211.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/45d3c56f82fd53e5bdbd6f61caa691ce/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13673,9 +13673,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3896000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8f/59/81/8f59812e-d8c6-56d8-f58d-c1f1964d2e64/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/58ae98ba3b3a588f70b8bb782e80a9d8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8f/59/81/8f59812e-d8c6-56d8-f58d-c1f1964d2e64/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/58ae98ba3b3a588f70b8bb782e80a9d8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13695,9 +13695,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3686000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/c1/46/d6c1461b-560e-3772-0c46-819f23bf7c65/19UMGIM50348.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4c35179b8d84209bb88b77a0e29c30d3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/c1/46/d6c1461b-560e-3772-0c46-819f23bf7c65/19UMGIM50348.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4c35179b8d84209bb88b77a0e29c30d3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13717,9 +13717,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3476000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/77/3e/7b773e0c-73a8-5a8f-89c9-58cc6af9145c/24UM1IM09567.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/45d3c56f82fd53e5bdbd6f61caa691ce/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/77/3e/7b773e0c-73a8-5a8f-89c9-58cc6af9145c/24UM1IM09567.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/45d3c56f82fd53e5bdbd6f61caa691ce/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13739,9 +13739,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3266000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dc/1f/b9/dc1fb9e1-3410-38ea-e31f-591897819e74/19UMGIM50342.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/58ae98ba3b3a588f70b8bb782e80a9d8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dc/1f/b9/dc1fb9e1-3410-38ea-e31f-591897819e74/19UMGIM50342.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/58ae98ba3b3a588f70b8bb782e80a9d8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13761,9 +13761,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3056000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/98/09/63/980963f8-37e4-99b4-3055-da2e10b342ac/23UM1IM59195.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4c35179b8d84209bb88b77a0e29c30d3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/98/09/63/980963f8-37e4-99b4-3055-da2e10b342ac/23UM1IM59195.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4c35179b8d84209bb88b77a0e29c30d3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13783,9 +13783,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2846000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/35/32/bf/3532bf43-75a6-c685-2b6f-188bfc718c71/23UM1IM59713.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/45d3c56f82fd53e5bdbd6f61caa691ce/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/35/32/bf/3532bf43-75a6-c685-2b6f-188bfc718c71/23UM1IM59713.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/45d3c56f82fd53e5bdbd6f61caa691ce/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13805,9 +13805,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2636000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6c/ee/88/6cee8834-0f2e-b905-ce5f-f452aa091a44/23UM1IM60975.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/58ae98ba3b3a588f70b8bb782e80a9d8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6c/ee/88/6cee8834-0f2e-b905-ce5f-f452aa091a44/23UM1IM60975.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/58ae98ba3b3a588f70b8bb782e80a9d8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13827,9 +13827,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2426000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d9/8e/4a/d98e4a0a-3c9e-5d52-ea32-47781da81c46/447660d7-d6ae-4b9d-8b3f-76a2f80f9957.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4c35179b8d84209bb88b77a0e29c30d3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d9/8e/4a/d98e4a0a-3c9e-5d52-ea32-47781da81c46/447660d7-d6ae-4b9d-8b3f-76a2f80f9957.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4c35179b8d84209bb88b77a0e29c30d3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13849,9 +13849,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4230000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/5a/18/b15a18df-5e04-a9c4-ff6b-604cf4fadf38/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/db6d6c0a5b6775f98189fe5a31545d21/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/5a/18/b15a18df-5e04-a9c4-ff6b-604cf4fadf38/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/db6d6c0a5b6775f98189fe5a31545d21/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13871,9 +13871,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4020000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/7c/48/ee7c4801-e8ca-0956-0648-89b2215a7f82/8809902647908_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9f479620148996e95dcc77966f4adb43/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/7c/48/ee7c4801-e8ca-0956-0648-89b2215a7f82/8809902647908_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9f479620148996e95dcc77966f4adb43/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13893,9 +13893,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3810000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/32/70/e13270f6-b81c-ef09-175f-4958d5a986b1/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7446b3c858be19f59686786a832f32d1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/32/70/e13270f6-b81c-ef09-175f-4958d5a986b1/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7446b3c858be19f59686786a832f32d1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13915,9 +13915,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3600000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/65/1a/25/651a25ec-a551-8a53-e418-2fc54b37a14d/24UMGIM05880.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/db6d6c0a5b6775f98189fe5a31545d21/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/65/1a/25/651a25ec-a551-8a53-e418-2fc54b37a14d/24UMGIM05880.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/db6d6c0a5b6775f98189fe5a31545d21/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13937,9 +13937,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3390000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/f4/6b/fef46bd5-2f8b-991f-1577-476397402c84/2be21e21-9934-4192-9213-69c0da81277d.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9f479620148996e95dcc77966f4adb43/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/f4/6b/fef46bd5-2f8b-991f-1577-476397402c84/2be21e21-9934-4192-9213-69c0da81277d.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9f479620148996e95dcc77966f4adb43/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13959,9 +13959,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3180000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/28/df/f428df88-5c89-482c-14be-ece77f1897e8/7316478140975_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7446b3c858be19f59686786a832f32d1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/28/df/f428df88-5c89-482c-14be-ece77f1897e8/7316478140975_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7446b3c858be19f59686786a832f32d1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -13981,9 +13981,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2970000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/fe/d1/94fed1a7-e993-6d8c-dc4d-90cd4921c5d2/7316478371416.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/db6d6c0a5b6775f98189fe5a31545d21/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/fe/d1/94fed1a7-e993-6d8c-dc4d-90cd4921c5d2/7316478371416.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/db6d6c0a5b6775f98189fe5a31545d21/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14003,9 +14003,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2760000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/55/0a/7a550ab1-7981-7690-8ca8-efb522b6b3bc/7316478883926.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9f479620148996e95dcc77966f4adb43/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/55/0a/7a550ab1-7981-7690-8ca8-efb522b6b3bc/7316478883926.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9f479620148996e95dcc77966f4adb43/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14025,9 +14025,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2550000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c0/cb/60/c0cb60ea-18d9-d0f0-dbd3-fd89eb3fd77c/199350266164.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7446b3c858be19f59686786a832f32d1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c0/cb/60/c0cb60ea-18d9-d0f0-dbd3-fd89eb3fd77c/199350266164.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7446b3c858be19f59686786a832f32d1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14047,9 +14047,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 4144000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/bd/65/01bd655e-adf1-d471-7990-6f144052514e/3616409565667.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b8ec3bc958f5eec9e158b5d1cc176ddb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/bd/65/01bd655e-adf1-d471-7990-6f144052514e/3616409565667.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b8ec3bc958f5eec9e158b5d1cc176ddb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14069,9 +14069,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 307,
     "playCount": 3934000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/21/40/36214055-6adc-bc28-ad0d-8c935864d7cb/5063341933845.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/06ba4c13ae429aed796b4550c0c1330f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/21/40/36214055-6adc-bc28-ad0d-8c935864d7cb/5063341933845.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/06ba4c13ae429aed796b4550c0c1330f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14091,9 +14091,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3724000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/51/24/ce5124c6-0278-bf99-d3b9-c9bb948fe2c2/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2cc12fe75b7118d6eb8b8511a145b621/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/51/24/ce5124c6-0278-bf99-d3b9-c9bb948fe2c2/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2cc12fe75b7118d6eb8b8511a145b621/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14113,9 +14113,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3514000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8bc43bd4c1d90be996474be4ee1cf8fc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8bc43bd4c1d90be996474be4ee1cf8fc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14135,9 +14135,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3304000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/63/78/43/63784317-dbb3-366b-b4cc-3ef76bd000ce/085365322868.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b8ec3bc958f5eec9e158b5d1cc176ddb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/63/78/43/63784317-dbb3-366b-b4cc-3ef76bd000ce/085365322868.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b8ec3bc958f5eec9e158b5d1cc176ddb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14157,9 +14157,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3094000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/bd/65/01bd655e-adf1-d471-7990-6f144052514e/3616409565667.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/06ba4c13ae429aed796b4550c0c1330f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/bd/65/01bd655e-adf1-d471-7990-6f144052514e/3616409565667.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/06ba4c13ae429aed796b4550c0c1330f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14179,9 +14179,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2884000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/21/40/36214055-6adc-bc28-ad0d-8c935864d7cb/5063341933845.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2cc12fe75b7118d6eb8b8511a145b621/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/21/40/36214055-6adc-bc28-ad0d-8c935864d7cb/5063341933845.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2cc12fe75b7118d6eb8b8511a145b621/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14201,9 +14201,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2674000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/51/24/ce5124c6-0278-bf99-d3b9-c9bb948fe2c2/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8bc43bd4c1d90be996474be4ee1cf8fc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/51/24/ce5124c6-0278-bf99-d3b9-c9bb948fe2c2/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8bc43bd4c1d90be996474be4ee1cf8fc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14223,9 +14223,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2464000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b8ec3bc958f5eec9e158b5d1cc176ddb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b8ec3bc958f5eec9e158b5d1cc176ddb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14245,9 +14245,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4230000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/80/9d/7c/809d7c9d-4816-a729-b19e-f662f4ef2f88/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/805479c768de29a639d70e46fad3b4ed/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/80/9d/7c/809d7c9d-4816-a729-b19e-f662f4ef2f88/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/805479c768de29a639d70e46fad3b4ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14267,9 +14267,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4020000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/9f/d8/da9fd8d4-0903-2aef-733f-64d2c63409b4/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cdd61697dbd5e2c94cbe82422d23c18f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/9f/d8/da9fd8d4-0903-2aef-733f-64d2c63409b4/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cdd61697dbd5e2c94cbe82422d23c18f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14290,9 +14290,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3810000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9e/5f/4f/9e5f4feb-7d2d-93d4-575f-c4ac2d036e8e/5021732031969.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f23324c46d763079b1b72603c033b567/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9e/5f/4f/9e5f4feb-7d2d-93d4-575f-c4ac2d036e8e/5021732031969.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f23324c46d763079b1b72603c033b567/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14312,9 +14312,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3600000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/f1/8b/a9f18be7-ec56-d8e2-74fc-211a33d20fd4/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/afb9a021f960668c43d456562dc991f6/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/f1/8b/a9f18be7-ec56-d8e2-74fc-211a33d20fd4/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/afb9a021f960668c43d456562dc991f6/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14334,9 +14334,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3390000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/ae/4e/5cae4e94-22d0-af74-6e13-593d3319fc29/21511.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/805479c768de29a639d70e46fad3b4ed/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5c/ae/4e/5cae4e94-22d0-af74-6e13-593d3319fc29/21511.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/805479c768de29a639d70e46fad3b4ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14356,9 +14356,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3180000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/43/02/a2/4302a25d-9657-11ee-47ab-87f14340891c/21121.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cdd61697dbd5e2c94cbe82422d23c18f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/43/02/a2/4302a25d-9657-11ee-47ab-87f14340891c/21121.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cdd61697dbd5e2c94cbe82422d23c18f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14378,9 +14378,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2970000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/80/9d/7c/809d7c9d-4816-a729-b19e-f662f4ef2f88/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f23324c46d763079b1b72603c033b567/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/80/9d/7c/809d7c9d-4816-a729-b19e-f662f4ef2f88/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f23324c46d763079b1b72603c033b567/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14400,9 +14400,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2760000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/9f/d8/da9fd8d4-0903-2aef-733f-64d2c63409b4/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/afb9a021f960668c43d456562dc991f6/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/da/9f/d8/da9fd8d4-0903-2aef-733f-64d2c63409b4/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/afb9a021f960668c43d456562dc991f6/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14422,9 +14422,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2550000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9e/5f/4f/9e5f4feb-7d2d-93d4-575f-c4ac2d036e8e/5021732031969.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/805479c768de29a639d70e46fad3b4ed/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9e/5f/4f/9e5f4feb-7d2d-93d4-575f-c4ac2d036e8e/5021732031969.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/805479c768de29a639d70e46fad3b4ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14444,9 +14444,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2340000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/f1/8b/a9f18be7-ec56-d8e2-74fc-211a33d20fd4/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cdd61697dbd5e2c94cbe82422d23c18f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/f1/8b/a9f18be7-ec56-d8e2-74fc-211a33d20fd4/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cdd61697dbd5e2c94cbe82422d23c18f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14488,9 +14488,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 4192000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/00896b14af434d91e6adbbc0a748dfa7/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b3d695e1f05773673f69a99caece3e9a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/00896b14af434d91e6adbbc0a748dfa7/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b3d695e1f05773673f69a99caece3e9a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14510,9 +14510,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3982000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/6dc6d12c490c2af66d6360365cf221c6/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c1740617e84b6ac8ccc22d10506186a9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/6dc6d12c490c2af66d6360365cf221c6/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c1740617e84b6ac8ccc22d10506186a9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14532,9 +14532,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3772000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/53409fea777300a92ab5d95567f1d050/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/214c90c0980edbf00edf68148e5695be/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/53409fea777300a92ab5d95567f1d050/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/214c90c0980edbf00edf68148e5695be/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14554,9 +14554,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3562000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/9318a08e7f9ce903d3d52d80bce3b478/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/40a1550336f10dd7e465ce7418030aca/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/9318a08e7f9ce903d3d52d80bce3b478/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/40a1550336f10dd7e465ce7418030aca/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14576,9 +14576,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3352000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/00896b14af434d91e6adbbc0a748dfa7/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/170d5de346632f3515e3b7a9d0c91909/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/00896b14af434d91e6adbbc0a748dfa7/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/170d5de346632f3515e3b7a9d0c91909/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14598,9 +14598,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3142000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/6dc6d12c490c2af66d6360365cf221c6/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f8701a7a75f5d07d14f5e4591bc24e70/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/6dc6d12c490c2af66d6360365cf221c6/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f8701a7a75f5d07d14f5e4591bc24e70/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14620,9 +14620,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2932000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/00896b14af434d91e6adbbc0a748dfa7/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/443455bccd6e602f376a3eaf57eb0999/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/00896b14af434d91e6adbbc0a748dfa7/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/443455bccd6e602f376a3eaf57eb0999/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14642,9 +14642,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2722000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/6dc6d12c490c2af66d6360365cf221c6/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c8c26fa40a3a16e287fc2de97e1de74d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/6dc6d12c490c2af66d6360365cf221c6/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c8c26fa40a3a16e287fc2de97e1de74d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14664,9 +14664,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4230000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/46901cf29ec7ed5af75151b648a52b2d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/46901cf29ec7ed5af75151b648a52b2d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14686,9 +14686,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4020000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14708,9 +14708,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3810000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4948a9bc190c47f8e9f4d4cf1ad0425f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4948a9bc190c47f8e9f4d4cf1ad0425f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14730,9 +14730,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3600000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/46901cf29ec7ed5af75151b648a52b2d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/46901cf29ec7ed5af75151b648a52b2d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14752,9 +14752,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3390000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14774,9 +14774,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3180000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4948a9bc190c47f8e9f4d4cf1ad0425f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4948a9bc190c47f8e9f4d4cf1ad0425f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14796,9 +14796,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2970000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/46901cf29ec7ed5af75151b648a52b2d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/46901cf29ec7ed5af75151b648a52b2d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14818,9 +14818,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2760000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14840,9 +14840,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2550000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4948a9bc190c47f8e9f4d4cf1ad0425f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4948a9bc190c47f8e9f4d4cf1ad0425f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14862,9 +14862,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4187000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/8c/e6/638ce658-e610-ec92-1064-f227dc7baeca/29851.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8f8aafddbe82ba226d72b05fbc22a72e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/8c/e6/638ce658-e610-ec92-1064-f227dc7baeca/29851.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8f8aafddbe82ba226d72b05fbc22a72e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14884,9 +14884,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3977000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/42/61/5f42613a-61ec-ded9-49da-484ff8fe8c3a/0.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7c51acb4656283a7bee1c27c76ccfc5e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/42/61/5f42613a-61ec-ded9-49da-484ff8fe8c3a/0.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7c51acb4656283a7bee1c27c76ccfc5e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14906,9 +14906,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3767000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/83/eb/ef/83ebef27-01b4-9061-9cc8-4f80e2bad8f9/886448252436.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/35d2b27296038f55e81bc804642c818a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/83/eb/ef/83ebef27-01b4-9061-9cc8-4f80e2bad8f9/886448252436.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/35d2b27296038f55e81bc804642c818a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14928,9 +14928,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3557000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/63/a9/9c/63a99ca7-36ad-6205-879d-61f269f2025f/0.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/dadff7cca4e5755c0fb47d189be6f4d3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/63/a9/9c/63a99ca7-36ad-6205-879d-61f269f2025f/0.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/dadff7cca4e5755c0fb47d189be6f4d3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14950,9 +14950,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3347000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/12/94/6c/12946c3d-a06e-e227-90f2-37df59d143b8/6913.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/78f454f8e6b95b451968ff9149bed67b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/12/94/6c/12946c3d-a06e-e227-90f2-37df59d143b8/6913.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/78f454f8e6b95b451968ff9149bed67b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14972,9 +14972,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3137000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ff/c3/bd/ffc3bd71-dd1d-4516-4b3f-1fed4c60efc4/6911.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8f8aafddbe82ba226d72b05fbc22a72e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ff/c3/bd/ffc3bd71-dd1d-4516-4b3f-1fed4c60efc4/6911.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8f8aafddbe82ba226d72b05fbc22a72e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -14994,9 +14994,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2927000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/7e/7d/667e7d1a-5726-2bee-9e1a-cc38b609f669/196872058734.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7c51acb4656283a7bee1c27c76ccfc5e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/7e/7d/667e7d1a-5726-2bee-9e1a-cc38b609f669/196872058734.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7c51acb4656283a7bee1c27c76ccfc5e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15016,9 +15016,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2717000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/1d/c0/c71dc00f-b56c-f832-acbe-af7e14f05708/24UMGIM84019.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/35d2b27296038f55e81bc804642c818a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/1d/c0/c71dc00f-b56c-f832-acbe-af7e14f05708/24UMGIM84019.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/35d2b27296038f55e81bc804642c818a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15038,9 +15038,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2507000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/2d/64/5b2d6430-e749-af1c-7063-18629f8a982b/24UMGIM70437.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/dadff7cca4e5755c0fb47d189be6f4d3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/2d/64/5b2d6430-e749-af1c-7063-18629f8a982b/24UMGIM70437.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/dadff7cca4e5755c0fb47d189be6f4d3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15060,9 +15060,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4230000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/29ccdc19a2cb67cca5a5719a5d9324da/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/29ccdc19a2cb67cca5a5719a5d9324da/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15082,9 +15082,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4020000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8b1c6d34ab40b8930250775b4cac39c4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8b1c6d34ab40b8930250775b4cac39c4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15104,9 +15104,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3810000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3620c969675ccb8610bfe98e7563df5b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3620c969675ccb8610bfe98e7563df5b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15126,9 +15126,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3600000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/563dd9b1ffda15da31d49e83869f7098/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/563dd9b1ffda15da31d49e83869f7098/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15148,9 +15148,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3390000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/70b717c1d302a7e278933af4a6b48806/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/70b717c1d302a7e278933af4a6b48806/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15170,9 +15170,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3180000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1f6232240a815047a7e88ffb0041e05b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1f6232240a815047a7e88ffb0041e05b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15192,9 +15192,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2970000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/29ccdc19a2cb67cca5a5719a5d9324da/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/29ccdc19a2cb67cca5a5719a5d9324da/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15214,9 +15214,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2760000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8b1c6d34ab40b8930250775b4cac39c4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8b1c6d34ab40b8930250775b4cac39c4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15236,9 +15236,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2550000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3620c969675ccb8610bfe98e7563df5b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3620c969675ccb8610bfe98e7563df5b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15258,9 +15258,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 4101000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/ad58f2ec5249108827083f22bba66e4a/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/92282eb39e7ec958ebb218df0389d21d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/ad58f2ec5249108827083f22bba66e4a/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/92282eb39e7ec958ebb218df0389d21d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15302,9 +15302,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3681000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/c72c704c8d43915cdb6a87d11d429f79/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ccd8d4db7e150fcaa1fe5adec80e4340/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/c72c704c8d43915cdb6a87d11d429f79/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ccd8d4db7e150fcaa1fe5adec80e4340/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15324,9 +15324,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3471000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/c85bae644216e8fd401d1b7493beb3ab/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/92282eb39e7ec958ebb218df0389d21d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/c85bae644216e8fd401d1b7493beb3ab/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/92282eb39e7ec958ebb218df0389d21d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15368,9 +15368,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3051000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/ad58f2ec5249108827083f22bba66e4a/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ccd8d4db7e150fcaa1fe5adec80e4340/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/ad58f2ec5249108827083f22bba66e4a/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ccd8d4db7e150fcaa1fe5adec80e4340/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15390,9 +15390,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2841000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/e20d0f43c94da4ce2fea0e5b2d577166/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/92282eb39e7ec958ebb218df0389d21d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/e20d0f43c94da4ce2fea0e5b2d577166/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/92282eb39e7ec958ebb218df0389d21d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15412,9 +15412,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2631000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/c72c704c8d43915cdb6a87d11d429f79/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e20d0f43c94da4ce2fea0e5b2d577166/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/c72c704c8d43915cdb6a87d11d429f79/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e20d0f43c94da4ce2fea0e5b2d577166/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15434,9 +15434,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2421000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/c85bae644216e8fd401d1b7493beb3ab/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ccd8d4db7e150fcaa1fe5adec80e4340/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/c85bae644216e8fd401d1b7493beb3ab/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ccd8d4db7e150fcaa1fe5adec80e4340/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15456,9 +15456,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 4101000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/f0/5f/c9/mzi.mlacgwvi.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/83c4f1a60962dcb5efae4aca35b5121e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/f0/5f/c9/mzi.mlacgwvi.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/83c4f1a60962dcb5efae4aca35b5121e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15478,9 +15478,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3891000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/bd/fd/36bdfded-a388-3929-ed25-34247edded0f/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/03497c1dfa0ad7aea4a9cce753d4f35c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/bd/fd/36bdfded-a388-3929-ed25-34247edded0f/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/03497c1dfa0ad7aea4a9cce753d4f35c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15500,9 +15500,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3681000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/61/db/1f61dbe7-4590-2922-dc3e-218417e17cb6/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4fe296ca8e5d01a7c2589682d6e522d1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/61/db/1f61dbe7-4590-2922-dc3e-218417e17cb6/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4fe296ca8e5d01a7c2589682d6e522d1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15522,9 +15522,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3471000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/9d/55/b19d556e-5040-c76b-b944-11bc7edec924/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/812f01efb7d267f20c4af6b30518b027/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/9d/55/b19d556e-5040-c76b-b944-11bc7edec924/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/812f01efb7d267f20c4af6b30518b027/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15544,9 +15544,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3261000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/59/68/61/596861b2-3268-66ef-e7bc-90e11e5fec82/artwork.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/83c4f1a60962dcb5efae4aca35b5121e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/59/68/61/596861b2-3268-66ef-e7bc-90e11e5fec82/artwork.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/83c4f1a60962dcb5efae4aca35b5121e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15566,9 +15566,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3051000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/83/82/a3/8382a33f-7c15-7143-57e8-668724f2b64d/artwork.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/03497c1dfa0ad7aea4a9cce753d4f35c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/83/82/a3/8382a33f-7c15-7143-57e8-668724f2b64d/artwork.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/03497c1dfa0ad7aea4a9cce753d4f35c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15588,9 +15588,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2841000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/b9/02/9eb902aa-0b70-02dc-ee7f-6d5847254dca/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4fe296ca8e5d01a7c2589682d6e522d1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/b9/02/9eb902aa-0b70-02dc-ee7f-6d5847254dca/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4fe296ca8e5d01a7c2589682d6e522d1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15610,9 +15610,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2631000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/f0/5f/c9/mzi.mlacgwvi.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/812f01efb7d267f20c4af6b30518b027/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/f0/5f/c9/mzi.mlacgwvi.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/812f01efb7d267f20c4af6b30518b027/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15632,9 +15632,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2421000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/bd/fd/36bdfded-a388-3929-ed25-34247edded0f/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/83c4f1a60962dcb5efae4aca35b5121e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/bd/fd/36bdfded-a388-3929-ed25-34247edded0f/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/83c4f1a60962dcb5efae4aca35b5121e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15852,9 +15852,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 4488000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3f/86/2c/3f862c59-6db6-f7b5-6f97-e3b4c094cb36/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/d6d54167dad2867527607dd2f1174cd2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3f/86/2c/3f862c59-6db6-f7b5-6f97-e3b4c094cb36/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/d6d54167dad2867527607dd2f1174cd2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15874,9 +15874,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4278000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/c1/d0/03c1d015-2abb-60d6-56d5-707a3fba0273/3617050146441.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5f12950adfec4b6f211a629e393b1736/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/c1/d0/03c1d015-2abb-60d6-56d5-707a3fba0273/3617050146441.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5f12950adfec4b6f211a629e393b1736/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15896,9 +15896,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 4068000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/59/a9/37/59a937d4-cf9c-993b-c1a9-0f038632ef68/197187380190.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/077c42f243e3461397402b61aa91a8cb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/59/a9/37/59a937d4-cf9c-993b-c1a9-0f038632ef68/197187380190.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/077c42f243e3461397402b61aa91a8cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15918,9 +15918,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3858000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d6/71/fc/d671fce0-a9d5-da2d-6457-d83e96a27052/085365442573.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3c7b8dbd2dad7c7343ab5d68fb20842f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d6/71/fc/d671fce0-a9d5-da2d-6457-d83e96a27052/085365442573.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3c7b8dbd2dad7c7343ab5d68fb20842f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15940,9 +15940,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3648000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/f6/34/6df634b1-f171-a880-84b1-5ca3379d5ff0/3617050214904.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/be8b4a63d1f5ab1853ed1475ab6c50a5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/f6/34/6df634b1-f171-a880-84b1-5ca3379d5ff0/3617050214904.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/be8b4a63d1f5ab1853ed1475ab6c50a5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15962,9 +15962,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3438000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/88/6a/6a/886a6abf-0248-68e7-e190-48caad793d1e/085365472709.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ccc6fe5b4552919559b0c3a3828463d3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/88/6a/6a/886a6abf-0248-68e7-e190-48caad793d1e/085365472709.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ccc6fe5b4552919559b0c3a3828463d3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -15984,9 +15984,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3228000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6b/1f/6e/6b1f6ed0-422e-9349-1d1b-46ac9bdf0aea/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/d6d54167dad2867527607dd2f1174cd2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6b/1f/6e/6b1f6ed0-422e-9349-1d1b-46ac9bdf0aea/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/d6d54167dad2867527607dd2f1174cd2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16006,9 +16006,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3018000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/df/2f/a3df2f09-91a4-f9ae-fcc2-b12eaf3d7782/3617050263193.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5f12950adfec4b6f211a629e393b1736/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/df/2f/a3df2f09-91a4-f9ae-fcc2-b12eaf3d7782/3617050263193.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5f12950adfec4b6f211a629e393b1736/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16028,9 +16028,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2808000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/bf/38/efbf38a9-e978-38a9-f66c-223316794208/196874536001.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/077c42f243e3461397402b61aa91a8cb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/bf/38/efbf38a9-e978-38a9-f66c-223316794208/196874536001.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/077c42f243e3461397402b61aa91a8cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16050,9 +16050,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 4402000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16072,9 +16072,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 4192000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/fca78aa5eea1ce1dbb628fbb1a8e466b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/fca78aa5eea1ce1dbb628fbb1a8e466b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16094,9 +16094,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3982000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/05cb0fda2f89c36cfe35610fac799966/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/05cb0fda2f89c36cfe35610fac799966/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16116,9 +16116,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3772000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16138,9 +16138,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3562000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/fca78aa5eea1ce1dbb628fbb1a8e466b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/fca78aa5eea1ce1dbb628fbb1a8e466b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16160,9 +16160,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3352000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/05cb0fda2f89c36cfe35610fac799966/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/05cb0fda2f89c36cfe35610fac799966/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16182,9 +16182,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3142000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16204,9 +16204,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2932000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/fca78aa5eea1ce1dbb628fbb1a8e466b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/fca78aa5eea1ce1dbb628fbb1a8e466b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16226,9 +16226,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2722000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/05cb0fda2f89c36cfe35610fac799966/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/05cb0fda2f89c36cfe35610fac799966/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16253,9 +16253,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 315,
     "playCount": 4961000,
     "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/51/1b/41511bc0-abbf-4e47-f8f1-4408aa3646a6/198830987780.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/51/1b/41511bc0-abbf-4e47-f8f1-4408aa3646a6/198830987780.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16278,9 +16278,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 4751000,
     "audioUrl": "https://api.audius.co/v1/tracks/NYvGx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7023040782e443081bf2506926e488f7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7023040782e443081bf2506926e488f7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16303,9 +16303,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 4541000,
     "audioUrl": "https://api.audius.co/v1/tracks/YZawm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/bb/8a/c2bb8a66-98df-c337-27a3-226909ec8950/085365216358.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/756a5645dc3406ff253ccd5f6a78d5d8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/bb/8a/c2bb8a66-98df-c337-27a3-226909ec8950/085365216358.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/756a5645dc3406ff253ccd5f6a78d5d8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16327,9 +16327,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4331000,
     "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/48/c7/eb48c755-c82a-438f-0283-270530f42fc8/25UM1IM78083.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/48/c7/eb48c755-c82a-438f-0283-270530f42fc8/25UM1IM78083.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16352,9 +16352,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 4121000,
     "audioUrl": "https://api.audius.co/v1/tracks/NY2QqJN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/a3/04/2ca304fb-8b88-01d7-e3eb-cdc6bbba03c3/25UM1IM73808.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7023040782e443081bf2506926e488f7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/a3/04/2ca304fb-8b88-01d7-e3eb-cdc6bbba03c3/25UM1IM73808.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7023040782e443081bf2506926e488f7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16376,9 +16376,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3911000,
     "audioUrl": "https://api.audius.co/v1/tracks/91OyO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/51/1b/41511bc0-abbf-4e47-f8f1-4408aa3646a6/198830987780.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/756a5645dc3406ff253ccd5f6a78d5d8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/51/1b/41511bc0-abbf-4e47-f8f1-4408aa3646a6/198830987780.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/756a5645dc3406ff253ccd5f6a78d5d8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16398,9 +16398,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3701000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/3f/c9/523fc9b8-3dfe-7e9f-031c-28215aa86131/085365068834.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16421,9 +16421,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 5004000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5d/f3/45/5df34543-3e95-cc5c-1d6e-39c3268b59a8/196874564493.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6ecc1dd3829c6569524639f99402742e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5d/f3/45/5df34543-3e95-cc5c-1d6e-39c3268b59a8/196874564493.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6ecc1dd3829c6569524639f99402742e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16446,9 +16446,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4794000,
     "audioUrl": "https://api.audius.co/v1/tracks/NYvGx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/bf/38/efbf38a9-e978-38a9-f66c-223316794208/196874536001.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0c640789db35666b5b9326d34287d43f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/bf/38/efbf38a9-e978-38a9-f66c-223316794208/196874536001.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0c640789db35666b5b9326d34287d43f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16470,9 +16470,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4584000,
     "audioUrl": "https://api.audius.co/v1/tracks/YZawm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/b1/4e/a9b14e8a-a0f0-400a-f365-7f4ebba27884/196874570661.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7e1c3747b02d20ade7095c093d45e23a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/b1/4e/a9b14e8a-a0f0-400a-f365-7f4ebba27884/196874570661.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7e1c3747b02d20ade7095c093d45e23a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16492,9 +16492,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 4374000,
     "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/2f/6c/ca2f6c82-cd1c-549a-ea0d-97d96f3fc7f9/196874564486.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5a7f79cf377ee42e16dcec4edf458291/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/2f/6c/ca2f6c82-cd1c-549a-ea0d-97d96f3fc7f9/196874564486.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5a7f79cf377ee42e16dcec4edf458291/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16514,9 +16514,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 4164000,
     "audioUrl": "https://api.audius.co/v1/tracks/NY2QqJN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/c5/b2/3fc5b239-5b5e-dbf1-f878-d9ea7bc957b0/196874806715.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6ecc1dd3829c6569524639f99402742e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/c5/b2/3fc5b239-5b5e-dbf1-f878-d9ea7bc957b0/196874806715.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6ecc1dd3829c6569524639f99402742e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16536,9 +16536,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3954000,
     "audioUrl": "https://api.audius.co/v1/tracks/91OyO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a2/1b/04/a21b048c-0e82-22b5-2e74-72dc573208a6/196874724804.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0c640789db35666b5b9326d34287d43f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a2/1b/04/a21b048c-0e82-22b5-2e74-72dc573208a6/196874724804.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0c640789db35666b5b9326d34287d43f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16558,9 +16558,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4273000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a4/1e/87/a41e8763-8d49-e47a-2dc2-598f7fee8218/190296317842.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0f7738e6a87e6773edf12764282ef98a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a4/1e/87/a41e8763-8d49-e47a-2dc2-598f7fee8218/190296317842.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0f7738e6a87e6773edf12764282ef98a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16581,9 +16581,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4063000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6a/17/d1/6a17d164-5d08-9408-ad98-484cf1326659/5034644367958.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0aa885e1601b5455c11032095d2a084f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6a/17/d1/6a17d164-5d08-9408-ad98-484cf1326659/5034644367958.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0aa885e1601b5455c11032095d2a084f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16603,9 +16603,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3853000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c4/7d/b7/c47db795-0db2-b4b4-31ea-9269bebb18ba/190296173899.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/bd9c27bd30fca2ed1853f7b26cc2dad9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c4/7d/b7/c47db795-0db2-b4b4-31ea-9269bebb18ba/190296173899.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/bd9c27bd30fca2ed1853f7b26cc2dad9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16625,9 +16625,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3643000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/45/99/1d45999b-90a4-a0dc-90a5-9918ada09ac3/190296390272.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0f7738e6a87e6773edf12764282ef98a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/45/99/1d45999b-90a4-a0dc-90a5-9918ada09ac3/190296390272.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0f7738e6a87e6773edf12764282ef98a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16647,9 +16647,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3433000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/83/f4/8f83f444-013f-fb71-14c7-3d6e5a266f7f/190296380549.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0aa885e1601b5455c11032095d2a084f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/83/f4/8f83f444-013f-fb71-14c7-3d6e5a266f7f/190296380549.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0aa885e1601b5455c11032095d2a084f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16669,9 +16669,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3223000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0f/c9/81/0fc98108-4c8b-1cd8-d21f-061579612bd3/190296170638.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/bd9c27bd30fca2ed1853f7b26cc2dad9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0f/c9/81/0fc98108-4c8b-1cd8-d21f-061579612bd3/190296170638.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/bd9c27bd30fca2ed1853f7b26cc2dad9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16691,9 +16691,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3013000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/31/fb/1e/31fb1e8f-be3b-fcdf-b5d9-6467ed6e99e6/190296378850.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0f7738e6a87e6773edf12764282ef98a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/31/fb/1e/31fb1e8f-be3b-fcdf-b5d9-6467ed6e99e6/190296378850.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0f7738e6a87e6773edf12764282ef98a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16713,9 +16713,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2803000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a4/1e/87/a41e8763-8d49-e47a-2dc2-598f7fee8218/190296317842.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0aa885e1601b5455c11032095d2a084f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a4/1e/87/a41e8763-8d49-e47a-2dc2-598f7fee8218/190296317842.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0aa885e1601b5455c11032095d2a084f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16735,9 +16735,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 4144000,
     "audioUrl": "https://api.audius.co/v1/tracks/xP14j/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/87/31/b9873161-67a2-298a-6d84-a2b3859bf5d5/3614970128816_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e1de197db4cb26a8888b05589ddaf8ea/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/87/31/b9873161-67a2-298a-6d84-a2b3859bf5d5/3614970128816_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e1de197db4cb26a8888b05589ddaf8ea/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16757,9 +16757,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3934000,
     "audioUrl": "https://api.audius.co/v1/tracks/4AJVa/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/58/05/285805a6-d41b-7aa7-bd31-7a65c1f85938/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/73eed90c9b1f0da8eae3cba45e1edbc3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/58/05/285805a6-d41b-7aa7-bd31-7a65c1f85938/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/73eed90c9b1f0da8eae3cba45e1edbc3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16779,9 +16779,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3724000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/87/31/b9873161-67a2-298a-6d84-a2b3859bf5d5/3614970128816_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/73a5d7ebfabda6c4153277355913dea9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/87/31/b9873161-67a2-298a-6d84-a2b3859bf5d5/3614970128816_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/73a5d7ebfabda6c4153277355913dea9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16801,9 +16801,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3514000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/58/05/285805a6-d41b-7aa7-bd31-7a65c1f85938/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e1de197db4cb26a8888b05589ddaf8ea/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/58/05/285805a6-d41b-7aa7-bd31-7a65c1f85938/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e1de197db4cb26a8888b05589ddaf8ea/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16823,9 +16823,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3304000,
     "audioUrl": "https://api.audius.co/v1/tracks/xz5krNj/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/87/31/b9873161-67a2-298a-6d84-a2b3859bf5d5/3614970128816_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/73eed90c9b1f0da8eae3cba45e1edbc3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/87/31/b9873161-67a2-298a-6d84-a2b3859bf5d5/3614970128816_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/73eed90c9b1f0da8eae3cba45e1edbc3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16846,9 +16846,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3094000,
     "audioUrl": "https://api.audius.co/v1/tracks/xP14j/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/58/05/285805a6-d41b-7aa7-bd31-7a65c1f85938/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/73a5d7ebfabda6c4153277355913dea9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/58/05/285805a6-d41b-7aa7-bd31-7a65c1f85938/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/73a5d7ebfabda6c4153277355913dea9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16868,9 +16868,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2884000,
     "audioUrl": "https://api.audius.co/v1/tracks/4AJVa/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/87/31/b9873161-67a2-298a-6d84-a2b3859bf5d5/3614970128816_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e1de197db4cb26a8888b05589ddaf8ea/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/87/31/b9873161-67a2-298a-6d84-a2b3859bf5d5/3614970128816_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e1de197db4cb26a8888b05589ddaf8ea/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16890,9 +16890,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2674000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/58/05/285805a6-d41b-7aa7-bd31-7a65c1f85938/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/73eed90c9b1f0da8eae3cba45e1edbc3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/58/05/285805a6-d41b-7aa7-bd31-7a65c1f85938/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/73eed90c9b1f0da8eae3cba45e1edbc3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16912,9 +16912,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 4144000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/9d/cb/729dcbeb-e076-e84d-9cbe-1aae3b09b543/00602478507526_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5bf3de30cc9bacc94b06e3a1e0e6dbca/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/9d/cb/729dcbeb-e076-e84d-9cbe-1aae3b09b543/00602478507526_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5bf3de30cc9bacc94b06e3a1e0e6dbca/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16934,9 +16934,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3934000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fe/12/d3/fe12d3a3-6b03-e2d6-7e44-fa0c7ac5e90d/23844.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1ef4720c3de4fb9f5b5d969f43032877/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fe/12/d3/fe12d3a3-6b03-e2d6-7e44-fa0c7ac5e90d/23844.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1ef4720c3de4fb9f5b5d969f43032877/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16956,9 +16956,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3724000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/01/62/49/01624930-de09-3736-4f2d-5fcc41c1b405/23829.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6aea01ed9f5a880f43a93fc640c678be/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/01/62/49/01624930-de09-3736-4f2d-5fcc41c1b405/23829.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6aea01ed9f5a880f43a93fc640c678be/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -16978,9 +16978,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3514000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/40/82/43/4082434c-8bc5-4803-bdf4-291985e6fcdd/193428220959.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/127257d969c4837c75b057808179f635/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/40/82/43/4082434c-8bc5-4803-bdf4-291985e6fcdd/193428220959.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/127257d969c4837c75b057808179f635/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17000,9 +17000,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3304000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/c3/65/21c3653f-8ab5-b703-8ccd-959efa04fcd1/4070335184009.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4e10d09914ff523578f73a4c30ef6195/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/21/c3/65/21c3653f-8ab5-b703-8ccd-959efa04fcd1/4070335184009.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4e10d09914ff523578f73a4c30ef6195/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17022,9 +17022,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3094000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ac/32/05/ac320585-cc39-15f8-ae57-238e49bed2fb/23840.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/bb8f03104f5358b23bbce15620ef3651/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ac/32/05/ac320585-cc39-15f8-ae57-238e49bed2fb/23840.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/bb8f03104f5358b23bbce15620ef3651/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17044,9 +17044,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2884000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/9d/cb/729dcbeb-e076-e84d-9cbe-1aae3b09b543/00602478507526_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e2804c132dc67aaf18294f546cfa157f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/9d/cb/729dcbeb-e076-e84d-9cbe-1aae3b09b543/00602478507526_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e2804c132dc67aaf18294f546cfa157f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17066,9 +17066,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2674000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fe/12/d3/fe12d3a3-6b03-e2d6-7e44-fa0c7ac5e90d/23844.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f5b7b33ea7a6f0815719483ec2faca5e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fe/12/d3/fe12d3a3-6b03-e2d6-7e44-fa0c7ac5e90d/23844.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f5b7b33ea7a6f0815719483ec2faca5e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17088,9 +17088,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 4101000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/732c8292d45297151f533b194f92fc3f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/732c8292d45297151f533b194f92fc3f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17110,9 +17110,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3891000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/67a9a2f64ec0f7b143776add8caa805c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/67a9a2f64ec0f7b143776add8caa805c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17132,9 +17132,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3681000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/24049ac84a9a48384e1b28f3c4a77fc7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/24049ac84a9a48384e1b28f3c4a77fc7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17154,9 +17154,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3471000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8178a8779c9bf67b85f097345ec432d5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8178a8779c9bf67b85f097345ec432d5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17176,9 +17176,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3261000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/732c8292d45297151f533b194f92fc3f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/732c8292d45297151f533b194f92fc3f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17198,9 +17198,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3051000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/67a9a2f64ec0f7b143776add8caa805c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/67a9a2f64ec0f7b143776add8caa805c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17220,9 +17220,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2841000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/24049ac84a9a48384e1b28f3c4a77fc7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/24049ac84a9a48384e1b28f3c4a77fc7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17242,9 +17242,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2631000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8178a8779c9bf67b85f097345ec432d5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8178a8779c9bf67b85f097345ec432d5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17265,9 +17265,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4058000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17288,9 +17288,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3848000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/43b67e90ccee35b096d29d70c825ba8a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/43b67e90ccee35b096d29d70c825ba8a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17310,9 +17310,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3638000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6bf097fcf944a1a2355d4386723ff502/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6bf097fcf944a1a2355d4386723ff502/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17332,9 +17332,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3428000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17354,9 +17354,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3218000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/43b67e90ccee35b096d29d70c825ba8a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/43b67e90ccee35b096d29d70c825ba8a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17376,9 +17376,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3008000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6bf097fcf944a1a2355d4386723ff502/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6bf097fcf944a1a2355d4386723ff502/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17398,9 +17398,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2798000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17420,9 +17420,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2588000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/43b67e90ccee35b096d29d70c825ba8a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/43b67e90ccee35b096d29d70c825ba8a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17442,9 +17442,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 203,
     "playCount": 3972000,
     "audioUrl": "https://api.audius.co/v1/tracks/RYM51/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/58c89716b6b4acaec2edcff31751c6dd/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/58c89716b6b4acaec2edcff31751c6dd/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17464,9 +17464,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3762000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7af58044f106ffae565295b03de55fb7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7af58044f106ffae565295b03de55fb7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17486,9 +17486,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3552000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/67660b7a4f6725d802fcb74adc3fd062/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/67660b7a4f6725d802fcb74adc3fd062/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17508,9 +17508,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3342000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f5d1604a60b742b522ffe7a3b4a8329d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f5d1604a60b742b522ffe7a3b4a8329d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17530,9 +17530,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3132000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/58c89716b6b4acaec2edcff31751c6dd/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/58c89716b6b4acaec2edcff31751c6dd/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17552,9 +17552,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2922000,
     "audioUrl": "https://api.audius.co/v1/tracks/RYM51/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7af58044f106ffae565295b03de55fb7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7af58044f106ffae565295b03de55fb7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17574,9 +17574,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 252,
     "playCount": 2712000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/67660b7a4f6725d802fcb74adc3fd062/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/67660b7a4f6725d802fcb74adc3fd062/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17596,9 +17596,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 230,
     "playCount": 2502000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f5d1604a60b742b522ffe7a3b4a8329d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f5d1604a60b742b522ffe7a3b4a8329d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17618,9 +17618,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 4058000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/67/27/936727db-2c4e-454f-e446-185f2811f793/196922310461_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/d0c7147b4fdecb338afbae42a7d4a72b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/67/27/936727db-2c4e-454f-e446-185f2811f793/196922310461_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/d0c7147b4fdecb338afbae42a7d4a72b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17640,9 +17640,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3848000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/39/23/be/3923be96-1eb3-c3c0-9276-8b715dba5490/196922871139_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1622d8a1ca7653f7c418073f615b4761/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/39/23/be/3923be96-1eb3-c3c0-9276-8b715dba5490/196922871139_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1622d8a1ca7653f7c418073f615b4761/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17662,9 +17662,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3638000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a7/16/e7/a716e752-bedc-ea54-93fb-c7a9b8b566b2/artwork.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/72ab650f1e756e48f4be8c01d7748b8b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a7/16/e7/a716e752-bedc-ea54-93fb-c7a9b8b566b2/artwork.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/72ab650f1e756e48f4be8c01d7748b8b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17684,9 +17684,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3428000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/3e/d6/a53ed634-2f04-a414-b65d-2e8abc8b8c7e/25UMGIM00084.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/d0c7147b4fdecb338afbae42a7d4a72b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/3e/d6/a53ed634-2f04-a414-b65d-2e8abc8b8c7e/25UMGIM00084.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/d0c7147b4fdecb338afbae42a7d4a72b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17706,9 +17706,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3218000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/67/27/936727db-2c4e-454f-e446-185f2811f793/196922310461_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1622d8a1ca7653f7c418073f615b4761/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/67/27/936727db-2c4e-454f-e446-185f2811f793/196922310461_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1622d8a1ca7653f7c418073f615b4761/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17728,9 +17728,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3008000,
     "audioUrl": "https://api.audius.co/v1/tracks/RYM51/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/39/23/be/3923be96-1eb3-c3c0-9276-8b715dba5490/196922871139_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/72ab650f1e756e48f4be8c01d7748b8b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/39/23/be/3923be96-1eb3-c3c0-9276-8b715dba5490/196922871139_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/72ab650f1e756e48f4be8c01d7748b8b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17750,9 +17750,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2798000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a7/16/e7/a716e752-bedc-ea54-93fb-c7a9b8b566b2/artwork.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/d0c7147b4fdecb338afbae42a7d4a72b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a7/16/e7/a716e752-bedc-ea54-93fb-c7a9b8b566b2/artwork.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/d0c7147b4fdecb338afbae42a7d4a72b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17772,9 +17772,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2588000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/3e/d6/a53ed634-2f04-a414-b65d-2e8abc8b8c7e/25UMGIM00084.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1622d8a1ca7653f7c418073f615b4761/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/3e/d6/a53ed634-2f04-a414-b65d-2e8abc8b8c7e/25UMGIM00084.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1622d8a1ca7653f7c418073f615b4761/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17794,9 +17794,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 4531000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1a/e1/fa/1ae1fa6b-49e9-a176-fe1b-d05e6856ebff/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1c851e171a9784e99f90e8b9264912ab/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1a/e1/fa/1ae1fa6b-49e9-a176-fe1b-d05e6856ebff/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1c851e171a9784e99f90e8b9264912ab/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17816,9 +17816,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 4321000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/52/71/29527171-141d-fe04-8a4e-260530408e77/190296382642.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f365006a4338278b22d311cca862e938/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/52/71/29527171-141d-fe04-8a4e-260530408e77/190296382642.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f365006a4338278b22d311cca862e938/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17838,9 +17838,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4111000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/86/cf/bd/86cfbdd6-3f00-9cc2-ce05-0eb46fb09da7/196922743986_Cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cdc9e29327d912b27d108cf41310aa52/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/86/cf/bd/86cfbdd6-3f00-9cc2-ce05-0eb46fb09da7/196922743986_Cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cdc9e29327d912b27d108cf41310aa52/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17860,9 +17860,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3901000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/65/ca/eb/65caebf5-a89d-1484-b0da-8997b661dfd7/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1c851e171a9784e99f90e8b9264912ab/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/65/ca/eb/65caebf5-a89d-1484-b0da-8997b661dfd7/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1c851e171a9784e99f90e8b9264912ab/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17882,9 +17882,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3691000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/e8/14/d4e814d7-fdd1-538d-5426-78d8c7593f1d/190296382567.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f365006a4338278b22d311cca862e938/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/e8/14/d4e814d7-fdd1-538d-5426-78d8c7593f1d/190296382567.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f365006a4338278b22d311cca862e938/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17904,9 +17904,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3481000,
     "audioUrl": "https://api.audius.co/v1/tracks/RYM51/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6a/fb/7a/6afb7ad0-504b-3010-47d2-b3590a27e894/197338696262.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cdc9e29327d912b27d108cf41310aa52/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6a/fb/7a/6afb7ad0-504b-3010-47d2-b3590a27e894/197338696262.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cdc9e29327d912b27d108cf41310aa52/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17926,9 +17926,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3271000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/9d/b9/309db90e-5fae-932b-fa63-907251387196/859726944507_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1c851e171a9784e99f90e8b9264912ab/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/9d/b9/309db90e-5fae-932b-fa63-907251387196/859726944507_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1c851e171a9784e99f90e8b9264912ab/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17948,9 +17948,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3061000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/73/22/5c732221-a5f2-cac0-8b05-269d0135a929/25UM2IM05425.rgb.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f365006a4338278b22d311cca862e938/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/73/22/5c732221-a5f2-cac0-8b05-269d0135a929/25UM2IM05425.rgb.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f365006a4338278b22d311cca862e938/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17970,9 +17970,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 288,
     "playCount": 3972000,
     "audioUrl": "https://api.audius.co/v1/tracks/4AJVa/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -17992,9 +17992,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3762000,
     "audioUrl": "https://api.audius.co/v1/tracks/4AJVa/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/648f17d0b10b04c7efb1bb135cc64218/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/648f17d0b10b04c7efb1bb135cc64218/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18014,9 +18014,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3552000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/93f5e20ed9206f9ea7f80aa191620e62/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/93f5e20ed9206f9ea7f80aa191620e62/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18036,9 +18036,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3342000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3c78d949ce44f705aeb79d31a9e30c39/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3c78d949ce44f705aeb79d31a9e30c39/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18058,9 +18058,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3132000,
     "audioUrl": "https://api.audius.co/v1/tracks/xz5krNj/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a8666b6cbe3300a801331934ea3baa0d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a8666b6cbe3300a801331934ea3baa0d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18080,9 +18080,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2922000,
     "audioUrl": "https://api.audius.co/v1/tracks/xP14j/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/baaf6ebd8f73fca43bee5ac84aaa8fff/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/baaf6ebd8f73fca43bee5ac84aaa8fff/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18102,9 +18102,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2712000,
     "audioUrl": "https://api.audius.co/v1/tracks/4AJVa/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/89f1ee9b0c05563c15194bdc50cd4d49/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/89f1ee9b0c05563c15194bdc50cd4d49/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18124,9 +18124,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2502000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/618cb3f75bafee1acbdb118d898c83ce/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/618cb3f75bafee1acbdb118d898c83ce/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18146,9 +18146,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4058000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/680bd304a71640f1e6e2a5ee5398b91d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/680bd304a71640f1e6e2a5ee5398b91d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18168,9 +18168,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3848000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/bc8d905578230a0f4cae655f1aabcfde/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/bc8d905578230a0f4cae655f1aabcfde/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18190,9 +18190,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3638000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/680bd304a71640f1e6e2a5ee5398b91d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/680bd304a71640f1e6e2a5ee5398b91d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18212,9 +18212,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3428000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/bc8d905578230a0f4cae655f1aabcfde/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/bc8d905578230a0f4cae655f1aabcfde/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18234,9 +18234,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3218000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/680bd304a71640f1e6e2a5ee5398b91d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/680bd304a71640f1e6e2a5ee5398b91d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18256,9 +18256,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3008000,
     "audioUrl": "https://api.audius.co/v1/tracks/RYM51/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/bc8d905578230a0f4cae655f1aabcfde/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/bc8d905578230a0f4cae655f1aabcfde/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18278,9 +18278,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2798000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/680bd304a71640f1e6e2a5ee5398b91d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/680bd304a71640f1e6e2a5ee5398b91d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18300,9 +18300,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2588000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/bc8d905578230a0f4cae655f1aabcfde/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/bc8d905578230a0f4cae655f1aabcfde/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18322,9 +18322,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 288,
     "playCount": 4015000,
     "audioUrl": "https://api.audius.co/v1/tracks/Ma7bo/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/c7/74/4dc774a1-728a-2dba-287b-986654610c8c/3617056603740.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/807ad3a23eae9117abff00ebe31b4c89/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/c7/74/4dc774a1-728a-2dba-287b-986654610c8c/3617056603740.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/807ad3a23eae9117abff00ebe31b4c89/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18344,9 +18344,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3805000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/b5/ba/19b5ba3e-e586-59ba-1d07-c5a37c8b4df8/190296390029_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b8e55105537629af5ce1faf0dc78fbe1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/b5/ba/19b5ba3e-e586-59ba-1d07-c5a37c8b4df8/190296390029_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b8e55105537629af5ce1faf0dc78fbe1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18366,9 +18366,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3595000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/67/6d/cc676d74-d996-5732-0293-9c50639d94d2/3616849940178.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/46a62c9441027fb86a453cbc4f08682d/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/67/6d/cc676d74-d996-5732-0293-9c50639d94d2/3616849940178.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/46a62c9441027fb86a453cbc4f08682d/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18388,9 +18388,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3385000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/9d/4b/ef9d4b86-7ba6-6ff0-5ad4-85c9d0dc50cc/196872780208.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/207fdd77a711995eb3f5eb051a435371/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/9d/4b/ef9d4b86-7ba6-6ff0-5ad4-85c9d0dc50cc/196872780208.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/207fdd77a711995eb3f5eb051a435371/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18410,9 +18410,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3175000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/62/d1/8e/62d18e1e-0dfd-022f-ad88-9c4439619449/7316474066620_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/30e1134c294a16894a98f5b33a2f745e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/62/d1/8e/62d18e1e-0dfd-022f-ad88-9c4439619449/7316474066620_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/30e1134c294a16894a98f5b33a2f745e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18432,9 +18432,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2965000,
     "audioUrl": "https://api.audius.co/v1/tracks/RYM51/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/6b/ac/ce6bacec-fc64-ce6e-c4e5-5d925041aeeb/050811059469_cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a7e452e3a94c4fa9778f615c3f0df21a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/6b/ac/ce6bacec-fc64-ce6e-c4e5-5d925041aeeb/050811059469_cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a7e452e3a94c4fa9778f615c3f0df21a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18454,9 +18454,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 218,
     "playCount": 2755000,
     "audioUrl": "https://api.audius.co/v1/tracks/dYZA4/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3f/81/cf/3f81cf3c-891c-ff3c-745d-9025c2e8033c/196925595339.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ec35d9e0b0cbba1fce34e4bafc21452a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3f/81/cf/3f81cf3c-891c-ff3c-745d-9025c2e8033c/196925595339.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ec35d9e0b0cbba1fce34e4bafc21452a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18476,9 +18476,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2545000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/9b/52/3e/9b523e4e-f9d5-987c-7795-47f548a3a8b4/886447943557.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/807ad3a23eae9117abff00ebe31b4c89/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/9b/52/3e/9b523e4e-f9d5-987c-7795-47f548a3a8b4/886447943557.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/807ad3a23eae9117abff00ebe31b4c89/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18498,9 +18498,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4015000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/43dbea251dd218af6841281853a2b328/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/43dbea251dd218af6841281853a2b328/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18525,9 +18525,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 315,
     "playCount": 3805000,
     "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18548,9 +18548,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3595000,
     "audioUrl": "https://api.audius.co/v1/tracks/YZawm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18572,9 +18572,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3385000,
     "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/43dbea251dd218af6841281853a2b328/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/43dbea251dd218af6841281853a2b328/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18594,9 +18594,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3175000,
     "audioUrl": "https://api.audius.co/v1/tracks/NY2QqJN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18616,9 +18616,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2965000,
     "audioUrl": "https://api.audius.co/v1/tracks/91OyO/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18638,9 +18638,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2755000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/43dbea251dd218af6841281853a2b328/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/43dbea251dd218af6841281853a2b328/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18660,9 +18660,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2545000,
     "audioUrl": "https://api.audius.co/v1/tracks/NYvGx/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/56/e5/fc56e52c-74dd-3693-51f2-4c1e3ac472d7/198830963784.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18682,9 +18682,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3972000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a4/fe/3b/a4fe3bfa-51cd-d5dc-64ce-8e8cd889d020/190295091019.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7d842a02b253a075700233e40f33b3d7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a4/fe/3b/a4fe3bfa-51cd-d5dc-64ce-8e8cd889d020/190295091019.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7d842a02b253a075700233e40f33b3d7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18704,9 +18704,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3762000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/9b/45/ce9b459c-f6fb-290b-cbe7-a5469779e5b9/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/542ee7b451157df0c6bd343ad69f9e26/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/9b/45/ce9b459c-f6fb-290b-cbe7-a5469779e5b9/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/542ee7b451157df0c6bd343ad69f9e26/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18726,9 +18726,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3552000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/da/5d/11da5d21-735c-ffc4-e83e-24708555f722/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b9779a614e535177cd253eadcb8033d1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/da/5d/11da5d21-735c-ffc4-e83e-24708555f722/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b9779a614e535177cd253eadcb8033d1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18748,9 +18748,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3342000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/c2/6b/3fc26b95-467c-255d-e1b1-7e0e61d0e82b/5026854864679.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7d842a02b253a075700233e40f33b3d7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/c2/6b/3fc26b95-467c-255d-e1b1-7e0e61d0e82b/5026854864679.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7d842a02b253a075700233e40f33b3d7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18770,9 +18770,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3132000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a4/fe/3b/a4fe3bfa-51cd-d5dc-64ce-8e8cd889d020/190295091019.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/542ee7b451157df0c6bd343ad69f9e26/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a4/fe/3b/a4fe3bfa-51cd-d5dc-64ce-8e8cd889d020/190295091019.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/542ee7b451157df0c6bd343ad69f9e26/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18792,9 +18792,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2922000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/9b/45/ce9b459c-f6fb-290b-cbe7-a5469779e5b9/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b9779a614e535177cd253eadcb8033d1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/9b/45/ce9b459c-f6fb-290b-cbe7-a5469779e5b9/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b9779a614e535177cd253eadcb8033d1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18814,9 +18814,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 330,
     "playCount": 2712000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/da/5d/11da5d21-735c-ffc4-e83e-24708555f722/cover.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7d842a02b253a075700233e40f33b3d7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/da/5d/11da5d21-735c-ffc4-e83e-24708555f722/cover.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7d842a02b253a075700233e40f33b3d7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18836,9 +18836,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2502000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/c2/6b/3fc26b95-467c-255d-e1b1-7e0e61d0e82b/5026854864679.jpg/600x600bb.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/542ee7b451157df0c6bd343ad69f9e26/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/c2/6b/3fc26b95-467c-255d-e1b1-7e0e61d0e82b/5026854864679.jpg/600x600bb.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/542ee7b451157df0c6bd343ad69f9e26/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18858,9 +18858,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4273000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8d59dc2de5a8b02496854a80f8a85362/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8d59dc2de5a8b02496854a80f8a85362/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18880,9 +18880,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 4063000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0a8c92cfae47b2d739146c6b6a7c2e50/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0a8c92cfae47b2d739146c6b6a7c2e50/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18902,9 +18902,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3853000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5dcd60cf5fcd187d6916524f49fa4097/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5dcd60cf5fcd187d6916524f49fa4097/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18924,9 +18924,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3643000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8b6814e54c1426a2e159a4b7a3520547/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8b6814e54c1426a2e159a4b7a3520547/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18946,9 +18946,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3433000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/539b81b79f382b82cf248bdb7d0edfa5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/539b81b79f382b82cf248bdb7d0edfa5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18968,9 +18968,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3223000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/8d59dc2de5a8b02496854a80f8a85362/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/8d59dc2de5a8b02496854a80f8a85362/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -18990,9 +18990,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3013000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0a8c92cfae47b2d739146c6b6a7c2e50/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0a8c92cfae47b2d739146c6b6a7c2e50/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19012,9 +19012,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2803000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5dcd60cf5fcd187d6916524f49fa4097/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5dcd60cf5fcd187d6916524f49fa4097/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19035,9 +19035,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 4058000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f11da8691e11b8bc74ed9003e9db7f7a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f11da8691e11b8bc74ed9003e9db7f7a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19057,9 +19057,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3848000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5c9e7c2f335a090c564929221d383ee3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5c9e7c2f335a090c564929221d383ee3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19079,9 +19079,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3638000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/46e12ee65510fabe93edd8ae9eb16718/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/46e12ee65510fabe93edd8ae9eb16718/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19101,9 +19101,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3428000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/9c5a07415d5a8fdaa2f5d593cd8525a9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/9c5a07415d5a8fdaa2f5d593cd8525a9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19123,9 +19123,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3218000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/10f395b74da11ab8b36c0f28f4310ce3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/10f395b74da11ab8b36c0f28f4310ce3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19145,9 +19145,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3008000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a2f7378664e3fef9ebdad2198d84622e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a2f7378664e3fef9ebdad2198d84622e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19167,9 +19167,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2798000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e1d10772e8603ae88876ba1556b7f7af/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e1d10772e8603ae88876ba1556b7f7af/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19189,9 +19189,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2588000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f11da8691e11b8bc74ed9003e9db7f7a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f11da8691e11b8bc74ed9003e9db7f7a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19211,9 +19211,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4230000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3c5d0d379ff7880bb1ac036d3bb90b4a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3c5d0d379ff7880bb1ac036d3bb90b4a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19233,9 +19233,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4020000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c209bcbc07b35c2292b8a800f4cc4abc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c209bcbc07b35c2292b8a800f4cc4abc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19255,9 +19255,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3810000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/d385a04c54c23efcef68a83eab53bb97/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/d385a04c54c23efcef68a83eab53bb97/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19277,9 +19277,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3600000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b7447fe92586a935bac4ac2b6e7ae32f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b7447fe92586a935bac4ac2b6e7ae32f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19299,9 +19299,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3390000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/7da9fe9f193724ec4c8caa3e5276a7d2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/7da9fe9f193724ec4c8caa3e5276a7d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19321,9 +19321,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3180000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3c5d0d379ff7880bb1ac036d3bb90b4a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3c5d0d379ff7880bb1ac036d3bb90b4a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19343,9 +19343,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2970000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c209bcbc07b35c2292b8a800f4cc4abc/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c209bcbc07b35c2292b8a800f4cc4abc/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19365,9 +19365,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2760000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/d385a04c54c23efcef68a83eab53bb97/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/d385a04c54c23efcef68a83eab53bb97/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19387,9 +19387,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3929000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2578f99f778782f6904ca955bf4647fb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2578f99f778782f6904ca955bf4647fb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19409,9 +19409,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3719000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a6d81d924541494e2432aa7272e1b02c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a6d81d924541494e2432aa7272e1b02c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19431,9 +19431,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3509000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/28dec34af983af0e375e808c4f3f2d95/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/28dec34af983af0e375e808c4f3f2d95/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19453,9 +19453,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3299000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c1df9f24089bf489b963eb1e5271474a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c1df9f24089bf489b963eb1e5271474a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19475,9 +19475,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3089000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2578f99f778782f6904ca955bf4647fb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2578f99f778782f6904ca955bf4647fb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19497,9 +19497,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2879000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a6d81d924541494e2432aa7272e1b02c/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a6d81d924541494e2432aa7272e1b02c/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19519,9 +19519,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 2669000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/28dec34af983af0e375e808c4f3f2d95/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/28dec34af983af0e375e808c4f3f2d95/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19541,9 +19541,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2459000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c1df9f24089bf489b963eb1e5271474a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c1df9f24089bf489b963eb1e5271474a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19563,9 +19563,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 302,
     "playCount": 4187000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c6e8b5ce564558ac59e88cb91227d7cb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c6e8b5ce564558ac59e88cb91227d7cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19585,9 +19585,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3977000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a90c04e0c6f5ecb996afba69bab72b3e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a90c04e0c6f5ecb996afba69bab72b3e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19607,9 +19607,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3767000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/21c8016a207894ac6843184fe9e9a965/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/21c8016a207894ac6843184fe9e9a965/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19629,9 +19629,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3557000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c6e8b5ce564558ac59e88cb91227d7cb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c6e8b5ce564558ac59e88cb91227d7cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19651,9 +19651,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3347000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a90c04e0c6f5ecb996afba69bab72b3e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a90c04e0c6f5ecb996afba69bab72b3e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19673,9 +19673,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3137000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/21c8016a207894ac6843184fe9e9a965/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/21c8016a207894ac6843184fe9e9a965/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19695,9 +19695,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2927000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c6e8b5ce564558ac59e88cb91227d7cb/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c6e8b5ce564558ac59e88cb91227d7cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19717,9 +19717,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2717000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a90c04e0c6f5ecb996afba69bab72b3e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a90c04e0c6f5ecb996afba69bab72b3e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19739,9 +19739,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 324,
     "playCount": 4660000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/231de5068b1f4d5d9281e2b474b90012/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/231de5068b1f4d5d9281e2b474b90012/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19761,9 +19761,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 4450000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1ee37e9ab12b00cb66bd8cf822fc7571/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1ee37e9ab12b00cb66bd8cf822fc7571/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19783,9 +19783,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 4240000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6542170bcb8c0144b1ab6912cd3506ad/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6542170bcb8c0144b1ab6912cd3506ad/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19805,9 +19805,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4030000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c73b645afab21a832d6df576535ac24b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c73b645afab21a832d6df576535ac24b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19827,9 +19827,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3820000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/231de5068b1f4d5d9281e2b474b90012/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/231de5068b1f4d5d9281e2b474b90012/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19849,9 +19849,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3610000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/1ee37e9ab12b00cb66bd8cf822fc7571/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/1ee37e9ab12b00cb66bd8cf822fc7571/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19871,9 +19871,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3400000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/6542170bcb8c0144b1ab6912cd3506ad/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/6542170bcb8c0144b1ab6912cd3506ad/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19893,9 +19893,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3190000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c73b645afab21a832d6df576535ac24b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c73b645afab21a832d6df576535ac24b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19915,9 +19915,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4230000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cdccd40dc9c16264567c1dbe309e1bb3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cdccd40dc9c16264567c1dbe309e1bb3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19937,9 +19937,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4020000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2d1df21b514d53732e0c58debf0d9829/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2d1df21b514d53732e0c58debf0d9829/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19959,9 +19959,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3810000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/95aba92515f190820be34f00945cd0f9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/95aba92515f190820be34f00945cd0f9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -19981,9 +19981,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3600000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a8511e37ad27fc156add1acac310816e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a8511e37ad27fc156add1acac310816e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20003,9 +20003,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3390000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/cdccd40dc9c16264567c1dbe309e1bb3/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/cdccd40dc9c16264567c1dbe309e1bb3/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20025,9 +20025,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3180000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2d1df21b514d53732e0c58debf0d9829/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2d1df21b514d53732e0c58debf0d9829/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20047,9 +20047,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2970000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/95aba92515f190820be34f00945cd0f9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/95aba92515f190820be34f00945cd0f9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20069,9 +20069,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 324,
     "playCount": 2760000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/a8511e37ad27fc156add1acac310816e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/a8511e37ad27fc156add1acac310816e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20113,9 +20113,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 4106000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/f96c35e0aa67346506a7d9b34819f397/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e29432a87bb6dd6d37347484c05c2574/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/f96c35e0aa67346506a7d9b34819f397/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e29432a87bb6dd6d37347484c05c2574/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20135,9 +20135,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3896000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/17073bbcfdf77fc54406c04847f945a1/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f96c35e0aa67346506a7d9b34819f397/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/17073bbcfdf77fc54406c04847f945a1/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f96c35e0aa67346506a7d9b34819f397/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20157,9 +20157,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3686000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/4242ddac1ae1f13d68bad7edd11f1b84/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/50869f24d0b25ab9f37e8ced63cde92a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/4242ddac1ae1f13d68bad7edd11f1b84/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/50869f24d0b25ab9f37e8ced63cde92a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20179,9 +20179,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3476000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/0aad8dccbaa859cdea76d66fcf03fded/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/3cd83b0ad2f05da927761d1a9c984d3a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/0aad8dccbaa859cdea76d66fcf03fded/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/3cd83b0ad2f05da927761d1a9c984d3a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20201,9 +20201,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3266000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/3cd83b0ad2f05da927761d1a9c984d3a/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e29432a87bb6dd6d37347484c05c2574/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/3cd83b0ad2f05da927761d1a9c984d3a/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e29432a87bb6dd6d37347484c05c2574/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20245,9 +20245,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2846000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/17073bbcfdf77fc54406c04847f945a1/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/50869f24d0b25ab9f37e8ced63cde92a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/17073bbcfdf77fc54406c04847f945a1/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/50869f24d0b25ab9f37e8ced63cde92a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20267,9 +20267,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 181,
     "playCount": 4187000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/67a9ca4c05fecef1d592868a321a3a5e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/67a9ca4c05fecef1d592868a321a3a5e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20289,9 +20289,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3977000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/ee8ea6deced4d169f73920cedf1770df/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/ee8ea6deced4d169f73920cedf1770df/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20311,9 +20311,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3767000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4693301f81d473fbefb2e6699cc4c9b9/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4693301f81d473fbefb2e6699cc4c9b9/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20333,9 +20333,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3557000,
     "audioUrl": "https://api.audius.co/v1/tracks/0vqgZrV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/663ce26fe92583d5ca64159ef8a3c3c7/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/663ce26fe92583d5ca64159ef8a3c3c7/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20355,9 +20355,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3347000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/2681b64664cb773404daf9b1604b907e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/2681b64664cb773404daf9b1604b907e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20377,9 +20377,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3137000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f987f86ef95f740da34a3ced14e6bf75/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f987f86ef95f740da34a3ced14e6bf75/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20399,9 +20399,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2927000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f9ea3df78966c62e265db8b9e71e7813/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f9ea3df78966c62e265db8b9e71e7813/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20421,9 +20421,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2717000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/67a9ca4c05fecef1d592868a321a3a5e/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/67a9ca4c05fecef1d592868a321a3a5e/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20443,9 +20443,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4187000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/834c970d2d8372d4d85086fb7f167048/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/834c970d2d8372d4d85086fb7f167048/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20465,9 +20465,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3977000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e456c1a0deb368aae208822f0dc9eef8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e456c1a0deb368aae208822f0dc9eef8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20487,9 +20487,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3767000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e0132f02ea287f936dcab7798d63f415/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e0132f02ea287f936dcab7798d63f415/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20509,9 +20509,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3557000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/834c970d2d8372d4d85086fb7f167048/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/834c970d2d8372d4d85086fb7f167048/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20531,9 +20531,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3347000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e456c1a0deb368aae208822f0dc9eef8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e456c1a0deb368aae208822f0dc9eef8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20553,9 +20553,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3137000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e0132f02ea287f936dcab7798d63f415/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e0132f02ea287f936dcab7798d63f415/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20575,9 +20575,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2927000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/834c970d2d8372d4d85086fb7f167048/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/834c970d2d8372d4d85086fb7f167048/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20597,9 +20597,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2717000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e456c1a0deb368aae208822f0dc9eef8/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e456c1a0deb368aae208822f0dc9eef8/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20620,9 +20620,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4058000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0da03dcbc195af21bf9b034c3a2ec226/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0da03dcbc195af21bf9b034c3a2ec226/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20642,9 +20642,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3848000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e65eb34bf1a05550b59b25c2fdc82518/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e65eb34bf1a05550b59b25c2fdc82518/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20664,9 +20664,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3638000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/85645c4fb4e091cc611a8d13c94bc6e1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/85645c4fb4e091cc611a8d13c94bc6e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20686,9 +20686,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3428000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f24382c25bca4dc086e6e82e17ec5f5a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f24382c25bca4dc086e6e82e17ec5f5a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20708,9 +20708,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 240,
     "playCount": 3218000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/0da03dcbc195af21bf9b034c3a2ec226/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/0da03dcbc195af21bf9b034c3a2ec226/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20730,9 +20730,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3008000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/e65eb34bf1a05550b59b25c2fdc82518/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/e65eb34bf1a05550b59b25c2fdc82518/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20752,9 +20752,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2798000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/85645c4fb4e091cc611a8d13c94bc6e1/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/85645c4fb4e091cc611a8d13c94bc6e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20774,9 +20774,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2588000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/f24382c25bca4dc086e6e82e17ec5f5a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/f24382c25bca4dc086e6e82e17ec5f5a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20796,9 +20796,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4273000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20821,9 +20821,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4063000,
     "audioUrl": "https://api.audius.co/v1/tracks/NYvGx/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5e0fdeddf72c9bf3385e21dab445009a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5e0fdeddf72c9bf3385e21dab445009a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20843,9 +20843,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3853000,
     "audioUrl": "https://api.audius.co/v1/tracks/YZawm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20868,9 +20868,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3643000,
     "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20890,9 +20890,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3433000,
     "audioUrl": "https://api.audius.co/v1/tracks/NY2QqJN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5e0fdeddf72c9bf3385e21dab445009a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5e0fdeddf72c9bf3385e21dab445009a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20912,9 +20912,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3223000,
     "audioUrl": "https://api.audius.co/v1/tracks/91OyO/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20934,9 +20934,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3013000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20956,9 +20956,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2803000,
     "audioUrl": "https://api.audius.co/v1/tracks/NYvGx/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/5e0fdeddf72c9bf3385e21dab445009a/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/5e0fdeddf72c9bf3385e21dab445009a/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -20978,9 +20978,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 4144000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/63bdc0e9f4da19d0caaf84a2921168d2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/63bdc0e9f4da19d0caaf84a2921168d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -21000,9 +21000,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3934000,
     "audioUrl": "https://api.audius.co/v1/tracks/NYvGx/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/95cc9dd0a71c10382cc8f17121e7d49b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/95cc9dd0a71c10382cc8f17121e7d49b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -21022,9 +21022,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3724000,
     "audioUrl": "https://api.audius.co/v1/tracks/YZawm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/01f24a3408a2ce6d865767301079888f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/01f24a3408a2ce6d865767301079888f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -21044,9 +21044,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3514000,
     "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -21066,9 +21066,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3304000,
     "audioUrl": "https://api.audius.co/v1/tracks/NY2QqJN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/63bdc0e9f4da19d0caaf84a2921168d2/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/63bdc0e9f4da19d0caaf84a2921168d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -21088,9 +21088,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3094000,
     "audioUrl": "https://api.audius.co/v1/tracks/91OyO/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/95cc9dd0a71c10382cc8f17121e7d49b/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/95cc9dd0a71c10382cc8f17121e7d49b/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -21110,9 +21110,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2884000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/01f24a3408a2ce6d865767301079888f/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/01f24a3408a2ce6d865767301079888f/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },
@@ -21132,9 +21132,9 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2674000,
     "audioUrl": "https://api.audius.co/v1/tracks/NYvGx/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+    "img": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+      "url": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
       "mirrors": []
     }
   },

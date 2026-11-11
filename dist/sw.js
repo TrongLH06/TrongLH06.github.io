@@ -3,7 +3,7 @@
  * Enables offline caching, PWA installation, and offline audio playback
  */
 
-const CACHE_NAME = 'soundstream-app-shell-v1';
+const CACHE_NAME = 'soundstream-app-shell-v3';
 const AUDIO_CACHE = 'soundstream-offline-tracks-v1';
 
 const STATIC_ASSETS = [
@@ -56,7 +56,12 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // General App Shell / Static Request - Network first with Cache fallback
+  // Let browser natively handle all cross-origin requests (images from Apple Music/Deezer CDN, Audius APIs)
+  if (url.origin !== self.location.origin) {
+    return;
+  }
+
+  // Same-origin App Shell / Static Request - Network first with Cache fallback
   event.respondWith(
     fetch(event.request)
       .then((response) => {
