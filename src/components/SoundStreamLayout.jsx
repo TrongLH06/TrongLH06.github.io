@@ -5,8 +5,10 @@ import {
   getTrendingTracks,
   getTrendingPlaylists,
   searchArtists,
+  searchArtistsAsync,
   searchTracks,
   getArtistDetails,
+  resolvePlayableAudioUrl,
   removeVietnameseTones,
   VERIFIED_AUDIUS_TRACKS,
   VIETNAMESE_ARTISTS
@@ -113,7 +115,7 @@ export default function SoundStreamLayout() {
             return fresh ? { ...item, img: fresh.img, artwork: fresh.artwork } : item;
           });
         }
-      } catch (e) {}
+      } catch (e) { }
     }
     // Default top 4 hits
     return VERIFIED_AUDIUS_TRACKS.slice(0, 4);
@@ -271,7 +273,7 @@ export default function SoundStreamLayout() {
       trackCount: 0,
       user: { name: currentUser?.name || 'Bạn', handle: currentUser?.handle || 'user' },
       artwork: {
-        url: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=500&auto=format&fit=crop&q=60',
+        url: 'https://i.scdn.co/image/ab6761610000e5eb8885185d1e914c51c15c3a13',
         mirrors: []
       }
     };
@@ -299,6 +301,11 @@ export default function SoundStreamLayout() {
     const arts = searchArtists(q, 6);
     setTopMatchedArtists(arts);
     let isCancelled = false;
+    searchArtistsAsync(q, 6).then((liveArts) => {
+      if (!isCancelled && Array.isArray(liveArts) && liveArts.length > 0) {
+        setTopMatchedArtists(liveArts);
+      }
+    });
     searchTracks(q, 6).then((trs) => {
       if (!isCancelled) setTopMatchedTracks(trs || []);
     });
@@ -425,14 +432,28 @@ export default function SoundStreamLayout() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [isPlaying, duration, currentTrack, volume, isMuted, playbackSpeed, sleepTimer]);
 
-  // Auto-play when current track changes
+  // Auto-resolve playable stream URL & auto-play when current track changes
   useEffect(() => {
-    if (isPlaying && audioRef.current && currentTrack?.audioUrl) {
-      audioRef.current.play().catch((err) => {
-        console.warn('Playback gesture required:', err);
-      });
-    }
-  }, [currentTrack?.audioUrl]);
+    let isCancelled = false;
+    if (!currentTrack || !audioRef.current) return;
+
+    resolvePlayableAudioUrl(currentTrack, 0).then((resolvedUrl) => {
+      if (isCancelled || !audioRef.current) return;
+      if (resolvedUrl && audioRef.current.src !== resolvedUrl) {
+        currentTrack.audioUrl = resolvedUrl;
+        audioRef.current.src = resolvedUrl;
+      }
+      if (isPlaying) {
+        audioRef.current.play().catch((err) => {
+          console.warn('Playback gesture required:', err);
+        });
+      }
+    });
+
+    return () => {
+      isCancelled = true;
+    };
+  }, [currentTrack?.id, currentTrack?.title]);
 
   const togglePlay = () => {
     if (!audioRef.current) return;
@@ -440,16 +461,32 @@ export default function SoundStreamLayout() {
       audioRef.current.pause();
       setIsPlaying(false);
     } else {
-      audioRef.current.play().then(() => {
-        setIsPlaying(true);
-      }).catch(() => {
-        setIsPlaying(true);
-      });
+      audioRef.current.play()
+        .then(() => {
+          setIsPlaying(true);
+        })
+        .catch(async (error) => {
+          console.warn('Initial play failed, resolving fallback stream:', error);
+          const fallbackUrl = await resolvePlayableAudioUrl(currentTrack, 1);
+          if (fallbackUrl && audioRef.current) {
+            audioRef.current.src = fallbackUrl;
+            audioRef.current.play()
+              .then(() => setIsPlaying(true))
+              .catch(() => {
+                setIsPlaying(false);
+                showToast('Không thể phát bài hát này.');
+              });
+          } else {
+            setIsPlaying(false);
+            showToast('Không thể phát bài hát này.');
+          }
+        });
     }
   };
 
   const handlePlayTrack = (track) => {
     if (!track) return;
+    track._retryCount = 0;
     const foundIdx = playlistQueue.findIndex(
       (t) => t.id === track.id || t.title.toLowerCase() === (track.title || '').toLowerCase()
     );
@@ -463,12 +500,16 @@ export default function SoundStreamLayout() {
 
     setIsPlaying(true);
     showToast(`Đang phát: "${track.title}" - ${track.artist} 🎵`);
-    setTimeout(() => {
+    resolvePlayableAudioUrl(track, 0).then((resolvedUrl) => {
       if (audioRef.current) {
+        if (resolvedUrl) {
+          track.audioUrl = resolvedUrl;
+          audioRef.current.src = resolvedUrl;
+        }
         audioRef.current.currentTime = 0;
-        audioRef.current.play().catch(() => {});
+        audioRef.current.play().catch(() => { });
       }
-    }, 100);
+    });
   };
 
   const handlePlayPlaylistAll = (tracks) => {
@@ -477,26 +518,34 @@ export default function SoundStreamLayout() {
     setCurrentTrackIndex(0);
     setIsPlaying(true);
     showToast(`Đang phát toàn bộ playlist (${tracks.length} bài hát) 🎵`);
-    setTimeout(() => {
+    resolvePlayableAudioUrl(tracks[0], 0).then((resolvedUrl) => {
       if (audioRef.current) {
+        if (resolvedUrl) {
+          tracks[0].audioUrl = resolvedUrl;
+          audioRef.current.src = resolvedUrl;
+        }
         audioRef.current.currentTime = 0;
-        audioRef.current.play().catch(() => {});
+        audioRef.current.play().catch(() => { });
       }
-    }, 100);
+    });
   };
 
   const handleAudioError = (e) => {
     console.warn('Audio playback error on track:', currentTrack?.title, e);
-    if (currentTrack?.streamMirrors && currentTrack.streamMirrors.length > 0 && !currentTrack._triedMirror) {
-      currentTrack._triedMirror = true;
-      const cleanId = String(currentTrack.audiusId || currentTrack.id).replace(/^aud-/, '');
-      const mirrorUrl = `${currentTrack.streamMirrors[0]}/tracks/${cleanId}/stream?app_name=SoundStream`;
-      if (audioRef.current) {
-        audioRef.current.src = mirrorUrl;
-        audioRef.current.play().catch(() => {});
-        return;
-      }
+    if (!currentTrack) return;
+
+    currentTrack._retryCount = (currentTrack._retryCount || 0) + 1;
+    if (currentTrack._retryCount <= 3) {
+      resolvePlayableAudioUrl(currentTrack, currentTrack._retryCount).then((fallbackUrl) => {
+        if (fallbackUrl && audioRef.current) {
+          currentTrack.audioUrl = fallbackUrl;
+          audioRef.current.src = fallbackUrl;
+          audioRef.current.play().catch(() => { });
+        }
+      });
+      return;
     }
+
     showToast(`Không thể tải bài "${currentTrack?.title}". Chuyển bài tiếp theo...`);
     setTimeout(() => {
       handleNextTrack();
@@ -544,7 +593,7 @@ export default function SoundStreamLayout() {
     if (audioRef.current && audioRef.current.duration) {
       setDuration(audioRef.current.duration);
       if (isPlaying) {
-        audioRef.current.play().catch(() => {});
+        audioRef.current.play().catch(() => { });
       }
     }
   };
@@ -553,7 +602,7 @@ export default function SoundStreamLayout() {
     if (repeatMode === 'one') {
       if (audioRef.current) {
         audioRef.current.currentTime = 0;
-        audioRef.current.play().catch(() => {});
+        audioRef.current.play().catch(() => { });
       }
     } else if (repeatMode === 'all') {
       handleNextTrack();
@@ -670,11 +719,10 @@ export default function SoundStreamLayout() {
               setCurrentTab('home');
               setShowTopSearchDropdown(false);
             }}
-            className={`w-11 h-11 rounded-full flex items-center justify-center transition-all shrink-0 cursor-pointer ${
-              currentTab === 'home'
-                ? 'bg-[#1f1f1f] text-white hover:scale-105'
-                : 'bg-[#1f1f1f] text-[#b3b3b3] hover:text-white hover:scale-105'
-            }`}
+            className={`w-11 h-11 rounded-full flex items-center justify-center transition-all shrink-0 cursor-pointer ${currentTab === 'home'
+              ? 'bg-[#1f1f1f] text-white hover:scale-105'
+              : 'bg-[#1f1f1f] text-[#b3b3b3] hover:text-white hover:scale-105'
+              }`}
             title="Trang chủ"
           >
             <span className="material-symbols-outlined text-2xl" style={currentTab === 'home' ? { fontVariationSettings: "'FILL' 1" } : {}}>
@@ -977,9 +1025,8 @@ export default function SoundStreamLayout() {
       <div className="flex-1 flex gap-2 px-2 overflow-hidden min-h-0">
         {/* Left Library Card (Collapsible w-[72px] Icon Rail OR Expanded w-72 Directory) */}
         <aside
-          className={`${
-            isSidebarCollapsed ? 'w-[72px] items-center py-3 px-1.5' : 'w-72 p-3'
-          } bg-[#121212] rounded-xl z-20 flex flex-col justify-between shrink-0 select-none overflow-hidden transition-all duration-200`}
+          className={`${isSidebarCollapsed ? 'w-[72px] items-center py-3 px-1.5' : 'w-72 p-3'
+            } bg-[#121212] rounded-xl z-20 flex flex-col justify-between shrink-0 select-none overflow-hidden transition-all duration-200`}
         >
           <div className="flex flex-col gap-3 flex-1 min-h-0 w-full">
             {/* Library Header: Collapse/Expand Toggle (||\) + Add Playlist (+) */}
@@ -1019,11 +1066,10 @@ export default function SoundStreamLayout() {
                       key={f.id}
                       type="button"
                       onClick={() => setSidebarFilter(f.id)}
-                      className={`px-3 py-1 rounded-full text-xs font-semibold transition cursor-pointer ${
-                        sidebarFilter === f.id
-                          ? 'bg-white text-black font-bold'
-                          : 'bg-[#2a2a2a] text-white hover:bg-[#333333]'
-                      }`}
+                      className={`px-3 py-1 rounded-full text-xs font-semibold transition cursor-pointer ${sidebarFilter === f.id
+                        ? 'bg-white text-black font-bold'
+                        : 'bg-[#2a2a2a] text-white hover:bg-[#333333]'
+                        }`}
                     >
                       {f.label}
                     </button>
@@ -1062,11 +1108,9 @@ export default function SoundStreamLayout() {
                   type="button"
                   onClick={() => setCurrentTab('liked')}
                   title={`Bài hát đã thích (${likedTracks.length} bài)`}
-                  className={`${
-                    isSidebarCollapsed ? 'p-1.5 justify-center' : 'w-full p-2'
-                  } rounded-lg transition-colors text-left cursor-pointer flex items-center gap-3 shrink-0 ${
-                    currentTab === 'liked' ? 'bg-[#2a2a2a] text-white' : 'hover:bg-[#1f1f1f] text-[#b3b3b3]'
-                  }`}
+                  className={`${isSidebarCollapsed ? 'p-1.5 justify-center' : 'w-full p-2'
+                    } rounded-lg transition-colors text-left cursor-pointer flex items-center gap-3 shrink-0 ${currentTab === 'liked' ? 'bg-[#2a2a2a] text-white' : 'hover:bg-[#1f1f1f] text-[#b3b3b3]'
+                    }`}
                 >
                   <div className="w-12 h-12 rounded-md bg-gradient-to-br from-[#450af5] via-[#6c42f5] to-[#a6efd9] flex items-center justify-center shrink-0 shadow">
                     <span className="material-symbols-outlined text-white text-xl" style={{ fontVariationSettings: "'FILL' 1" }}>
@@ -1102,16 +1146,13 @@ export default function SoundStreamLayout() {
                       type="button"
                       onClick={() => handleSelectArtist(art.id)}
                       title={`${art.name} • Nghệ sĩ (${(art.popularHits || []).length} bài hát)`}
-                      className={`${
-                        isSidebarCollapsed ? 'p-1.5 justify-center' : 'w-full p-1.5'
-                      } rounded-lg text-xs transition-colors text-left cursor-pointer flex items-center gap-3 shrink-0 ${
-                        isSelected ? 'bg-[#2a2a2a] text-white' : 'hover:bg-[#1f1f1f] text-[#b3b3b3]'
-                      }`}
+                      className={`${isSidebarCollapsed ? 'p-1.5 justify-center' : 'w-full p-1.5'
+                        } rounded-lg text-xs transition-colors text-left cursor-pointer flex items-center gap-3 shrink-0 ${isSelected ? 'bg-[#2a2a2a] text-white' : 'hover:bg-[#1f1f1f] text-[#b3b3b3]'
+                        }`}
                     >
                       <div
-                        className={`w-12 h-12 rounded-full overflow-hidden shrink-0 bg-[#282828] ${
-                          isSelected ? 'ring-2 ring-[#1ed760]' : ''
-                        }`}
+                        className={`w-12 h-12 rounded-full overflow-hidden shrink-0 bg-[#282828] ${isSelected ? 'ring-2 ring-[#1ed760]' : ''
+                          }`}
                       >
                         <AudiusArtworkImage src={art.avatar} alt={art.name} className="w-full h-full object-cover" />
                       </div>
@@ -1135,11 +1176,11 @@ export default function SoundStreamLayout() {
                   ...(sidebarPlaylists.length > 0
                     ? sidebarPlaylists
                     : [
-                        { id: 'vn-pl-1', name: 'Top Hits Việt Nam 2026', trackCount: 22 },
-                        { id: 'vn-pl-2', name: 'Ký Ức V-Pop 8x/9x', trackCount: 16 },
-                        { id: 'vn-pl-3', name: 'Anh Trai Say Hi & Chông Gai', trackCount: 18 },
-                        { id: 'vn-pl-4', name: 'Rap Việt All-Stars', trackCount: 20 }
-                      ]),
+                      { id: 'vn-pl-1', name: 'Top Hits Việt Nam 2026', trackCount: 22 },
+                      { id: 'vn-pl-2', name: 'Ký Ức V-Pop 8x/9x', trackCount: 16 },
+                      { id: 'vn-pl-3', name: 'Anh Trai Say Hi & Chông Gai', trackCount: 18 },
+                      { id: 'vn-pl-4', name: 'Rap Việt All-Stars', trackCount: 20 }
+                    ]),
                   ...customPlaylists
                 ]
                   .filter((pl) => {
@@ -1157,11 +1198,9 @@ export default function SoundStreamLayout() {
                           setCurrentTab('playlist');
                         }}
                         title={pl.name}
-                        className={`${
-                          isSidebarCollapsed ? 'p-1.5 justify-center' : 'w-full p-1.5'
-                        } rounded-lg text-xs transition-colors text-left cursor-pointer flex items-center gap-3 shrink-0 ${
-                          isPlSelected ? 'bg-[#2a2a2a] text-white' : 'hover:bg-[#1f1f1f] text-[#b3b3b3]'
-                        }`}
+                        className={`${isSidebarCollapsed ? 'p-1.5 justify-center' : 'w-full p-1.5'
+                          } rounded-lg text-xs transition-colors text-left cursor-pointer flex items-center gap-3 shrink-0 ${isPlSelected ? 'bg-[#2a2a2a] text-white' : 'hover:bg-[#1f1f1f] text-[#b3b3b3]'
+                          }`}
                       >
                         <div className="w-12 h-12 rounded-md overflow-hidden bg-[#282828] shrink-0">
                           <AudiusArtworkImage
@@ -1357,9 +1396,8 @@ export default function SoundStreamLayout() {
           <button
             type="button"
             onClick={() => handleToggleDownloadTrack(currentTrack)}
-            className={`transition-colors ml-1 p-1 rounded-full hover:bg-surface-container cursor-pointer ${
-              isCurrentTrackDownloaded ? 'text-primary' : 'text-on-surface-variant hover:text-white'
-            }`}
+            className={`transition-colors ml-1 p-1 rounded-full hover:bg-surface-container cursor-pointer ${isCurrentTrackDownloaded ? 'text-primary' : 'text-on-surface-variant hover:text-white'
+              }`}
             title={isCurrentTrackDownloaded ? 'Đã tải ngoại tuyến (Bấm để xóa)' : 'Tải xuống để nghe offline'}
           >
             <span className="material-symbols-outlined text-xl">
@@ -1426,9 +1464,8 @@ export default function SoundStreamLayout() {
                   showToast('Lặp lại toàn bộ danh sách');
                 }
               }}
-              className={`transition-colors cursor-pointer relative ${
-                repeatMode !== 'off' ? 'text-primary' : 'text-on-surface-variant hover:text-on-surface'
-              }`}
+              className={`transition-colors cursor-pointer relative ${repeatMode !== 'off' ? 'text-primary' : 'text-on-surface-variant hover:text-on-surface'
+                }`}
               title={`Chế độ lặp lại: ${repeatMode}`}
             >
               <span className="material-symbols-outlined text-xl">
@@ -1469,9 +1506,8 @@ export default function SoundStreamLayout() {
           <button
             type="button"
             onClick={() => toggleRightSidebar('nowPlaying')}
-            className={`transition-colors cursor-pointer p-1 rounded-md ${
-              rightSidebarView === 'nowPlaying' ? 'text-primary bg-surface-container' : 'text-on-surface-variant hover:text-on-surface'
-            }`}
+            className={`transition-colors cursor-pointer p-1 rounded-md ${rightSidebarView === 'nowPlaying' ? 'text-primary bg-surface-container' : 'text-on-surface-variant hover:text-on-surface'
+              }`}
             title="Đang phát (Now Playing View)"
           >
             <span className="material-symbols-outlined text-xl">slideshow</span>
@@ -1481,9 +1517,8 @@ export default function SoundStreamLayout() {
           <button
             type="button"
             onClick={() => toggleRightSidebar('lyrics')}
-            className={`transition-colors cursor-pointer p-1 rounded-md ${
-              rightSidebarView === 'lyrics' ? 'text-primary bg-surface-container' : 'text-on-surface-variant hover:text-on-surface'
-            }`}
+            className={`transition-colors cursor-pointer p-1 rounded-md ${rightSidebarView === 'lyrics' ? 'text-primary bg-surface-container' : 'text-on-surface-variant hover:text-on-surface'
+              }`}
             title="Lời bài hát (Lyrics)"
           >
             <span className="material-symbols-outlined text-xl">mic</span>
@@ -1493,9 +1528,8 @@ export default function SoundStreamLayout() {
           <button
             type="button"
             onClick={() => toggleRightSidebar('queue')}
-            className={`transition-colors cursor-pointer p-1 rounded-md ${
-              rightSidebarView === 'queue' ? 'text-primary bg-surface-container' : 'text-on-surface-variant hover:text-on-surface'
-            }`}
+            className={`transition-colors cursor-pointer p-1 rounded-md ${rightSidebarView === 'queue' ? 'text-primary bg-surface-container' : 'text-on-surface-variant hover:text-on-surface'
+              }`}
             title="Danh sách chờ (Queue)"
           >
             <span className="material-symbols-outlined text-xl">queue_music</span>
@@ -1515,9 +1549,8 @@ export default function SoundStreamLayout() {
           <button
             type="button"
             onClick={handleCycleSleepTimer}
-            className={`hidden xl:inline-flex transition-colors cursor-pointer p-1 rounded-md relative ${
-              sleepTimer ? 'text-primary bg-surface-container' : 'text-on-surface-variant hover:text-on-surface'
-            }`}
+            className={`hidden xl:inline-flex transition-colors cursor-pointer p-1 rounded-md relative ${sleepTimer ? 'text-primary bg-surface-container' : 'text-on-surface-variant hover:text-on-surface'
+              }`}
             title={
               sleepTimer
                 ? `Hẹn giờ: ${sleepTimeRemaining ? `${Math.ceil(sleepTimeRemaining / 60)}p` : 'Hết bài'}`
@@ -1575,9 +1608,9 @@ export default function SoundStreamLayout() {
             type="button"
             onClick={() => {
               if (!document.fullscreenElement) {
-                document.documentElement.requestFullscreen().catch(() => {});
+                document.documentElement.requestFullscreen().catch(() => { });
               } else {
-                document.exitFullscreen().catch(() => {});
+                document.exitFullscreen().catch(() => { });
               }
             }}
             className="text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer"

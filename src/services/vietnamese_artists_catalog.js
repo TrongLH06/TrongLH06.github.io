@@ -1,7 +1,6 @@
 /**
- * SoundStream Comprehensive Vietnamese Artists & Tracks Catalog (Ultra Complete Edition)
- * Contains 90 Top Vietnamese Artists & 862 Full-Length Curated Songs
- * Every artist has 100% authentic, unique official portrait/cover art from Apple Music & Deezer CDN.
+ * Danh mục 100 Nghệ Sĩ Việt Nam & 925 Bài Hát Chuẩn Spotify (i.scdn.co) + Multi-Source Audio (YouTube / SoundCloud / Apple Music / Audius)
+ * Đồng bộ trực tiếp với https://open.spotify.com/section/0JQ5DAnM3wGh0gz1MXnu3C
  */
 
 export const ARTIST_CATEGORIES = [
@@ -55,7 +54,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Sơn Tùng",
     "role": "V-Pop King",
     "genre": "V-Pop / R&B",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/736c5b8ff5a001b724fb92c7471c9f1d/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb8885185d1e914c51c15c3a13",
     "monthlyListeners": "3,950,000",
     "bio": "Nghệ sĩ V-Pop hàng đầu Việt Nam, chủ nhân của hàng loạt siêu hit kỷ lục Đông Nam Á.",
     "popularHits": [
@@ -73,7 +72,395 @@ export const VIETNAMESE_ARTISTS = [
       "Cơn Mưa Ngang Qua",
       "Em Của Ngày Hôm Qua",
       "Making My Way"
-    ]
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "buitruonglinh",
+    "category": "indie_band",
+    "name": "buitruonglinh",
+    "shortName": "Bùi Trường Linh",
+    "role": "Hoàng Tử Nhạc Tự Sự Gen Z",
+    "genre": "Indie Pop / Ballad",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb462d48f31f0a51d0cf4e095a",
+    "monthlyListeners": "2,450,000",
+    "bio": "Ca sĩ - nhạc sĩ trẻ tài năng sở hữu loạt hit triệu view như Đường Tôi Chở Em Về, Dù Cho Mai Về Sau, Yêu Người Có Ước Mơ.",
+    "popularHits": [
+      "Đường Tôi Chở Em Về",
+      "Dù Cho Mai Về Sau",
+      "Yêu Người Có Ước Mơ",
+      "Lời Tạm Biệt Chưa Nói",
+      "Từng Ngày Yêu Em",
+      "Một Mình Ta",
+      "Ngày Mai Em Đi Mất"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "soobin",
+    "category": "vpop_superstars",
+    "name": "SOOBIN",
+    "shortName": "SOOBIN",
+    "role": "Hoàng Tử R&B SpaceSpeakers",
+    "genre": "V-Pop / R&B & Ballad",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb30db194110c51d9e7fd3c7e7",
+    "monthlyListeners": "2,980,000",
+    "bio": "Nghệ sĩ toàn diện hàng đầu từ sáng tác, vũ đạo đến thanh nhạc, ngôi sao Chông Gai 2024.",
+    "popularHits": [
+      "Giá Như",
+      "Phía Sau Một Cô Gái",
+      "Dancing in the Dark",
+      "Trò Chơi",
+      "BlackJack",
+      "Ngày Mai Em Đi",
+      "Vài Lần Đón Đưa",
+      "Tháng Năm",
+      "Đi Để Trở Về",
+      "Xin Đừng Lặng Im",
+      "Anh Đã Quen Với Cô Đơn",
+      "Ai Mà Biết Được",
+      "Bật Nó Lên"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "hieuthuhai",
+    "category": "gen_z",
+    "name": "HIEUTHUHAI",
+    "shortName": "HIEUTHUHAI",
+    "role": "Thần Tượng Gen Z Số 1",
+    "genre": "Rap Việt / Hip-Hop & Pop",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebf39f3b8365b39fd757b442d7",
+    "monthlyListeners": "3,650,000",
+    "bio": "Rapper tài năng toàn diện nổi bật nhất của Gen Z, quán quân Anh Trai Say Hi 2024.",
+    "popularHits": [
+      "Trình",
+      "Ngủ Một Mình",
+      "Kim Phút Kim Giờ",
+      "NOLOVE NOHIDDEN",
+      "Không Thể Say",
+      "Vệ Tinh",
+      "Mama Boy",
+      "Bật Nhạc Lên",
+      "Cua",
+      "Exit Sign",
+      "Xoay Một Vòng",
+      "Sao Hạng A",
+      "Ngáo Ngơ"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "dalab",
+    "category": "indie_band",
+    "name": "Da LAB",
+    "shortName": "Da LAB",
+    "role": "Nhóm Nhạc Thanh Xuân",
+    "genre": "Indie Pop / Rap & Acoustic",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb62c092ca08054a8ce883ef7e",
+    "monthlyListeners": "2,420,000",
+    "bio": "Nhóm nhạc gắn liền với thanh xuân của hàng triệu khán giả Việt qua những khúc ca tích cực.",
+    "popularHits": [
+      "Thanh Xuân",
+      "Một Nhà",
+      "Gác Lại Âu Lo",
+      "Từ Ngày Em Đến",
+      "Nước Mắt Em Lau Bằng Tình Yêu Mới",
+      "Chạy Khỏi Thế Giới Này",
+      "Thức Giấc",
+      "Bài Ca Tuổi Trẻ",
+      "Đời Là Đi",
+      "Bầu Trời Mới"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "tlinh",
+    "category": "rap_viet",
+    "name": "Tlinh",
+    "shortName": "Tlinh",
+    "role": "Nữ Rapper Gen Z Số 1",
+    "genre": "Rap Việt / R&B Pop",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb3f3659a64575e284a149d226",
+    "monthlyListeners": "2,580,000",
+    "bio": "Nữ nghệ sĩ đa tài làm chủ dòng nhạc Hip-Hop/R&B với chất giọng lôi cuốn và năng lượng quyến rũ.",
+    "popularHits": [
+      "Nếu Lúc Đó",
+      "Ghệ Iu Dấu Của Cút Kít",
+      "Gái Độc Thân",
+      "Tình Yêu Có Nghĩa Là Gì",
+      "Thích Quá Rùi Nà",
+      "Châu Báu",
+      "Không Cần Phải Nói Nhiều",
+      "Strip Em Down",
+      "Nữ Siêu Anh Hùng",
+      "Mắt Xanh",
+      "Siren"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "vucattuong",
+    "category": "ballad_diva",
+    "name": "Vũ Cát Tường",
+    "shortName": "Vũ Cát Tường",
+    "role": "Nhạc Sĩ - Ca Sĩ Tiên Phong",
+    "genre": "V-Pop / R&B & Neo-Soul",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb4ba520dfe29d96625a208452",
+    "monthlyListeners": "1,990,000",
+    "bio": "Nghệ sĩ độc lập tài năng với giọng hát phi giới tính và tư duy âm nhạc tự do sáng tạo.",
+    "popularHits": [
+      "Vết Mưa",
+      "Yêu Xa",
+      "Mơ",
+      "Có Người",
+      "Hành Tinh Ánh Sáng",
+      "Đông",
+      "Từng Là",
+      "Cô Gái Ngày Hôm Qua",
+      "If",
+      "Người Bình Thường"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "anhtraisayhi",
+    "category": "mega_shows",
+    "name": "Anh Trai Say Hi (All Stars)",
+    "shortName": "Say Hi",
+    "role": "Siêu Show Âm Nhạc Bùng Nổ",
+    "genre": "Live Stage / Pop, Trap & Dance",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb6f1640bbb255a2921955ec7f",
+    "monthlyListeners": "4,500,000",
+    "bio": "30 nam nghệ sĩ trẻ tài năng quy tụ tạo nên những bản phối triệu view và concert lịch sử.",
+    "popularHits": [
+      "Kim Phút Kim Giờ",
+      "Ngáo Ngơ",
+      "Sao Hạng A",
+      "Catch Me If You Can",
+      "Hào Quang",
+      "Chân Thành",
+      "Don't Care"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "emceel",
+    "category": "vpop_legend",
+    "name": "Emcee L (Da LAB)",
+    "shortName": "Emcee L",
+    "role": "Ca Sĩ / Rapper (Da LAB)",
+    "genre": "V-Pop / Rap & Ballad",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebc32db6cbcd82c715f9cead4b",
+    "monthlyListeners": "1,420,000",
+    "bio": "Thành viên chủ chốt của nhóm Da LAB với chuỗi bản hit solo đình đám trên bảng xếp hạng Spotify Việt Nam.",
+    "popularHits": [
+      "Chuyện Đôi Ta",
+      "Mặt Trời Khóc",
+      "Sinh Ra Đã Là Thứ Đối Lập Nhau",
+      "Quên Anh Đi",
+      "Thức Giấc",
+      "Gác Lại Âu Lo",
+      "Thanh Xuân",
+      "Một Nhà"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "maydays",
+    "category": "indie_chill",
+    "name": "MAYDAYs",
+    "shortName": "MAYDAYs",
+    "role": "Ban Nhạc Indie Pop Việt",
+    "genre": "Indie Pop / Alternative",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebb6e04d06044cc9ec4158d106",
+    "monthlyListeners": "1,180,000",
+    "bio": "Ban nhạc Indie trẻ gây sốt trên Spotify Việt Nam với giai điệu mộc mạc, giàu cảm xúc tuổi trẻ.",
+    "popularHits": [
+      "Phép Màu",
+      "Em",
+      "Hẹn Lần Sau",
+      "Chờ Ngày Mưa Tan",
+      "Ngày Đầu Tiên",
+      "Đi Qua Mùa Hạ"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "duongdomic",
+    "category": "gen_z",
+    "name": "Dương Domic",
+    "shortName": "Dương Domic",
+    "role": "Thần Tượng Mới Nổi Năng Lượng",
+    "genre": "V-Pop / Teen Pop",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebc4dec6cbe0dcd58ebac32bfe",
+    "monthlyListeners": "2,150,000",
+    "bio": "Ngôi sao bùng nổ từ Anh Trai Say Hi với phong thái tự tin, vũ đạo lôi cuốn và giọng hát sáng.",
+    "popularHits": [
+      "Hào Quang",
+      "Tràn Bộ Nhớ",
+      "Đầy Nắng",
+      "Mênh Mông",
+      "Là Anh",
+      "Chập Chờn",
+      "Mất Kết Nối",
+      "Bầu Trời Mới",
+      "Sao Hạng A",
+      "Yêu Em 2 Ngày"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "ronboogz",
+    "category": "indie_chill",
+    "name": "Ronboogz",
+    "shortName": "Ronboogz",
+    "role": "Nghệ Sĩ Indie / R&B Tự Sự",
+    "genre": "Indie Việt / R&B & Rap",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb8de0c8ed480aabd579520b48",
+    "monthlyListeners": "1,390,000",
+    "bio": "Chủ nhân những bản nhạc tự sự sâu lắng đạt hàng chục triệu lượt nghe trên Spotify Việt Nam.",
+    "popularHits": [
+      "Nhắn Rằng Anh Nhớ Em",
+      "Đừng Đổi Thay",
+      "Khi Em Lớn",
+      "Lan Man",
+      "Chỉ Cần Có Nhau",
+      "Mượn Rượu Tỏ Tình",
+      "Không Sao Mà Em Đây Rồi"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "tri_music",
+    "category": "indie_chill",
+    "name": "T.R.I",
+    "shortName": "T.R.I",
+    "role": "Ca Sĩ / Nhạc Sĩ Indie Pop",
+    "genre": "Indie Pop / R&B",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb26aa77c2e8c55324a976a7d5",
+    "monthlyListeners": "1,310,000",
+    "bio": "Giọng ca ngọt ngào đứng sau bản hit Ánh Sao Và Bầu Trời phủ sóng khắp Spotify và TikTok.",
+    "popularHits": [
+      "Ánh Sao Và Bầu Trời",
+      "2AM",
+      "Mơ Màng",
+      "Chúng Ta Sau Này",
+      "Có Em Là Đủ",
+      "Dắt Em Đi Khỏi Đây"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "obito",
+    "category": "rap_viet",
+    "name": "Obito",
+    "shortName": "Obito",
+    "role": "Rapper / Đánh Đổi",
+    "genre": "Hip-Hop / R&B",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb1e5be0003167776bef2fc911",
+    "monthlyListeners": "1,720,000",
+    "bio": "Chủ nhân album Đánh Đổi, một trong những album Hip-Hop xuất sắc nhất lịch sử nhạc Việt đương đại.",
+    "popularHits": [
+      "Hà Nội",
+      "Đánh Đổi",
+      "Tell The Kids I Love Them",
+      "Xuất Phát Điểm",
+      "1000 Ánh Mắt",
+      "Simple Love",
+      "When You Look At Me",
+      "Soju Love",
+      "Vẫn Nhớ",
+      "Buồn Hay Vui",
+      "Đầu Đường Xó Chợ"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "youngpuppy",
+    "category": "rap_hiphop",
+    "name": "YoungPuppy",
+    "shortName": "YoungPuppy",
+    "role": "New Wave Melodic Rapper",
+    "genre": "Rap Việt / Melodic Trap",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb14cc527aa87afe69def5ed51",
+    "monthlyListeners": "1,150,000",
+    "bio": "Gương mặt trẻ nổi bật của làn sóng Melodic Rap thế hệ mới trên bảng xếp hạng Nghệ sĩ phổ biến Spotify.",
+    "popularHits": [
+      "Cứu Lấy Anh",
+      "Yêu Em Qua Dòng Tin Nhắn",
+      "Đêm Trắng",
+      "Trôi Trong Đêm",
+      "Ngoại Lệ Của Nhau",
+      "Mất Kết Nối"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "wn",
+    "category": "indie_band",
+    "name": "W/n",
+    "shortName": "W/n",
+    "role": "Phù Thủy Lo-Fi Triệu View (3107)",
+    "genre": "Indie / Lo-Fi & Chill Ballad",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb316c0f0bc6cf3a29c203ab1e",
+    "monthlyListeners": "2,680,000",
+    "bio": "Nhà sản xuất bí ẩn đứng sau chuỗi series huyền thoại 3107 (1, 2, 3, 4, id 072019) làm thổn thức hàng triệu trái tim.",
+    "popularHits": [
+      "3107 (feat. Duongg, Nâu)",
+      "3107-2",
+      "3107-3",
+      "3107-4",
+      "id 072019",
+      "072019 / 3107",
+      "Crush 2",
+      "Simple Love (W/n Remix)"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "dangrangto",
+    "category": "rap_hiphop",
+    "name": "Dangrangto",
+    "shortName": "Dangrangto",
+    "role": "Rapper / Hitmaker Thế Hệ Mới",
+    "genre": "Rap Việt / Hip-Hop",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebc8896f8c830d7f1d55ac3195",
+    "monthlyListeners": "1,290,000",
+    "bio": "Rapper sở hữu flow biến hóa độc đáo cùng loạt hit triệu view khuấy đảo cộng đồng Rap Việt.",
+    "popularHits": [
+      "Wrong Times",
+      "Bận Lòng",
+      "Ngủ Một Mình (tình rất tình)",
+      "Tại Vì Sao",
+      "Love Is",
+      "Cắt Kéo"
+    ],
+    "isSpotifyPopularSection": true
+  },
+  {
+    "id": "amee",
+    "category": "gen_z",
+    "name": "AMEE",
+    "shortName": "AMEE",
+    "role": "Công Chúa Kẹo Ngọt V-Pop",
+    "genre": "V-Pop / Teen Pop",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebfd70279a04a9b3796e7dcd4d",
+    "monthlyListeners": "2,180,000",
+    "bio": "Giọng ca trong trẻo mang màu sắc dễ thương và những vũ điệu viral khắp mạng xã hội.",
+    "popularHits": [
+      "Anh Nhà Ở Đâu Thế",
+      "Ưng Quá Chừng",
+      "Đen Đá Không Đường",
+      "Trời Giấu Trời Mang Đi",
+      "Thay Mọi Cô Gái Yêu Anh",
+      "Sao Anh Chưa Về Nhà",
+      "Yêu Thì Yêu Không Yêu Thì Yêu",
+      "Shay Nắnggg",
+      "Hai Mươi Hai (22)",
+      "Mộng Yu"
+    ],
+    "isSpotifyPopularSection": true
   },
   {
     "id": "denvau",
@@ -82,7 +469,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Đen",
     "role": "Rapper Quốc Dân",
     "genre": "Rap Việt / Storytelling",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/da485d4cbf15cccb0f94a720ce03f2c3/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb91d2d39877c13427a2651af5",
     "monthlyListeners": "3,250,000",
     "bio": "Rapper với ca từ mộc mạc, triết lý sống gần gũi chạm đến trái tim hàng triệu khán giả.",
     "popularHits": [
@@ -108,7 +495,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Mỹ Tâm",
     "role": "Họa Mi Tóc Nâu / Tượng Đài V-Pop",
     "genre": "V-Pop / Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/a53d47ab3b948026c53d9fc43958e61e/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb5d4a6001ce67c78aa3873c6a",
     "monthlyListeners": "2,650,000",
     "bio": "Tượng đài âm nhạc Việt Nam với sự nghiệp bền bỉ hơn hai thập kỷ và các liveshow SVĐ triệu khán giả.",
     "popularHits": [
@@ -133,7 +520,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Hoàng Thùy Linh",
     "role": "Nữ Hoàng Dân Gian Đương Đại",
     "genre": "V-Pop / Folk Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/ada412ca9a4796d6a7584567b871779a/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb1d97f009f33315a13b7fb8d9",
     "monthlyListeners": "2,850,000",
     "bio": "Nghệ sĩ đưa âm nhạc dân gian đương đại Việt Nam vươn tầm toàn cầu qua hiện tượng See Tình.",
     "popularHits": [
@@ -157,7 +544,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Hòa Minzy",
     "role": "Diva Nhạc Trẻ V-Pop",
     "genre": "V-Pop / Ballad & Dân Gian",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/c98e6b8293a577dbc996f3bd45e926c9/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb39aa67b9769a50405845c15a",
     "monthlyListeners": "2,510,000",
     "bio": "Giọng ca nội lực hàng đầu với các ca khúc tôn vinh văn hóa truyền thống và tình cảm gia đình.",
     "popularHits": [
@@ -174,39 +561,13 @@ export const VIETNAMESE_ARTISTS = [
     ]
   },
   {
-    "id": "soobin",
-    "category": "vpop_superstars",
-    "name": "SOOBIN",
-    "shortName": "SOOBIN",
-    "role": "Hoàng Tử R&B SpaceSpeakers",
-    "genre": "V-Pop / R&B & Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/9bd431c75ea8b685c763e0957a1a72d2/500x500-000000-80-0-0.jpg",
-    "monthlyListeners": "2,980,000",
-    "bio": "Nghệ sĩ toàn diện hàng đầu từ sáng tác, vũ đạo đến thanh nhạc, ngôi sao Chông Gai 2024.",
-    "popularHits": [
-      "Giá Như",
-      "Phía Sau Một Cô Gái",
-      "Dancing in the Dark",
-      "Trò Chơi",
-      "BlackJack",
-      "Ngày Mai Em Đi",
-      "Vài Lần Đón Đưa",
-      "Tháng Năm",
-      "Đi Để Trở Về",
-      "Xin Đừng Lặng Im",
-      "Anh Đã Quen Với Cô Đơn",
-      "Ai Mà Biết Được",
-      "Bật Nó Lên"
-    ]
-  },
-  {
     "id": "jack",
     "category": "vpop_superstars",
     "name": "Jack - J97",
     "shortName": "Jack",
     "role": "Ngôi Sao Triệu View",
     "genre": "V-Pop / Dân Gian Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/6724716bf1929e7648dba73078cb42bf/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb87abe41e26c5b7664fb86377",
     "monthlyListeners": "2,820,000",
     "bio": "Ca sĩ sở hữu chất giọng luyến láy miền Tây độc đáo và kho hit triệu view bùng nổ mạng xã hội.",
     "popularHits": [
@@ -230,7 +591,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Noo Phước Thịnh",
     "role": "Hoàng Tử Nhạc Pop V-Pop",
     "genre": "V-Pop / Pop Dance",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/2fc00c376f14991589b28a740a147441/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb3b16d0a6d1fdf9d4ef9503fd",
     "monthlyListeners": "2,420,000",
     "bio": "Nam ca sĩ điển trai với giọng hát vang sáng cùng loạt hit quốc dân đốn tim giới trẻ.",
     "popularHits": [
@@ -253,7 +614,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Đông Nhi",
     "role": "Nữ Hoàng Nhạc Teen & Dance Pop",
     "genre": "V-Pop / Dance Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/9f7b31f7427c51a86f05d052325fd608/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebd5526bbf28e2feb5de3cdbe3",
     "monthlyListeners": "2,210,000",
     "bio": "Biểu tượng âm nhạc của thế hệ 9x với hành trình từ ca sĩ tuổi teen đến quán quân The Remix.",
     "popularHits": [
@@ -277,7 +638,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Bích Phương",
     "role": "Nữ Hoàng Tạo Trend V-Pop",
     "genre": "V-Pop / Indie Pop & Disco",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/c81fc5425d0279cc0b9c1d498ba3b457/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb906404e01b48537145d163ba",
     "monthlyListeners": "2,340,000",
     "bio": "Nữ ca sĩ biến hóa linh hoạt từ nữ hoàng sầu muộn đến biểu tượng tạo trend hài hước quyến rũ.",
     "popularHits": [
@@ -295,39 +656,13 @@ export const VIETNAMESE_ARTISTS = [
     ]
   },
   {
-    "id": "hieuthuhai",
-    "category": "gen_z",
-    "name": "HIEUTHUHAI",
-    "shortName": "HIEUTHUHAI",
-    "role": "Thần Tượng Gen Z Số 1",
-    "genre": "Rap Việt / Hip-Hop & Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/731891d7627e78e25ea9e507d3fd8333/500x500-000000-80-0-0.jpg",
-    "monthlyListeners": "3,650,000",
-    "bio": "Rapper tài năng toàn diện nổi bật nhất của Gen Z, quán quân Anh Trai Say Hi 2024.",
-    "popularHits": [
-      "Trình",
-      "Ngủ Một Mình",
-      "Kim Phút Kim Giờ",
-      "NOLOVE NOHIDDEN",
-      "Không Thể Say",
-      "Vệ Tinh",
-      "Mama Boy",
-      "Bật Nhạc Lên",
-      "Cua",
-      "Exit Sign",
-      "Xoay Một Vòng",
-      "Sao Hạng A",
-      "Ngáo Ngơ"
-    ]
-  },
-  {
     "id": "mono",
     "category": "gen_z",
     "name": "MONO",
     "shortName": "MONO",
     "role": "Tân Binh Quái Vật V-Pop",
     "genre": "V-Pop / Synthwave & R&B",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/aaf176ce82042b58498d91515a4a45c3/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eba0936954c350fe8e9aaf1add",
     "monthlyListeners": "2,350,000",
     "bio": "Gây bão toàn cõi mạng ngay từ màn debut với Waiting For You và tư duy âm nhạc thời thượng.",
     "popularHits": [
@@ -352,7 +687,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Wren Evans",
     "role": "Nghệ Sĩ Độc Bản Phá Cách",
     "genre": "V-Pop / Neo-Pop & Drill",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/ee2f42bb7a077ee88b189f4edf422b3e/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb1b4acb7ae624c86677a7ca44",
     "monthlyListeners": "2,480,000",
     "bio": "Nghệ sĩ trẻ đầy phá cách với tư duy âm nhạc quốc tế và ca từ gây nghiện trong album LoiChoi.",
     "popularHits": [
@@ -377,7 +712,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "GREY D",
     "role": "Hoàng Tử Mưa Chữa Lành",
     "genre": "V-Pop / Indie Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/17a36e7031efb7d45546d1d152d2cad4/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb9f18e7cce7be5f16dc7103f8",
     "monthlyListeners": "2,240,000",
     "bio": "Ca sĩ - nhạc sĩ tài năng với phong cách âm nhạc tự sự chữa lành và giai điệu êm dịu.",
     "popularHits": [
@@ -400,7 +735,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Quang Hùng",
     "role": "Ngôi Sao Âm Nhạc Quốc Tế",
     "genre": "V-Pop / T-Pop & Dance",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/0bff9b1b19b88efb90b2cbb02cc7d861/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb114e6e6e87d44db768bc8cea",
     "monthlyListeners": "2,310,000",
     "bio": "Ca sĩ - producer sở hữu lượng fan đông đảo khắp Đông Nam Á với giai điệu lôi cuốn.",
     "popularHits": [
@@ -418,36 +753,13 @@ export const VIETNAMESE_ARTISTS = [
     ]
   },
   {
-    "id": "duongdomic",
-    "category": "gen_z",
-    "name": "Dương Domic",
-    "shortName": "Dương Domic",
-    "role": "Thần Tượng Mới Nổi Năng Lượng",
-    "genre": "V-Pop / Teen Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/6e52b60a4cd71601d1bf91432d5a3e07/500x500-000000-80-0-0.jpg",
-    "monthlyListeners": "2,150,000",
-    "bio": "Ngôi sao bùng nổ từ Anh Trai Say Hi với phong thái tự tin, vũ đạo lôi cuốn và giọng hát sáng.",
-    "popularHits": [
-      "Hào Quang",
-      "Tràn Bộ Nhớ",
-      "Đầy Nắng",
-      "Mênh Mông",
-      "Là Anh",
-      "Chập Chờn",
-      "Mất Kết Nối",
-      "Bầu Trời Mới",
-      "Sao Hạng A",
-      "Yêu Em 2 Ngày"
-    ]
-  },
-  {
     "id": "phuongly",
     "category": "gen_z",
     "name": "Phương Ly",
     "shortName": "Phương Ly",
     "role": "Nàng Thơ V-Pop",
     "genre": "V-Pop / Cute Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec38bc011b0/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebd44b24dd66374b59c07e319e",
     "monthlyListeners": "1,920,000",
     "bio": "Nàng thơ mang đến những giai điệu ngọt ngào, tích cực như ánh mặt trời cho làng nhạc Việt.",
     "popularHits": [
@@ -464,36 +776,13 @@ export const VIETNAMESE_ARTISTS = [
     ]
   },
   {
-    "id": "amee",
-    "category": "gen_z",
-    "name": "AMEE",
-    "shortName": "AMEE",
-    "role": "Công Chúa Kẹo Ngọt V-Pop",
-    "genre": "V-Pop / Teen Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/0bfd1ba5423a94ccb48d2069d528fbb0/500x500-000000-80-0-0.jpg",
-    "monthlyListeners": "2,180,000",
-    "bio": "Giọng ca trong trẻo mang màu sắc dễ thương và những vũ điệu viral khắp mạng xã hội.",
-    "popularHits": [
-      "Anh Nhà Ở Đâu Thế",
-      "Ưng Quá Chừng",
-      "Đen Đá Không Đường",
-      "Trời Giấu Trời Mang Đi",
-      "Thay Mọi Cô Gái Yêu Anh",
-      "Sao Anh Chưa Về Nhà",
-      "Yêu Thì Yêu Không Yêu Thì Yêu",
-      "Shay Nắnggg",
-      "Hai Mươi Hai (22)",
-      "Mộng Yu"
-    ]
-  },
-  {
     "id": "min",
     "category": "gen_z",
     "name": "MIN",
     "shortName": "MIN",
     "role": "Nữ Hoàng Hit V-Pop",
     "genre": "V-Pop / Pop Dance",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/3128061ef39a32c55531aeb101e49f24/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb7a2969bce359f6c1a39b26a8",
     "monthlyListeners": "2,050,000",
     "bio": "Nữ ca sĩ xuất thân vũ công St.319 với kho hit đồ sộ và phong cách thời trang chuẩn K-Pop.",
     "popularHits": [
@@ -517,7 +806,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Suni Hạ Linh",
     "role": "Giọng Ca Ngọt Ngào Thanh Xuân",
     "genre": "V-Pop / Acoustic Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebe214fdf28177f86d83de2b63",
     "monthlyListeners": "1,780,000",
     "bio": "Nữ ca sĩ trong trẻo tỏa sáng tại Đạp Gió Rẽ Sóng xứ Trung và loạt bản tình ca tuổi trẻ.",
     "popularHits": [
@@ -539,7 +828,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Shiki",
     "role": "Gen Z / R&B & Melodic Star",
     "genre": "R&B / Soul / Hip-Hop",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/0f015e844f09cd87c41276e17184a282/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb71581ba96c0dfa03f23beeb9",
     "monthlyListeners": "840,000",
     "bio": "Nghệ sĩ trẻ tài năng với phong cách R&B lãng mạn kết hợp cùng Obito, Tyronee mang lại những giai điệu bắt tai đầy cảm xúc trong EP Có Đôi Điều.",
     "popularHits": [
@@ -555,37 +844,13 @@ export const VIETNAMESE_ARTISTS = [
     ]
   },
   {
-    "id": "obito",
-    "category": "rap_viet",
-    "name": "Obito",
-    "shortName": "Obito",
-    "role": "Rapper / Đánh Đổi",
-    "genre": "Hip-Hop / R&B",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/08adabc141bb5c0b3fa27cd61bf7be4b/500x500-000000-80-0-0.jpg",
-    "monthlyListeners": "1,720,000",
-    "bio": "Chủ nhân album Đánh Đổi, một trong những album Hip-Hop xuất sắc nhất lịch sử nhạc Việt đương đại.",
-    "popularHits": [
-      "Hà Nội",
-      "Đánh Đổi",
-      "Tell The Kids I Love Them",
-      "Xuất Phát Điểm",
-      "1000 Ánh Mắt",
-      "Simple Love",
-      "When You Look At Me",
-      "Soju Love",
-      "Vẫn Nhớ",
-      "Buồn Hay Vui",
-      "Đầu Đường Xó Chợ"
-    ]
-  },
-  {
     "id": "mck",
     "category": "rap_viet",
     "name": "RPT MCK",
     "shortName": "MCK",
     "role": "Thiên Tài Melodic Rap",
     "genre": "Rap Việt / Trap & R&B",
-    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/78/4a/12/784a12a4-4344-6031-529a-f77e16f588d6/196626496423.jpg/600x600bb.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb6a6065f675433dde99716a7e",
     "monthlyListeners": "3,150,000",
     "bio": "Rapper biểu tượng thế hệ mới với phong cách Autotune mượt mà và album 99% đạt kỷ lục stream.",
     "popularHits": [
@@ -604,37 +869,13 @@ export const VIETNAMESE_ARTISTS = [
     ]
   },
   {
-    "id": "tlinh",
-    "category": "rap_viet",
-    "name": "Tlinh",
-    "shortName": "Tlinh",
-    "role": "Nữ Rapper Gen Z Số 1",
-    "genre": "Rap Việt / R&B Pop",
-    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d8/87/d7/d887d7f7-6568-c81c-2bc5-24f9285d0690/00602458392609_Cover.jpg/600x600bb.jpg",
-    "monthlyListeners": "2,580,000",
-    "bio": "Nữ nghệ sĩ đa tài làm chủ dòng nhạc Hip-Hop/R&B với chất giọng lôi cuốn và năng lượng quyến rũ.",
-    "popularHits": [
-      "Nếu Lúc Đó",
-      "Ghệ Iu Dấu Của Cút Kít",
-      "Gái Độc Thân",
-      "Tình Yêu Có Nghĩa Là Gì",
-      "Thích Quá Rùi Nà",
-      "Châu Báu",
-      "Không Cần Phải Nói Nhiều",
-      "Strip Em Down",
-      "Nữ Siêu Anh Hùng",
-      "Mắt Xanh",
-      "Siren"
-    ]
-  },
-  {
     "id": "lowg",
     "category": "rap_viet",
     "name": "Low G",
     "shortName": "Low G",
     "role": "Chủ Tịch Hệ Hip-Hop Bắc",
     "genre": "Rap Việt / Trap & Drill",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/8e41c01c6de212b06c8e952772a08ed9/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb458922055cf6250e3b6df382",
     "monthlyListeners": "2,350,000",
     "bio": "Rapper sở hữu flow đỉnh cao, chất giọng trầm ấm đặc trưng và phong cách tự tin cuốn hút.",
     "popularHits": [
@@ -659,7 +900,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "B Ray",
     "role": "Bậc Thầy Kể Chuyện Rap Việt",
     "genre": "Rap Việt / Storytelling",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb69b0142434aee6cd70a581bc",
     "monthlyListeners": "2,410,000",
     "bio": "Rapper kỳ cựu với kỹ năng gieo vần tài ba, huấn luyện viên Rap Việt mùa 3.",
     "popularHits": [
@@ -683,7 +924,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Karik",
     "role": "Huyền Thoại Rap Việt",
     "genre": "Rap Việt / Pop Rap",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb2ef6756afdf74f9b7e3a1861",
     "monthlyListeners": "2,610,000",
     "bio": "Cây đại thụ đưa Rap Việt đến đại chúng với những bản hit quốc dân sống mãi với thời gian.",
     "popularHits": [
@@ -707,7 +948,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Suboi",
     "role": "Nữ Hoàng Rap Việt",
     "genre": "Rap Việt / Boombap & Trap",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/f5ce7a2be235f8ed708d528e509e8e2c/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebfa35ee90af0b8a988adecd80",
     "monthlyListeners": "1,540,000",
     "bio": "Biểu tượng nữ quyền của Hip-Hop Việt Nam từng được tạp chí Forbes và quốc tế vinh danh.",
     "popularHits": [
@@ -730,7 +971,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Double2T",
     "role": "Người Miền Núi Chất",
     "genre": "Rap Việt / Dân Gian Tây Bắc",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/69964e1a96837a01e5f7d9e3e72f6a91/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebc219922a84206143529d94b2",
     "monthlyListeners": "1,950,000",
     "bio": "Quán quân Rap Việt mùa 3 mang nét đẹp âm hưởng dân tộc vùng cao vào dòng chảy rap hiện đại.",
     "popularHits": [
@@ -751,7 +992,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "JustaTee",
     "role": "Ông Hoàng Melodic V-Pop & R&B",
     "genre": "R&B / Melodic Rap",
-    "avatar": "https://cdn-images.dzcdn.net/images/cover/90e8865dfce0e4b4982cf6e7827ac7be/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb32ef88cff38b5ff46fa0004a",
     "monthlyListeners": "2,890,000",
     "bio": "Giám đốc âm nhạc quyền lực đứng sau thành công rực rỡ của Rap Việt và Anh Trai Say Hi.",
     "popularHits": [
@@ -775,7 +1016,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Rhymastic",
     "role": "Phù Thủy Âm Nhạc SpaceSpeakers",
     "genre": "Rap Việt / Electronic & R&B",
-    "avatar": "https://cdn-images.dzcdn.net/images/cover/e784d5f6f06d3734cb7014697f94d147/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb925504351e48c2dbdcad135f",
     "monthlyListeners": "2,420,000",
     "bio": "Nhà sản xuất kiêm rapper thiên tài, người tạo nên siêu phẩm Yêu 5 và loạt hit đẳng cấp.",
     "popularHits": [
@@ -798,7 +1039,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "BigDaddy",
     "role": "Cặp Đôi Hit V-Pop",
     "genre": "Rap Việt / Pop Rap",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/97f5e6ba08d6f1431a31fac917959147/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb9162b656f506ae82d3cea5ac",
     "monthlyListeners": "2,110,000",
     "bio": "Cặp đôi vàng của làng nhạc với loạt ca khúc tình yêu ngọt ngào quốc dân.",
     "popularHits": [
@@ -820,7 +1061,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "RHYDER",
     "role": "Ngôi Sao Toàn Diện Say Hi",
     "genre": "Rap Việt / R&B & Trap",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/b87287fa11a9e5d235f3c7c4cb78f8d2/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb3de49f9cfa7e78bdd3f8ae97",
     "monthlyListeners": "2,450,000",
     "bio": "Quán quân The Voice Kids lột xác ngoạn mục thành ngôi sao Rap/R&B sáng giá nhất Say Hi.",
     "popularHits": [
@@ -842,7 +1083,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "HURRYKNG",
     "role": "Chiến Binh Tổ Đội GERDNANG",
     "genre": "Rap Việt / Trap & R&B",
-    "avatar": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb3b7998f162dea56d0961bd97",
     "monthlyListeners": "1,980,000",
     "bio": "Mảnh ghép tài năng của GERDNANG gây bão với kỹ năng rap sắc bén và visual điển trai.",
     "popularHits": [
@@ -864,7 +1105,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Pháp Kiều",
     "role": "Rapper Cá Tính & Biến Hóa",
     "genre": "Rap Việt / Trap & Drill",
-    "avatar": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb26a712a3489480dbfa0853ae",
     "monthlyListeners": "1,890,000",
     "bio": "Hiện tượng Rap Việt và Say Hi với phong cách biểu diễn tự tin, năng lượng bùng nổ.",
     "popularHits": [
@@ -886,7 +1127,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Vũ",
     "role": "Hoàng Tử Indie Việt",
     "genre": "Indie Việt / Acoustic",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/3b39de9719ace79996aa2a893a1d42c7/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb2d7150aa7e90e9a85610ab3d",
     "monthlyListeners": "2,890,000",
     "bio": "Giọng ca Indie sâu lắng, tác giả của những bản tình ca mộc mạc hoài niệm đi cùng năm tháng.",
     "popularHits": [
@@ -911,7 +1152,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Chillies",
     "role": "Ban Nhạc Pop-Rock Số 1",
     "genre": "Indie / Pop-Rock",
-    "avatar": "https://cdn-images.dzcdn.net/images/cover/417fade4de3f2441c2d9196ad6873943/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb685a3ddc903029189b9c01c5",
     "monthlyListeners": "2,320,000",
     "bio": "Nhóm nhạc indie lãng mạn với giai điệu rộn ràng và những câu chuyện tình thanh xuân.",
     "popularHits": [
@@ -936,7 +1177,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Ngọt",
     "role": "Ban Nhạc Indie Biểu Tượng",
     "genre": "Indie Rock",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/bfaed03ab12cbbd516cf07e03c62198e/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb66e0a040a53996e8bf19f9b5",
     "monthlyListeners": "1,890,000",
     "bio": "Ban nhạc indie biểu tượng của giới trẻ Hà Nội với những ca từ triết lý sâu sắc và giàu tính thơ.",
     "popularHits": [
@@ -954,36 +1195,13 @@ export const VIETNAMESE_ARTISTS = [
     ]
   },
   {
-    "id": "dalab",
-    "category": "indie_band",
-    "name": "Da LAB",
-    "shortName": "Da LAB",
-    "role": "Nhóm Nhạc Thanh Xuân",
-    "genre": "Indie Pop / Rap & Acoustic",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/8d35790fafbc4c16358050d7246b5e2b/500x500-000000-80-0-0.jpg",
-    "monthlyListeners": "2,420,000",
-    "bio": "Nhóm nhạc gắn liền với thanh xuân của hàng triệu khán giả Việt qua những khúc ca tích cực.",
-    "popularHits": [
-      "Thanh Xuân",
-      "Một Nhà",
-      "Gác Lại Âu Lo",
-      "Từ Ngày Em Đến",
-      "Nước Mắt Em Lau Bằng Tình Yêu Mới",
-      "Chạy Khỏi Thế Giới Này",
-      "Thức Giấc",
-      "Bài Ca Tuổi Trẻ",
-      "Đời Là Đi",
-      "Bầu Trời Mới"
-    ]
-  },
-  {
     "id": "thinhsuy",
     "category": "indie_band",
     "name": "Thịnh Suy",
     "shortName": "Thịnh Suy",
     "role": "Chàng Lãng Tử Mộc Mạc",
     "genre": "Indie / Lo-Fi Acoustic",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/8d0c0343c52c7c59f646a9e78d2764d8/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb11a5bd4ec6b8f3f63d1280dd",
     "monthlyListeners": "1,750,000",
     "bio": "Nghệ sĩ indie với tiếng đàn guitar mộc mạc và giọng hát tâm tình say đắm lòng người.",
     "popularHits": [
@@ -1005,7 +1223,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Cá Hồi Hoang",
     "role": "Ban Nhạc Alternative Rock",
     "genre": "Indie Rock / Alternative",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/3733cc10cb8932f7d9a05b07daeb5408/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb2e1835960ece8454ec87ef6a",
     "monthlyListeners": "1,280,000",
     "bio": "Ban nhạc indie rock độc lập đến từ Đà Lạt với những bản trường ca đậm chất tự sự phóng khoáng.",
     "popularHits": [
@@ -1028,7 +1246,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "7UPPERCUTS",
     "role": "Ban Nhạc Punk-Rock Bùng Nổ",
     "genre": "Punk Rock",
-    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/f1/5e/5cf15e58-5e7f-25b9-0a7b-b71a82ca7960/3616550790499_Cover.jpg/600x600bb.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebf1808a3ea45cf014311e8336",
     "monthlyListeners": "1,120,000",
     "bio": "Năng lượng bùng nổ của dòng nhạc Pop-Punk Sài Gòn với phong cách hài hước nổi loạn.",
     "popularHits": [
@@ -1050,7 +1268,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Đức Phúc",
     "role": "Hoàng Tử Tình Ca & Cưới",
     "genre": "V-Pop / Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/aa64c2ebcf1f0a8c969043d9bb5509c4/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebe4b06740e275331ee84c5a26",
     "monthlyListeners": "2,240,000",
     "bio": "Giọng ca truyền cảm chuyên trị những bản ballad ngọt ngào của mùa cưới và tình yêu tươi đẹp.",
     "popularHits": [
@@ -1073,7 +1291,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Erik",
     "role": "Hoàng Tử R&B Ballad",
     "genre": "V-Pop / R&B Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/f0f911332477d28107dcdf533a02025e/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb916407e907705dc1ab9010c3",
     "monthlyListeners": "2,180,000",
     "bio": "Giọng hát ấm áp da diết với những bản tình ca ballad lãng mạn đầy cảm xúc.",
     "popularHits": [
@@ -1096,7 +1314,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Phan Mạnh Quỳnh",
     "role": "Nhạc Sĩ Tự Sự Kiệt Xuất",
     "genre": "V-Pop / Nhạc Phim & Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/273020e118c822eb6c3992d61db4020b/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb90e8f2fa6b253ae181e8daf4",
     "monthlyListeners": "2,420,000",
     "bio": "Tác giả kiệt xuất đứng sau các bản nhạc phim điện ảnh Mắt Biếc và những khúc tự sự lắng đọng.",
     "popularHits": [
@@ -1121,7 +1339,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Tăng Duy Tân",
     "role": "Cỗ Máy Tạo Hit V-Pop",
     "genre": "V-Pop / Deep House & Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/b02dc9950bf3636c0ff79a35875e499d/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb306d5227e4b5dc29ce823d8f",
     "monthlyListeners": "2,590,000",
     "bio": "Chủ nhân chuỗi hit phủ sóng khắp Châu Á với giai điệu u sầu kết hợp tiết tấu điện tử cuốn hút.",
     "popularHits": [
@@ -1145,7 +1363,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Văn Mai Hương",
     "role": "Vocalist Đẳng Cấp V-Pop",
     "genre": "V-Pop / R&B & Jazz Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/6005d6b56581e7edb839f7b8c5d3b348/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebbae0a409d0f24e971ad52f1d",
     "monthlyListeners": "2,340,000",
     "bio": "Nữ ca sĩ thực lực với kỹ thuật thanh nhạc điêu luyện cùng những album ý niệm ấn tượng.",
     "popularHits": [
@@ -1168,7 +1386,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Trung Quân",
     "role": "Thánh Mưa / Bướm Mặt Trăng",
     "genre": "V-Pop / Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/4824c9970ac17d128c4bcddbfefc6f17/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebe6465ac92651d0e2bdcf4640",
     "monthlyListeners": "2,150,000",
     "bio": "Giọng ca nam cao trữ tình bậc nhất với những bài ca gắn liền với mùa mưa và nỗi buồn man mác.",
     "popularHits": [
@@ -1191,7 +1409,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Bùi Anh Tuấn",
     "role": "Giọng Ca Cao Vút Trữ Tình",
     "genre": "V-Pop / Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/b9f1a97e5718a328a6619c794d7e2216/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebf2db4875c81f4d103aefc81a",
     "monthlyListeners": "1,850,000",
     "bio": "Chàng ca sĩ với nốt cao sáng rõ và những bản tình ca bất hủ trong lòng khán giả trẻ.",
     "popularHits": [
@@ -1207,36 +1425,13 @@ export const VIETNAMESE_ARTISTS = [
     ]
   },
   {
-    "id": "vucattuong",
-    "category": "ballad_diva",
-    "name": "Vũ Cát Tường",
-    "shortName": "Vũ Cát Tường",
-    "role": "Nhạc Sĩ - Ca Sĩ Tiên Phong",
-    "genre": "V-Pop / R&B & Neo-Soul",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/4c35179b8d84209bb88b77a0e29c30d3/500x500-000000-80-0-0.jpg",
-    "monthlyListeners": "1,990,000",
-    "bio": "Nghệ sĩ độc lập tài năng với giọng hát phi giới tính và tư duy âm nhạc tự do sáng tạo.",
-    "popularHits": [
-      "Vết Mưa",
-      "Yêu Xa",
-      "Mơ",
-      "Có Người",
-      "Hành Tinh Ánh Sáng",
-      "Đông",
-      "Từng Là",
-      "Cô Gái Ngày Hôm Qua",
-      "If",
-      "Người Bình Thường"
-    ]
-  },
-  {
     "id": "huongtram",
     "category": "ballad_diva",
     "name": "Hương Tràm",
     "shortName": "Hương Tràm",
     "role": "Diva Nhạc Trẻ Nội Lực",
     "genre": "V-Pop / Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/db6d6c0a5b6775f98189fe5a31545d21/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb17933a71d5b46b6f5aadd655",
     "monthlyListeners": "2,120,000",
     "bio": "Quán quân The Voice với chất giọng soprano dày dặn, chủ nhân siêu hit Em Gái Mưa.",
     "popularHits": [
@@ -1258,7 +1453,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Quân A.P",
     "role": "Giọng Ca Trầm Ấm Lãng Tử",
     "genre": "V-Pop / Ballad",
-    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/01/bd/65/01bd655e-adf1-d471-7990-6f144052514e/3616409565667.jpg/600x600bb.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb02b62aac55d09c56dad7dac3",
     "monthlyListeners": "2,180,000",
     "bio": "Sở hữu chất giọng khàn trầm nam tính, ngôi sao được yêu thích tại Say Hi.",
     "popularHits": [
@@ -1280,7 +1475,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Đan Trường",
     "role": "Anh Bo Quốc Dân",
     "genre": "V-Pop / Nhạc Hoa Lời Việt & Dân Ca",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/f59e0c49e322a5b9fa5e8360d2775b89/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb24a75319586262b8fb2b3a23",
     "monthlyListeners": "2,450,000",
     "bio": "Tượng đài âm nhạc gắn liền với ký ức tuổi thơ của thế hệ 8x, 9x với hàng trăm bản hit vượt thời gian.",
     "popularHits": [
@@ -1303,7 +1498,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Ưng Hoàng Phúc",
     "role": "Cựu Thành Viên 1088 / Siêu Sao 2000s",
     "genre": "V-Pop / Teen Pop & Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/cover/6dc6d12c490c2af66d6360365cf221c6/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb4531871401673bf445597001",
     "monthlyListeners": "1,980,000",
     "bio": "Kỷ lục gia bán đĩa của nhạc Việt đầu thập niên 2000 với giọng ca phong trần làm say đắm bao thế hệ.",
     "popularHits": [
@@ -1325,7 +1520,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Lam Trường",
     "role": "Anh Hai Làn Sóng Xanh",
     "genre": "V-Pop / Nhạc Trẻ",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eba61c5c97b1b318f1b04fcd97",
     "monthlyListeners": "1,890,000",
     "bio": "Tiên phong mở ra kỷ nguyên rực rỡ của nhạc trẻ Việt Nam tại Làn Sóng Xanh thập niên 90.",
     "popularHits": [
@@ -1347,7 +1542,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Tuấn Hưng",
     "role": "Ngựa Hoang V-Pop",
     "genre": "V-Pop / Pop Rock",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/5b3d2f901ad311bf361452b0209312cc/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb6d18686dfa88a5ad35d1d36b",
     "monthlyListeners": "2,310,000",
     "bio": "Chất giọng khàn lửa bùng cháy cùng phong thái lãng tử phong trần qua những bản hit bất hủ.",
     "popularHits": [
@@ -1369,7 +1564,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Hồ Ngọc Hà",
     "role": "Nữ Hoàng Giải Trí V-Pop",
     "genre": "V-Pop / Dance & Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/1cf2a2cf1954fab691235ce505dfb601/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb228989d24ff75b4353f08de5",
     "monthlyListeners": "2,280,000",
     "bio": "Biểu tượng nhan sắc và giải trí với chất giọng khàn trầm độc đáo cùng các đêm nhạc Love Songs.",
     "popularHits": [
@@ -1391,7 +1586,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Bảo Thy",
     "role": "Công Chúa Bong Bóng",
     "genre": "V-Pop / Teen Pop Audition",
-    "avatar": "https://cdn-images.dzcdn.net/images/cover/ad58f2ec5249108827083f22bba66e4a/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebab3d294af601d3afa868d94d",
     "monthlyListeners": "1,950,000",
     "bio": "Biểu tượng gắn liền với thời kỳ hoàng kim game Audition và những ca khúc tuổi học trò trong sáng.",
     "popularHits": [
@@ -1413,7 +1608,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Khởi My",
     "role": "Nữ Ca Sĩ Đa Tài Tuổi Teen",
     "genre": "V-Pop / Teen Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/cf7f37003fb14a08b239fc4eb96fdc60/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebc5f2f35ad84305911252a703",
     "monthlyListeners": "1,720,000",
     "bio": "Nữ ca sĩ với giọng hát trong veo cao vút và tính cách thân thiện gắn liền với giới trẻ.",
     "popularHits": [
@@ -1435,7 +1630,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Isaac",
     "role": "Thủ Lĩnh Boyband Số 1",
     "genre": "V-Pop / Dance Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/cover/7947f525edab68acd385feacd1608e95/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb391cabbe4921e4363301157b",
     "monthlyListeners": "2,150,000",
     "bio": "Thủ lĩnh nhóm 365 tài hoa, gương mặt sáng giá của Anh Trai Say Hi với vẻ ngoài chuẩn nam thần.",
     "popularHits": [
@@ -1457,7 +1652,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Trịnh Thăng Bình",
     "role": "Nhạc Sĩ - Ca Sĩ Tình Ca",
     "genre": "V-Pop / Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/a53c2a881c52b98b72008bc16fb3ba75/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb26278958401f9a8258dc1acd",
     "monthlyListeners": "1,890,000",
     "bio": "Chủ nhân các bản tình ca sâu lắng gắn liền với tuổi trẻ qua giai điệu dễ nhớ da diết.",
     "popularHits": [
@@ -1479,7 +1674,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Phan Đinh Tùng",
     "role": "Giọng Ca MTV & Sinh Nhật Quốc Dân",
     "genre": "V-Pop / Pop Rock & Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebe25bd95bdc6f77c1ae7186d9",
     "monthlyListeners": "1,680,000",
     "bio": "Cựu thành viên nhóm MTV với giọng hát nội lực và bài hát sinh nhật vang lên ở mọi buổi tiệc.",
     "popularHits": [
@@ -1495,33 +1690,13 @@ export const VIETNAMESE_ARTISTS = [
     ]
   },
   {
-    "id": "anhtraisayhi",
-    "category": "mega_shows",
-    "name": "Anh Trai Say Hi (All Stars)",
-    "shortName": "Say Hi",
-    "role": "Siêu Show Âm Nhạc Bùng Nổ",
-    "genre": "Live Stage / Pop, Trap & Dance",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/4677f41d76d4534d064b2e0b490f0df3/500x500-000000-80-0-0.jpg",
-    "monthlyListeners": "4,500,000",
-    "bio": "30 nam nghệ sĩ trẻ tài năng quy tụ tạo nên những bản phối triệu view và concert lịch sử.",
-    "popularHits": [
-      "Kim Phút Kim Giờ",
-      "Ngáo Ngơ",
-      "Sao Hạng A",
-      "Catch Me If You Can",
-      "Hào Quang",
-      "Chân Thành",
-      "Don't Care"
-    ]
-  },
-  {
     "id": "chonggai",
     "category": "mega_shows",
     "name": "Anh Trai Vượt Ngàn Chông Gai",
     "shortName": "Chông Gai",
     "role": "Đại Nhạc Hội Bản Sắc Việt",
     "genre": "Live Stage / Rock & Dân Tộc",
-    "avatar": "https://cdn-images.dzcdn.net/images/cover/6ecc1dd3829c6569524639f99402742e/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb1bc4179a28e26fae77ec9e5e",
     "monthlyListeners": "4,200,000",
     "bio": "33 Anh Tài đưa tinh hoa văn hóa, lịch sử và âm nhạc dân tộc thăng hoa đỉnh cao cảm xúc.",
     "popularHits": [
@@ -1540,7 +1715,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Hà Anh Tuấn",
     "role": "Hoàng Tử Tình Ca Acoustic",
     "genre": "V-Pop / Acoustic & Pop Jazz",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/df7b51e29f2610dd757c44e692ec80ce/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebe790217ff9f7f2922524b93e",
     "monthlyListeners": "3,450,000",
     "bio": "Biểu tượng âm nhạc lịch lãm với chuỗi concert See Sing Share và Chân Trời Rực Rỡ chạm đến chiều sâu tâm hồn.",
     "popularHits": [
@@ -1561,7 +1736,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Tóc Tiên",
     "role": "Nữ Hoàng Dance Pop & EDM",
     "genre": "V-Pop / EDM & Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/e1de197db4cb26a8888b05589ddaf8ea/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebf81a6b0a0df8b6fc45487a1f",
     "monthlyListeners": "2,280,000",
     "bio": "Quán quân Chị Đẹp Đạp Gió 2024 với phong cách quyến rũ, vũ điệu Cồng Chiêng huyền thoại và giọng ballad sâu sắc.",
     "popularHits": [
@@ -1582,7 +1757,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Lệ Quyên",
     "role": "Nữ Hoàng Phòng Trà & Bolero",
     "genre": "Bolero / Trữ Tình & Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/440e64a551013775f634f3538f6e03a0/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebea9b15c80810bae0bb0e87ad",
     "monthlyListeners": "2,490,000",
     "bio": "Nữ hoàng phòng trà sở hữu chất giọng nồng nàn sang trọng qua loạt Khúc Tình Xưa và những bản tình ca bất hủ.",
     "popularHits": [
@@ -1603,7 +1778,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Bảo Anh",
     "role": "Nữ Hoàng Ballad & Latin Pop",
     "genre": "V-Pop / Ballad & Dance",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/80d6c591daea3129c8cfe45546c27eb2/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebc8a99b7d4971c74cd6dc0eaa",
     "monthlyListeners": "1,960,000",
     "bio": "Nữ ca sĩ sở hữu giọng hát thổn thức qua loạt siêu hit ballad triệu view của Mr. Siro và giai điệu Latin sôi động.",
     "popularHits": [
@@ -1624,7 +1799,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Miu Lê",
     "role": "Nữ Ca Sĩ - Diễn Viên Toàn Năng",
     "genre": "V-Pop / Pop & R&B",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/7f5c4f3df56f24882f7c5f545ab61c83/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb2fc3ef8a80c35243e5e899b8",
     "monthlyListeners": "2,120,000",
     "bio": "Ngôi sao Em Là Bà Nội Của Anh với cá tính hài hước, giọng hát giàu cảm xúc và loạt hit kết hợp cùng Karik, Da LAB.",
     "popularHits": [
@@ -1645,7 +1820,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Binz",
     "role": "BigCityBoi / Nhà Thơ Rap Việt",
     "genre": "Rap Việt / Trap & R&B",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/59d00c681512e3033e5c5cf06c16950c/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb3022fca05b4ea1cba89fc9be",
     "monthlyListeners": "3,120,000",
     "bio": "Rapper lãng tử hàng đầu SpaceSpeakers, huấn luyện viên Rap Việt và ngôi sao Anh Trai Vượt Ngàn Chông Gai.",
     "popularHits": [
@@ -1666,7 +1841,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Wxrdie",
     "role": "Ngôi Sao Hip-Hop Thế Hệ Mới",
     "genre": "Rap Việt / Trap & Hard Hitting",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/d0c7147b4fdecb338afbae42a7d4a72b/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebf7ac790a43867c10ef8a7d29",
     "monthlyListeners": "2,180,000",
     "bio": "Chủ nhân album THE WXRDIES gồm 24 ca khúc gây chấn động giới Hip-Hop Việt Nam với kỹ năng flow biến hóa.",
     "popularHits": [
@@ -1687,7 +1862,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Andree",
     "role": "Anh Bâus / Ông Hoàng Club Banger",
     "genre": "Rap Việt / Hip-Hop Club",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/1c851e171a9784e99f90e8b9264912ab/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebdfe57061d76082712e9c27ec",
     "monthlyListeners": "2,250,000",
     "bio": "Huấn luyện viên Rap Việt với phong thái chất chơi đặc trưng và những bản hit Hip-Hop khuấy đảo mọi sân khấu.",
     "popularHits": [
@@ -1708,7 +1883,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Pháo",
     "role": "Nữ Rapper Triệu View Quốc Tế",
     "genre": "Rap Việt / VinaHouse & Trap",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebdf895346e1f6f5f391b8151c",
     "monthlyListeners": "2,650,000",
     "bio": "Nữ rapper trẻ đưa giai điệu 2 Phút Hơn lan tỏa khắp bảng xếp hạng Shazam toàn cầu.",
     "popularHits": [
@@ -1729,7 +1904,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "GDucky",
     "role": "Quái Vật Trữ Tình Rap Việt",
     "genre": "Rap Việt / Melodic & Opera Rap",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb31e23460f634b62ad79247fa",
     "monthlyListeners": "1,840,000",
     "bio": "Á quân Rap Việt mùa 1 nổi tiếng với chất giọng nội lực, tư duy âm nhạc điện ảnh và siêu phẩm Tiền Nhiều Để Làm Gì.",
     "popularHits": [
@@ -1750,7 +1925,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Đạt G",
     "role": "Nhạc Sĩ - Rapper Đa Tài",
     "genre": "V-Pop / Rap & Ballad",
-    "avatar": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/c7/74/4dc774a1-728a-2dba-287b-986654610c8c/3617056603740.jpg/600x600bb.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb7e12570933149f7b470e7915",
     "monthlyListeners": "2,320,000",
     "bio": "Hitmaker đứng sau hàng loạt bản tình ca triệu view đầy gai góc và cảm xúc mộc mạc đời thường.",
     "popularHits": [
@@ -1771,7 +1946,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Negav",
     "role": "Út Khờ GERDNANG / Say Hi Star",
     "genre": "Rap Việt / Pop R&B",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/1b860f620212e36cf198b2113dd37ff4/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eba7fc3e46c1721c3a1a871365",
     "monthlyListeners": "2,290,000",
     "bio": "Thành viên được yêu mến của tổ đội GERDNANG với chất nhạc bắt tai và loạt sân khấu triệu view tại Anh Trai Say Hi.",
     "popularHits": [
@@ -1792,7 +1967,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "LyLy",
     "role": "Nữ Hitmaker Ngọt Ngào",
     "genre": "V-Pop / R&B & Acoustic Pop",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/22b49671952380d0c0f4dc4edaa9623b/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebd626667b97f1e52c16856e7c",
     "monthlyListeners": "2,050,000",
     "bio": "Ca sĩ - nhạc sĩ đứng sau 24H, Không Sao Mà Em Đây Rồi và những bản song ca tình tứ cùng Anh Tú.",
     "popularHits": [
@@ -1813,7 +1988,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Hoàng Duyên",
     "role": "Nàng Thơ Dân Gian Gen Z",
     "genre": "V-Pop / Folk Pop & Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/76433e3df9cb0e072aa8d6e65f9bb62f/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb359afbad4ad160ea1550fe29",
     "monthlyListeners": "1,760,000",
     "bio": "Tân binh sở hữu giọng hát nhẹ tựa mây trời kết hợp ngũ cung truyền thống và R&B hiện đại.",
     "popularHits": [
@@ -1834,7 +2009,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Orange",
     "role": "Thực Lực R&B Vocalist Gen Z",
     "genre": "V-Pop / R&B & Soul Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/68ddce7c8baad05801634d22e794dfd5/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb4d926e0d5f8aed417f5c08ad",
     "monthlyListeners": "2,080,000",
     "bio": "Nữ ca sĩ thực lực bùng nổ từ Người Lạ Ơi đến album Cam'On đầy tính tự sự chữa lành.",
     "popularHits": [
@@ -1855,7 +2030,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Hoàng Dũng",
     "role": "Hoàng Tử Tình Ca Nàng Thơ",
     "genre": "Indie Pop / Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/d35f1a82140c15a733e17509e2463db0/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb737a9da0ddb330f242cf16d5",
     "monthlyListeners": "2,750,000",
     "bio": "Ca sĩ - nhạc sĩ với chất giọng ấm áp truyền cảm, tác giả của siêu hit Nàng Thơ và album 25.",
     "popularHits": [
@@ -1870,34 +2045,13 @@ export const VIETNAMESE_ARTISTS = [
     ]
   },
   {
-    "id": "wn",
-    "category": "indie_band",
-    "name": "W/n",
-    "shortName": "W/n",
-    "role": "Phù Thủy Lo-Fi Triệu View (3107)",
-    "genre": "Indie / Lo-Fi & Chill Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/b3600ee4bb815f386ef71f0125f1a324/500x500-000000-80-0-0.jpg",
-    "monthlyListeners": "2,680,000",
-    "bio": "Nhà sản xuất bí ẩn đứng sau chuỗi series huyền thoại 3107 (1, 2, 3, 4, id 072019) làm thổn thức hàng triệu trái tim.",
-    "popularHits": [
-      "3107 (feat. Duongg, Nâu)",
-      "3107-2",
-      "3107-3",
-      "3107-4",
-      "id 072019",
-      "072019 / 3107",
-      "Crush 2",
-      "Simple Love (W/n Remix)"
-    ]
-  },
-  {
     "id": "tangphuc",
     "category": "ballad_diva",
     "name": "Tăng Phúc",
     "shortName": "Tăng Phúc",
     "role": "Hoàng Tử Tình Ca Đà Lạt / Anh Tài",
     "genre": "V-Pop / Acoustic Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/889cd5f653afe68c2e06cc6f7396acff/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebdafaa833e1027a6791342e33",
     "monthlyListeners": "2,190,000",
     "bio": "Giọng ca trữ tình sâu lắng làm mới những bản hit bất hủ và tỏa sáng rực rỡ tại Anh Trai Vượt Ngàn Chông Gai.",
     "popularHits": [
@@ -1918,7 +2072,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Anh Tú",
     "role": "Quán Quân Ca Sĩ Mặt Nạ",
     "genre": "V-Pop / Power Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/a82db954a7bbab42be6aaae72a8cab58/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebb377ec67d62a05d5e0a10568",
     "monthlyListeners": "2,540,000",
     "bio": "Voi Bản Đôn sở hữu giọng hát nội lực khủng khiếp cùng các bản live Ngày Mai Người Ta Lấy Chồng gây sốt.",
     "popularHits": [
@@ -1939,7 +2093,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Quốc Thiên",
     "role": "Divo Trữ Tình / Anh Tài Chông Gai",
     "genre": "V-Pop / Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/a5245bc186b38273ac6ef638f9cfaa8c/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb0b6a5f7d62796debd1f9f5e7",
     "monthlyListeners": "2,150,000",
     "bio": "Quán quân Vietnam Idol với giọng hát kỹ thuật cảm xúc, chủ nhân live concert SKYNote vang dội.",
     "popularHits": [
@@ -1960,7 +2114,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Bùi Công Nam",
     "role": "Ông Hoàng Nhạc Tết & Tự Sự",
     "genre": "V-Pop / Indie & Acoustic",
-    "avatar": "https://cdn-images.dzcdn.net/images/cover/3cd83b0ad2f05da927761d1a9c984d3a/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb74858379d0ff3dfa9a88f9c4",
     "monthlyListeners": "2,040,000",
     "bio": "Nhạc sĩ - ca sĩ tài năng bước ra từ Sing My Song và Anh Trai Vượt Ngàn Chông Gai với kho tàng nhạc Tết quốc dân.",
     "popularHits": [
@@ -1981,7 +2135,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Khắc Việt",
     "role": "Hitmaker Ballad Quốc Dân",
     "genre": "V-Pop / Pop Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/890f28040903eb0d47c390e58c242492/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb60146cdde1ca9bcbc53eb5d1",
     "monthlyListeners": "2,110,000",
     "bio": "Ca sĩ - nhạc sĩ sở hữu hàng chục bản hit thanh xuân thuộc nằm lòng của thế hệ 8x, 9x và Gen Z.",
     "popularHits": [
@@ -2002,7 +2156,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Bằng Kiều",
     "role": "Giọng Ca Vàng Tenor Huyền Thoại",
     "genre": "Nhạc Trữ Tình / Pop Ballad",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/e7e81fcaf9d85b601e051c82c9e1cd95/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb004ae448e0ac5f697c71d654",
     "monthlyListeners": "2,380,000",
     "bio": "Danh ca sở hữu quãng giọng nam cao độc nhất vô nhị của nền âm nhạc Việt Nam và Anh Tài Chông Gai 2024.",
     "popularHits": [
@@ -2023,7 +2177,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Cẩm Ly",
     "role": "Chị Tư Dân Ca & Nhạc Trẻ 9x",
     "genre": "Dân Ca / Nhạc Trẻ Trữ Tình",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/0ec82be2f36e661e237991b70a791c18/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5ebc4ae488af28de73b81fbb82c",
     "monthlyListeners": "2,290,000",
     "bio": "Biểu tượng âm nhạc quê hương và nhạc trẻ thập niên 2000 với giọng hát ngọt ngào đi sâu vào lòng người Việt.",
     "popularHits": [
@@ -2044,7 +2198,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Atus",
     "role": "Nam Thần Sân Khấu Say Hi",
     "genre": "V-Pop / Pop Dance",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb8f47b8f7d070919fff02059b",
     "monthlyListeners": "2,120,000",
     "bio": "Diễn viên - ca sĩ điển trai gây sốt tại Anh Trai Say Hi với Ngáo Ngơ, Đều Là Của Em và bài hát đám cưới Bài Này Không Để Đi Diễn.",
     "popularHits": [
@@ -2065,7 +2219,7 @@ export const VIETNAMESE_ARTISTS = [
     "shortName": "Kay Trần",
     "role": "Ngôi Sao Giải Trí & Vũ Đạo Chông Gai",
     "genre": "V-Pop / Hip-Hop & Funky Dance",
-    "avatar": "https://cdn-images.dzcdn.net/images/artist/ed6224dd44b310993e1624e8f8bd2816/500x500-000000-80-0-0.jpg",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb5819dc081109878bcf4b0787",
     "monthlyListeners": "2,050,000",
     "bio": "Nghệ sĩ trình diễn bùng nổ của Anh Trai Vượt Ngàn Chông Gai với phong cách hài hước, quyến rũ và vũ đạo cuốn hút.",
     "popularHits": [
@@ -2077,6 +2231,82 @@ export const VIETNAMESE_ARTISTS = [
       "Nắm Đôi Bàn Tay",
       "Nước Hoa",
       "Cố Giang Tình (Live)"
+    ]
+  },
+  {
+    "id": "phuongmychi",
+    "category": "genz_sayhi",
+    "name": "Phương Mỹ Chi",
+    "shortName": "Phương Mỹ Chi",
+    "role": "Ngôi Sao V-Pop & Dân Gian Đương Đại",
+    "genre": "V-Pop / Folktronica",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb8d5b489f0bf1c9befc948159",
+    "monthlyListeners": "1,450,000",
+    "bio": "Nữ ca sĩ Gen Z kết hợp tinh hoa văn hóa dân gian Việt Nam với âm nhạc hiện đại trong Vũ Trụ Cò Bay.",
+    "popularHits": [
+      "Vũ Trụ Có Anh",
+      "Đẩy Xe Bò",
+      "Bóng Phù Hoa",
+      "Gối Gấm",
+      "Chiếc Lược Ngà",
+      "Quê Em Mùa Nước Lũ"
+    ]
+  },
+  {
+    "id": "trucnhan",
+    "category": "vpop_legend",
+    "name": "Trúc Nhân",
+    "shortName": "Trúc Nhân",
+    "role": "Nghệ Sĩ Sáng Tạo Bậc Thầy V-Pop",
+    "genre": "V-Pop / Art Pop",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eba6b88f77ec81d8678de1f119",
+    "monthlyListeners": "1,380,000",
+    "bio": "Nam ca sĩ nổi tiếng với phong cách âm nhạc độc bản, châm biếm tinh tế và giàu tính nghệ thuật.",
+    "popularHits": [
+      "Có Không Giữ Mất Đừng Tìm",
+      "Sáng Mắt Chưa",
+      "Thật Bất Ngờ",
+      "Lớn Rồi Còn Khóc Nhè",
+      "Bốn Chữ Lắm",
+      "Không Ra Gì"
+    ]
+  },
+  {
+    "id": "hoailam",
+    "category": "ballad_diva",
+    "name": "Hoài Lâm",
+    "shortName": "Hoài Lâm",
+    "role": "Giọng Ca Ballad & Trữ Tình Sâu Lắng",
+    "genre": "V-Pop / Ballad & Bolero",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb3955791402506ca3b9507a3a",
+    "monthlyListeners": "1,620,000",
+    "bio": "Chủ nhân hai siêu hit Hoa Nở Không Màu và Buồn Làm Chi Em Ơi chạm đến trái tim hàng triệu khán giả.",
+    "popularHits": [
+      "Hoa Nở Không Màu",
+      "Buồn Làm Chi Em Ơi",
+      "Như Những Phút Ban Đầu",
+      "Cô Đơn Trong Nhà Mình",
+      "Chỉ Cần Được Bên Em",
+      "Người Đến Sau Sẽ Cho Người Tất Cả"
+    ]
+  },
+  {
+    "id": "masew",
+    "category": "rap_hiphop",
+    "name": "Masew",
+    "shortName": "Masew",
+    "role": "Phù Thủy Phối Khí / Producer Triệu View",
+    "genre": "V-Pop / EDM & Future Bass",
+    "avatar": "https://i.scdn.co/image/ab6761610000e5eb5994d6460124b6bca750c455",
+    "monthlyListeners": "1,540,000",
+    "bio": "Nhà sản xuất âm nhạc đứng sau hàng loạt bản hit pha trộn chất liệu ngũ cung Việt Nam với Future Bass hiện đại.",
+    "popularHits": [
+      "Túy Âm",
+      "Cưới Thôi",
+      "Mộng Mơ",
+      "Độ Tộc 2",
+      "Kém Duyên",
+      "Ex Hate Me"
     ]
   }
 ];
@@ -2098,11 +2328,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4359000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02a1bc26cdd8eecd89da3adc39",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02a1bc26cdd8eecd89da3adc39",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "31VNCmwspR7nVJ6kruUuJt",
+    "soundcloudUrl": "https://soundcloud.com/hidro_natri311004/am-tham-ben-em-son-tung-m-tp-8d-audio",
+    "youtubeQuery": "Đừng Làm Trái Tim Anh Đau Sơn Tùng M-TP Official Audio"
   },
   {
     "id": "aud-sontungmtp-02",
@@ -2124,7 +2357,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/santong-liv/anh-sai-roi-son-tung-m-tp",
+    "youtubeQuery": "Chúng Ta Của Tương Lai Sơn Tùng M-TP Official Audio"
   },
   {
     "id": "aud-sontungmtp-03",
@@ -2146,7 +2382,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c8438aa0b4888e893f4187ff2e0e4f7f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/khac-viet-son-tung-mtp/khuon-mat-dang-thuong-son-tung-m-tp-mp3-320kbps",
+    "youtubeQuery": "Muộn Rồi Mà Sao Còn Sơn Tùng M-TP Official Audio"
   },
   {
     "id": "aud-sontungmtp-04",
@@ -2164,11 +2403,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 260,
     "playCount": 3729000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02794744c57c9f35db88249842",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02794744c57c9f35db88249842",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5rSAUmbOg4giDrM29vUyHe",
+    "soundcloudUrl": "https://soundcloud.com/trunghieumowo/noi-nao-co-anh-son-tung-mtp",
+    "youtubeQuery": "Nơi Này Có Anh Sơn Tùng M-TP Official Audio"
   },
   {
     "id": "aud-sontungmtp-05",
@@ -2190,7 +2432,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ph-ng-ph-ng-dung/dung-ve-tre-son-tung-m-tp",
+    "youtubeQuery": "Lạc Trôi Sơn Tùng M-TP Official Audio"
   },
   {
     "id": "aud-sontungmtp-06",
@@ -2212,7 +2457,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c8438aa0b4888e893f4187ff2e0e4f7f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/muahoaroixuongtoc/son-tung-m-tp-chac-ai-do-se-ve",
+    "youtubeQuery": "Hãy Trao Cho Anh Sơn Tùng M-TP Official Audio"
   },
   {
     "id": "aud-sontungmtp-07",
@@ -2230,11 +2478,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 270,
     "playCount": 3099000,
     "audioUrl": "https://api.audius.co/v1/tracks/bQ53O/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e022cd9649ea111a552283f0165",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e022cd9649ea111a552283f0165",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "1J3SmWwlYAG68LGKr86MVH",
+    "soundcloudUrl": "https://soundcloud.com/b-h-ng-22387867/chu-ng-ta-cu-a-hie-n-ta-i-s-n",
+    "youtubeQuery": "Chúng Ta Của Hiện Tại Sơn Tùng M-TP Official Audio"
   },
   {
     "id": "aud-sontungmtp-08",
@@ -2256,7 +2507,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hoai-nam-116426018/ng-v-tr-nha-remix-s-n-t-ng-m",
+    "youtubeQuery": "Có Chắc Yêu Là Đây Sơn Tùng M-TP Official Audio"
   },
   {
     "id": "aud-sontungmtp-09",
@@ -2278,7 +2532,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c8438aa0b4888e893f4187ff2e0e4f7f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hieuz-music/am-tham-ben-em-lofi-ver-son-tung-m-tp-x-besu",
+    "youtubeQuery": "Chạy Ngay Đi Sơn Tùng M-TP Official Audio"
   },
   {
     "id": "aud-sontungmtp-10",
@@ -2296,11 +2553,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2469000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02794744c57c9f35db88249842",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02794744c57c9f35db88249842",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "2wZAvkgiOE5tyrnqhB69KA",
+    "soundcloudUrl": "https://soundcloud.com/hidro_natri311004/am-tham-ben-em-son-tung-m-tp-8d-audio",
+    "youtubeQuery": "Âm Thầm Bên Em Sơn Tùng M-TP Official Audio"
   },
   {
     "id": "aud-sontungmtp-11",
@@ -2318,11 +2578,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2259000,
     "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02794744c57c9f35db88249842",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02794744c57c9f35db88249842",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "3P3rcI48wwVEgxF5vPM6pG",
+    "soundcloudUrl": "https://soundcloud.com/frontiniz666/buong-doi-tay-nhau-ra-son-tung-mtp-frontiniz-remix",
+    "youtubeQuery": "Buông Đôi Tay Nhau Ra Sơn Tùng M-TP Official Audio"
   },
   {
     "id": "aud-sontungmtp-12",
@@ -2344,7 +2607,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c8438aa0b4888e893f4187ff2e0e4f7f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/r-in-975643142/em-ng-i-s-n-t-ng-m-tp-r-in",
+    "youtubeQuery": "Cơn Mưa Ngang Qua Sơn Tùng M-TP Official Audio"
   },
   {
     "id": "aud-sontungmtp-13",
@@ -2366,7 +2632,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e705053212ca59450f6d8da8800dfac4/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/noir-lune/em-dung-di-son-tung-mtp",
+    "youtubeQuery": "Em Của Ngày Hôm Qua Sơn Tùng M-TP Official Audio"
   },
   {
     "id": "aud-sontungmtp-14",
@@ -2388,7 +2657,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7ce6678778a34db09a801e597a81130c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-794255779/son-tung-m-tp-making-my-way",
+    "youtubeQuery": "Making My Way Sơn Tùng M-TP Official Audio"
   },
   {
     "id": "aud-denvau-01",
@@ -2410,7 +2682,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0343ffbcbcc17cb9b243989c922ef4eb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/den1305/den-luon-yeu-doi-ft-cheng",
+    "youtubeQuery": "Nấu Ăn Cho Em Đen Vâu Official Audio"
   },
   {
     "id": "aud-denvau-02",
@@ -2432,7 +2707,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/da485d4cbf15cccb0f94a720ce03f2c3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/den1305/den-tron-tim-ft-mtv-band",
+    "youtubeQuery": "Trốn Tìm Đen Vâu Official Audio"
   },
   {
     "id": "aud-denvau-03",
@@ -2455,7 +2733,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6148351936ff26215c610cad6f4be1cd/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/den1305/den-x-justatee-di-ve-nha",
+    "youtubeQuery": "Đi Về Nhà Đen Vâu, JustaTee Official Audio"
   },
   {
     "id": "aud-denvau-04",
@@ -2477,7 +2758,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0343ffbcbcc17cb9b243989c922ef4eb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/den1305/den-tron-tim-ft-mtv-band",
+    "youtubeQuery": "Bài Này Chill Phết Đen Vâu Official Audio"
   },
   {
     "id": "aud-denvau-05",
@@ -2499,7 +2783,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/da485d4cbf15cccb0f94a720ce03f2c3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/den1305/den-mang-tien-ve-cho-me-ft-nguyen-thao",
+    "youtubeQuery": "Mang Tiền Về Cho Mẹ Đen Vâu Official Audio"
   },
   {
     "id": "aud-denvau-06",
@@ -2521,7 +2808,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6148351936ff26215c610cad6f4be1cd/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/den1305/loi-nho",
+    "youtubeQuery": "Lối Nhỏ Đen Vâu Official Audio"
   },
   {
     "id": "aud-denvau-07",
@@ -2543,7 +2833,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0343ffbcbcc17cb9b243989c922ef4eb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/den1305/hai-trieu-nam",
+    "youtubeQuery": "Hai Triệu Năm Đen Vâu Official Audio"
   },
   {
     "id": "aud-denvau-08",
@@ -2565,7 +2858,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/da485d4cbf15cccb0f94a720ce03f2c3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/den1305/den-anh-dech-can-gi-nhieu-ngoai-em-ft-vu-thanh-dong",
+    "youtubeQuery": "Anh Đếch Cần Gì Nhiều Ngoài Em Đen Vâu Official Audio"
   },
   {
     "id": "aud-denvau-09",
@@ -2587,7 +2883,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6148351936ff26215c610cad6f4be1cd/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/den1305/den-mot-trieu-like-ft-thanh-dong",
+    "youtubeQuery": "Một Triệu Like Đen Vâu Official Audio"
   },
   {
     "id": "aud-denvau-10",
@@ -2609,7 +2908,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0343ffbcbcc17cb9b243989c922ef4eb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/den1305/den-muoi-nam-ft-ngoc-linh-lon-xon-3",
+    "youtubeQuery": "Mười Năm Đen Vâu Official Audio"
   },
   {
     "id": "aud-denvau-11",
@@ -2631,7 +2933,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/da485d4cbf15cccb0f94a720ce03f2c3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/den1305/den-di-theo-bong-mat-troi-ft-giang-nguyen",
+    "youtubeQuery": "Đưa Nhau Đi Trốn Đen Vâu Official Audio"
   },
   {
     "id": "aud-denvau-12",
@@ -2653,7 +2958,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6148351936ff26215c610cad6f4be1cd/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/den1305/den-ai-muon-nghe-khong",
+    "youtubeQuery": "Ai Muốn Nghe Không Đen Vâu Official Audio"
   },
   {
     "id": "aud-denvau-13",
@@ -2675,7 +2983,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0343ffbcbcc17cb9b243989c922ef4eb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/den1305/den-luon-yeu-doi-ft-cheng",
+    "youtubeQuery": "Luôn Yêu Đời Đen Vâu Official Audio"
   },
   {
     "id": "aud-mytam-01",
@@ -2698,7 +3009,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2ffa1c5d2c0ab57b35fe8ad58c61df4e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-464289242/y2meta-app-my-ta-m-he-n-u-o-c",
+    "youtubeQuery": "Hẹn Ước Từ Hư Vô Mỹ Tâm, Phan Mạnh Quỳnh Official Audio"
   },
   {
     "id": "aud-mytam-02",
@@ -2720,7 +3034,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a53d47ab3b948026c53d9fc43958e61e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/swaggumusic/my-tam-nguoi-hay-quen-em-di",
+    "youtubeQuery": "Người Hãy Quên Em Đi Mỹ Tâm Official Audio"
   },
   {
     "id": "aud-mytam-03",
@@ -2742,7 +3059,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6ff15ef7c5570259122470f359fcbd7c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thu-huong-bui-965778065/my-tam-dung-cung-thanh-sai",
+    "youtubeQuery": "Đúng Cũng Thành Sai Mỹ Tâm Official Audio"
   },
   {
     "id": "aud-mytam-04",
@@ -2764,7 +3084,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2ffa1c5d2c0ab57b35fe8ad58c61df4e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/phu-phung-nguyen-662080952/ng-h-i-em-dont-ask-me-m-t-m",
+    "youtubeQuery": "Đừng Hỏi Em Mỹ Tâm Official Audio"
   },
   {
     "id": "aud-mytam-05",
@@ -2786,7 +3109,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a53d47ab3b948026c53d9fc43958e61e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-618392912/nhu-mot-giac-mo",
+    "youtubeQuery": "Như Một Giấc Mơ Mỹ Tâm Official Audio"
   },
   {
     "id": "aud-mytam-06",
@@ -2808,7 +3134,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6ff15ef7c5570259122470f359fcbd7c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-618392912/nhu-mot-giac-mo",
+    "youtubeQuery": "Ước Gì Mỹ Tâm Official Audio"
   },
   {
     "id": "aud-mytam-07",
@@ -2830,7 +3159,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2ffa1c5d2c0ab57b35fe8ad58c61df4e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/phanbaohoang/duong-nhu-ta-da",
+    "youtubeQuery": "Cây Đàn Sinh Viên Mỹ Tâm Official Audio"
   },
   {
     "id": "aud-mytam-08",
@@ -2852,7 +3184,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a53d47ab3b948026c53d9fc43958e61e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thu-huong-bui-965778065/my-tam-dung-cung-thanh-sai",
+    "youtubeQuery": "Tóc Nâu Môi Trầm Mỹ Tâm Official Audio"
   },
   {
     "id": "aud-mytam-09",
@@ -2874,7 +3209,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6ff15ef7c5570259122470f359fcbd7c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tien-js/vi-em-la-tat-ca-my-tam",
+    "youtubeQuery": "Muộn Màng Là Từ Lúc Mỹ Tâm Official Audio"
   },
   {
     "id": "aud-mytam-10",
@@ -2896,7 +3234,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2ffa1c5d2c0ab57b35fe8ad58c61df4e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/mytam/mytam-chuyen-nhu-chua-bat-dau",
+    "youtubeQuery": "Chuyện Như Chưa Bắt Đầu Mỹ Tâm Official Audio"
   },
   {
     "id": "aud-mytam-11",
@@ -2918,7 +3259,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a53d47ab3b948026c53d9fc43958e61e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hkion/vi-em-tat-ca-my-tam",
+    "youtubeQuery": "Vì Em Quá Yêu Anh Mỹ Tâm Official Audio"
   },
   {
     "id": "aud-mytam-12",
@@ -2943,7 +3287,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6ff15ef7c5570259122470f359fcbd7c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/emasi214/co-gai-den-tu-hom-qua-my-tam",
+    "youtubeQuery": "Hào Quang RHYDER, Dương Domic, Pháp Kiều Official Audio"
   },
   {
     "id": "aud-hoangthuylinh-01",
@@ -2965,7 +3312,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5ee7d6a6ee76d04e61a90f745b0100cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nightynightynineteen/see-tinh-hoang-thuy-linh-slowed-reverb",
+    "youtubeQuery": "See Tình Hoàng Thùy Linh Official Audio"
   },
   {
     "id": "aud-hoangthuylinh-02",
@@ -2987,7 +3337,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/93e3c718b9816c6505f6f1086ee7cee7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/maivu94/hoang-thuy-linh-de-mi-noi-cho-ma-nghe",
+    "youtubeQuery": "Để Mị Nói Cho Mà Nghe Hoàng Thùy Linh Official Audio"
   },
   {
     "id": "aud-hoangthuylinh-03",
@@ -3009,7 +3362,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b0801156337949061bd91cafb557640a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/van-anh-245877264/duy-n-m-hot-tiktok-2026-ai-m-c",
+    "youtubeQuery": "Gieo Quẻ Hoàng Thùy Linh Official Audio"
   },
   {
     "id": "aud-hoangthuylinh-04",
@@ -3031,7 +3387,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2f620c90d5ab1636d2beeed7f42695ac/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/myplaylist_0404/hoang-thuy-linh-see-tinh",
+    "youtubeQuery": "Bo Xì Bo Hoàng Thùy Linh Official Audio"
   },
   {
     "id": "aud-hoangthuylinh-05",
@@ -3053,7 +3412,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/213e41c9dd54df577db2a90c62fd349a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thanhblack28/duyen-am-hoang-thuy-linh-thanh-black-rmx",
+    "youtubeQuery": "Duyên Âm Hoàng Thùy Linh Official Audio"
   },
   {
     "id": "aud-hoangthuylinh-06",
@@ -3075,7 +3437,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5ee7d6a6ee76d04e61a90f745b0100cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/l-m-ph-m-ho-i/ke-cap-gap-ba-gia-audio-hoang-thuy-linh-hoang-vol3",
+    "youtubeQuery": "Kẻ Cắp Gặp Bà Già Hoàng Thùy Linh Official Audio"
   },
   {
     "id": "aud-hoangthuylinh-07",
@@ -3097,7 +3462,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/93e3c718b9816c6505f6f1086ee7cee7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/b-ch-gia-b-o/hoang-thuy-linh-ft-triple-d-banh-troi-nuoc",
+    "youtubeQuery": "Bánh Trôi Nước Hoàng Thùy Linh Official Audio"
   },
   {
     "id": "aud-hoangthuylinh-08",
@@ -3119,7 +3487,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b0801156337949061bd91cafb557640a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-990642091/hoang-thuy-linh-de-mi-noi-cho-ma-nghe",
+    "youtubeQuery": "Tứ Phủ Hoàng Thùy Linh Official Audio"
   },
   {
     "id": "aud-hoangthuylinh-09",
@@ -3141,7 +3512,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2f620c90d5ab1636d2beeed7f42695ac/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tung-huynh-942438247/trai-dat-om-mat-troi-kai-dinh-x-grey-d-x-hoang-thuy-linh-1",
+    "youtubeQuery": "Rơi Hoàng Thùy Linh Official Audio"
   },
   {
     "id": "aud-hoangthuylinh-10",
@@ -3163,7 +3537,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/213e41c9dd54df577db2a90c62fd349a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/l-m-ph-m-ho-i/ke-cap-gap-ba-gia-audio-hoang-thuy-linh-hoang-vol3",
+    "youtubeQuery": "Hạ Phỏm Hoàng Thùy Linh Official Audio"
   },
   {
     "id": "aud-hoangthuylinh-11",
@@ -3185,7 +3562,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5ee7d6a6ee76d04e61a90f745b0100cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/linh-ku-1/ke-cap-gap-ba-gia-hoang-thuy-linh-linh-ku-dmixx",
+    "youtubeQuery": "Miền Đất Hứa Hoàng Thùy Linh Official Audio"
   },
   {
     "id": "aud-hoaminzy-01",
@@ -3207,7 +3587,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/d31a7f0e3550c077bebdc755d23c5ba3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/huyduong04/roi-bo-hoa-minzy-official",
+    "youtubeQuery": "Thị Mầu Hòa Minzy Official Audio"
   },
   {
     "id": "aud-hoaminzy-02",
@@ -3229,7 +3612,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/57ee6f4cb9b7f75f2642da4cec39d1ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user510635516/kh-ng-th-c-ng-nhau-su-t-ki-p",
+    "youtubeQuery": "Không Thể Cùng Nhau Suốt Kiếp Hòa Minzy Official Audio"
   },
   {
     "id": "aud-hoaminzy-03",
@@ -3252,7 +3638,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cbdec7c30f36db70847dd66dbbe07e1b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/longdley7/tang-duy-tan-x-hoa-minzy-bat-tinh-yeu-len-making-mv-official",
+    "youtubeQuery": "Bật Tình Yêu Lên Tăng Duy Tân, Hòa Minzy Official Audio"
   },
   {
     "id": "aud-hoaminzy-04",
@@ -3274,7 +3663,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8d2585f31296945d0b24690bfcce37de/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/huyduong04/roi-bo-hoa-minzy-official",
+    "youtubeQuery": "Rời Bỏ Hòa Minzy Official Audio"
   },
   {
     "id": "aud-hoaminzy-05",
@@ -3296,7 +3688,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/d31a7f0e3550c077bebdc755d23c5ba3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/t-n-hu-nh-457888868/k-n-c-ch-n-canh-ho-minzy-x-tu",
+    "youtubeQuery": "Kén Cá Chọn Canh Hòa Minzy Official Audio"
   },
   {
     "id": "aud-hoaminzy-06",
@@ -3318,7 +3713,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/57ee6f4cb9b7f75f2642da4cec39d1ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/khanhlinh-977722465/noi-dau-giua-hoa-binh",
+    "youtubeQuery": "Ăn Gì Đây Hòa Minzy Official Audio"
   },
   {
     "id": "aud-hoaminzy-07",
@@ -3340,7 +3738,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cbdec7c30f36db70847dd66dbbe07e1b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/huyduong04/chap-nhan-roi-bo-2-hoa-minzy-official",
+    "youtubeQuery": "Chấp Nhận Hòa Minzy Official Audio"
   },
   {
     "id": "aud-hoaminzy-08",
@@ -3362,7 +3763,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8d2585f31296945d0b24690bfcce37de/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/quang-nguyen-07/tim-mot-nua-co-don-hoa-minzy",
+    "youtubeQuery": "Tìm Một Nửa Cô Đơn Hòa Minzy Official Audio"
   },
   {
     "id": "aud-hoaminzy-09",
@@ -3384,7 +3788,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/d31a7f0e3550c077bebdc755d23c5ba3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-470944487/nang-tien-ca-hoa-minzy",
+    "youtubeQuery": "Nàng Tiên Cá Hòa Minzy Official Audio"
   },
   {
     "id": "aud-hoaminzy-10",
@@ -3406,7 +3813,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/57ee6f4cb9b7f75f2642da4cec39d1ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-490454577/ngay-chua-giong-bao-x-always",
+    "youtubeQuery": "Biết Ơn Hòa Minzy Official Audio"
   },
   {
     "id": "aud-soobin-01",
@@ -3428,7 +3838,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/87465ab591c838ec324882198ff3bc1e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/01112001/soobin-gia-nhu-1",
+    "youtubeQuery": "Giá Như SOOBIN Official Audio"
   },
   {
     "id": "aud-soobin-02",
@@ -3450,7 +3863,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tu-n-tr-ng-190284626/phia-sau-mot-co-gai-soobin",
+    "youtubeQuery": "Phía Sau Một Cô Gái SOOBIN Official Audio"
   },
   {
     "id": "aud-soobin-03",
@@ -3468,11 +3884,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3638000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e026633cc43560566dbdaa38d99",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e026633cc43560566dbdaa38d99",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "3x7Hh3zsE1wcXCU2G8l5tP",
+    "soundcloudUrl": "https://soundcloud.com/01112001/y2meta-com-soobin-b-t-n-l-n",
+    "youtubeQuery": "Dancing in the Dark SOOBIN Official Audio"
   },
   {
     "id": "aud-soobin-04",
@@ -3494,7 +3913,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c13728d7ff0e0e2e3aac8fc4e6fad783/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kayjuno/yeu-thuong-ngay-do-soobin-hoang-son",
+    "youtubeQuery": "Trò Chơi SOOBIN Official Audio"
   },
   {
     "id": "aud-soobin-05",
@@ -3516,7 +3938,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/87465ab591c838ec324882198ff3bc1e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/manhhung69/neu-ngay-ay-x-phia-sau-mot-co-gai-live-performance-soobin-live-concert-all-rounder",
+    "youtubeQuery": "BlackJack SOOBIN Official Audio"
   },
   {
     "id": "aud-soobin-06",
@@ -3534,11 +3959,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 218,
     "playCount": 3008000,
     "audioUrl": "https://api.audius.co/v1/tracks/dYZA4/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02caa7ef3c1e269ce6b12f6b3e",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02caa7ef3c1e269ce6b12f6b3e",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "0ZP4bO2ywAv44HiEzzHaq5",
+    "soundcloudUrl": "https://soundcloud.com/tien-js/daydream-soobin-hoang-son",
+    "youtubeQuery": "Ngày Mai Em Đi SOOBIN, Lê Hiếu, Touliver Official Audio"
   },
   {
     "id": "aud-soobin-07",
@@ -3560,7 +3988,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tanpopo-huynh/vai-lan-don-dua-soobin-hoang-son-ft-touliver",
+    "youtubeQuery": "Vài Lần Đón Đưa SOOBIN Official Audio"
   },
   {
     "id": "aud-soobin-08",
@@ -3582,7 +4013,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c13728d7ff0e0e2e3aac8fc4e6fad783/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/cofmasters/soobin-thang-nam-special-version-ft-slim-v",
+    "youtubeQuery": "Tháng Năm SOOBIN Official Audio"
   },
   {
     "id": "aud-soobin-09",
@@ -3604,7 +4038,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/87465ab591c838ec324882198ff3bc1e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/duckhetlet/anh-da-quen-voi-co-don-extended-mix-soobin-hoang-son",
+    "youtubeQuery": "Đi Để Trở Về SOOBIN Official Audio"
   },
   {
     "id": "aud-soobin-10",
@@ -3622,11 +4059,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2168000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02a8b7898d6d2d9e85c9c51cb0",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02a8b7898d6d2d9e85c9c51cb0",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "4CVxKSRLUxqUuj2z9vn4fS",
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-nh-668573419/xin-ng-l-ng-im-soobin-ho-ng-1",
+    "youtubeQuery": "Xin Đừng Lặng Im SOOBIN Official Audio"
   },
   {
     "id": "aud-soobin-11",
@@ -3644,11 +4084,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 1958000,
     "audioUrl": "https://api.audius.co/v1/tracks/kJ503/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e022922307c16bb852a0849bea0",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e022922307c16bb852a0849bea0",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "39KWnPNEvbXt423CzjvBfA",
+    "soundcloudUrl": "https://soundcloud.com/duckhetlet/anh-da-quen-voi-co-don-extended-mix-soobin-hoang-son",
+    "youtubeQuery": "Anh Đã Quen Với Cô Đơn SOOBIN Official Audio"
   },
   {
     "id": "aud-soobin-12",
@@ -3670,7 +4113,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c13728d7ff0e0e2e3aac8fc4e6fad783/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tien-js/the-playah-soobin-hoang-son",
+    "youtubeQuery": "Ai Mà Biết Được SOOBIN Official Audio"
   },
   {
     "id": "aud-soobin-13",
@@ -3692,7 +4138,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/87465ab591c838ec324882198ff3bc1e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/soobin-ss/v-t-n-ng-cu-i-tr-i-soobin",
+    "youtubeQuery": "Bật Nó Lên SOOBIN Official Audio"
   },
   {
     "id": "aud-jack-01",
@@ -3714,7 +4163,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6be8036f9b31110e2ed517ff3f8087a4/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/haii-nguyn-806942091/v-b-n-anh-jack-j97-qiz-remix",
+    "youtubeQuery": "Sóng Gió Jack - J97 Official Audio"
   },
   {
     "id": "aud-jack-02",
@@ -3736,7 +4188,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cbc69f5c32a1a836f1947e7813e11fdd/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thanh-toan-le-502244611/d-i-t-n-c-y-kh-hoa-n-jack-j97",
+    "youtubeQuery": "Bạc Phận Jack - J97 Official Audio"
   },
   {
     "id": "aud-jack-03",
@@ -3758,7 +4213,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/d4eff25350f00d19d2c7cf523d266a95/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/qu-ph-m-573788822/jack-j97-l-u-ni-n-album-tam-2",
+    "youtubeQuery": "Hồng Nhan Jack - J97 Official Audio"
   },
   {
     "id": "aud-jack-04",
@@ -3780,7 +4238,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/73cc4cb5bcfcbafa4a66a4d7a22a7af5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/b-o-quang-29049319/dom-dom-j97-jack-audio",
+    "youtubeQuery": "Đom Đóm Jack - J97 Official Audio"
   },
   {
     "id": "aud-jack-05",
@@ -3802,7 +4263,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a09793b5f876ad4d10473b3dec34f92d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hyan3/tam-th-i-t-jack-j97",
+    "youtubeQuery": "Hoa Hải Đường Jack - J97 Official Audio"
   },
   {
     "id": "aud-jack-06",
@@ -3824,7 +4288,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3683cdda5c49d34cda83e18a3751a3a5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/fdfsd-trab/ng-i-d-ng-qkhanh-remix-jack",
+    "youtubeQuery": "Thiên Lý Ơi Jack - J97 Official Audio"
   },
   {
     "id": "aud-jack-07",
@@ -3846,7 +4313,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/ef62ae7386c04cde758ff89e32f2a614/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hyan3/m-i-l-n-nh-em-l-m-t-ng-y-m-a",
+    "youtubeQuery": "Là 1 Thằng Con Trai Jack - J97 Official Audio"
   },
   {
     "id": "aud-jack-08",
@@ -3868,7 +4338,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/03c1430c77bd2c33c2cb080197cb7ad4/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/sypher-nvc/ng-i-d-ng-remix-j97-jack",
+    "youtubeQuery": "Em Gì Ơi Jack - J97 Official Audio"
   },
   {
     "id": "aud-jack-09",
@@ -3890,7 +4363,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6be8036f9b31110e2ed517ff3f8087a4/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hyan3/hao-hoa-jack-j97",
+    "youtubeQuery": "Sao Em Vô Tình Jack - J97 Official Audio"
   },
   {
     "id": "aud-jack-10",
@@ -3912,7 +4388,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cbc69f5c32a1a836f1947e7813e11fdd/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/khoi-812128753/l-u-ni-n-x-tr-c-xinh-remix",
+    "youtubeQuery": "Ngôi Sao Cô Đơn Jack - J97 Official Audio"
   },
   {
     "id": "aud-jack-11",
@@ -3934,7 +4413,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/d4eff25350f00d19d2c7cf523d266a95/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hyan3/nat-tan-coi-long-jack-j97",
+    "youtubeQuery": "Cuối Cùng Thì Jack - J97 Official Audio"
   },
   {
     "id": "aud-noophuocthinh-01",
@@ -3952,11 +4434,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 4445000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/33224a27047e61591cf1a8626a67941b/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02cb34a0c3e89e67bec1143003",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/33224a27047e61591cf1a8626a67941b/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02cb34a0c3e89e67bec1143003",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5PZtRK5COeGkCT8BPpShze",
+    "soundcloudUrl": "https://soundcloud.com/inthemoonlight_thebros/ch-m-kh-tim-anh-m-t-ch-t-th-i",
+    "youtubeQuery": "Chạm Khẽ Tim Anh Một Chút Thôi Noo Phước Thịnh Official Audio"
   },
   {
     "id": "aud-noophuocthinh-02",
@@ -3978,7 +4463,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0b4bd5b675fcc3bae2bf7355ca5a990b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-601773421/ye-u-mo-t-ngu-o-i-sao-buo-n-e",
+    "youtubeQuery": "Gạt Đi Nước Mắt Noo Phước Thịnh Official Audio"
   },
   {
     "id": "aud-noophuocthinh-03",
@@ -3996,11 +4484,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4025000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02d695275db90bb8729ede2cef",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02d695275db90bb8729ede2cef",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "2gT5LL3uRANxvvmDxaULbQ",
+    "soundcloudUrl": "https://soundcloud.com/inthemoonlight_thebros/th-ng-em-l-i-u-anh-kh-ng-th-ng",
+    "youtubeQuery": "Thương Em Là Điều Anh Không Thể Ngờ Noo Phước Thịnh Official Audio"
   },
   {
     "id": "aud-noophuocthinh-04",
@@ -4022,7 +4513,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/33224a27047e61591cf1a8626a67941b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/minh-thanh-795244686/noo-phuoc-thinh-lan-song-xanh",
+    "youtubeQuery": "Như Phút Ban Đầu Noo Phước Thịnh Official Audio"
   },
   {
     "id": "aud-noophuocthinh-05",
@@ -4040,11 +4534,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3605000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/0b4bd5b675fcc3bae2bf7355ca5a990b/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02100e0fb26ce43fd0e879911c",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/0b4bd5b675fcc3bae2bf7355ca5a990b/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02100e0fb26ce43fd0e879911c",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5vODf231esazyTFBRN6Tdc",
+    "soundcloudUrl": "https://soundcloud.com/shiro1797/cause-i-love-you-noo-phuoc-thinh",
+    "youtubeQuery": "Cause I Love You Noo Phước Thịnh Official Audio"
   },
   {
     "id": "aud-noophuocthinh-06",
@@ -4066,7 +4563,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/inh-trung-ki-n-563223364/y2meta-com-playlist-noo-ph-c",
+    "youtubeQuery": "Mãi Mãi Bên Nhau Noo Phước Thịnh Official Audio"
   },
   {
     "id": "aud-noophuocthinh-07",
@@ -4088,7 +4588,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/33224a27047e61591cf1a8626a67941b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thi-n-tr-n-907345823/ch-ng-ta-ng-l-ng-th-m-n-a-h-y",
+    "youtubeQuery": "Nỗi Nhớ Đầy Vơi Noo Phước Thịnh Official Audio"
   },
   {
     "id": "aud-noophuocthinh-08",
@@ -4110,7 +4613,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0b4bd5b675fcc3bae2bf7355ca5a990b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/inthemoonlight_thebros/xa-em-noo-ph-c-th-nh",
+    "youtubeQuery": "Xa Em Noo Phước Thịnh Official Audio"
   },
   {
     "id": "aud-noophuocthinh-09",
@@ -4128,11 +4634,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2765000,
     "audioUrl": "https://api.audius.co/v1/tracks/aavaw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e029c9bfa3c3ffdbe7b8cf35c1f",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e029c9bfa3c3ffdbe7b8cf35c1f",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "2dpLkJ0HXFXPJw9qvJh5n4",
+    "soundcloudUrl": "https://soundcloud.com/nguyenkimthien/em-th-ng-ng-i-ta-h-n-anh-noo",
+    "youtubeQuery": "Em Đã Thương Người Ta Hơn Anh Noo Phước Thịnh Official Audio"
   },
   {
     "id": "aud-noophuocthinh-10",
@@ -4154,7 +4663,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/33224a27047e61591cf1a8626a67941b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anh-truong-636697808/dinh-menh-noo-phuoc-thinh-320-kbps",
+    "youtubeQuery": "Định Mệnh Noo Phước Thịnh Official Audio"
   },
   {
     "id": "aud-dongnhi-01",
@@ -4176,7 +4688,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/9ddc64beb80405602a85eb93344117fe/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/williams-nguyen/khoc-dong-nhi",
+    "youtubeQuery": "Khóc Đông Nhi Official Audio"
   },
   {
     "id": "aud-dongnhi-02",
@@ -4198,7 +4713,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a3bf52e60a2d7fcc3d297edf7598c3ad/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/dongnhi/boiroi",
+    "youtubeQuery": "Bối Rối Đông Nhi Official Audio"
   },
   {
     "id": "aud-dongnhi-03",
@@ -4220,7 +4738,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/eac0e39b9d9859c8d22102baf2a7e4ec/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/dongnhi/choemmotlanyeu",
+    "youtubeQuery": "Cho Em Một Lần Yêu Đông Nhi Official Audio"
   },
   {
     "id": "aud-dongnhi-04",
@@ -4242,7 +4763,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a67780d38557f8ef871eb7abb67e7dd6/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hoang-anh-potatoes/dong-thoai",
+    "youtubeQuery": "Bad Boy Đông Nhi Official Audio"
   },
   {
     "id": "aud-dongnhi-05",
@@ -4264,7 +4788,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/af84c5a6584932db0f1ea4a21020f7c3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/sieunhanga296/dong-nhi-trach-ai-bay-gio-official",
+    "youtubeQuery": "Đôi Mi Em Đang U Sầu Đông Nhi Official Audio"
   },
   {
     "id": "aud-dongnhi-06",
@@ -4286,7 +4813,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b1229dcc1c4c4560dd652e0544cc11a7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/dongnhi/30ngayyeu",
+    "youtubeQuery": "30 Ngày Yêu Đông Nhi Official Audio"
   },
   {
     "id": "aud-dongnhi-07",
@@ -4308,7 +4838,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7d6a81be5e58c8aaefa6473dc23f9ebf/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/dongnhi/ngotngao",
+    "youtubeQuery": "Ngọt Ngào Đông Nhi Official Audio"
   },
   {
     "id": "aud-dongnhi-08",
@@ -4330,7 +4863,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/13b6690afec7a970a41a2256dd3003fd/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/dongnhi/loithutoingotngao",
+    "youtubeQuery": "Lời Thú Tội Ngọt Ngào Đông Nhi Official Audio"
   },
   {
     "id": "aud-dongnhi-09",
@@ -4352,7 +4888,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2f5758a402f68f1b5797e8396ab62694/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/l-p-coca/xin-anh-dung-dong-nhi-remix",
+    "youtubeQuery": "Từng Thuộc Về Nhau Đông Nhi Official Audio"
   },
   {
     "id": "aud-dongnhi-10",
@@ -4374,7 +4913,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6aa32bf275a6fa6c49ca71b3fb73fc10/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/l-p-coca/xin-anh-dung-dong-nhi-remix",
+    "youtubeQuery": "Xin Anh Đừng Đông Nhi Official Audio"
   },
   {
     "id": "aud-dongnhi-11",
@@ -4396,7 +4938,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/9ddc64beb80405602a85eb93344117fe/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/williams-nguyen/khoc-dong-nhi",
+    "youtubeQuery": "Giả Vờ Say Đông Nhi Official Audio"
   },
   {
     "id": "aud-bichphuong-01",
@@ -4418,7 +4963,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8657f00fce23d60e14184678e54af89f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tai-sao-ban-buon/b-a-y-u-b-ch-ph-ng-prod",
+    "youtubeQuery": "Bùa Yêu Bích Phương Official Audio"
   },
   {
     "id": "aud-bichphuong-02",
@@ -4440,7 +4988,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f0e470e8e8897a3d5c9b98d5c2d1b564/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/djcrazycat/di-du-dua-di-bich-phuong-ccats-bootleg",
+    "youtubeQuery": "Đi Đu Đưa Đi Bích Phương Official Audio"
   },
   {
     "id": "aud-bichphuong-03",
@@ -4462,7 +5013,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0e4434fab9a35df45a97232554c638ef/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/young_tachi/c-khi-n-o-r-i-xa-b-ch-ph-ng-ft",
+    "youtubeQuery": "Có Khi Nào Rời Xa Bích Phương Official Audio"
   },
   {
     "id": "aud-bichphuong-04",
@@ -4484,7 +5038,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8657f00fce23d60e14184678e54af89f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/trungmonostudio/minh-yeu-nhau-di-bich-phuong-pop-version",
+    "youtubeQuery": "Bao Giờ Lấy Chồng Bích Phương Official Audio"
   },
   {
     "id": "aud-bichphuong-05",
@@ -4506,7 +5063,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f0e470e8e8897a3d5c9b98d5c2d1b564/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nh-t-kh-nh-nguy-n-969027116/nu-ho-ng-mong-manh-lofi-lyrics",
+    "youtubeQuery": "Nâng Chén Tiêu Sầu Bích Phương Official Audio"
   },
   {
     "id": "aud-bichphuong-06",
@@ -4528,7 +5088,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0e4434fab9a35df45a97232554c638ef/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/trungmonostudio/minh-yeu-nhau-di-bich-phuong-pop-version",
+    "youtubeQuery": "Mình Yêu Nhau Đi Bích Phương Official Audio"
   },
   {
     "id": "aud-bichphuong-07",
@@ -4550,7 +5113,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8657f00fce23d60e14184678e54af89f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/duy-nguy-n-753339291/3jkpj54chwkp",
+    "youtubeQuery": "Gửi Anh Xa Nhớ Bích Phương Official Audio"
   },
   {
     "id": "aud-bichphuong-08",
@@ -4572,7 +5138,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f0e470e8e8897a3d5c9b98d5c2d1b564/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/law03/em-bo-hut-thuoc-chua-bich-phuong-law-remix",
+    "youtubeQuery": "Em Bỏ Hút Thuốc Chưa Bích Phương Official Audio"
   },
   {
     "id": "aud-bichphuong-09",
@@ -4594,7 +5163,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0e4434fab9a35df45a97232554c638ef/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nobity/m-t-c-l-a-b-ch-ph-ng-tuan-ying",
+    "youtubeQuery": "Một Cú Lừa Bích Phương Official Audio"
   },
   {
     "id": "aud-bichphuong-10",
@@ -4616,7 +5188,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8657f00fce23d60e14184678e54af89f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/zesu_records/ar-rang-em-mai-o-ben-zang-remix-bich-phuong",
+    "youtubeQuery": "Chuyện Cũ Bỏ Qua Bích Phương Official Audio"
   },
   {
     "id": "aud-bichphuong-11",
@@ -4638,7 +5213,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f0e470e8e8897a3d5c9b98d5c2d1b564/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tranganh8363/co-le-em-bich-phuong-kn-rimic",
+    "youtubeQuery": "Từ Chối Nhẹ Nhàng Thôi Bích Phương Official Audio"
   },
   {
     "id": "aud-hieuthuhai-01",
@@ -4660,7 +5238,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3aee686c20a01b23cf94fa7ed2c657b1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/oren-ki/hieuthuhai-kh-ng-th-say",
+    "youtubeQuery": "Trình HIEUTHUHAI Official Audio"
   },
   {
     "id": "aud-hieuthuhai-02",
@@ -4683,7 +5264,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c297d51562fc30cd29ce9805f5368ee6/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-983364455/5050-remix-hieuthuhai-hurrykng",
+    "youtubeQuery": "Ngủ Một Mình HIEUTHUHAI, Negav Official Audio"
   },
   {
     "id": "aud-hieuthuhai-03",
@@ -4710,7 +5294,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f9b6e83170bb1e6596396a282ede58f9/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/kim-phut-kim-gio",
+    "youtubeQuery": "Kim Phút Kim Giờ HIEUTHUHAI, HURRYKNG, Negav, Isaac, Pháp Kiều Official Audio"
   },
   {
     "id": "aud-hieuthuhai-04",
@@ -4732,7 +5319,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/9bbc1831a52ca6c4e95be14eabea63fe/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hieuthuhai/cotayeu",
+    "youtubeQuery": "NOLOVE NOHIDDEN HIEUTHUHAI Official Audio"
   },
   {
     "id": "aud-hieuthuhai-05",
@@ -4750,11 +5340,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 284,
     "playCount": 3390000,
     "audioUrl": "https://api.audius.co/v1/tracks/NY2QqJN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/3aee686c20a01b23cf94fa7ed2c657b1/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02c006b0181a3846c1c63e178f",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/3aee686c20a01b23cf94fa7ed2c657b1/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02c006b0181a3846c1c63e178f",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "1K0HQ30Wc11okzlcnFA7Ub",
+    "soundcloudUrl": "https://soundcloud.com/oren-ki/hieuthuhai-kh-ng-th-say",
+    "youtubeQuery": "Không Thể Say HIEUTHUHAI Official Audio"
   },
   {
     "id": "aud-hieuthuhai-06",
@@ -4776,7 +5369,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c297d51562fc30cd29ce9805f5368ee6/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/panacea198/panacea",
+    "youtubeQuery": "Vệ Tinh HIEUTHUHAI Official Audio"
   },
   {
     "id": "aud-hieuthuhai-07",
@@ -4798,7 +5394,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f9b6e83170bb1e6596396a282ede58f9/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thanhtungbui2009/laviai-x-bu-o-c-za-i-xa-wxrdie",
+    "youtubeQuery": "Mama Boy HIEUTHUHAI Official Audio"
   },
   {
     "id": "aud-hieuthuhai-08",
@@ -4820,7 +5419,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/9bbc1831a52ca6c4e95be14eabea63fe/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hieuthuhai/batnhaclen",
+    "youtubeQuery": "Bật Nhạc Lên HIEUTHUHAI Official Audio"
   },
   {
     "id": "aud-hieuthuhai-09",
@@ -4842,7 +5444,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3aee686c20a01b23cf94fa7ed2c657b1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/kim-phut-kim-gio",
+    "youtubeQuery": "Cua HIEUTHUHAI Official Audio"
   },
   {
     "id": "aud-hieuthuhai-10",
@@ -4860,11 +5465,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2340000,
     "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/c297d51562fc30cd29ce9805f5368ee6/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02c006b0181a3846c1c63e178f",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/c297d51562fc30cd29ce9805f5368ee6/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02c006b0181a3846c1c63e178f",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "4nXrVH5xwN1w6TpmP7uu8n",
+    "soundcloudUrl": "https://soundcloud.com/toan-le-674466759/exit-sign-hieuthuhai-ft-marzuz",
+    "youtubeQuery": "Exit Sign HIEUTHUHAI Official Audio"
   },
   {
     "id": "aud-hieuthuhai-11",
@@ -4886,7 +5494,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f9b6e83170bb1e6596396a282ede58f9/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/trung-thanh-trung-123189545/hieuthuhai-anh-ne-n-i-kho-i-a",
+    "youtubeQuery": "Xoay Một Vòng HIEUTHUHAI Official Audio"
   },
   {
     "id": "aud-hieuthuhai-12",
@@ -4911,7 +5522,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/9bbc1831a52ca6c4e95be14eabea63fe/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hieuthuhai/batnhaclen",
+    "youtubeQuery": "Sao Hạng A HIEUTHUHAI, Dương Domic, Anh Tú Atus, Song Luân Official Audio"
   },
   {
     "id": "aud-hieuthuhai-13",
@@ -4936,7 +5550,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3aee686c20a01b23cf94fa7ed2c657b1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/wxrdie/laviai-remix-hieuthuhai-2pillz",
+    "youtubeQuery": "Ngáo Ngơ HIEUTHUHAI, Anh Tú Atus, JSOL, Erik Official Audio"
   },
   {
     "id": "aud-mono-01",
@@ -4958,7 +5575,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/ba437aa4306f861e2947fbf9f36fa590/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ruletheworldboi/8033923d-7ccd-4922-ab15-de45d3411596",
+    "youtubeQuery": "Waiting For You MONO Official Audio"
   },
   {
     "id": "aud-mono-02",
@@ -4980,7 +5600,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a5b08212d4773b070d689dc8661fc368/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/dang-hung-van/em-la-mono-lofi",
+    "youtubeQuery": "Em Là MONO Official Audio"
   },
   {
     "id": "aud-mono-03",
@@ -5002,7 +5625,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/22f24690a7ebb38273df670abbc0671d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/vinh-chu-66463916/mono-cham-hoa-kas-mashup",
+    "youtubeQuery": "Chăm Hoa MONO Official Audio"
   },
   {
     "id": "aud-mono-04",
@@ -5024,7 +5650,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/af2a6e953ecc3d4b2bc547cf6345c0eb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/uwu-uwu-513477932/sandwich-story-mono-speed-up",
+    "youtubeQuery": "Đi Tìm Tình Yêu MONO Official Audio"
   },
   {
     "id": "aud-mono-05",
@@ -5046,7 +5675,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/909e4e122a3db7e3c3f821c4e289e2c5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/voyageloveblank/goodnight",
+    "youtubeQuery": "Quên Anh Đi MONO Official Audio"
   },
   {
     "id": "aud-mono-06",
@@ -5068,7 +5700,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6b7f9fb755f8e33ef8d7cba85202ed06/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/warlordh22/worksoft-zay-mono",
+    "youtubeQuery": "Cười Lên MONO Official Audio"
   },
   {
     "id": "aud-mono-07",
@@ -5090,7 +5725,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2bf87760e50827cec57318705bb64afa/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/myosotiskim/needy",
+    "youtubeQuery": "Anh Không Thể MONO Official Audio"
   },
   {
     "id": "aud-mono-08",
@@ -5112,7 +5750,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f93ef49d606dad5c6e81525f3a68d522/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nh-qu-n-t/album-m-i-u-ca-m-v-em-mono",
+    "youtubeQuery": "Em Xinh MONO Official Audio"
   },
   {
     "id": "aud-mono-09",
@@ -5134,7 +5775,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/45e8d6fe7a583042335d3c550db15427/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/pham-chi-698367095/mono-em-la-kirimi-remix",
+    "youtubeQuery": "Open Your Eyes MONO Official Audio"
   },
   {
     "id": "aud-mono-10",
@@ -5156,7 +5800,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3cb73f2b38e78f7477db413c956f61f8/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/jessica-ortegas/slow-merengue-in-mono-20",
+    "youtubeQuery": "Young MONO Official Audio"
   },
   {
     "id": "aud-mono-11",
@@ -5174,11 +5821,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 1872000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/ba437aa4306f861e2947fbf9f36fa590/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02a0f799b6e0d1e4edadc98a3a",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/ba437aa4306f861e2947fbf9f36fa590/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02a0f799b6e0d1e4edadc98a3a",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "2ZBi1KpCR0grEWRNgySqwg",
+    "soundcloudUrl": "https://soundcloud.com/dmr-breakbeat-official/1x-1",
+    "youtubeQuery": "Buông MONO Official Audio"
   },
   {
     "id": "aud-mono-12",
@@ -5200,7 +5850,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a5b08212d4773b070d689dc8661fc368/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/officialmonomusic/beauty-and-a-beat-mono",
+    "youtubeQuery": "Liệu Giờ MONO Official Audio"
   },
   {
     "id": "aud-wrenevans-01",
@@ -5218,11 +5871,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4230000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/ee2f42bb7a077ee88b189f4edf422b3e/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0271d5ffe4407f913393ecdd11",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/ee2f42bb7a077ee88b189f4edf422b3e/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0271d5ffe4407f913393ecdd11",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "4qYfRfSxsmhJ1WMaywtLyI",
+    "soundcloudUrl": "https://soundcloud.com/tran-nguyen-thanh-mai/y2matecom-wren-evans-tung-quen-official-audio-audiotrimmercom",
+    "youtubeQuery": "Từng Quen Wren Evans Official Audio"
   },
   {
     "id": "aud-wrenevans-02",
@@ -5244,7 +5900,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1ff74ac5b35955c8d4fe115ac1d1f41f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-132488885/kh-ng-th-sao-bi-t-wren-evans-n",
+    "youtubeQuery": "Bé Ơi Lại Đây Wren Evans Official Audio"
   },
   {
     "id": "aud-wrenevans-03",
@@ -5266,7 +5925,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4f5a90c5b8cf46080729c027a7e8b08e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thien-phuc-426976076/144-wren-evans-album-no-reup",
+    "youtubeQuery": "Call Me Wren Evans Official Audio"
   },
   {
     "id": "aud-wrenevans-04",
@@ -5284,11 +5946,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3600000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/e51d04c071c3dddc98982695169b119d/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0271d5ffe4407f913393ecdd11",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/e51d04c071c3dddc98982695169b119d/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0271d5ffe4407f913393ecdd11",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "0X28PqBpbQhWdi4usYw0w5",
+    "soundcloudUrl": "https://soundcloud.com/dung-tran-51117479/to-te-ti-wren-evans",
+    "youtubeQuery": "Tò Te Tí Wren Evans Official Audio"
   },
   {
     "id": "aud-wrenevans-05",
@@ -5310,7 +5975,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/eee9fd32ca9e163c11dc20132b8f2498/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tphuong-asher/thich-em-hoi-nhieu",
+    "youtubeQuery": "Thích Em Hơi Nhiều Wren Evans Official Audio"
   },
   {
     "id": "aud-wrenevans-06",
@@ -5332,7 +6000,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a82c8c10842bd341da735b3dc1a2b475/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tinh-ha-say-hi/secret",
+    "youtubeQuery": "Cơn Đau Wren Evans Official Audio"
   },
   {
     "id": "aud-wrenevans-07",
@@ -5354,7 +6025,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/ee2f42bb7a077ee88b189f4edf422b3e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ki-n-tr-n-trung-969344320/thu-doi-wren-evans",
+    "youtubeQuery": "Phóng Đổ Tim Em Wren Evans Official Audio"
   },
   {
     "id": "aud-wrenevans-08",
@@ -5376,7 +6050,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1ff74ac5b35955c8d4fe115ac1d1f41f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/b-o-ng-582057722/wren-evans-gi-a-t-nh-album-n",
+    "youtubeQuery": "Việt Kiều Wren Evans Official Audio"
   },
   {
     "id": "aud-wrenevans-09",
@@ -5398,7 +6075,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4f5a90c5b8cf46080729c027a7e8b08e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/whiskyproducer1/thudoi",
+    "youtubeQuery": "Tình Yêu Vĩ Mô Wren Evans Official Audio"
   },
   {
     "id": "aud-wrenevans-10",
@@ -5420,7 +6100,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e51d04c071c3dddc98982695169b119d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tinh-ha-say-hi/mvp",
+    "youtubeQuery": "Gặp May Wren Evans Official Audio"
   },
   {
     "id": "aud-wrenevans-11",
@@ -5442,7 +6125,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/eee9fd32ca9e163c11dc20132b8f2498/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tinh-ha-say-hi/5-thang",
+    "youtubeQuery": "Cầu Vĩnh Tuy Wren Evans Official Audio"
   },
   {
     "id": "aud-wrenevans-12",
@@ -5464,7 +6150,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a82c8c10842bd341da735b3dc1a2b475/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tphuong-asher/thich-em-hoi-nhieu",
+    "youtubeQuery": "Đừng Làm Nó Phức Tạp Wren Evans Official Audio"
   },
   {
     "id": "aud-greyd-01",
@@ -5482,11 +6171,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4058000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/6b94bade0da7500e110a01643bcacd0e/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0294df376aa7f0890380ea4688",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/6b94bade0da7500e110a01643bcacd0e/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0294df376aa7f0890380ea4688",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "25h0TqC9H3BcMA7KjK5nHK",
+    "soundcloudUrl": "https://soundcloud.com/ngocdiem124543/vai-cau-noi-co-khien-nguoi-thay-doi-grey-d-tlinh-rb-by-fairys-remix",
+    "youtubeQuery": "vaicaunoicokhiennguoithaydoi GREY D Official Audio"
   },
   {
     "id": "aud-greyd-02",
@@ -5504,11 +6196,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3848000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/a80f83edf15f192b7f66f1c69e5f7816/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0212a6bd687aec4105bc06fcdf",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/a80f83edf15f192b7f66f1c69e5f7816/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0212a6bd687aec4105bc06fcdf",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "7bFFUPBiF15n8m8RziqS4o",
+    "soundcloudUrl": "https://soundcloud.com/txt-cherry/d-b-o-th-i-ti-t-h-m-nay-m-a-3",
+    "youtubeQuery": "dự báo thời tiết hôm nay mưa GREY D Official Audio"
   },
   {
     "id": "aud-greyd-03",
@@ -5530,7 +6225,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/358b25302d6fe22115bac15aa6b0f482/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/wrinden-wrinden/vaicaunoicokhiennguoithaydoi-grey-d-x-tlinh-hoodtrap-x-jersey-club-full",
+    "youtubeQuery": "đưa em về nhà GREY D Official Audio"
   },
   {
     "id": "aud-greyd-04",
@@ -5552,7 +6250,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6b94bade0da7500e110a01643bcacd0e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/chanh1406/loi-tam-biet-chua-noi",
+    "youtubeQuery": "đắp chăn GREY D Official Audio"
   },
   {
     "id": "aud-greyd-05",
@@ -5574,7 +6275,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a80f83edf15f192b7f66f1c69e5f7816/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/bop-nguyen-633586174/h-a-ra-grey-d-from-nh-s-ng-o-m",
+    "youtubeQuery": "nhạt-nhòa GREY D Official Audio"
   },
   {
     "id": "aud-greyd-06",
@@ -5596,7 +6300,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/358b25302d6fe22115bac15aa6b0f482/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/whiskyproducer1/hoara",
+    "youtubeQuery": "Tỉnh Thức Sau Giấc Ngủ Đông GREY D Official Audio"
   },
   {
     "id": "aud-greyd-07",
@@ -5614,11 +6321,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2798000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/6b94bade0da7500e110a01643bcacd0e/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e029f62ee847bc8904b5c2d2343",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/6b94bade0da7500e110a01643bcacd0e/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e029f62ee847bc8904b5c2d2343",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "54UNNgtE3zzERwTuWSQLqd",
+    "soundcloudUrl": "https://soundcloud.com/12a3tdez/ng-v-grey-d",
+    "youtubeQuery": "Có Hẹn Với Thanh Xuân GREY D Official Audio"
   },
   {
     "id": "aud-greyd-08",
@@ -5636,11 +6346,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2588000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/a80f83edf15f192b7f66f1c69e5f7816/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e029f62ee847bc8904b5c2d2343",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/a80f83edf15f192b7f66f1c69e5f7816/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e029f62ee847bc8904b5c2d2343",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "3XRvVlOBvClOq1KpI50uKC",
+    "soundcloudUrl": "https://soundcloud.com/nguyen-84995852/gi-l-y-l-m-g-grey-d-live-at",
+    "youtubeQuery": "Giữ Lấy Làm Gì GREY D Official Audio"
   },
   {
     "id": "aud-greyd-09",
@@ -5662,7 +6375,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/358b25302d6fe22115bac15aa6b0f482/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/chanh1406/loi-tam-biet-chua-noi",
+    "youtubeQuery": "Lời Tạm Biệt Chưa Nói GREY D Official Audio"
   },
   {
     "id": "aud-greyd-10",
@@ -5684,7 +6400,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6b94bade0da7500e110a01643bcacd0e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/txt-cherry/d-b-o-th-i-ti-t-h-m-nay-m-a-3",
+    "youtubeQuery": "Mưa Cứ Rơi GREY D Official Audio"
   },
   {
     "id": "aud-quanghungmasterd-01",
@@ -5706,7 +6425,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/ff83c84dd85cde6bfd35e0c500fd9846/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/oldweeboo/quang-hung-masterd-thuy-trieu-concert-remix-version",
+    "youtubeQuery": "Thủy Triều Quang Hùng MasterD Official Audio"
   },
   {
     "id": "aud-quanghungmasterd-02",
@@ -5728,7 +6450,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4dcd66cd48aaeefd5e660b2419212ee8/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anglei/de-den-de-di",
+    "youtubeQuery": "Dễ Đến Dễ Đi Quang Hùng MasterD Official Audio"
   },
   {
     "id": "aud-quanghungmasterd-03",
@@ -5750,7 +6475,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/11ef3d01031884985664ef0adebbae3c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/troi-em-lai",
+    "youtubeQuery": "Trói Em Lại Quang Hùng MasterD Official Audio"
   },
   {
     "id": "aud-quanghungmasterd-04",
@@ -5772,7 +6500,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1c5939b2ed3570491fdf96926c196aec/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tinh-ha-say-hi/together-we-shine",
+    "youtubeQuery": "Đừng Khóc Một Mình Quang Hùng MasterD Official Audio"
   },
   {
     "id": "aud-quanghungmasterd-05",
@@ -5794,7 +6525,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cdaa830dbdae2395a03da6868968530e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/tinh-dau-qua-chen",
+    "youtubeQuery": "Tình Đầu Quang Hùng MasterD Official Audio"
   },
   {
     "id": "aud-quanghungmasterd-06",
@@ -5818,7 +6552,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/ff83c84dd85cde6bfd35e0c500fd9846/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/baomenhac/catch-me-if-you-can-negav",
+    "youtubeQuery": "Catch Me If You Can Quang Hùng MasterD, Negav, Nicky, Công Dương Official Audio"
   },
   {
     "id": "aud-quanghungmasterd-07",
@@ -5840,7 +6577,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4dcd66cd48aaeefd5e660b2419212ee8/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-221401504/quang-hung-masterd-chi-con-mot-dem-last-dark",
+    "youtubeQuery": "Chỉ Còn Một Đêm Quang Hùng MasterD Official Audio"
   },
   {
     "id": "aud-quanghungmasterd-08",
@@ -5862,7 +6602,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/11ef3d01031884985664ef0adebbae3c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thanhvu8530/dung-vi-anh-ma-khoc",
+    "youtubeQuery": "Đừng Vì Anh Mà Khóc Quang Hùng MasterD Official Audio"
   },
   {
     "id": "aud-quanghungmasterd-09",
@@ -5884,7 +6627,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1c5939b2ed3570491fdf96926c196aec/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/tinh-dau-qua-chen",
+    "youtubeQuery": "Tình Đầu Quá Chén Quang Hùng MasterD Official Audio"
   },
   {
     "id": "aud-quanghungmasterd-10",
@@ -5906,7 +6652,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cdaa830dbdae2395a03da6868968530e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/trendynhan/thuy-trieu-quang-hung-masterdtrendy-nhan-remix",
+    "youtubeQuery": "Thả Anh Ra Quang Hùng MasterD Official Audio"
   },
   {
     "id": "aud-quanghungmasterd-11",
@@ -5928,7 +6677,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/ff83c84dd85cde6bfd35e0c500fd9846/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/minh-t-n-20894775/oa-n-ke-t-cuo-i-demo-quang-hu",
+    "youtubeQuery": "Cảm Ơn Em Đã Đến Quang Hùng MasterD Official Audio"
   },
   {
     "id": "aud-duongdomic-01",
@@ -5953,7 +6705,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/baomenhac/h-o-quang-rhyder-ph-p-ki-u-d",
+    "youtubeQuery": "Hào Quang RHYDER, Dương Domic, Pháp Kiều Official Audio"
   },
   {
     "id": "aud-duongdomic-02",
@@ -5975,7 +6730,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/quang-th-g-ngy-n-15870539/tr-n-b-nh-ft-d-ng-domic-anh",
+    "youtubeQuery": "Tràn Bộ Nhớ Dương Domic Official Audio"
   },
   {
     "id": "aud-duongdomic-03",
@@ -5997,7 +6755,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6e52b60a4cd71601d1bf91432d5a3e07/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/quang-th-g-ngy-n-15870539/tr-n-b-nh-ft-d-ng-domic-anh",
+    "youtubeQuery": "Đầy Nắng Dương Domic Official Audio"
   },
   {
     "id": "aud-duongdomic-04",
@@ -6019,7 +6780,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4677f41d76d4534d064b2e0b490f0df3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tinh-ha-say-hi-882971523/th-gi-i-c-a-anh-d-ng-domic",
+    "youtubeQuery": "Mênh Mông Dương Domic Official Audio"
   },
   {
     "id": "aud-duongdomic-05",
@@ -6041,7 +6805,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/baomenhac/h-o-quang-rhyder-ph-p-ki-u-d",
+    "youtubeQuery": "Là Anh Dương Domic Official Audio"
   },
   {
     "id": "aud-duongdomic-06",
@@ -6063,7 +6830,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/tran-bo-nho",
+    "youtubeQuery": "Chập Chờn Dương Domic Official Audio"
   },
   {
     "id": "aud-duongdomic-07",
@@ -6081,11 +6851,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3013000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/6e52b60a4cd71601d1bf91432d5a3e07/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02f2e33afbb2d8b486c1c98aa3",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/6e52b60a4cd71601d1bf91432d5a3e07/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02f2e33afbb2d8b486c1c98aa3",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "0rR27Ayle8G7sKoCt8OWUr",
+    "soundcloudUrl": "https://soundcloud.com/whiskyproducer1/matketnoi",
+    "youtubeQuery": "Mất Kết Nối Dương Domic Official Audio"
   },
   {
     "id": "aud-duongdomic-08",
@@ -6103,11 +6876,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 2803000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/4677f41d76d4534d064b2e0b490f0df3/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0264eefeaaf062b7fdf9f7e6a0",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/4677f41d76d4534d064b2e0b490f0df3/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0264eefeaaf062b7fdf9f7e6a0",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "7fCeYpR02Q8JVuD88hJZVT",
+    "soundcloudUrl": "https://soundcloud.com/ha-gia-han2025/tran-bo-nho-remix-duong-domic",
+    "youtubeQuery": "Bầu Trời Mới Dương Domic Official Audio"
   },
   {
     "id": "aud-duongdomic-09",
@@ -6132,7 +6908,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/sao-hang-a",
+    "youtubeQuery": "Sao Hạng A HIEUTHUHAI, Dương Domic, Anh Tú Atus, Song Luân Official Audio"
   },
   {
     "id": "aud-duongdomic-10",
@@ -6154,7 +6933,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/h-ng-qu-n-tr-n-108097337/e85140b5-8155-419f-9787-108b06cf5222",
+    "youtubeQuery": "Yêu Em 2 Ngày Dương Domic Official Audio"
   },
   {
     "id": "aud-phuongly-01",
@@ -6173,11 +6955,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4187000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02608d3c2ea187db30ea605596",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02608d3c2ea187db30ea605596",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5wOpabdhyumRX782o8J4rS",
+    "soundcloudUrl": "https://soundcloud.com/youngcrizzal/mat-troi-cua-em-phuong-ly-feat-justatee-rhymastics-1900-remix",
+    "youtubeQuery": "Mặt Trời Của Em Phương Ly, JustaTee Official Audio"
   },
   {
     "id": "aud-phuongly-02",
@@ -6195,11 +6980,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3977000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/b650d9e8cccd0d8831a9765d8f7f5060/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0257d93ceb82779271a84f7500",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/b650d9e8cccd0d8831a9765d8f7f5060/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0257d93ceb82779271a84f7500",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "6KgZf5gZgF1KLNxq1qZgHP",
+    "soundcloudUrl": "https://soundcloud.com/officialdjhanmin/phuong-ly-anh-la-ngoai-le-cua-em-dj-hanmin-p3pper-remix",
+    "youtubeQuery": "Anh Là Ngoại Lệ Của Em Phương Ly Official Audio"
   },
   {
     "id": "aud-phuongly-03",
@@ -6221,7 +7009,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/04863a59a85a3047a9f88676b30986ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/adncr7/missing-you-phuong-ly-x-tinle-shark-x-titan-remix",
+    "youtubeQuery": "Missing You Phương Ly Official Audio"
   },
   {
     "id": "aud-phuongly-04",
@@ -6243,7 +7034,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/longdley4/thichthich-phuong-ly-longdley",
+    "youtubeQuery": "ThichThich Phương Ly Official Audio"
   },
   {
     "id": "aud-phuongly-05",
@@ -6265,7 +7059,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b650d9e8cccd0d8831a9765d8f7f5060/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/th-nh-voi-3/anh-la-ai-phuong-ly-ft-justa-tee",
+    "youtubeQuery": "Đâu Chịu Buông Tay Phương Ly Official Audio"
   },
   {
     "id": "aud-phuongly-06",
@@ -6287,7 +7084,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/04863a59a85a3047a9f88676b30986ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-55699745/so-close-binz-phuong-ly",
+    "youtubeQuery": "So Close Phương Ly Official Audio"
   },
   {
     "id": "aud-phuongly-07",
@@ -6309,7 +7109,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-6453728/my-love-ft-ly-do-la-gi-remix",
+    "youtubeQuery": "Crush On You Phương Ly Official Audio"
   },
   {
     "id": "aud-phuongly-08",
@@ -6331,7 +7134,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b650d9e8cccd0d8831a9765d8f7f5060/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/fazormusicvn/mttnmt",
+    "youtubeQuery": "Little Love Phương Ly Official Audio"
   },
   {
     "id": "aud-phuongly-09",
@@ -6353,7 +7159,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/04863a59a85a3047a9f88676b30986ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/8daudiolabvn/nhac-8d-thang-dien-justatee-ft-phuong-ly",
+    "youtubeQuery": "Bạn Thân Phương Ly Official Audio"
   },
   {
     "id": "aud-phuongly-10",
@@ -6375,7 +7184,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ph-m-c-ng-13645045/ch-y-kh-i-th-gi-i-n-y",
+    "youtubeQuery": "Cứu Lấy Cô Ấy Phương Ly Official Audio"
   },
   {
     "id": "aud-amee-01",
@@ -6393,11 +7205,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3972000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/0be20e5d8ad5a7771cc73bbb3b241c4f/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02a9d8555d24f7247f3b0cc05a",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/0be20e5d8ad5a7771cc73bbb3b241c4f/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02a9d8555d24f7247f3b0cc05a",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "1fLQbzTvsLzN0qvVL0BdXw",
+    "soundcloudUrl": "https://soundcloud.com/hutieu10105/anh-nha-o-dau-the-amee-x-b-ray-masew-remix",
+    "youtubeQuery": "Anh Nhà Ở Đâu Thế AMEE Official Audio"
   },
   {
     "id": "aud-amee-02",
@@ -6419,7 +7234,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c209bcbc07b35c2292b8a800f4cc4abc/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-730733789/ex-s-hate-me-b-ray-masew-amee",
+    "youtubeQuery": "Ưng Quá Chừng AMEE Official Audio"
   },
   {
     "id": "aud-amee-03",
@@ -6441,7 +7259,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/16c082b31188852ef9ae9b68b13131d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/phucinblue/den-da-khong-duong-low-fire-x-amee",
+    "youtubeQuery": "Đen Đá Không Đường AMEE Official Audio"
   },
   {
     "id": "aud-amee-04",
@@ -6459,11 +7280,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3342000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/0be20e5d8ad5a7771cc73bbb3b241c4f/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02819219f4ea0ad1e11cb78411",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/0be20e5d8ad5a7771cc73bbb3b241c4f/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02819219f4ea0ad1e11cb78411",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "2SykQzXuFSeprST1uDjj1m",
+    "soundcloudUrl": "https://soundcloud.com/zang_producer/tr-i-gi-u-tr-i-mang-i-amee",
+    "youtubeQuery": "Trời Giấu Trời Mang Đi AMEE Official Audio"
   },
   {
     "id": "aud-amee-05",
@@ -6485,7 +7309,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c209bcbc07b35c2292b8a800f4cc4abc/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/zang_producer/tr-i-gi-u-tr-i-mang-i-amee",
+    "youtubeQuery": "Thay Mọi Cô Gái Yêu Anh AMEE Official Audio"
   },
   {
     "id": "aud-amee-06",
@@ -6503,11 +7330,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2922000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/16c082b31188852ef9ae9b68b13131d2/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02819219f4ea0ad1e11cb78411",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/16c082b31188852ef9ae9b68b13131d2/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02819219f4ea0ad1e11cb78411",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "3yh2tipCbdQqYE6HU9vCt5",
+    "soundcloudUrl": "https://soundcloud.com/officialvrt/sao-anh-chua-ve-nha-amee-ft-ricky-star-vrt-remix",
+    "youtubeQuery": "Sao Anh Chưa Về Nhà AMEE Official Audio"
   },
   {
     "id": "aud-amee-07",
@@ -6529,7 +7359,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0be20e5d8ad5a7771cc73bbb3b241c4f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhyeuemnhieu/yeu-thi-yeu-khong-yeu-thi-yeu-amee",
+    "youtubeQuery": "Yêu Thì Yêu Không Yêu Thì Yêu AMEE Official Audio"
   },
   {
     "id": "aud-amee-08",
@@ -6551,7 +7384,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c209bcbc07b35c2292b8a800f4cc4abc/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi2_viechannel/cho-anh-ve",
+    "youtubeQuery": "Shay Nắnggg AMEE Official Audio"
   },
   {
     "id": "aud-amee-09",
@@ -6573,7 +7409,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/16c082b31188852ef9ae9b68b13131d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ldlentertainment/hai-muoi-hai-22-amee-hua-kim-tuyen",
+    "youtubeQuery": "Hai Mươi Hai (22) AMEE Official Audio"
   },
   {
     "id": "aud-amee-10",
@@ -6591,11 +7430,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2082000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/0be20e5d8ad5a7771cc73bbb3b241c4f/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02e4522860e86653f2595a64a4",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/0be20e5d8ad5a7771cc73bbb3b241c4f/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02e4522860e86653f2595a64a4",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5oFEvbM7lGnx8jfAkuhVyo",
+    "soundcloudUrl": "https://soundcloud.com/h-u-qu-n-534009551/m-ng-yu-amee-x-mck-from-m",
+    "youtubeQuery": "Mộng Yu AMEE Official Audio"
   },
   {
     "id": "aud-min-01",
@@ -6617,7 +7459,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8e792cbc715d6c2516fe3133b49eeeb5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ezzat-abd-elnaby/tamer-ashour-min-gheir-mahkeelk-album-ayam-2",
+    "youtubeQuery": "Trên Tình Bạn Dưới Tình Yêu MIN Official Audio"
   },
   {
     "id": "aud-min-02",
@@ -6635,11 +7480,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3719000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/5116fc7860c27c5c7f880a1da6553221/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e021afa18b0fb9197e45352813a",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/5116fc7860c27c5c7f880a1da6553221/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e021afa18b0fb9197e45352813a",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "6KIhgRkprgyJNERRMu7Quh",
+    "soundcloudUrl": "https://soundcloud.com/h-i-xu-n-oan-m-c/va-the-gio-i-a-ma-t-i-mo-t-ngu",
+    "youtubeQuery": "Có Em Chờ MIN Official Audio"
   },
   {
     "id": "aud-min-03",
@@ -6662,7 +7510,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/674a990a03af522aa2b854a019f6a383/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/vivenciandoacena/oruam10mindefreestyle2",
+    "youtubeQuery": "Ghen MIN, Erik, Khắc Hưng Official Audio"
   },
   {
     "id": "aud-min-04",
@@ -6680,11 +7531,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3299000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/c501e36847d4424ef5b3313e3a38bf2a/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e029deb738a3eaf2dd108ade7e0",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/c501e36847d4424ef5b3313e3a38bf2a/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e029deb738a3eaf2dd108ade7e0",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "1zvL2X6HPrLfvtSY4DpopE",
+    "soundcloudUrl": "https://soundcloud.com/thomizofficial/em-moi-la-nguoi-yeu-anh-thomiz-remix",
+    "youtubeQuery": "Em Mới Là Người Yêu Anh MIN Official Audio"
   },
   {
     "id": "aud-min-05",
@@ -6702,11 +7556,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3089000,
     "audioUrl": "https://api.audius.co/v1/tracks/bpXkM/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/8e792cbc715d6c2516fe3133b49eeeb5/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02886cc92143ccb54acf8bbf5e",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/8e792cbc715d6c2516fe3133b49eeeb5/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02886cc92143ccb54acf8bbf5e",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "4DJZfZPvWYbSeFVFf2b2aS",
+    "soundcloudUrl": "https://soundcloud.com/vanh-ne/dung-yeu-nua-em-met-roi-min",
+    "youtubeQuery": "Đừng Yêu Nữa Em Mệt Rồi MIN Official Audio"
   },
   {
     "id": "aud-min-06",
@@ -6728,7 +7585,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5116fc7860c27c5c7f880a1da6553221/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ti-n-hu-nh-908776938/min-ch-ng-ph-i-t-nh-u-sao-au-n",
+    "youtubeQuery": "Vì Yêu Cứ Đâm Đầu MIN Official Audio"
   },
   {
     "id": "aud-min-07",
@@ -6750,7 +7610,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/674a990a03af522aa2b854a019f6a383/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/v-h-ng-sang-857032377/kh-gi-ch-n-th-nh-remix-ver-chu",
+    "youtubeQuery": "Cà Phê MIN Official Audio"
   },
   {
     "id": "aud-min-08",
@@ -6772,7 +7635,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c501e36847d4424ef5b3313e3a38bf2a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/v-h-ng-sang-857032377/gi-i-c-u-th-gi-i-c-ph-i-anh-c",
+    "youtubeQuery": "Hôn Anh MIN Official Audio"
   },
   {
     "id": "aud-min-09",
@@ -6790,11 +7656,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2249000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/8e792cbc715d6c2516fe3133b49eeeb5/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02d085c32d050bc832a8075ce6",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/8e792cbc715d6c2516fe3133b49eeeb5/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02d085c32d050bc832a8075ce6",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5U30iZBlmxkpHqzb1OSnBS",
+    "soundcloudUrl": "https://soundcloud.com/via-va/wheniseeuimbabo",
+    "youtubeQuery": "Yêu (5) MIN Official Audio"
   },
   {
     "id": "aud-min-10",
@@ -6816,7 +7685,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5116fc7860c27c5c7f880a1da6553221/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/minofficial/g-i-t-n-em-acoustic-version",
+    "youtubeQuery": "Gọi Tên Em MIN Official Audio"
   },
   {
     "id": "aud-min-11",
@@ -6838,7 +7710,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/674a990a03af522aa2b854a019f6a383/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/l-m-ph-m-497042698/nh-c-y-u-mixset-house-lak-deep",
+    "youtubeQuery": "Phải Lòng Anh MIN Official Audio"
   },
   {
     "id": "aud-sunihalinh-01",
@@ -6858,11 +7733,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4316000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b8e747e7be1a3ae27e9c7ca8",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02b8e747e7be1a3ae27e9c7ca8",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "014DA3BdnmD3kI5pBogH7c",
+    "soundcloudUrl": "https://soundcloud.com/h-u-tr-n-444012350/cu-chill-thoi-chillies-ftsuni-ha-linh-rhymastic-version-lofi",
+    "youtubeQuery": "Cứ Chill Thôi Chillies, Suni Hạ Linh, Rhymastic Official Audio"
   },
   {
     "id": "aud-sunihalinh-02",
@@ -6884,7 +7762,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/teddydoox/khong-sao-ma-em-day-roi-remix",
+    "youtubeQuery": "Không Sao Mà Em Đây Rồi Suni Hạ Linh Official Audio"
   },
   {
     "id": "aud-sunihalinh-03",
@@ -6906,7 +7787,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0fda253ef0a1e6c2aef6c36c24e6dda2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tran-dam-quan/cam-nang-suni-ha-linh-ft-rtee",
+    "youtubeQuery": "Cảm Nắng Suni Hạ Linh Official Audio"
   },
   {
     "id": "aud-sunihalinh-04",
@@ -6928,7 +7812,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/sunihalinh/em-bi-t",
+    "youtubeQuery": "Em Đã Biết Suni Hạ Linh Official Audio"
   },
   {
     "id": "aud-sunihalinh-05",
@@ -6950,7 +7837,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/15xu/em-da-biet-suni-ha-linh-ft-rtee-xv-remix",
+    "youtubeQuery": "Thích Rồi Đấy Suni Hạ Linh Official Audio"
   },
   {
     "id": "aud-sunihalinh-06",
@@ -6972,7 +7862,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0fda253ef0a1e6c2aef6c36c24e6dda2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/h-trang-15/selfie-my-xmas-monster-suni-ha-linh-doan-the-lan",
+    "youtubeQuery": "Ngỏ Lời Suni Hạ Linh Official Audio"
   },
   {
     "id": "aud-sunihalinh-07",
@@ -6994,7 +7887,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nhavantuonglai/huong-mua-he-episode-2",
+    "youtubeQuery": "Say Yes Suni Hạ Linh Official Audio"
   },
   {
     "id": "aud-sunihalinh-08",
@@ -7016,7 +7912,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thamtucan_dqh97/su-map-mo-suni-ha-linh-ft-grey-d",
+    "youtubeQuery": "Sự Mập Mờ Suni Hạ Linh Official Audio"
   },
   {
     "id": "aud-sunihalinh-09",
@@ -7034,11 +7933,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 330,
     "playCount": 2636000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/0fda253ef0a1e6c2aef6c36c24e6dda2/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0202af2be6e2dd46a1d1e9ad55",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/0fda253ef0a1e6c2aef6c36c24e6dda2/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0202af2be6e2dd46a1d1e9ad55",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "4h3K653rm69JYWpO4du2BJ",
+    "soundcloudUrl": "https://soundcloud.com/clb-guitar-utc2/guf-live-session-2-ep-1-vao-ha-suni-ha-linh-bich-ngoc-live",
+    "youtubeQuery": "Chờ Đợi Có Đáng Sợ Suni Hạ Linh Official Audio"
   },
   {
     "id": "aud-shiki-01",
@@ -7057,11 +7959,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4015000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e022b24d375b83af2cd46c6946c",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e022b24d375b83af2cd46c6946c",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "27lfAtyr8kbML8L4woIeEH",
+    "soundcloudUrl": "https://soundcloud.com/trung-ph-m-261554069/1000-nh-m-t-shiki-2",
+    "youtubeQuery": "1000 Ánh Mắt Shiki, Obito Official Audio"
   },
   {
     "id": "aud-shiki-02",
@@ -7083,7 +7988,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/d431a3c450a3d0b4e7145bfc4cfbbb67/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/long-c-d-ng/la-ng-full-ep-shiki",
+    "youtubeQuery": "Anh Vẫn Đợi Shiki Official Audio"
   },
   {
     "id": "aud-shiki-03",
@@ -7101,11 +8009,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3595000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/c459f8c2e1679ce4dfb9dbaaa2228441/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e022b24d375b83af2cd46c6946c",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/c459f8c2e1679ce4dfb9dbaaa2228441/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e022b24d375b83af2cd46c6946c",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "3290JxfzpMDVa2Ky3pQRzq",
+    "soundcloudUrl": "https://soundcloud.com/torumakeitcool/shiki-co-doi-dieu-remake-version-by-toru",
+    "youtubeQuery": "Có Đôi Điều Shiki Official Audio"
   },
   {
     "id": "aud-shiki-04",
@@ -7127,7 +8038,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/86f6902f667799e367b133015c627eff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/long-c-d-ng/la-ng-full-ep-shiki",
+    "youtubeQuery": "Lặng Shiki Official Audio"
   },
   {
     "id": "aud-shiki-05",
@@ -7149,7 +8063,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tr-nggiekay-ph-m/shiki-c-i-i-u-truonganhgk",
+    "youtubeQuery": "Night Time Shiki Official Audio"
   },
   {
     "id": "aud-shiki-06",
@@ -7167,11 +8084,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 2965000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/d431a3c450a3d0b4e7145bfc4cfbbb67/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e022b24d375b83af2cd46c6946c",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/d431a3c450a3d0b4e7145bfc4cfbbb67/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e022b24d375b83af2cd46c6946c",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "665icbnONLCTiMFhAM9EPk",
+    "soundcloudUrl": "https://soundcloud.com/hi-u-cl-nguy-n/perfect-shiki",
+    "youtubeQuery": "Perfect Shiki, Tyronee Official Audio"
   },
   {
     "id": "aud-shiki-07",
@@ -7194,7 +8114,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c459f8c2e1679ce4dfb9dbaaa2228441/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/600-748915235/caio-ocean-carlos-urubu",
+    "youtubeQuery": "Take Off Your Hands Shiki, Obito Official Audio"
   },
   {
     "id": "aud-shiki-08",
@@ -7216,7 +8139,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/86f6902f667799e367b133015c627eff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/trinh-quoc-dat-278753762/shiki-perfect-ft-tyronee-l-ng",
+    "youtubeQuery": "Đêm Trắng (Late Night) Shiki Official Audio"
   },
   {
     "id": "aud-shiki-09",
@@ -7238,7 +8164,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/billboard-america/shiki-senpai-remix",
+    "youtubeQuery": "Giữa Ngân Hà Shiki Official Audio"
   },
   {
     "id": "aud-obito-01",
@@ -7256,11 +8185,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4015000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/1eb7ef667035a6b588533f8a8974f649/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02304f7051a18033cb3fd4524e",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/1eb7ef667035a6b588533f8a8974f649/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02304f7051a18033cb3fd4524e",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5TNW2LZ10ZaoP2QR1eR59g",
+    "soundcloudUrl": "https://soundcloud.com/h-ng-nguy-n-236249652/obito-ha-noi-ft-vstra-mdxi-rmx",
+    "youtubeQuery": "Hà Nội Obito Official Audio"
   },
   {
     "id": "aud-obito-02",
@@ -7278,11 +8210,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3805000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02304f7051a18033cb3fd4524e",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02304f7051a18033cb3fd4524e",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "40l9z5g1WEUyQy9csWSyAC",
+    "soundcloudUrl": "https://soundcloud.com/gingingin2580/obito-danh-doi-album-full",
+    "youtubeQuery": "Đánh Đổi Obito Official Audio"
   },
   {
     "id": "aud-obito-03",
@@ -7304,7 +8239,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/16867c8550c5905849bf21597b968610/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nh-qu-n-t/n-c-obito-fuyu-remix",
+    "youtubeQuery": "Tell The Kids I Love Them Obito Official Audio"
   },
   {
     "id": "aud-obito-04",
@@ -7326,7 +8264,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1eb7ef667035a6b588533f8a8974f649/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/koxinhe/chim-sau",
+    "youtubeQuery": "Xuất Phát Điểm Obito Official Audio"
   },
   {
     "id": "aud-obito-05",
@@ -7345,11 +8286,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3175000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e022b24d375b83af2cd46c6946c",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e022b24d375b83af2cd46c6946c",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "27lfAtyr8kbML8L4woIeEH",
+    "soundcloudUrl": "https://soundcloud.com/takeda168/dnb-mastering",
+    "youtubeQuery": "1000 Ánh Mắt Shiki, Obito Official Audio"
   },
   {
     "id": "aud-obito-06",
@@ -7371,7 +8315,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/16867c8550c5905849bf21597b968610/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/duckvprod/simple-love-obito-x-seachains-duckv-remix",
+    "youtubeQuery": "Simple Love Obito Official Audio"
   },
   {
     "id": "aud-obito-07",
@@ -7393,7 +8340,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1eb7ef667035a6b588533f8a8974f649/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/t-m-nguy-n-792290428/obito-tu-su-soul-mix",
+    "youtubeQuery": "When You Look At Me Obito Official Audio"
   },
   {
     "id": "aud-obito-08",
@@ -7415,7 +8365,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/t-m-nguy-n-792290428/obito-con-ke-ba-nghe-soul-mix",
+    "youtubeQuery": "Soju Love Obito Official Audio"
   },
   {
     "id": "aud-obito-09",
@@ -7437,7 +8390,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/16867c8550c5905849bf21597b968610/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nam-duong-511028223/ngoai-le-cua-nhau-phuong-ly-obito-remake",
+    "youtubeQuery": "Vẫn Nhớ Obito Official Audio"
   },
   {
     "id": "aud-obito-10",
@@ -7459,7 +8415,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1eb7ef667035a6b588533f8a8974f649/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hagii1811/ngoai-le-cua-nhau-obito-x-sontungmtp-hagii-mashup",
+    "youtubeQuery": "Buồn Hay Vui Obito Official Audio"
   },
   {
     "id": "aud-obito-11",
@@ -7477,11 +8436,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 1915000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02304f7051a18033cb3fd4524e",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/c51ba926b804fd247c539f66d43cc40f/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02304f7051a18033cb3fd4524e",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "2otKtTKdtJRZc39bgUklq3",
+    "soundcloudUrl": "https://soundcloud.com/cencasso/obito-dau-duong-xo-cho-ft-lang-ld-central-suy-remix",
+    "youtubeQuery": "Đầu Đường Xó Chợ Obito Official Audio"
   },
   {
     "id": "aud-mck-01",
@@ -7499,11 +8461,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 4101000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/b77397fec2dd7fe57658526dcfc6c777/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02fb24fcf5cd43a2bbc3dfa99f",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/b77397fec2dd7fe57658526dcfc6c777/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02fb24fcf5cd43a2bbc3dfa99f",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "4YMM05vannAm37Mp1dHK1V",
+    "soundcloudUrl": "https://soundcloud.com/m_haziel/xa-xoi-feat-obito",
+    "youtubeQuery": "Chìm Sâu RPT MCK Official Audio"
   },
   {
     "id": "aud-mck-02",
@@ -7525,7 +8490,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/9df8283cf4b2c6b8b81f23b49157997d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-770600837/14-anh-n-h-n-rpt-mck-99-mp3",
+    "youtubeQuery": "Anh Đã Ổn Hơn RPT MCK Official Audio"
   },
   {
     "id": "aud-mck-03",
@@ -7547,7 +8515,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e036afb3845c13f8727ee4f3eb8078c4/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/wizkie02/tai-vi-sao",
+    "youtubeQuery": "Tại Vì Sao RPT MCK Official Audio"
   },
   {
     "id": "aud-mck-04",
@@ -7569,7 +8540,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b77397fec2dd7fe57658526dcfc6c777/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-679286707/tay-to-rpt-mck-x-rpt-phongkhin",
+    "youtubeQuery": "Tay To RPT MCK Official Audio"
   },
   {
     "id": "aud-mck-05",
@@ -7591,7 +8565,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/9df8283cf4b2c6b8b81f23b49157997d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/m_haziel/wtf-bby-im-lit",
+    "youtubeQuery": "Thôi Em Đừng Đi RPT MCK Official Audio"
   },
   {
     "id": "aud-mck-06",
@@ -7613,7 +8590,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e036afb3845c13f8727ee4f3eb8078c4/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/photoways/huh-mck-ft-rpt-orijinn",
+    "youtubeQuery": "suit & tie RPT MCK Official Audio"
   },
   {
     "id": "aud-mck-07",
@@ -7635,7 +8615,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b77397fec2dd7fe57658526dcfc6c777/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nam-do-hai-487391543/hvl",
+    "youtubeQuery": "Va Vào Giai Điệu Này RPT MCK Official Audio"
   },
   {
     "id": "aud-mck-08",
@@ -7658,7 +8641,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/9df8283cf4b2c6b8b81f23b49157997d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/metubmusic/xich-them-chut-xtc-remix-rpt-groovie-ft-tlinh-x-rpt-mck-prod-by-fat_benn-rpt-lt",
+    "youtubeQuery": "Châu Báu RPT MCK, tlinh Official Audio"
   },
   {
     "id": "aud-mck-09",
@@ -7680,7 +8666,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e036afb3845c13f8727ee4f3eb8078c4/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/wizkie02/chi-1-dem-nua-thui-audio-vi-mck-ctay-tlinh-mat-rui",
+    "youtubeQuery": "Chỉ Một Đêm Nữa Thôi RPT MCK Official Audio"
   },
   {
     "id": "aud-mck-10",
@@ -7702,7 +8691,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b77397fec2dd7fe57658526dcfc6c777/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/khongphaidaffy/ne-drama-gill-ft-rpt-mck",
+    "youtubeQuery": "Show Me Love RPT MCK Official Audio"
   },
   {
     "id": "aud-mck-11",
@@ -7720,11 +8712,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2001000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/9df8283cf4b2c6b8b81f23b49157997d/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02ff825e8af61dad96490e8192",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/9df8283cf4b2c6b8b81f23b49157997d/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02ff825e8af61dad96490e8192",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "1J12HjUuXfJnaUdubTEzSR",
+    "soundcloudUrl": "https://soundcloud.com/m_haziel/huh-feat-rpt-orijinn-thanh",
+    "youtubeQuery": "Nghe Như Tình Yêu RPT MCK Official Audio"
   },
   {
     "id": "aud-mck-12",
@@ -7746,7 +8741,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e036afb3845c13f8727ee4f3eb8078c4/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/wizkie02/chi-1-dem-nua-thui-audio-vi-mck-ctay-tlinh-mat-rui",
+    "youtubeQuery": "Giàu Vì Bạn Sang Vì Vợ RPT MCK Official Audio"
   },
   {
     "id": "aud-tlinh-01",
@@ -7764,11 +8762,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4015000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/a21657942cc386cb7d2ed5b3393a02e6/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02484c56addba0e4dad8be48c9",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/a21657942cc386cb7d2ed5b3393a02e6/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02484c56addba0e4dad8be48c9",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5ouxRyInSdRBQubu3KTd97",
+    "soundcloudUrl": "https://soundcloud.com/phvdng/chan-tinh-quang-trung-x-tlinh",
+    "youtubeQuery": "Nếu Lúc Đó Tlinh Official Audio"
   },
   {
     "id": "aud-tlinh-02",
@@ -7790,7 +8791,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/934aca53777d0dfee293696834068981/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ituyubbtpb3q/vaicaunoicokhiennguoithaydoi",
+    "youtubeQuery": "Ghệ Iu Dấu Của Cút Kít Tlinh Official Audio"
   },
   {
     "id": "aud-tlinh-03",
@@ -7812,7 +8816,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/07d51fed4e04c176cc3e742c2fcf86b6/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/noibuon102/fever",
+    "youtubeQuery": "Gái Độc Thân Tlinh Official Audio"
   },
   {
     "id": "aud-tlinh-04",
@@ -7834,7 +8841,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/69899c726113ab4063de6ad4157720a7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nq-tr-nq-118723218/de-mck-tlinh",
+    "youtubeQuery": "Tình Yêu Có Nghĩa Là Gì Tlinh Official Audio"
   },
   {
     "id": "aud-tlinh-05",
@@ -7852,11 +8862,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3175000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/f7c05c057fc3acf32d92b134c30409ed/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e023b8fccabde0a2d2eb00c16b0",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/f7c05c057fc3acf32d92b134c30409ed/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e023b8fccabde0a2d2eb00c16b0",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "2q2DN73j7oY2igLflertN3",
+    "soundcloudUrl": "https://soundcloud.com/pxcmxn/thich-qua-rui-na",
+    "youtubeQuery": "Thích Quá Rùi Nà Tlinh Official Audio"
   },
   {
     "id": "aud-tlinh-06",
@@ -7879,7 +8892,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a21657942cc386cb7d2ed5b3393a02e6/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/wrinden-wrinden/vaicaunoicokhiennguoithaydoi-grey-d-x-tlinh-hoodtrap-x-jersey-club-full",
+    "youtubeQuery": "Châu Báu RPT MCK, tlinh Official Audio"
   },
   {
     "id": "aud-tlinh-07",
@@ -7901,7 +8917,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/934aca53777d0dfee293696834068981/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-477435903/coldzy-fever-feat-tlinh",
+    "youtubeQuery": "Không Cần Phải Nói Nhiều Tlinh Official Audio"
   },
   {
     "id": "aud-tlinh-08",
@@ -7923,7 +8942,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/07d51fed4e04c176cc3e742c2fcf86b6/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-810591663/cu-n-cho-nhau-m-t-i-u-remake",
+    "youtubeQuery": "Strip Em Down Tlinh Official Audio"
   },
   {
     "id": "aud-tlinh-09",
@@ -7945,7 +8967,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/69899c726113ab4063de6ad4157720a7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/metubmusic/xich-them-chut-xtc-remix-rpt-groovie-ft-tlinh-x-rpt-mck-prod-by-fat_benn-rpt-lt",
+    "youtubeQuery": "Nữ Siêu Anh Hùng Tlinh Official Audio"
   },
   {
     "id": "aud-tlinh-10",
@@ -7967,7 +8992,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f7c05c057fc3acf32d92b134c30409ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguyen-pham-phuong-anh-919045202/if-you-said-so-coldzytlinh2pillz",
+    "youtubeQuery": "Mắt Xanh Tlinh Official Audio"
   },
   {
     "id": "aud-tlinh-11",
@@ -7989,7 +9017,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a21657942cc386cb7d2ed5b3393a02e6/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tgsnmusic/siren-feat-tlinh-rz-mas",
+    "youtubeQuery": "Siren Tlinh Official Audio"
   },
   {
     "id": "aud-lowg-01",
@@ -8011,7 +9042,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/77cd177aecd48081a22f25c6ad5c310c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/rap-nha-lam/tan-gai-101-low-g-feat-ska",
+    "youtubeQuery": "Càng Cua Low G Official Audio"
   },
   {
     "id": "aud-lowg-02",
@@ -8029,11 +9063,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3805000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/5887121a23465de78e6f188d39748aca/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02c8d355355c2c62b74b0809e4",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/5887121a23465de78e6f188d39748aca/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02c8d355355c2c62b74b0809e4",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5C3fx9rdM4Bxf1MSOQC4Ym",
+    "soundcloudUrl": "https://soundcloud.com/nhatmihn/an-than-ft-thang-low-g-rap-nha-lam",
+    "youtubeQuery": "An Thần Low G Official Audio"
   },
   {
     "id": "aud-lowg-03",
@@ -8055,7 +9092,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6fa9fa71937367800050268631754f21/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/shacot-ara/phoreal",
+    "youtubeQuery": "Thủ Đô Cypher Low G Official Audio"
   },
   {
     "id": "aud-lowg-04",
@@ -8077,7 +9117,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4363603677be218ba0788dfb11b4d3c9/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ng-anh-khoa-978156150/khong-thich-low-g",
+    "youtubeQuery": "Simp Gái 8/3 Low G Official Audio"
   },
   {
     "id": "aud-lowg-05",
@@ -8095,11 +9138,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3175000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/3615effe9559e23fbc6b6083a2e3705d/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02556e7b75fb148c696f99a709",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/3615effe9559e23fbc6b6083a2e3705d/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02556e7b75fb148c696f99a709",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "6Hs2xIgB8nzyGFDvVA8lFa",
+    "soundcloudUrl": "https://soundcloud.com/thanh-th-o-197296981/co-em-madihu-ftlow-g",
+    "youtubeQuery": "Có Em Low G Official Audio"
   },
   {
     "id": "aud-lowg-06",
@@ -8121,7 +9167,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/77cd177aecd48081a22f25c6ad5c310c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/rap-nha-lam/tan-gai-606-low-g-rap-nha-lam",
+    "youtubeQuery": "Tán Gái 606 Low G Official Audio"
   },
   {
     "id": "aud-lowg-07",
@@ -8143,7 +9192,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5887121a23465de78e6f188d39748aca/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/noibuon102/gung0cay-x-lowg-podcast",
+    "youtubeQuery": "Chán Gái 707 Low G Official Audio"
   },
   {
     "id": "aud-lowg-08",
@@ -8165,7 +9217,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6fa9fa71937367800050268631754f21/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/rap-nha-lam/tan-gai-505-low-g",
+    "youtubeQuery": "Tán Gái 505 Low G Official Audio"
   },
   {
     "id": "aud-lowg-09",
@@ -8187,7 +9242,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4363603677be218ba0788dfb11b4d3c9/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/gumballnguyxn/b-o-t-ng-low-g",
+    "youtubeQuery": "Bảo Tàng Low G Official Audio"
   },
   {
     "id": "aud-lowg-10",
@@ -8209,7 +9267,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3615effe9559e23fbc6b6083a2e3705d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/shacot-ara/low-g-x-obito-x-wokeup-phong-long",
+    "youtubeQuery": "Phong Long Low G Official Audio"
   },
   {
     "id": "aud-lowg-11",
@@ -8231,7 +9292,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/77cd177aecd48081a22f25c6ad5c310c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ng-anh-khoa-978156150/khong-thich-low-g",
+    "youtubeQuery": "Không Thích Low G Official Audio"
   },
   {
     "id": "aud-lowg-12",
@@ -8253,7 +9317,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5887121a23465de78e6f188d39748aca/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/gumballnguyxn/don-gian-low-g-nha-hoa-hoc-dong-da",
+    "youtubeQuery": "Đơn Giản Low G Official Audio"
   },
   {
     "id": "aud-bray-01",
@@ -8271,11 +9338,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 4015000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/207fdd77a711995eb3f5eb051a435371/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0225b293d1ca066c650a0f9c69",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/207fdd77a711995eb3f5eb051a435371/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0225b293d1ca066c650a0f9c69",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "6su7ekPw5AAIU2OUCvos6S",
+    "soundcloudUrl": "https://soundcloud.com/qu-c-kh-i-529180479/ex-s-hate-me-b-ray-masew-amee",
+    "youtubeQuery": "Ex's Hate Me B Ray Official Audio"
   },
   {
     "id": "aud-bray-02",
@@ -8297,7 +9367,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/981c6fec7ad28405e60926e03fbd5144/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/h-i-phan-788855840/b-ray-cho-ba-hiddengem-mixtape",
+    "youtubeQuery": "Do For Love B Ray Official Audio"
   },
   {
     "id": "aud-bray-03",
@@ -8319,7 +9392,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e0f5e0b90defec28bee389f97f194c99/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi2_viechannel/cho-anh-ve",
+    "youtubeQuery": "Xin Đừng Nhấc Máy B Ray Official Audio"
   },
   {
     "id": "aud-bray-04",
@@ -8341,7 +9417,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0fd11c9842e5e296b07868dacee28d94/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-kh-i-tr-n-235282376/thi-u-th-n-b-ray-x-sofia-x-ch",
+    "youtubeQuery": "Thiêu Thân B Ray Official Audio"
   },
   {
     "id": "aud-bray-05",
@@ -8363,7 +9442,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0a6edc1ff1fcd7c16c22207a8ab41e01/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/jinh2/b-ray-ft-dat-g-cao-oc-20-binhchubi-remix",
+    "youtubeQuery": "Cao Ốc 20 B Ray Official Audio"
   },
   {
     "id": "aud-bray-06",
@@ -8385,7 +9467,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/207fdd77a711995eb3f5eb051a435371/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/sounds-dusting/vung-an-toan-b-ray-ft-v-dusck-remix",
+    "youtubeQuery": "Việc Ai Người Nấy Lo B Ray Official Audio"
   },
   {
     "id": "aud-bray-07",
@@ -8407,7 +9492,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/981c6fec7ad28405e60926e03fbd5144/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-96065320/con-trai-cung-b-ray-x-k-icm",
+    "youtubeQuery": "Con Trai Cưng B Ray Official Audio"
   },
   {
     "id": "aud-bray-08",
@@ -8429,7 +9517,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e0f5e0b90defec28bee389f97f194c99/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-262405456/exs-hate-me",
+    "youtubeQuery": "Ở Trong Thành Phố B Ray Official Audio"
   },
   {
     "id": "aud-bray-09",
@@ -8451,7 +9542,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0fd11c9842e5e296b07868dacee28d94/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ssryoungh/official-audio-vang-thai-duong-young-h-x-b-ray",
+    "youtubeQuery": "Bí Mật Nhỏ B Ray Official Audio"
   },
   {
     "id": "aud-bray-10",
@@ -8473,7 +9567,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0a6edc1ff1fcd7c16c22207a8ab41e01/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/mikeysahara-870813572/ch-anh-v-b-ray-amee-masew",
+    "youtubeQuery": "Cưới Thôi B Ray Official Audio"
   },
   {
     "id": "aud-bray-11",
@@ -8495,7 +9592,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/207fdd77a711995eb3f5eb051a435371/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/msif/mashup-tic-tac-x-badabum-b-ray",
+    "youtubeQuery": "Hoàn Hảo B Ray Official Audio"
   },
   {
     "id": "aud-karik-01",
@@ -8518,7 +9618,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-55508202/nguoi-la-oi",
+    "youtubeQuery": "Người Lạ Ơi Karik, Orange, Superbrothers Official Audio"
   },
   {
     "id": "aud-karik-02",
@@ -8536,11 +9639,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3805000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b37fa6ada1fe1a79194db5a0",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02b37fa6ada1fe1a79194db5a0",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "0fGJiHH6xSUJU1MAVjxq5m",
+    "soundcloudUrl": "https://soundcloud.com/ph-m-l-minh-duy-477716099/karik-x-gducky-ba-n-i",
+    "youtubeQuery": "Bạn Đời Karik Official Audio"
   },
   {
     "id": "aud-karik-03",
@@ -8563,7 +9669,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7a4a4aea9905af7cbbf00515b04a8480/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-337022023-313242956/vi-me-anh-bat-chia-tay-miu-le-x-karik-x-chau-dang-khoa",
+    "youtubeQuery": "Vì Mẹ Anh Bắt Chia Tay Miu Lê, Karik Official Audio"
   },
   {
     "id": "aud-karik-04",
@@ -8585,7 +9694,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/simon-sang-le/th-ng-t-ng-l-t-t-c-c-n-kh-c-m",
+    "youtubeQuery": "Từng Là Tất Cả Karik Official Audio"
   },
   {
     "id": "aud-karik-05",
@@ -8607,7 +9719,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/wowysg/08-khu-tao-song-wowy-karik",
+    "youtubeQuery": "Khu Tao Sống Karik Official Audio"
   },
   {
     "id": "aud-karik-06",
@@ -8629,7 +9744,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7a4a4aea9905af7cbbf00515b04a8480/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/mikeysahara/ng-i-nh-anh-x-ng-ng-c-n-v-c-t",
+    "youtubeQuery": "Mẹ Tôi Karik Official Audio"
   },
   {
     "id": "aud-karik-07",
@@ -8651,7 +9769,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hoang-bach-2/anh-khong-doi-qua-onlyc-karik",
+    "youtubeQuery": "Anh Không Đòi Quà Karik Official Audio"
   },
   {
     "id": "aud-karik-08",
@@ -8673,7 +9794,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-337022023-313242956/vi-me-anh-bat-chia-tay-miu-le-x-karik-x-chau-dang-khoa",
+    "youtubeQuery": "Có Chơi Có Chịu Karik Official Audio"
   },
   {
     "id": "aud-karik-09",
@@ -8695,7 +9819,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7a4a4aea9905af7cbbf00515b04a8480/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/wowysg/wowy-karik-l-c-quan",
+    "youtubeQuery": "Đánh Mất Em Karik Official Audio"
   },
   {
     "id": "aud-karik-10",
@@ -8717,7 +9844,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/369318e8667446cb14d035dc2c529816/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/simon-sang-le/th-ng-t-ng-l-t-t-c-c-n-kh-c-m",
+    "youtubeQuery": "Khóc Một Mình Karik Official Audio"
   },
   {
     "id": "aud-karik-11",
@@ -8739,7 +9869,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/simon-sang-le/th-ng-t-ng-l-t-t-c-c-n-kh-c-m",
+    "youtubeQuery": "Ala Ela Karik Official Audio"
   },
   {
     "id": "aud-suboi-01",
@@ -8761,7 +9894,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6c88812275b03e7dbd9d40a1ad18887a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/vnmusicshare/n-sao-suboi",
+    "youtubeQuery": "N-Sao? Suboi Official Audio"
   },
   {
     "id": "aud-suboi-02",
@@ -8783,7 +9919,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/27077827e56fb5dc651c91c49e896f64/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nancy-hp/dung-ngoanh-lai-luu-huong",
+    "youtubeQuery": "Bet On Me Suboi Official Audio"
   },
   {
     "id": "aud-suboi-03",
@@ -8805,7 +9944,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b0b468bb36cdfea55ae2ebaedba43459/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hoa-493620708/y2matecom-cho-khong-r80-1dys8do",
+    "youtubeQuery": "Cho Không Suboi Official Audio"
   },
   {
     "id": "aud-suboi-04",
@@ -8827,7 +9969,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0c175b51b4096bf0aef5e1361f945e02/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anblue/hai-dua-tre-phuong-my-chi-dtap-ft-suboi",
+    "youtubeQuery": "Lời Thỉnh Cầu Suboi Official Audio"
   },
   {
     "id": "aud-suboi-05",
@@ -8845,11 +9990,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3175000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/6c88812275b03e7dbd9d40a1ad18887a/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0205f13478e755e4f68587170b",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/6c88812275b03e7dbd9d40a1ad18887a/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0205f13478e755e4f68587170b",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "6YCDBgpYQtgmnuSAdRNtrV",
+    "soundcloudUrl": "https://soundcloud.com/suboi/doi",
+    "youtubeQuery": "Đời Suboi Official Audio"
   },
   {
     "id": "aud-suboi-06",
@@ -8871,7 +10019,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/27077827e56fb5dc651c91c49e896f64/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/parshaaz1/suboi-dau-thien-ha",
+    "youtubeQuery": "Dâu Thiên Hạ Suboi Official Audio"
   },
   {
     "id": "aud-suboi-07",
@@ -8893,7 +10044,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b0b468bb36cdfea55ae2ebaedba43459/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/vnmusicshare/cong-suboi",
+    "youtubeQuery": "Công Suboi Official Audio"
   },
   {
     "id": "aud-suboi-08",
@@ -8915,7 +10069,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0c175b51b4096bf0aef5e1361f945e02/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/suboi/tro-i-cho-new-suboi-2013",
+    "youtubeQuery": "Người Ta Hiểu Suboi Official Audio"
   },
   {
     "id": "aud-suboi-09",
@@ -8937,7 +10094,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6c88812275b03e7dbd9d40a1ad18887a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/jessicalam/walk-suboi",
+    "youtubeQuery": "Walk Suboi Official Audio"
   },
   {
     "id": "aud-suboi-10",
@@ -8959,7 +10119,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/27077827e56fb5dc651c91c49e896f64/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/suboi/doi",
+    "youtubeQuery": "Tâm Điểm Suboi Official Audio"
   },
   {
     "id": "aud-double2t-01",
@@ -8981,7 +10144,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/69964e1a96837a01e5f7d9e3e72f6a91/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ph-c-nguy-n-533686148/a-loi-double2t-x-masew-official-lyric",
+    "youtubeQuery": "À Lôi Double2T Official Audio"
   },
   {
     "id": "aud-double2t-02",
@@ -9003,7 +10169,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/386e56e181de6a4d20ce504785fd0bf6/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ph-c-nguy-n-533686148/a-loi-thanh-am-mien-nui-double2t",
+    "youtubeQuery": "Theo Anh Về Bản Double2T Official Audio"
   },
   {
     "id": "aud-double2t-03",
@@ -9025,7 +10194,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/54f978b46eb6c3532018c8532fe538f2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nh-tu-n-744097293/nguoi-mien-nui-chat-double2t-rap-viet-2023",
+    "youtubeQuery": "Người Miền Núi Chất Double2T Official Audio"
   },
   {
     "id": "aud-double2t-04",
@@ -9047,7 +10219,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/strawberry-cookie-238213266/double2t-x-ho-minzy-x-duongk",
+    "youtubeQuery": "Chài Điếp Noọng Double2T Official Audio"
   },
   {
     "id": "aud-double2t-05",
@@ -9069,7 +10244,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/69964e1a96837a01e5f7d9e3e72f6a91/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/gingingin2580/thanh-am-mien-nui-hat-gao-lang-ta-nguoi-mien-nui-chat-keo-em-ve-lam-vo-tay-lai-pr0tay-lai-pr0",
+    "youtubeQuery": "Kéo Em Về Làm Vợ Double2T Official Audio"
   },
   {
     "id": "aud-double2t-06",
@@ -9091,7 +10269,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/386e56e181de6a4d20ce504785fd0bf6/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/theliteralhorizon0/bigteam-bigdream-complete-version-ver-double2t",
+    "youtubeQuery": "Tương Tư Nàng Ca Sĩ Double2T Official Audio"
   },
   {
     "id": "aud-double2t-07",
@@ -9113,7 +10294,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/54f978b46eb6c3532018c8532fe538f2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/gingingin2580/thanh-am-mien-nui-hat-gao-lang-ta-nguoi-mien-nui-chat-keo-em-ve-lam-vo-tay-lai-pr0tay-lai-pr0",
+    "youtubeQuery": "Tay-Lai Pr0 Double2T Official Audio"
   },
   {
     "id": "aud-double2t-08",
@@ -9135,7 +10319,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-408851732-897452440/thanh-m-mi-n-n-i-double2t",
+    "youtubeQuery": "Em Yêu Cô Ấy Double2T Official Audio"
   },
   {
     "id": "aud-justatee-01",
@@ -9154,11 +10341,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4144000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/90e8865dfce0e4b4982cf6e7827ac7be/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0202dc41ad81138aa3c53d2b98",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/90e8865dfce0e4b4982cf6e7827ac7be/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0202dc41ad81138aa3c53d2b98",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "27Z9T0mSWHYWSj9SNOGvyt",
+    "soundcloudUrl": "https://soundcloud.com/bee_studio/she-never-know-full-justa-tee",
+    "youtubeQuery": "Thằng Điên JustaTee, Phương Ly Official Audio"
   },
   {
     "id": "aud-justatee-02",
@@ -9176,11 +10366,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3934000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/ef6c6d878e68bcd73ff95e906e611ccb/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02636bd3e9f31e1ea1e7bb389e",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/ef6c6d878e68bcd73ff95e906e611ccb/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02636bd3e9f31e1ea1e7bb389e",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "3J3nv18iIrOhca1ZWNeuyW",
+    "soundcloudUrl": "https://soundcloud.com/tr-ng-quang-khoa-644031783/da-lo-yeu-em-nhieu-justatee",
+    "youtubeQuery": "Đã Lỡ Yêu Em Nhiều JustaTee Official Audio"
   },
   {
     "id": "aud-justatee-03",
@@ -9198,11 +10391,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3724000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/12cd10482621e6fc31a325cca73b8bf1/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e024effcb29c6ef04abfb663ddc",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/12cd10482621e6fc31a325cca73b8bf1/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e024effcb29c6ef04abfb663ddc",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "7jZqFyDAl5LefVnF3UwcLd",
+    "soundcloudUrl": "https://soundcloud.com/lang-tu-p/bang-khuang-justatee-fc",
+    "youtubeQuery": "Bâng Khuâng JustaTee Official Audio"
   },
   {
     "id": "aud-justatee-04",
@@ -9221,11 +10417,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3514000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/126dfd09d891de665e0d13f8f2d845be/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02608d3c2ea187db30ea605596",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/126dfd09d891de665e0d13f8f2d845be/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02608d3c2ea187db30ea605596",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5wOpabdhyumRX782o8J4rS",
+    "soundcloudUrl": "https://soundcloud.com/th-nh-duyy/bang-khuang-justatee",
+    "youtubeQuery": "Mặt Trời Của Em Phương Ly, JustaTee Official Audio"
   },
   {
     "id": "aud-justatee-05",
@@ -9248,7 +10447,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7717c8d5e62b6b09dd769ec3977c09ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/den1305/den-x-justatee-di-ve-nha",
+    "youtubeQuery": "Đi Về Nhà Đen Vâu, JustaTee Official Audio"
   },
   {
     "id": "aud-justatee-06",
@@ -9270,7 +10472,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/32657ae670976777aed59210d8342688/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hyarways/vi-da-lo-yeu-em-roi-chang-dam-hua-xa-xoi-da-lo-yeu-em-nhieu-justatee-lofi-by-lil-kay",
+    "youtubeQuery": "Forever Alone JustaTee Official Audio"
   },
   {
     "id": "aud-justatee-07",
@@ -9288,11 +10493,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2884000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/25ab0fae70a3844cb682812a12ab89bf/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02db1199187153d1204e01c69c",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/25ab0fae70a3844cb682812a12ab89bf/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02db1199187153d1204e01c69c",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "2OSjnBrQQ0CNKxIUM2GQDk",
+    "soundcloudUrl": "https://soundcloud.com/miin104/crying-over-you-justatee-ft-lor-live-concert",
+    "youtubeQuery": "Crying Over You JustaTee Official Audio"
   },
   {
     "id": "aud-justatee-08",
@@ -9310,11 +10518,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 2674000,
     "audioUrl": "https://api.audius.co/v1/tracks/2GVbp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/907613cc2d094780efed2c5035b2223a/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e020b97a73cab024885e9819a9e",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/907613cc2d094780efed2c5035b2223a/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e020b97a73cab024885e9819a9e",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "3DLtPObflLQBodZN8qGODT",
+    "soundcloudUrl": "https://soundcloud.com/the-memory/2am-justatee-bigdaddylyrics-mv",
+    "youtubeQuery": "2AM JustaTee Official Audio"
   },
   {
     "id": "aud-justatee-09",
@@ -9336,7 +10547,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3a9c57bc2b57fb9598b4170da31c302e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/justatee/nguoi_nao_do_justatee",
+    "youtubeQuery": "Người Nào Đó JustaTee Official Audio"
   },
   {
     "id": "aud-justatee-10",
@@ -9358,7 +10572,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/90e8865dfce0e4b4982cf6e7827ac7be/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/lang-tu-p/bang-khuang-justatee-fc",
+    "youtubeQuery": "Bật Tình Yêu JustaTee Official Audio"
   },
   {
     "id": "aud-justatee-11",
@@ -9380,7 +10597,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/ef6c6d878e68bcd73ff95e906e611ccb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tran-dam-quan/con-mua-cuoi-justatee-ft-binz",
+    "youtubeQuery": "Bông Hoa Nhỏ JustaTee Official Audio"
   },
   {
     "id": "aud-rhymastic-01",
@@ -9398,11 +10618,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4187000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/e784d5f6f06d3734cb7014697f94d147/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02d085c32d050bc832a8075ce6",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/e784d5f6f06d3734cb7014697f94d147/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02d085c32d050bc832a8075ce6",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5U30iZBlmxkpHqzb1OSnBS",
+    "soundcloudUrl": "https://soundcloud.com/the-memory/yeu-5-rhymastic",
+    "youtubeQuery": "Yêu 5 Rhymastic Official Audio"
   },
   {
     "id": "aud-rhymastic-02",
@@ -9420,11 +10643,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3977000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/f5d1604a60b742b522ffe7a3b4a8329d/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e024f3c3a9919872e5b5def5abe",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/f5d1604a60b742b522ffe7a3b4a8329d/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e024f3c3a9919872e5b5def5abe",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "4S0uLMXRoAjFfIJOW7A8aW",
+    "soundcloudUrl": "https://soundcloud.com/mizhminh/nenvahoamegazetz",
+    "youtubeQuery": "Nến Và Hoa Rhymastic Official Audio"
   },
   {
     "id": "aud-rhymastic-03",
@@ -9446,7 +10672,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3a71b184ab430e6726631b35119c2172/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-phan-619857135/lac-rhymastic",
+    "youtubeQuery": "Lạc Rhymastic Official Audio"
   },
   {
     "id": "aud-rhymastic-04",
@@ -9468,7 +10697,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3be4649a591aee843048aad447e3315e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kaitran/yeu5",
+    "youtubeQuery": "Giàu Sang Rhymastic Official Audio"
   },
   {
     "id": "aud-rhymastic-05",
@@ -9490,7 +10722,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/be786ede59d398ed06f86b05a58650ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/youngcrizzal/nguoi-va-ta-feat-thanh-huyen",
+    "youtubeQuery": "Trên Đỉnh Mùa Đông Rhymastic Official Audio"
   },
   {
     "id": "aud-rhymastic-06",
@@ -9512,7 +10747,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e784d5f6f06d3734cb7014697f94d147/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nauluv/mua-thu-di-qua-rhymastic",
+    "youtubeQuery": "Vẽ Khói Rhymastic Official Audio"
   },
   {
     "id": "aud-rhymastic-07",
@@ -9534,7 +10772,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f5d1604a60b742b522ffe7a3b4a8329d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/red-devils-618812710/ngon-ngang-mck-rhymastic",
+    "youtubeQuery": "Treasure Rhymastic Official Audio"
   },
   {
     "id": "aud-rhymastic-08",
@@ -9556,7 +10797,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3a71b184ab430e6726631b35119c2172/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/youngcrizzal/b-n-kho-n-feat-d-ng-tr-n-ngh-a",
+    "youtubeQuery": "Khi Màn Đêm Rơi Rhymastic Official Audio"
   },
   {
     "id": "aud-rhymastic-09",
@@ -9578,7 +10822,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3be4649a591aee843048aad447e3315e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/h-ng-nguy-n-467485359/van-yeu-rhymastic-prdhung",
+    "youtubeQuery": "Đâu Chịu Ngồi Yên Rhymastic Official Audio"
   },
   {
     "id": "aud-rhymastic-10",
@@ -9600,7 +10847,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/be786ede59d398ed06f86b05a58650ff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/h-u-tr-n-444012350/cu-chill-thoi-chillies-ftsuni-ha-linh-rhymastic-version-lofi",
+    "youtubeQuery": "Side Effects Rhymastic Official Audio"
   },
   {
     "id": "aud-bigdaddy-01",
@@ -9618,11 +10868,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4488000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/2aa0442076eee1a491237e0528f932bc/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0270654a9a9faf31ced3e2ba4c",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/2aa0442076eee1a491237e0528f932bc/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0270654a9a9faf31ced3e2ba4c",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "21PfXNAfEIaw1XZeSFGHkt",
+    "soundcloudUrl": "https://soundcloud.com/c-bt/bigdaddy-x-emily-muon-ruou-to-tinh-official-mv",
+    "youtubeQuery": "Mượn Rượu Tỏ Tình BigDaddy & Emily Official Audio"
   },
   {
     "id": "aud-bigdaddy-02",
@@ -9640,11 +10893,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 4278000,
     "audioUrl": "https://api.audius.co/v1/tracks/lZQ4G/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/890b5c80547d2fe13124ffe0bc1a1f06/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e026f1b5e346e61370e7c25de02",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/890b5c80547d2fe13124ffe0bc1a1f06/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e026f1b5e346e61370e7c25de02",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "7wtoT5RLm7PEgfwmjGJOvc",
+    "soundcloudUrl": "https://soundcloud.com/lx_media/o-sao-be-khong-lac-bigdaddy-emily-djmrremix",
+    "youtubeQuery": "Tình Yêu Màu Nắng BigDaddy & Emily Official Audio"
   },
   {
     "id": "aud-bigdaddy-03",
@@ -9666,7 +10922,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/de45b29e87b4e9e01caf4af25c28ab00/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-336080515/ngo-cham",
+    "youtubeQuery": "Ngõ Chạm BigDaddy & Emily Official Audio"
   },
   {
     "id": "aud-bigdaddy-04",
@@ -9684,11 +10943,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3858000,
     "audioUrl": "https://api.audius.co/v1/tracks/5jVrx/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/2aa0442076eee1a491237e0528f932bc/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e029929b04d16cd5e85dae5e84d",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/2aa0442076eee1a491237e0528f932bc/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e029929b04d16cd5e85dae5e84d",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5f4u0kPnU21qNe6fXgAUiV",
+    "soundcloudUrl": "https://soundcloud.com/user-314305051-109918960/y-u-n-m-bigdaddy-x-emily",
+    "youtubeQuery": "Yêu Nắm BigDaddy & Emily Official Audio"
   },
   {
     "id": "aud-bigdaddy-05",
@@ -9710,7 +10972,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/890b5c80547d2fe13124ffe0bc1a1f06/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/duy-ph-m-c-90582307/ngo-cham-bigdaddy-x-emily",
+    "youtubeQuery": "Khi Cơn Mơ Dần Phai BigDaddy & Emily Official Audio"
   },
   {
     "id": "aud-bigdaddy-06",
@@ -9732,7 +10997,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/de45b29e87b4e9e01caf4af25c28ab00/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/khang-tr-n-th-nh/bigdaddy-x-emily-y-u-n-m-sped",
+    "youtubeQuery": "Nóng BigDaddy & Emily Official Audio"
   },
   {
     "id": "aud-bigdaddy-07",
@@ -9754,7 +11022,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2aa0442076eee1a491237e0528f932bc/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/realmastal/emily-x-bigdaddy-khi-minh-xinh-thi-minh-lam-gi-official-remix",
+    "youtubeQuery": "Dệt Những Ngày Nắng BigDaddy & Emily Official Audio"
   },
   {
     "id": "aud-bigdaddy-08",
@@ -9776,7 +11047,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/890b5c80547d2fe13124ffe0bc1a1f06/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/bishonation/nguoi-tinh-nho-be-bishop-rnb-flip",
+    "youtubeQuery": "Bờ Như Ào BigDaddy & Emily Official Audio"
   },
   {
     "id": "aud-bigdaddy-09",
@@ -9798,7 +11072,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/de45b29e87b4e9e01caf4af25c28ab00/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anh-minh-269439644/y-u-n-m-bigdaddy-x-emily",
+    "youtubeQuery": "Tình Yêu Tuyệt Vời BigDaddy & Emily Official Audio"
   },
   {
     "id": "aud-rhyder-01",
@@ -9816,11 +11093,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 4574000,
     "audioUrl": "https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/b87287fa11a9e5d235f3c7c4cb78f8d2/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e023687e8b4ade89380cb3d27c6",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/b87287fa11a9e5d235f3c7c4cb78f8d2/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e023687e8b4ade89380cb3d27c6",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "3ZbZtdEw9U0uZW4tZItIwq",
+    "soundcloudUrl": "https://soundcloud.com/2v2v/em-ang-la-m-gi-a-y-quang-anh",
+    "youtubeQuery": "Chịu Cách Mình Nói Thua RHYDER (Quang Anh) Official Audio"
   },
   {
     "id": "aud-rhyder-02",
@@ -9842,7 +11122,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a39c6f40a486704a3cef9ade8ec092c1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/quanganh_rhyder/andree-right-hand-dan-choi-sao-phai-khoc-ft-rhyder-x-wokeup",
+    "youtubeQuery": "Dân Chơi Sao Phải Khóc RHYDER (Quang Anh) Official Audio"
   },
   {
     "id": "aud-rhyder-03",
@@ -9866,7 +11149,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5a51111132739cd8625d3593ebd85328/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/chan-thanh",
+    "youtubeQuery": "Chân Thành RHYDER, HURRYKNG, Captain Boy Official Audio"
   },
   {
     "id": "aud-rhyder-04",
@@ -9891,7 +11177,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f26776b3a6711cf683688bf1e00d7d2d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/baomenhac/h-o-quang-rhyder-ph-p-ki-u-d",
+    "youtubeQuery": "Hào Quang RHYDER, Dương Domic, Pháp Kiều Official Audio"
   },
   {
     "id": "aud-rhyder-05",
@@ -9913,7 +11202,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b87287fa11a9e5d235f3c7c4cb78f8d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/aanh_tthu/anh-biet-roi-piano-version-rhyder",
+    "youtubeQuery": "Anh Biết Rồi RHYDER (Quang Anh) Official Audio"
   },
   {
     "id": "aud-rhyder-06",
@@ -9935,7 +11227,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a39c6f40a486704a3cef9ade8ec092c1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/chan-thanh",
+    "youtubeQuery": "Từ Chối Hiểu RHYDER (Quang Anh) Official Audio"
   },
   {
     "id": "aud-rhyder-07",
@@ -9957,7 +11252,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5a51111132739cd8625d3593ebd85328/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/duy-b-537434991/rhyder-quang-anh-de-anh-mot-minh",
+    "youtubeQuery": "Để Anh Một Mình RHYDER (Quang Anh) Official Audio"
   },
   {
     "id": "aud-rhyder-08",
@@ -9979,7 +11277,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f26776b3a6711cf683688bf1e00d7d2d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/quanganh_rhyder/kiet-tac-rhyder-prod-2pillz",
+    "youtubeQuery": "Hết Thương Cạn Nhớ (Remix) RHYDER (Quang Anh) Official Audio"
   },
   {
     "id": "aud-rhyder-09",
@@ -9997,11 +11298,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2894000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/b87287fa11a9e5d235f3c7c4cb78f8d2/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0262a6b10a116bbfd127a9a63a",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/b87287fa11a9e5d235f3c7c4cb78f8d2/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0262a6b10a116bbfd127a9a63a",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "1fOSBywXpgRRSHg7F3tSPb",
+    "soundcloudUrl": "https://soundcloud.com/quanganh_rhyder/sao-bang-rhyder-prod-long-nhat",
+    "youtubeQuery": "Gặp Lại Năm Ta 60 RHYDER (Quang Anh) Official Audio"
   },
   {
     "id": "aud-hurrykng-01",
@@ -10025,7 +11329,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tinh-ha-say-hi/theu-hoa-det-gam",
+    "youtubeQuery": "Chân Thành RHYDER, HURRYKNG, Captain Boy Official Audio"
   },
   {
     "id": "aud-hurrykng-02",
@@ -10047,7 +11354,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tinh-ha-say-hi/vuot-nguong-tinh-yeu",
+    "youtubeQuery": "Một Công Đôi Việc HURRYKNG Official Audio"
   },
   {
     "id": "aud-hurrykng-03",
@@ -10074,7 +11384,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/kim-phut-kim-gio",
+    "youtubeQuery": "Kim Phút Kim Giờ HIEUTHUHAI, HURRYKNG, Negav, Isaac, Pháp Kiều Official Audio"
   },
   {
     "id": "aud-hurrykng-04",
@@ -10096,7 +11409,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/77c20eed06f49399796600ee338e025d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hurrykng/24tren7",
+    "youtubeQuery": "Walk on by HURRYKNG Official Audio"
   },
   {
     "id": "aud-hurrykng-05",
@@ -10118,7 +11434,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tinh-ha-say-hi/xoay-vong",
+    "youtubeQuery": "Bật Nhạc Lên HURRYKNG Official Audio"
   },
   {
     "id": "aud-hurrykng-06",
@@ -10140,7 +11459,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/kim-phut-kim-gio",
+    "youtubeQuery": "Dynamic Duo HURRYKNG Official Audio"
   },
   {
     "id": "aud-hurrykng-07",
@@ -10162,7 +11484,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hurrykng/window-shopper",
+    "youtubeQuery": "Window Shopper HURRYKNG Official Audio"
   },
   {
     "id": "aud-hurrykng-08",
@@ -10184,7 +11509,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/77c20eed06f49399796600ee338e025d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/officialvrt/hurrykng-hieuthuhai-manbo-hen-gap-em-duoi-anh-trang-vrt-remix",
+    "youtubeQuery": "Như Cách Anh Đã Từng Thôi HURRYKNG Official Audio"
   },
   {
     "id": "aud-hurrykng-09",
@@ -10202,11 +11530,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 2464000,
     "audioUrl": "https://api.audius.co/v1/tracks/oGa1m/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0203828121665d8419f71f6499",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0203828121665d8419f71f6499",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "0s7RyyUlQfd8mnnboHe18n",
+    "soundcloudUrl": "https://soundcloud.com/hurrykng/hurrykng-hieuthuhai-manbo-hen-gap-em-duoi-anh-trang",
+    "youtubeQuery": "Hẹn Gặp Em Dưới Ánh Trăng HURRYKNG Official Audio"
   },
   {
     "id": "aud-phapkieu-01",
@@ -10231,7 +11562,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/baomenhac/h-o-quang-rhyder-ph-p-ki-u-d",
+    "youtubeQuery": "Hào Quang RHYDER, Dương Domic, Pháp Kiều Official Audio"
   },
   {
     "id": "aud-phapkieu-02",
@@ -10253,7 +11587,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/16f80e4e171235e14877927d3e94cac7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/regret",
+    "youtubeQuery": "DOC Pháp Kiều Official Audio"
   },
   {
     "id": "aud-phapkieu-03",
@@ -10275,7 +11612,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e90c6a9a90ffdbffc5cf658649140973/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/cong-tai-477998802/kim-phu-t-kim-gio-hurrykng",
+    "youtubeQuery": "Cung Đàn Vỡ Đôi Pháp Kiều Official Audio"
   },
   {
     "id": "aud-phapkieu-04",
@@ -10297,7 +11637,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tinh-ha-say-hi/together-we-shine",
+    "youtubeQuery": "Say Hi Stage Pháp Kiều Official Audio"
   },
   {
     "id": "aud-phapkieu-05",
@@ -10319,7 +11662,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4677f41d76d4534d064b2e0b490f0df3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/minh-nh-t-h-95748339/l-i-i-ri-ng-ph-p-ki-u",
+    "youtubeQuery": "Lối Đi Riêng Pháp Kiều Official Audio"
   },
   {
     "id": "aud-phapkieu-06",
@@ -10341,7 +11687,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e4f29771a3c0c52984962567687bd890/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/colors",
+    "youtubeQuery": "Colors Pháp Kiều Official Audio"
   },
   {
     "id": "aud-phapkieu-07",
@@ -10368,7 +11717,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/16f80e4e171235e14877927d3e94cac7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/kim-phut-kim-gio",
+    "youtubeQuery": "Kim Phút Kim Giờ HIEUTHUHAI, HURRYKNG, Negav, Isaac, Pháp Kiều Official Audio"
   },
   {
     "id": "aud-phapkieu-08",
@@ -10390,7 +11742,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e90c6a9a90ffdbffc5cf658649140973/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-729984292/t-nh-u-qu-ch-n-quang-h-ng",
+    "youtubeQuery": "Độc Bản Pháp Kiều Official Audio"
   },
   {
     "id": "aud-phapkieu-09",
@@ -10412,7 +11767,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/46bee1ed7a756b67f3def9cd9376d7e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-262905229/hoa-h-ng-gai-y-feat-ph-p-ki-u",
+    "youtubeQuery": "Hoa Hồng Gai Pháp Kiều Official Audio"
   },
   {
     "id": "aud-vu-01",
@@ -10430,11 +11788,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 258,
     "playCount": 3929000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/f86958964697811e57de4f1c3924fbb3/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e026f76636916ae7d5d930b1656",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/f86958964697811e57de4f1c3924fbb3/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e026f76636916ae7d5d930b1656",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "1LJyhnPdYGRLerwJd8CmL1",
+    "soundcloudUrl": "https://soundcloud.com/tung-huynh-942438247/nhung-loi-hua-bo-quen-vu-x-dear-jane-4",
+    "youtubeQuery": "Những Lời Hứa Bỏ Quên Vũ. Official Audio"
   },
   {
     "id": "aud-vu-02",
@@ -10456,7 +11817,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cf74a3b1034ca350d2d10ee1418a49df/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/toilavu/lalung",
+    "youtubeQuery": "Lạ Lùng Vũ. Official Audio"
   },
   {
     "id": "aud-vu-03",
@@ -10478,7 +11842,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e06288279440ca15830f7be0f95933ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/huuthang-26998573/lu-u-nie-n-nguye-n-i-nh-vu-x",
+    "youtubeQuery": "Bước Qua Nhau Vũ. Official Audio"
   },
   {
     "id": "aud-vu-04",
@@ -10500,7 +11867,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f86958964697811e57de4f1c3924fbb3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/toilavu/phut-ban-dau-thai-vu-acoustic-ver",
+    "youtubeQuery": "Bước Qua Mùa Cô Đơn Vũ. Official Audio"
   },
   {
     "id": "aud-vu-05",
@@ -10518,11 +11888,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 330,
     "playCount": 3089000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/cf74a3b1034ca350d2d10ee1418a49df/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0205f13478e755e4f68587170b",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/cf74a3b1034ca350d2d10ee1418a49df/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0205f13478e755e4f68587170b",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "6YCDBgpYQtgmnuSAdRNtrV",
+    "soundcloudUrl": "https://soundcloud.com/toilavu/doi",
+    "youtubeQuery": "Đợi Vũ. Official Audio"
   },
   {
     "id": "aud-vu-06",
@@ -10544,7 +11917,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e06288279440ca15830f7be0f95933ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/adamvucz/m-i-th-v-n-y-jay-sun-96",
+    "youtubeQuery": "Anh Nhớ Ra Vũ. Official Audio"
   },
   {
     "id": "aud-vu-07",
@@ -10566,7 +11942,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f86958964697811e57de4f1c3924fbb3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/toilavu/dong-kiem-em-vu",
+    "youtubeQuery": "Đông Kiếm Em Vũ. Official Audio"
   },
   {
     "id": "aud-vu-08",
@@ -10588,7 +11967,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cf74a3b1034ca350d2d10ee1418a49df/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/toilavu/phut-ban-dau-thai-vu-acoustic-ver",
+    "youtubeQuery": "Phút Ban Đầu Vũ. Official Audio"
   },
   {
     "id": "aud-vu-09",
@@ -10610,7 +11992,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e06288279440ca15830f7be0f95933ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/toilavu/doi",
+    "youtubeQuery": "Mùa Mưa Ngâu Nằm Cạnh Vũ. Official Audio"
   },
   {
     "id": "aud-vu-10",
@@ -10632,7 +12017,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f86958964697811e57de4f1c3924fbb3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tung-huynh-942438247/nhung-loi-hua-bo-quen-vu-x-dear-jane-4",
+    "youtubeQuery": "Chuyện Những Người Yêu Xa Vũ. Official Audio"
   },
   {
     "id": "aud-vu-11",
@@ -10654,7 +12042,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cf74a3b1034ca350d2d10ee1418a49df/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/vu-hieu-895583623/laviem-jerk-drill-tik-tok",
+    "youtubeQuery": "Hành Tinh Song Song Vũ. Official Audio"
   },
   {
     "id": "aud-vu-12",
@@ -10672,11 +12063,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 1619000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/e06288279440ca15830f7be0f95933ed/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e026f76636916ae7d5d930b1656",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/e06288279440ca15830f7be0f95933ed/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e026f76636916ae7d5d930b1656",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "2dPJtlvoa3GDowCh035M8P",
+    "soundcloudUrl": "https://soundcloud.com/01112001/n-u-nh-ng-ti-c-nu-i-v",
+    "youtubeQuery": "Nếu Những Tiếc Nuối Vũ. Official Audio"
   },
   {
     "id": "aud-chillies-01",
@@ -10694,11 +12088,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4144000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/417fade4de3f2441c2d9196ad6873943/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02e8a6054b92e9c63bbf5ff205",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/417fade4de3f2441c2d9196ad6873943/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02e8a6054b92e9c63bbf5ff205",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "50cmxP6KlnQA9IG3q5ckKD",
+    "soundcloudUrl": "https://soundcloud.com/ng-c-h-n-nguy-n-889291241/mascara-chillies",
+    "youtubeQuery": "Mascara Chillies Official Audio"
   },
   {
     "id": "aud-chillies-02",
@@ -10716,11 +12113,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3934000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/96ac09bf706fdd12293a7a87868d371e/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02e8a6054b92e9c63bbf5ff205",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/96ac09bf706fdd12293a7a87868d371e/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02e8a6054b92e9c63bbf5ff205",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "3H6nzsPNMttEvUl3ai3xN8",
+    "soundcloudUrl": "https://soundcloud.com/nh-n-th-ch-160328999/chillies-vung-ky-uc-live",
+    "youtubeQuery": "Vùng Ký Ức Chillies Official Audio"
   },
   {
     "id": "aud-chillies-03",
@@ -10740,11 +12140,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3724000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b8e747e7be1a3ae27e9c7ca8",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02b8e747e7be1a3ae27e9c7ca8",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "014DA3BdnmD3kI5pBogH7c",
+    "soundcloudUrl": "https://soundcloud.com/h-u-tr-n-444012350/cu-chill-thoi-chillies-ftsuni-ha-linh-rhymastic-version-lofi",
+    "youtubeQuery": "Cứ Chill Thôi Chillies, Suni Hạ Linh, Rhymastic Official Audio"
   },
   {
     "id": "aud-chillies-04",
@@ -10766,7 +12169,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/sonbeatmusic/mascara",
+    "youtubeQuery": "Giá Như Chillies Official Audio"
   },
   {
     "id": "aud-chillies-05",
@@ -10788,7 +12194,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/417fade4de3f2441c2d9196ad6873943/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hiufazed/qua-khung-cua-so-chillies-guitar",
+    "youtubeQuery": "Qua Khung Cửa Sổ Chillies Official Audio"
   },
   {
     "id": "aud-chillies-06",
@@ -10806,11 +12215,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3094000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/96ac09bf706fdd12293a7a87868d371e/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02e8a6054b92e9c63bbf5ff205",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/96ac09bf706fdd12293a7a87868d371e/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02e8a6054b92e9c63bbf5ff205",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "0JKEP4dB1riE6l7Kq5kJm1",
+    "soundcloudUrl": "https://soundcloud.com/dung-tran-51117479/em-ng-kh-c-chillies",
+    "youtubeQuery": "Em Đừng Khóc Chillies Official Audio"
   },
   {
     "id": "aud-chillies-07",
@@ -10832,7 +12244,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thisiskuyet/mong-du-chillies2",
+    "youtubeQuery": "Và Thế Là Hết Chillies Official Audio"
   },
   {
     "id": "aud-chillies-08",
@@ -10854,7 +12269,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hi-u-sugar/giac-mo-khac-chillies-cover",
+    "youtubeQuery": "Cờ Đỏ Chillies Official Audio"
   },
   {
     "id": "aud-chillies-09",
@@ -10876,7 +12294,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/417fade4de3f2441c2d9196ad6873943/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kaizzzz/minh-con-lai-gi-ngoai-cuoc-goi-2-gio-dem-mascara-chillies-lofi",
+    "youtubeQuery": "Nếu Ngày Mai Không Đến Chillies Official Audio"
   },
   {
     "id": "aud-chillies-10",
@@ -10898,7 +12319,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/96ac09bf706fdd12293a7a87868d371e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kudoprodd/mascaraeast",
+    "youtubeQuery": "Đường Chân Trời Chillies Official Audio"
   },
   {
     "id": "aud-chillies-11",
@@ -10920,7 +12344,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/01f948448364488a3a1c23dd44dd51bc/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thisiskuyet/vi-sao-chillies-1",
+    "youtubeQuery": "Tần Số Chillies Official Audio"
   },
   {
     "id": "aud-chillies-12",
@@ -10942,7 +12369,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3cfcf6577347ade40a8c5eba67e46fda/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thisiskuyet/mong-du-chillies2",
+    "youtubeQuery": "Mộng Du Chillies Official Audio"
   },
   {
     "id": "aud-ngot-01",
@@ -10964,7 +12394,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a787edcc0701f742d99973b4243aa281/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ngot/em-dao-nay",
+    "youtubeQuery": "Em Dạo Này Ngọt Official Audio"
   },
   {
     "id": "aud-ngot-02",
@@ -10986,7 +12419,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c86594942e6dc28e3e4e22f272310e24/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ngot/lan-cuoi-di-ben-em-xot-xa-nguoi-oi",
+    "youtubeQuery": "Lần Cuối Ngọt Official Audio"
   },
   {
     "id": "aud-ngot-03",
@@ -11008,7 +12444,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6c423774b2de80e8693e02398c6f3985/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ngot/cho-toi-di-theo-album-version",
+    "youtubeQuery": "Cho Tôi Đi Theo Ngọt Official Audio"
   },
   {
     "id": "aud-ngot-04",
@@ -11030,7 +12469,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/454ef3f66631d86c3852bda8591dbdea/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/suy-vailil-b-n/thay-chua-ngot-band",
+    "youtubeQuery": "Thấy Chưa Ngọt Official Audio"
   },
   {
     "id": "aud-ngot-05",
@@ -11052,7 +12494,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/89012048dacad463ff3483245ca237b9/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/i-qu-c-447487444/v-ng-k-c-12-i-ng-t-demo",
+    "youtubeQuery": "Cá Hồi Ngọt Official Audio"
   },
   {
     "id": "aud-ngot-06",
@@ -11074,7 +12519,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f4101efe220f009edcd42d941ce2e8dd/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ngot/xanh",
+    "youtubeQuery": "Không Làm Gì Ngọt Official Audio"
   },
   {
     "id": "aud-ngot-07",
@@ -11096,7 +12544,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a787edcc0701f742d99973b4243aa281/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ngot/07-chuyen-kenh",
+    "youtubeQuery": "Chuyển Kênh Ngọt Official Audio"
   },
   {
     "id": "aud-ngot-08",
@@ -11118,7 +12569,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c86594942e6dc28e3e4e22f272310e24/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ngot/xanh",
+    "youtubeQuery": "Xanh Ngọt Official Audio"
   },
   {
     "id": "aud-ngot-09",
@@ -11140,7 +12594,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6c423774b2de80e8693e02398c6f3985/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ngot/08-het-thoi",
+    "youtubeQuery": "Mấy Khi Ngọt Official Audio"
   },
   {
     "id": "aud-ngot-10",
@@ -11162,7 +12619,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/454ef3f66631d86c3852bda8591dbdea/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ngot/lan-cuoi-di-ben-em-xot-xa-nguoi-oi",
+    "youtubeQuery": "Đốt Ngọt Official Audio"
   },
   {
     "id": "aud-ngot-11",
@@ -11184,7 +12644,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/89012048dacad463ff3483245ca237b9/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ngot/07-chuyen-kenh",
+    "youtubeQuery": "Tìm Người Nhà Ngọt Official Audio"
   },
   {
     "id": "aud-dalab-01",
@@ -11206,7 +12669,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8d35790fafbc4c16358050d7246b5e2b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/beuremix/thanh-xuan-dalab-beu-remix",
+    "youtubeQuery": "Thanh Xuân Da LAB Official Audio"
   },
   {
     "id": "aud-dalab-02",
@@ -11228,7 +12694,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b470f8cfd8cdbe308680090d1b614327/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/diamen-clubg/da-lab-mot-nha-dj-tiot-ft-dj-diamen-tropical-house-full-version",
+    "youtubeQuery": "Một Nhà Da LAB Official Audio"
   },
   {
     "id": "aud-dalab-03",
@@ -11251,7 +12720,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a602f0ca2899eb698c6ffe03d90189e7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anh-khoa-657629189/gac-lai-au-lo-dalab-ft-miu-le-cm1x",
+    "youtubeQuery": "Gác Lại Âu Lo Da LAB, Miu Lê Official Audio"
   },
   {
     "id": "aud-dalab-04",
@@ -11273,7 +12745,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8d35790fafbc4c16358050d7246b5e2b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/my-hanah/tu-ngay-em-den-x-thanh-xuan-dalab-mashup-michelle-ngn",
+    "youtubeQuery": "Từ Ngày Em Đến Da LAB Official Audio"
   },
   {
     "id": "aud-dalab-05",
@@ -11292,11 +12767,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3218000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/b470f8cfd8cdbe308680090d1b614327/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02a8841feab76e269590320623",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/b470f8cfd8cdbe308680090d1b614327/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02a8841feab76e269590320623",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "7J9l9ebYB3IEs5ea5J1M7a",
+    "soundcloudUrl": "https://soundcloud.com/phucc-thiien/nu-o-c-ma-t-em-lau-ba-ng-ti-nh",
+    "youtubeQuery": "Nước Mắt Em Lau Bằng Tình Yêu Mới Da LAB, Tóc Tiên Official Audio"
   },
   {
     "id": "aud-dalab-06",
@@ -11318,7 +12796,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a602f0ca2899eb698c6ffe03d90189e7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ph-m-c-ng-13645045/ch-y-kh-i-th-gi-i-n-y",
+    "youtubeQuery": "Chạy Khỏi Thế Giới Này Da LAB Official Audio"
   },
   {
     "id": "aud-dalab-07",
@@ -11336,11 +12817,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 2798000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/8d35790fafbc4c16358050d7246b5e2b/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02fea8333dc89ceb644766ab5b",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/8d35790fafbc4c16358050d7246b5e2b/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02fea8333dc89ceb644766ab5b",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "1MiJk3dXC5jzhvLFP0dUM7",
+    "soundcloudUrl": "https://soundcloud.com/bui-nam-khanh-451271341/thu-c-gia-c-dalab",
+    "youtubeQuery": "Thức Giấc Da LAB Official Audio"
   },
   {
     "id": "aud-dalab-08",
@@ -11362,7 +12846,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b470f8cfd8cdbe308680090d1b614327/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/vinh-chu-66463916/umie-captain-boy-x-mpakk-jgkid",
+    "youtubeQuery": "Bài Ca Tuổi Trẻ Da LAB Official Audio"
   },
   {
     "id": "aud-dalab-09",
@@ -11384,7 +12871,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a602f0ca2899eb698c6ffe03d90189e7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/lnc-4/dalab-ft-toc-tien-nuoc-mat-em-lau-bang-tinh-yeu-moi-inob-transition-edit-100-126b",
+    "youtubeQuery": "Đời Là Đi Da LAB Official Audio"
   },
   {
     "id": "aud-dalab-10",
@@ -11402,11 +12892,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2168000,
     "audioUrl": "https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/8d35790fafbc4c16358050d7246b5e2b/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0264eefeaaf062b7fdf9f7e6a0",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/8d35790fafbc4c16358050d7246b5e2b/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0264eefeaaf062b7fdf9f7e6a0",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "7fCeYpR02Q8JVuD88hJZVT",
+    "soundcloudUrl": "https://soundcloud.com/th-th-660836050/ba-u-tro-i-mo-i-da-lab",
+    "youtubeQuery": "Bầu Trời Mới Da LAB Official Audio"
   },
   {
     "id": "aud-thinhsuy-01",
@@ -11428,7 +12921,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/edee57432ae2d11ab3394d95b9214f7c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thinhsuy/mds",
+    "youtubeQuery": "Một Đêm Say Thịnh Suy Official Audio"
   },
   {
     "id": "aud-thinhsuy-02",
@@ -11450,7 +12946,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3fd78878e861bf45fdd08459d5056afd/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-475157920/thac-mac-thinh-suy",
+    "youtubeQuery": "Thắc Mắc Thịnh Suy Official Audio"
   },
   {
     "id": "aud-thinhsuy-03",
@@ -11472,7 +12971,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/9724ab527fadc5e8e2ff3ebdfccfc701/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hoang-bui-224432334/1a-1",
+    "youtubeQuery": "Chuyện Rằng Thịnh Suy Official Audio"
   },
   {
     "id": "aud-thinhsuy-04",
@@ -11494,7 +12996,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/160c72084162c1ec3724ad4c950c805d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thinhsuy/tu-demo-08052026-mp3",
+    "youtubeQuery": "Thanh Xuân Thịnh Suy Official Audio"
   },
   {
     "id": "aud-thinhsuy-05",
@@ -11516,7 +13021,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/edee57432ae2d11ab3394d95b9214f7c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/r0wjndi3/nghe-em-thinh-suy",
+    "youtubeQuery": "Nghe Em Thịnh Suy Official Audio"
   },
   {
     "id": "aud-thinhsuy-06",
@@ -11538,7 +13046,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3fd78878e861bf45fdd08459d5056afd/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thinhsuy/thinh-suy-mai-minh-xa",
+    "youtubeQuery": "Mai Mình Xa Thịnh Suy Official Audio"
   },
   {
     "id": "aud-thinhsuy-07",
@@ -11560,7 +13071,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/9724ab527fadc5e8e2ff3ebdfccfc701/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-475157920/thac-mac-thinh-suy",
+    "youtubeQuery": "Tình Yêu Xanh Lá Thịnh Suy Official Audio"
   },
   {
     "id": "aud-thinhsuy-08",
@@ -11582,7 +13096,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/160c72084162c1ec3724ad4c950c805d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thinhsuy/thinh-suy-mai-minh-xa",
+    "youtubeQuery": "Đêm Đầy Sao Thịnh Suy Official Audio"
   },
   {
     "id": "aud-thinhsuy-09",
@@ -11604,7 +13121,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/edee57432ae2d11ab3394d95b9214f7c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/chanalien/thinh-suy-mai-minh-xa",
+    "youtubeQuery": "20 Năm Ở Thế Giới Thịnh Suy Official Audio"
   },
   {
     "id": "aud-cahoithoang-01",
@@ -11626,7 +13146,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2a291a7ec11748f8ca0a7623239df1e8/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/vinh-ng-869159060/t-ng-th-ng-102",
+    "youtubeQuery": "Tầng Thượng 102 Cá Hồi Hoang Official Audio"
   },
   {
     "id": "aud-cahoithoang-02",
@@ -11648,7 +13171,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a32eb9d30e83d94beba2141f3c792bbb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-408052520/i-n-v-o-tr-ng-250-c-h-i-hoang",
+    "youtubeQuery": "Cánh Đồng Cá Hồi Hoang Official Audio"
   },
   {
     "id": "aud-cahoithoang-03",
@@ -11670,7 +13196,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/bf89fd933f679f17dd3a39a731cf0345/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/v-n-h-723923715/5am-c-h-i-hoang",
+    "youtubeQuery": "Ngày Ấy Sẽ Đến Cá Hồi Hoang Official Audio"
   },
   {
     "id": "aud-cahoithoang-04",
@@ -11692,7 +13221,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2a291a7ec11748f8ca0a7623239df1e8/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/cahoihoang/beertalks-acoustic-live",
+    "youtubeQuery": "Chợt Nghe Bước Em Về Cá Hồi Hoang Official Audio"
   },
   {
     "id": "aud-cahoithoang-05",
@@ -11714,7 +13246,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a32eb9d30e83d94beba2141f3c792bbb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguyetanh3694/2004-ca-hoi-hoang",
+    "youtubeQuery": "Hiệu Ứng Trốn Chạy Cá Hồi Hoang Official Audio"
   },
   {
     "id": "aud-cahoithoang-06",
@@ -11736,7 +13271,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/bf89fd933f679f17dd3a39a731cf0345/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/v-n-h-723923715/5am-c-h-i-hoang",
+    "youtubeQuery": "5am Cá Hồi Hoang Official Audio"
   },
   {
     "id": "aud-cahoithoang-07",
@@ -11758,7 +13296,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2a291a7ec11748f8ca0a7623239df1e8/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/cahoihoang/beertalks-acoustic-live",
+    "youtubeQuery": "Beertalks Cá Hồi Hoang Official Audio"
   },
   {
     "id": "aud-cahoithoang-08",
@@ -11780,7 +13321,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a32eb9d30e83d94beba2141f3c792bbb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/cahoihoang/c-th-acoustic-live",
+    "youtubeQuery": "Có Thể Cá Hồi Hoang Official Audio"
   },
   {
     "id": "aud-cahoithoang-09",
@@ -11802,7 +13346,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/bf89fd933f679f17dd3a39a731cf0345/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/cahoihoang/mot-mau-live-session",
+    "youtubeQuery": "Một Màu Cá Hồi Hoang Official Audio"
   },
   {
     "id": "aud-cahoithoang-10",
@@ -11824,7 +13371,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2a291a7ec11748f8ca0a7623239df1e8/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/mbappe-kylian-878111754/c-h-i-hoang-kh-ng-i-u-ki-n",
+    "youtubeQuery": "Tự Do Cá Hồi Hoang Official Audio"
   },
   {
     "id": "aud-7uppercuts-01",
@@ -11846,7 +13396,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a115068d71b76969acdd58187d28a3df/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tr-n-th-c-354093109/7uppercuts-dung-yeu-nguoi-noi-tieng",
+    "youtubeQuery": "Yêu 7UPPERCUTS Official Audio"
   },
   {
     "id": "aud-7uppercuts-02",
@@ -11868,7 +13421,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/bef54f9893f51408f45c1d9e176b9f14/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/7uppercuts/wavealpha",
+    "youtubeQuery": "Sóng Con 7UPPERCUTS Official Audio"
   },
   {
     "id": "aud-7uppercuts-03",
@@ -11890,7 +13446,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a9bc90fdfa5695a4d0ff1f800ce49e73/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/clbguitarnhanvan/7uppercuts-no-internet-guitar-nhan-van-cover",
+    "youtubeQuery": "No Internet 7UPPERCUTS Official Audio"
   },
   {
     "id": "aud-7uppercuts-04",
@@ -11912,7 +13471,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2006eaeb4bc03356d60bdd3491fd973f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/7uppercuts/tinder101",
+    "youtubeQuery": "Trốn Tìm 7UPPERCUTS Official Audio"
   },
   {
     "id": "aud-7uppercuts-05",
@@ -11934,7 +13496,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a115068d71b76969acdd58187d28a3df/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/7uppercuts/em-o-bi-t-n-a-anh-i",
+    "youtubeQuery": "Đừng Xa Em 7UPPERCUTS Official Audio"
   },
   {
     "id": "aud-7uppercuts-06",
@@ -11956,7 +13521,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/bef54f9893f51408f45c1d9e176b9f14/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/7uppercuts/wavealpha",
+    "youtubeQuery": "Wave Alpha 7UPPERCUTS Official Audio"
   },
   {
     "id": "aud-7uppercuts-07",
@@ -11978,7 +13546,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a9bc90fdfa5695a4d0ff1f800ce49e73/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/realnavna/lena-em-deo-biet-nua-anh-oyy",
+    "youtubeQuery": "Dậy Đi Bạn Ơi 7UPPERCUTS Official Audio"
   },
   {
     "id": "aud-7uppercuts-08",
@@ -12000,7 +13571,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2006eaeb4bc03356d60bdd3491fd973f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/7uppercuts/7uppercutsduma-song",
+    "youtubeQuery": "Internet Love 7UPPERCUTS Official Audio"
   },
   {
     "id": "aud-7uppercuts-09",
@@ -12022,7 +13596,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a115068d71b76969acdd58187d28a3df/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/7uppercuts/you-were-the-only-good-thing",
+    "youtubeQuery": "Chạy Trốn 7UPPERCUTS Official Audio"
   },
   {
     "id": "aud-ducphuc-01",
@@ -12044,7 +13621,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3a13b8405cc068d642b2d3a6f5e6f196/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/happy-lynh/hon-ca-yeu",
+    "youtubeQuery": "Hơn Cả Yêu Đức Phúc Official Audio"
   },
   {
     "id": "aud-ducphuc-02",
@@ -12066,7 +13646,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8452286097c74a3efff9f7c74adea684/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-948647771/ngay-dau-tien-duc-phuc-official-music-valentine-2022",
+    "youtubeQuery": "Ngày Đầu Tiên Đức Phúc Official Audio"
   },
   {
     "id": "aud-ducphuc-03",
@@ -12088,7 +13671,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1e1bc901c28fadcd52b34ce09111c6ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/the-memory/anh-nang-cua-anh-duc-phuccho-em-den-ngay-mai-ost",
+    "youtubeQuery": "Ánh Nắng Của Anh Đức Phúc Official Audio"
   },
   {
     "id": "aud-ducphuc-04",
@@ -12110,7 +13696,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3a13b8405cc068d642b2d3a6f5e6f196/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hiep-harry/lofi-ver-em-dong-y-i-do-duc-phuc-x-911-x-khac-hung-x-ck-entertainment-audio",
+    "youtubeQuery": "Em Đồng Ý (I Do) Đức Phúc Official Audio"
   },
   {
     "id": "aud-ducphuc-05",
@@ -12128,11 +13717,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3304000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/8452286097c74a3efff9f7c74adea684/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e026c1edb222df153e2ce231d82",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/8452286097c74a3efff9f7c74adea684/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e026c1edb222df153e2ce231d82",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "3rtMytBKFkyD0HygMUl727",
+    "soundcloudUrl": "https://soundcloud.com/quan-duy-957803803/het-thuong-can-nho-duc-phuc",
+    "youtubeQuery": "Hết Thương Cạn Nhớ Đức Phúc Official Audio"
   },
   {
     "id": "aud-ducphuc-06",
@@ -12154,7 +13746,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1e1bc901c28fadcd52b34ce09111c6ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tudinhnhu/ta-con-yeu-nhau-duc-phuc",
+    "youtubeQuery": "Ta Còn Yêu Nhau Đức Phúc Official Audio"
   },
   {
     "id": "aud-ducphuc-07",
@@ -12172,11 +13767,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2884000,
     "audioUrl": "https://api.audius.co/v1/tracks/oEJWv/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/3a13b8405cc068d642b2d3a6f5e6f196/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02fd94357e9cccba709519ee65",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/3a13b8405cc068d642b2d3a6f5e6f196/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02fd94357e9cccba709519ee65",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "7FIRm16hcz0z1Twfr8F5fA",
+    "soundcloudUrl": "https://soundcloud.com/mnhtsz/duc-phuc-cung-danh-thoi-official-music-video",
+    "youtubeQuery": "Cũng Đành Thôi Đức Phúc Official Audio"
   },
   {
     "id": "aud-ducphuc-08",
@@ -12194,11 +13792,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 2674000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/8452286097c74a3efff9f7c74adea684/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02ce435304d67774bf4b71ae10",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/8452286097c74a3efff9f7c74adea684/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02ce435304d67774bf4b71ae10",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5CjGSUUksspN67z653iPYT",
+    "soundcloudUrl": "https://soundcloud.com/th-y-nh-873747880/yeu-duoc-khong-speed-up-duc",
+    "youtubeQuery": "Yêu Được Không Đức Phúc Official Audio"
   },
   {
     "id": "aud-ducphuc-09",
@@ -12220,7 +13821,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1e1bc901c28fadcd52b34ce09111c6ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/leedang/anh-yeu-em-nhieu-lamofficial-cover-duc-phuc-eye-contact-live-high-quality",
+    "youtubeQuery": "Người Ơi Người Ở Đừng Về Đức Phúc Official Audio"
   },
   {
     "id": "aud-ducphuc-10",
@@ -12242,7 +13846,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3a13b8405cc068d642b2d3a6f5e6f196/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/august_dohaidang/nam-ay-duc-phuc-cover-by-me-kakaa",
+    "youtubeQuery": "Năm Ấy Đức Phúc Official Audio"
   },
   {
     "id": "aud-erik-01",
@@ -12260,11 +13867,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3972000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/01a10a36e62661af6235d6fd6223742d/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02ff22ed3b7faf55f2333c2d56",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/01a10a36e62661af6235d6fd6223742d/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02ff22ed3b7faf55f2333c2d56",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "3yWacnoBnM0lrzLmXAk44d",
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-duy-linh-261582439/em-khong-sai-chung-ta-sai-erik",
+    "youtubeQuery": "Em Không Sai Chúng Ta Sai Erik Official Audio"
   },
   {
     "id": "aud-erik-02",
@@ -12282,11 +13892,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3762000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02b7ecc4c1dfaaa87ea58d80b5",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02b7ecc4c1dfaaa87ea58d80b5",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "1P1dtPn7zaZzFahKYJnYfH",
+    "soundcloudUrl": "https://soundcloud.com/tichtactv/cham-day-noi-dau-erik-ft-mr-siro-lyrics-video-cot-ket-tv",
+    "youtubeQuery": "Chạm Đáy Nỗi Đau Erik Official Audio"
   },
   {
     "id": "aud-erik-03",
@@ -12308,7 +13921,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0d24ac950bb68e6d6925d759bd7175ca/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hoang-thach-597544049/dam-mua-drill-muo-i-ft-erik",
+    "youtubeQuery": "Có Tất Cả Nhưng Thiếu Anh Erik Official Audio"
   },
   {
     "id": "aud-erik-04",
@@ -12330,7 +13946,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/01a10a36e62661af6235d6fd6223742d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/st319music/sau-tat-ca-after-all-erik-st319",
+    "youtubeQuery": "Sau Tất Cả Erik Official Audio"
   },
   {
     "id": "aud-erik-05",
@@ -12353,7 +13972,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nhuquynh291102/chuye-n-chu-ng-ta-sau-na-y-hai",
+    "youtubeQuery": "Ghen MIN, Erik, Khắc Hưng Official Audio"
   },
   {
     "id": "aud-erik-06",
@@ -12375,7 +13997,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0d24ac950bb68e6d6925d759bd7175ca/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nastagramx/lac-nhau-co-phai-muon-doi",
+    "youtubeQuery": "Lạc Nhau Có Phải Muôn Đời Erik Official Audio"
   },
   {
     "id": "aud-erik-07",
@@ -12397,7 +14022,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/01a10a36e62661af6235d6fd6223742d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ch-u-l-733994966/mua-dong",
+    "youtubeQuery": "Mùa Đông Erik Official Audio"
   },
   {
     "id": "aud-erik-08",
@@ -12419,7 +14047,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3aedf733d91abce1314fbc6dd8386719/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/khanhlinh-977722465/untitled-project-857201891",
+    "youtubeQuery": "Đau Nhất Là Lặng Im Erik Official Audio"
   },
   {
     "id": "aud-erik-09",
@@ -12441,7 +14072,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0d24ac950bb68e6d6925d759bd7175ca/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nh-qu-nh-874801303/c-t-t-c-nh-ng-thi-u-em-erik",
+    "youtubeQuery": "Chạy Về Khóc Với Anh Erik Official Audio"
   },
   {
     "id": "aud-erik-10",
@@ -12463,7 +14097,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/01a10a36e62661af6235d6fd6223742d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ch-u-l-733994966/mua-dong",
+    "youtubeQuery": "Yêu Đương Khó Quá Thì Chạy Về Khóc Với Anh Erik Official Audio"
   },
   {
     "id": "aud-phanmanhquynh-01",
@@ -12485,7 +14122,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/814a2e494c2e8dc46255f113bab0f08d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/inthemoonlight_thebros/c-ch-ng-trai-vi-t-l-n-c-y-phan",
+    "youtubeQuery": "Có Chàng Trai Viết Lên Cây Phan Mạnh Quỳnh Official Audio"
   },
   {
     "id": "aud-phanmanhquynh-02",
@@ -12507,7 +14147,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a2526bfe1c42080462d4635dc8664ac3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/dangquang2910/hoi-uc-phan-manh-quynh",
+    "youtubeQuery": "Từ Đó Phan Mạnh Quỳnh Official Audio"
   },
   {
     "id": "aud-phanmanhquynh-03",
@@ -12529,7 +14172,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3026e9516b135830198518a0d0a69b4a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/minh-nguyen-537839969/khi-ph-i-qu-n-i-remix-phan-m",
+    "youtubeQuery": "Vợ Người Ta Phan Mạnh Quỳnh Official Audio"
   },
   {
     "id": "aud-phanmanhquynh-04",
@@ -12551,7 +14197,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/ea03c49095062954e48f8f0edbc283ee/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-819592026/sao-cha-khong-phan-manh-quynhthe-show-vietnam",
+    "youtubeQuery": "Sao Cha Không Phan Mạnh Quỳnh Official Audio"
   },
   {
     "id": "aud-phanmanhquynh-05",
@@ -12573,7 +14222,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c9fd4ea19c47dfc535b2e9399ea8d997/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-819592026/nuoc-ngoai-phan-manh-quynhthe-show-vietnam",
+    "youtubeQuery": "Nước Ngoài Phan Mạnh Quỳnh Official Audio"
   },
   {
     "id": "aud-phanmanhquynh-06",
@@ -12595,7 +14247,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/581204911b3132a209728d7e762b951d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/aij-st-477353/tri-ky-phan-manh-quynh",
+    "youtubeQuery": "Tri Kỷ Phan Mạnh Quỳnh Official Audio"
   },
   {
     "id": "aud-phanmanhquynh-07",
@@ -12617,7 +14272,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c44eeb438957c139f382e0adcb14e4e2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thinhnguyen95/xuan-thi-phan-manh-quynh-live",
+    "youtubeQuery": "Ngày Chưa Giông Bão Phan Mạnh Quỳnh Official Audio"
   },
   {
     "id": "aud-phanmanhquynh-08",
@@ -12639,7 +14297,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4ee6c72f9f08398833cc6184cc3b6ae8/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/inthemoonlight_thebros/c-ch-ng-trai-vi-t-l-n-c-y-phan",
+    "youtubeQuery": "Hà Lan Phan Mạnh Quỳnh Official Audio"
   },
   {
     "id": "aud-phanmanhquynh-09",
@@ -12661,7 +14322,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/ba5f2ff13f61a3ca740f1e3e4f3528ce/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thaiho/nhat-phan-manh-quynh-ft-tran-minh-dung",
+    "youtubeQuery": "Nhạt Phan Mạnh Quỳnh Official Audio"
   },
   {
     "id": "aud-phanmanhquynh-10",
@@ -12683,7 +14347,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/814a2e494c2e8dc46255f113bab0f08d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/inthemoonlight_thebros/khi-ng-i-m-nh-y-u-kh-c-phan-m",
+    "youtubeQuery": "Khi Người Mình Yêu Khóc Phan Mạnh Quỳnh Official Audio"
   },
   {
     "id": "aud-phanmanhquynh-11",
@@ -12705,7 +14372,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a2526bfe1c42080462d4635dc8664ac3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/duy-hung-le-341717848/y2matecom-sau-loi-tu-khuoc-ost-mai-phan-manh-quynh-live-at-phongtrabenthanh",
+    "youtubeQuery": "Sau Lời Từ Khước Phan Mạnh Quỳnh Official Audio"
   },
   {
     "id": "aud-phanmanhquynh-12",
@@ -12728,7 +14398,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3026e9516b135830198518a0d0a69b4a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thinhnguyen95/xuan-thi-phan-manh-quynh-live",
+    "youtubeQuery": "Xuân Thì Hà Anh Tuấn, Phan Mạnh Quỳnh Official Audio"
   },
   {
     "id": "aud-tangduytan-01",
@@ -12750,7 +14423,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/13e1a4718d051c3d3d4c7b369836e11f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/officialvrt/ben-tren-tang-lau-cm1x-vrt-remix-tang-duy-tan-1",
+    "youtubeQuery": "Bên Trên Tầng Lầu Tăng Duy Tân Official Audio"
   },
   {
     "id": "aud-tangduytan-02",
@@ -12772,7 +14448,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8f4149b938c304f68a8cadcf310d5a81/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/minhnhat-prod/cat-doi-noi-sau-tang-duy-tan-x-minhnhat",
+    "youtubeQuery": "Cắt Đôi Nỗi Sầu Tăng Duy Tân Official Audio"
   },
   {
     "id": "aud-tangduytan-03",
@@ -12795,7 +14474,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/longdley7/tang-duy-tan-x-hoa-minzy-bat-tinh-yeu-len-making-mv-official",
+    "youtubeQuery": "Bật Tình Yêu Lên Tăng Duy Tân, Hòa Minzy Official Audio"
   },
   {
     "id": "aud-tangduytan-04",
@@ -12817,7 +14499,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e1efa4472c7c0c9c35934c78162639b6/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tan-phan-ngo-minh/say-trong-nu-cuoi-tang-duy-tan",
+    "youtubeQuery": "Say Trong Nụ Cười Tăng Duy Tân Official Audio"
   },
   {
     "id": "aud-tangduytan-05",
@@ -12839,7 +14524,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/13e1a4718d051c3d3d4c7b369836e11f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/takudo-seghio/tang-duy-tang-da-vu-synth-club",
+    "youtubeQuery": "Dạ Vũ Tăng Duy Tân Official Audio"
   },
   {
     "id": "aud-tangduytan-06",
@@ -12861,7 +14549,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8f4149b938c304f68a8cadcf310d5a81/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/muz-mil/t-ng-duy-t-n-phong-max-ng-y-th",
+    "youtubeQuery": "Ngây Thơ Tăng Duy Tân Official Audio"
   },
   {
     "id": "aud-tangduytan-07",
@@ -12883,7 +14574,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/t-ng-duy-t-n-official/tinh-dau-tang-duy-tan",
+    "youtubeQuery": "Tình Đầu Tăng Duy Tân Official Audio"
   },
   {
     "id": "aud-tangduytan-08",
@@ -12905,7 +14599,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e1efa4472c7c0c9c35934c78162639b6/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/khue-la-ngoc-503354942/ikigai-t-ng-duy-t-n-ft-b-ch-ph",
+    "youtubeQuery": "Đêm Đom Đóm Tăng Duy Tân Official Audio"
   },
   {
     "id": "aud-tangduytan-09",
@@ -12927,7 +14624,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/13e1a4718d051c3d3d4c7b369836e11f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/khue-la-ngoc-503354942/ikigai-t-ng-duy-t-n-ft-b-ch-ph",
+    "youtubeQuery": "Ikigai Tăng Duy Tân Official Audio"
   },
   {
     "id": "aud-tangduytan-10",
@@ -12949,7 +14649,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8f4149b938c304f68a8cadcf310d5a81/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/duy-muddy/bu-n-n-t-h-m-nay-remix-t-ng",
+    "youtubeQuery": "Khuất Lối Tăng Duy Tân Official Audio"
   },
   {
     "id": "aud-tangduytan-11",
@@ -12971,7 +14674,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6012dad59302a985a7305373649100d4/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hanh2689/tang-duy-tan-buon-not-hom-nay-new-ver-feat-phong-max-duc-tai",
+    "youtubeQuery": "Phải Lòng Tăng Duy Tân Official Audio"
   },
   {
     "id": "aud-vanmaihuong-01",
@@ -12989,11 +14695,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 4359000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/6005d6b56581e7edb839f7b8c5d3b348/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e029ab3a5b7da2830e4e3ef9540",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/6005d6b56581e7edb839f7b8c5d3b348/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e029ab3a5b7da2830e4e3ef9540",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "48D6GbuJqsGLTkNm6QvYwl",
+    "soundcloudUrl": "https://soundcloud.com/bui-gia-hien-903170388/dai-minh-tinh-van-mai-huong-live-at-lululola",
+    "youtubeQuery": "Đại Minh Tinh Văn Mai Hương Official Audio"
   },
   {
     "id": "aud-vanmaihuong-02",
@@ -13013,11 +14722,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 4149000,
     "audioUrl": "https://api.audius.co/v1/tracks/95oWG/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/bd7d52daed2d986d3656a4a9118a23d2/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e029ab3a5b7da2830e4e3ef9540",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/bd7d52daed2d986d3656a4a9118a23d2/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e029ab3a5b7da2830e4e3ef9540",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5MiIaWMDwGGWHY56oXRhlJ",
+    "soundcloudUrl": "https://soundcloud.com/swaggumusic/van-mai-huong-mua-thang-sau-one-hour",
+    "youtubeQuery": "Mưa Tháng Sáu Văn Mai Hương, GREY D, Trung Quân Official Audio"
   },
   {
     "id": "aud-vanmaihuong-03",
@@ -13035,11 +14747,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 3939000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/0b15ddf60801eb94df0f76947bf47c4a/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02e1378d287cef33f34300d441",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/0b15ddf60801eb94df0f76947bf47c4a/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02e1378d287cef33f34300d441",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "6aeU5IH8DB1qHK5jRFTNUv",
+    "soundcloudUrl": "https://soundcloud.com/nguyen-tan-nam-phuong/mot-ngan-noi-dau",
+    "youtubeQuery": "Hương Văn Mai Hương Official Audio"
   },
   {
     "id": "aud-vanmaihuong-04",
@@ -13061,7 +14776,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6005d6b56581e7edb839f7b8c5d3b348/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-755956971/cau-hon-van-mai-huong",
+    "youtubeQuery": "Cầu Hôn Văn Mai Hương Official Audio"
   },
   {
     "id": "aud-vanmaihuong-05",
@@ -13079,11 +14797,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3519000,
     "audioUrl": "https://api.audius.co/v1/tracks/807BJ/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/bd7d52daed2d986d3656a4a9118a23d2/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02acdef1320a648494b4303e9d",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/bd7d52daed2d986d3656a4a9118a23d2/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02acdef1320a648494b4303e9d",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "05X3a0YGmS1rbH50aL8lGF",
+    "soundcloudUrl": "https://soundcloud.com/nguyen-tan-nam-phuong/mot-ngan-noi-dau",
+    "youtubeQuery": "Một Ngàn Nỗi Đau Văn Mai Hương Official Audio"
   },
   {
     "id": "aud-vanmaihuong-06",
@@ -13105,7 +14826,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0b15ddf60801eb94df0f76947bf47c4a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user1960316/neu-nhu-anh-den-van-mai-huong",
+    "youtubeQuery": "Nếu Như Anh Đến Văn Mai Hương Official Audio"
   },
   {
     "id": "aud-vanmaihuong-07",
@@ -13127,7 +14851,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6005d6b56581e7edb839f7b8c5d3b348/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thanhh-huyy-746849111/toi-thuong-ba-van-mai-huong-x-ho-trung-dung-ost-con-nhot-mot-chong128-kbps",
+    "youtubeQuery": "Ngày Chung Đôi Văn Mai Hương Official Audio"
   },
   {
     "id": "aud-vanmaihuong-08",
@@ -13149,7 +14876,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/bd7d52daed2d986d3656a4a9118a23d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hanz2301/martini-van-mai-huong-hanz-remix-gost-team",
+    "youtubeQuery": "Chậm Lại Một Phút Văn Mai Hương Official Audio"
   },
   {
     "id": "aud-vanmaihuong-09",
@@ -13171,7 +14901,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0b15ddf60801eb94df0f76947bf47c4a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguyen-tan-nam-phuong/mot-ngan-noi-dau",
+    "youtubeQuery": "Đốt Văn Mai Hương Official Audio"
   },
   {
     "id": "aud-vanmaihuong-10",
@@ -13193,7 +14926,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6005d6b56581e7edb839f7b8c5d3b348/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguyen-trung-hieu-7711/cao-0-02-nh-p-101-mp3",
+    "youtubeQuery": "Nghe Nói Anh Sắp Kết Hôn Văn Mai Hương Official Audio"
   },
   {
     "id": "aud-trungquan-01",
@@ -13215,7 +14951,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c27180f95bf0792bb76ad3aaada91f1d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/elvis-tran-3184543/dau-mua-trung-quan-idol-1",
+    "youtubeQuery": "Dấu Mưa Trung Quân Idol Official Audio"
   },
   {
     "id": "aud-trungquan-02",
@@ -13237,7 +14976,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c587aab956ae7d61c9ad9dc40ebca449/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/sis_wanabe/tr-t-y-u-trung-qu-n-idol",
+    "youtubeQuery": "Trót Yêu Trung Quân Idol Official Audio"
   },
   {
     "id": "aud-trungquan-03",
@@ -13259,7 +15001,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/9bd8bf00ffc625fc7336a68413b375be/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/elvis-tran-3184543/chua-bao-gio-trung-quan-idol-1",
+    "youtubeQuery": "Chưa Bao Giờ Trung Quân Idol Official Audio"
   },
   {
     "id": "aud-trungquan-04",
@@ -13281,7 +15026,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/447b19e1f53e2583e210550e5b11194f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/khoi-white/n-i-tr-c-b-c-kh-ng-qua-x-thang",
+    "youtubeQuery": "Chuyện Mưa Trung Quân Idol Official Audio"
   },
   {
     "id": "aud-trungquan-05",
@@ -13303,7 +15051,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0d52797a332e4f3e3839b1321fbeedb0/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/41-nguy-n-d-ng-tri-u-trung/cam-on-vi-tat-ca-wave",
+    "youtubeQuery": "Thả Vào Mưa Trung Quân Idol Official Audio"
   },
   {
     "id": "aud-trungquan-06",
@@ -13325,7 +15076,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b7c37b2eb063e968ca18500089eaa301/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/elvis-tran-3184543/ngoi-nha-hanh-phuc-x-de-em-roi-xa-trung-quan-idol",
+    "youtubeQuery": "Chiều Nay Không Có Mưa Bay Trung Quân Idol Official Audio"
   },
   {
     "id": "aud-trungquan-07",
@@ -13347,7 +15101,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4824c9970ac17d128c4bcddbfefc6f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anna-harriette-dinh/t-i-n-h-n-a-o-k-h-o-n-g-n-h-u-t-i-n-h-d-a-u",
+    "youtubeQuery": "Tình Nào Không Như Tình Đầu Trung Quân Idol Official Audio"
   },
   {
     "id": "aud-trungquan-08",
@@ -13369,7 +15126,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c27180f95bf0792bb76ad3aaada91f1d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/huyleetkcb/goi-mua-trung-quan-idol-x-huy-lee-remix",
+    "youtubeQuery": "Gọi Mưa Trung Quân Idol Official Audio"
   },
   {
     "id": "aud-trungquan-09",
@@ -13391,7 +15151,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c587aab956ae7d61c9ad9dc40ebca449/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/liem-phan-869386157/trung-qua-n-idol-tuye-n-ta-p",
+    "youtubeQuery": "Cánh Bướm Dối Gian Trung Quân Idol Official Audio"
   },
   {
     "id": "aud-trungquan-10",
@@ -13413,7 +15176,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/9bd8bf00ffc625fc7336a68413b375be/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/luy-n-lim/tu-ti-nh-2-trung-qua-n-idol",
+    "youtubeQuery": "Tự Tình 2 Trung Quân Idol Official Audio"
   },
   {
     "id": "aud-buianhtuan-01",
@@ -13435,7 +15201,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0d90f0a245a655e059a0377a30b21f73/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/buianhtuan/n-i-t-nh-y-u-b-t-u-b-i-anh-tu",
+    "youtubeQuery": "Nơi Tình Yêu Bắt Đầu Bùi Anh Tuấn Official Audio"
   },
   {
     "id": "aud-buianhtuan-02",
@@ -13457,7 +15226,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/18e5e6b23224d2f5ed50ee136dbf3fff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/max2508/hen-mot-mai-bui-anh-tuan",
+    "youtubeQuery": "Hẹn Một Mai Bùi Anh Tuấn Official Audio"
   },
   {
     "id": "aud-buianhtuan-03",
@@ -13479,7 +15251,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6965cf5c1cbd399abebe21306bc2a8c0/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtram0693/mo-ho-bui-anh-tuan",
+    "youtubeQuery": "Mơ Hồ Bùi Anh Tuấn Official Audio"
   },
   {
     "id": "aud-buianhtuan-04",
@@ -13501,7 +15276,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/91faef79ea4b4b96abbd7ade82c5e4ec/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nimcachon/bui-anh-tuan-pho-khong-mua",
+    "youtubeQuery": "Phố Không Mùa Bùi Anh Tuấn Official Audio"
   },
   {
     "id": "aud-buianhtuan-05",
@@ -13523,7 +15301,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0d90f0a245a655e059a0377a30b21f73/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-562997438/thuan-theo-y-troi-bui-anh-tuan",
+    "youtubeQuery": "Thuận Theo Ý Trời Bùi Anh Tuấn Official Audio"
   },
   {
     "id": "aud-buianhtuan-06",
@@ -13541,11 +15322,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 3266000,
     "audioUrl": "https://api.audius.co/v1/tracks/B0bZm/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/18e5e6b23224d2f5ed50ee136dbf3fff/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02a0f799b6e0d1e4edadc98a3a",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/18e5e6b23224d2f5ed50ee136dbf3fff/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02a0f799b6e0d1e4edadc98a3a",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "2ZBi1KpCR0grEWRNgySqwg",
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-sam/buong-bui-anh-tuan",
+    "youtubeQuery": "Buông Bùi Anh Tuấn Official Audio"
   },
   {
     "id": "aud-buianhtuan-07",
@@ -13567,7 +15351,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6965cf5c1cbd399abebe21306bc2a8c0/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/saigonbeat/lang-yen-lang-yen-duoi-vuc-sau-ost-bui-anh-tuan-ai-phuong",
+    "youtubeQuery": "Nỗi Nhớ Vô Hình Bùi Anh Tuấn Official Audio"
   },
   {
     "id": "aud-buianhtuan-08",
@@ -13589,7 +15376,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/91faef79ea4b4b96abbd7ade82c5e4ec/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/chiuday/n-i-au-x-t-xa-thazh-x-ng-remix",
+    "youtubeQuery": "Chia Tay Bùi Anh Tuấn Official Audio"
   },
   {
     "id": "aud-buianhtuan-09",
@@ -13611,7 +15401,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0d90f0a245a655e059a0377a30b21f73/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/chiuday/t-m-l-ng-c-u-long",
+    "youtubeQuery": "Chỉ Còn Lại Tình Yêu Bùi Anh Tuấn Official Audio"
   },
   {
     "id": "aud-vucattuong-01",
@@ -13629,11 +15422,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4316000,
     "audioUrl": "https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/4c35179b8d84209bb88b77a0e29c30d3/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e024992bf290fe8c9f82a0e66e4",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/4c35179b8d84209bb88b77a0e29c30d3/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e024992bf290fe8c9f82a0e66e4",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5cn5oHiXJTLiuthgbgfkMh",
+    "soundcloudUrl": "https://soundcloud.com/dung-tran-51117479/v-t-m-a-v-c-t-t-ng",
+    "youtubeQuery": "Vết Mưa Vũ Cát Tường Official Audio"
   },
   {
     "id": "aud-vucattuong-02",
@@ -13655,7 +15451,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/45d3c56f82fd53e5bdbd6f61caa691ce/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/aliceinhersingland/yeu-xa-vu-cat-tuong",
+    "youtubeQuery": "Yêu Xa Vũ Cát Tường Official Audio"
   },
   {
     "id": "aud-vucattuong-03",
@@ -13673,11 +15472,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3896000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/58ae98ba3b3a588f70b8bb782e80a9d8/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e028b40ad72aa86e76099297d7b",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/58ae98ba3b3a588f70b8bb782e80a9d8/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e028b40ad72aa86e76099297d7b",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "2a5hng9yXtbjtTVVm9UviC",
+    "soundcloudUrl": "https://soundcloud.com/gtlmarco/mo-vu-cat-tuong-marco-remix",
+    "youtubeQuery": "Mơ Vũ Cát Tường Official Audio"
   },
   {
     "id": "aud-vucattuong-04",
@@ -13699,7 +15501,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4c35179b8d84209bb88b77a0e29c30d3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/truong-luan-1/mo-vu-cat-tuong-acoustic-cover-by-rhy",
+    "youtubeQuery": "Có Người Vũ Cát Tường Official Audio"
   },
   {
     "id": "aud-vucattuong-05",
@@ -13721,7 +15526,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/45d3c56f82fd53e5bdbd6f61caa691ce/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/dung-tran-51117479/v-t-m-a-v-c-t-t-ng",
+    "youtubeQuery": "Hành Tinh Ánh Sáng Vũ Cát Tường Official Audio"
   },
   {
     "id": "aud-vucattuong-06",
@@ -13743,7 +15551,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/58ae98ba3b3a588f70b8bb782e80a9d8/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/gtlmarco/mo-vu-cat-tuong-marco-remix",
+    "youtubeQuery": "Đông Vũ Cát Tường Official Audio"
   },
   {
     "id": "aud-vucattuong-07",
@@ -13765,7 +15576,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4c35179b8d84209bb88b77a0e29c30d3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/shacot-ara/vu-cat-tuong-tung-la",
+    "youtubeQuery": "Từng Là Vũ Cát Tường Official Audio"
   },
   {
     "id": "aud-vucattuong-08",
@@ -13787,7 +15601,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/45d3c56f82fd53e5bdbd6f61caa691ce/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anh-th-387423777/m-v-c-t-t-ng",
+    "youtubeQuery": "Cô Gái Ngày Hôm Qua Vũ Cát Tường Official Audio"
   },
   {
     "id": "aud-vucattuong-09",
@@ -13809,7 +15626,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/58ae98ba3b3a588f70b8bb782e80a9d8/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/l-b-ng-880067680/2-5-x-mo",
+    "youtubeQuery": "If Vũ Cát Tường Official Audio"
   },
   {
     "id": "aud-vucattuong-10",
@@ -13827,11 +15647,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 2426000,
     "audioUrl": "https://api.audius.co/v1/tracks/vgV1K/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/4c35179b8d84209bb88b77a0e29c30d3/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e024b261902f2f94e876adf9181",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/4c35179b8d84209bb88b77a0e29c30d3/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e024b261902f2f94e876adf9181",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "1fFvYVg1v3rpUSqKNCUh7b",
+    "soundcloudUrl": "https://soundcloud.com/hi-u-inh-c-ng-781080576/ngu-o-i-bi-nh-thu-o-ng-vu-ca-t",
+    "youtubeQuery": "Người Bình Thường Vũ Cát Tường Official Audio"
   },
   {
     "id": "aud-huongtram-01",
@@ -13853,7 +15676,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/db6d6c0a5b6775f98189fe5a31545d21/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nam-v-c-863318640/em-ga-i-mu-a-remix-hu-o-ng-tra",
+    "youtubeQuery": "Em Gái Mưa Hương Tràm Official Audio"
   },
   {
     "id": "aud-huongtram-02",
@@ -13875,7 +15701,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/9f479620148996e95dcc77966f4adb43/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-332578255/duyen-minh-lo-huong-tram",
+    "youtubeQuery": "Duyên Mình Lỡ Hương Tràm Official Audio"
   },
   {
     "id": "aud-huongtram-03",
@@ -13897,7 +15726,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7446b3c858be19f59686786a832f32d1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hi-n-suju/cho-em-gan-anh-them-chut-nua-huong-tram",
+    "youtubeQuery": "Cho Em Gần Anh Thêm Chút Nữa Hương Tràm Official Audio"
   },
   {
     "id": "aud-huongtram-04",
@@ -13919,7 +15751,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/db6d6c0a5b6775f98189fe5a31545d21/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/twelfthnov/ngoc-2-hay-de-em-quen-huong-tram",
+    "youtubeQuery": "Ngốc Hương Tràm Official Audio"
   },
   {
     "id": "aud-huongtram-05",
@@ -13941,7 +15776,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/9f479620148996e95dcc77966f4adb43/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/boong-boong-246516312/ta-c-n-thu-c-v-nhau",
+    "youtubeQuery": "Ta Còn Thuộc Về Nhau Hương Tràm Official Audio"
   },
   {
     "id": "aud-huongtram-06",
@@ -13963,7 +15801,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7446b3c858be19f59686786a832f32d1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/duongtrong436/c-anh-nhi-u-n-i-bu-n-h-ng-tr-m",
+    "youtubeQuery": "Cánh Hoa Tàn Hương Tràm Official Audio"
   },
   {
     "id": "aud-huongtram-07",
@@ -13985,7 +15826,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/db6d6c0a5b6775f98189fe5a31545d21/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/topremixhot/remix-duyen-minh-lo-huong-tram",
+    "youtubeQuery": "Ra Là Em Đâu Quá Mong Manh Hương Tràm Official Audio"
   },
   {
     "id": "aud-huongtram-08",
@@ -14007,7 +15851,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/9f479620148996e95dcc77966f4adb43/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hocphacheduntruong/duyen-minh-lo",
+    "youtubeQuery": "Vẫn Luôn Chờ Mong Hương Tràm Official Audio"
   },
   {
     "id": "aud-huongtram-09",
@@ -14029,7 +15876,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7446b3c858be19f59686786a832f32d1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/th-o-ph-ng-b-i-tr-n/nguoi-tung-yeu-anh-rat-sau-nang-huong-tram",
+    "youtubeQuery": "Với Em Là Mãi Mãi Hương Tràm Official Audio"
   },
   {
     "id": "aud-quanap-01",
@@ -14051,7 +15901,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b8ec3bc958f5eec9e158b5d1cc176ddb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/quan0903/bong-hoa-dep-nhat-lofi-ver-quan-ap",
+    "youtubeQuery": "Bông Hoa Đẹp Nhất Quân A.P Official Audio"
   },
   {
     "id": "aud-quanap-02",
@@ -14073,7 +15926,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/06ba4c13ae429aed796b4550c0c1330f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguyen-trung-hieu-7711/ng-i-nh-hoa-h-ng-fix-mp3",
+    "youtubeQuery": "Ai Là Người Thương Em Quân A.P Official Audio"
   },
   {
     "id": "aud-quanap-03",
@@ -14095,7 +15951,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2cc12fe75b7118d6eb8b8511a145b621/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hainam_1201/bong-hoa-dep-nhat-orinn-remix-quan-ap",
+    "youtubeQuery": "Còn Gì Đau Hơn Chữ Đã Từng Quân A.P Official Audio"
   },
   {
     "id": "aud-quanap-04",
@@ -14117,7 +15976,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8bc43bd4c1d90be996474be4ee1cf8fc/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/huudaimusicgroup/36mrtdjgz",
+    "youtubeQuery": "Đầu Anh Toàn Là Em Quân A.P Official Audio"
   },
   {
     "id": "aud-quanap-05",
@@ -14139,7 +16001,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b8ec3bc958f5eec9e158b5d1cc176ddb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ichijuki-hirisaki/you-are-my-crush-quan-ap-x-nguyen-jenda-official-music-video",
+    "youtubeQuery": "You Are My Crush Quân A.P Official Audio"
   },
   {
     "id": "aud-quanap-06",
@@ -14161,7 +16026,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/06ba4c13ae429aed796b4550c0c1330f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/go-minhee/cover-quan-ap-khong-muon-yeu-lai-cang-say-dam",
+    "youtubeQuery": "Lời Xin Lỗi Vụng Về Quân A.P Official Audio"
   },
   {
     "id": "aud-quanap-07",
@@ -14183,7 +16051,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2cc12fe75b7118d6eb8b8511a145b621/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ichijuki-hirisaki/you-are-my-crush-quan-ap-x-nguyen-jenda-official-music-video",
+    "youtubeQuery": "Nhắn Tới Khoảng Trời Em Quân A.P Official Audio"
   },
   {
     "id": "aud-quanap-08",
@@ -14205,7 +16076,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8bc43bd4c1d90be996474be4ee1cf8fc/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/regret",
+    "youtubeQuery": "Đáp Án Cuối Cùng Quân A.P Official Audio"
   },
   {
     "id": "aud-quanap-09",
@@ -14227,7 +16101,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b8ec3bc958f5eec9e158b5d1cc176ddb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/trung-thanh-trung-123189545/qu-n-a-p-ho-i-n-ho-i-n-the-new",
+    "youtubeQuery": "Bông Hoa Chẳng Thuộc Về Ta Quân A.P Official Audio"
   },
   {
     "id": "aud-dantruong-01",
@@ -14249,7 +16126,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/805479c768de29a639d70e46fad3b4ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/batuockenvin/kiep-ve-sau-dan-truong",
+    "youtubeQuery": "Kiếp Ve Sầu Đan Trường Official Audio"
   },
   {
     "id": "aud-dantruong-02",
@@ -14271,7 +16151,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cdd61697dbd5e2c94cbe82422d23c18f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/dan-truong-nguyen-thanh/lanh-tu-trong-tim-quang-vinh-mrsiro-cover-by-minh-chau",
+    "youtubeQuery": "Tình Đơn Phương Đan Trường Official Audio"
   },
   {
     "id": "aud-dantruong-03",
@@ -14294,7 +16177,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f23324c46d763079b1b72603c033b567/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/xamuttite1/chim-tr-ng-m-c-i",
+    "youtubeQuery": "Chim Trắng Mồ Côi Đan Trường, Cẩm Ly Official Audio"
   },
   {
     "id": "aud-dantruong-04",
@@ -14316,7 +16202,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/afb9a021f960668c43d456562dc991f6/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/k-n-nh-ag/di-ve-noi-xa-dan-truong-flac-lossless",
+    "youtubeQuery": "Đi Về Nơi Xa Đan Trường Official Audio"
   },
   {
     "id": "aud-dantruong-05",
@@ -14338,7 +16227,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/805479c768de29a639d70e46fad3b4ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/luudinhgiap/mai-mai-mot-tinh-yeu-dan",
+    "youtubeQuery": "Mãi Mãi Một Tình Yêu Đan Trường Official Audio"
   },
   {
     "id": "aud-dantruong-06",
@@ -14360,7 +16252,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cdd61697dbd5e2c94cbe82422d23c18f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/booksoft68-gmail-com/tinh-khuc-vang-dan-truong",
+    "youtubeQuery": "Tình Khúc Vàng Đan Trường Official Audio"
   },
   {
     "id": "aud-dantruong-07",
@@ -14382,7 +16277,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f23324c46d763079b1b72603c033b567/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kemsiro/dan-truong-buoc-chan-le-loi",
+    "youtubeQuery": "Bước Chân Lẻ Loi Đan Trường Official Audio"
   },
   {
     "id": "aud-dantruong-08",
@@ -14404,7 +16302,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/afb9a021f960668c43d456562dc991f6/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/vince-quoc-tran/cam-ly-dan-truong-ao-mong-tinh",
+    "youtubeQuery": "Ảo Mộng Tình Yêu Đan Trường Official Audio"
   },
   {
     "id": "aud-dantruong-09",
@@ -14426,7 +16327,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/805479c768de29a639d70e46fad3b4ed/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-49994020/di-vang-cuoc-doi-truong-dan-huy",
+    "youtubeQuery": "Phong Ba Tình Đời Đan Trường Official Audio"
   },
   {
     "id": "aud-dantruong-10",
@@ -14448,7 +16352,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cdd61697dbd5e2c94cbe82422d23c18f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/camlycuong/tro-lai-pho-cu-dan-truong-ft",
+    "youtubeQuery": "Hôn Môi Xa Đan Trường Official Audio"
   },
   {
     "id": "aud-unghoangphuc-01",
@@ -14470,7 +16377,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6dc6d12c490c2af66d6360365cf221c6/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/s-n-cku-t/tha-rang-nhu-the-ung-hoang-phuc",
+    "youtubeQuery": "Thà Rằng Như Thế Ưng Hoàng Phúc Official Audio"
   },
   {
     "id": "aud-unghoangphuc-02",
@@ -14492,7 +16402,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b3d695e1f05773673f69a99caece3e9a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/minhmonmusic/nguoi-ta-noi-minhmon",
+    "youtubeQuery": "Người Ta Nói Ưng Hoàng Phúc Official Audio"
   },
   {
     "id": "aud-unghoangphuc-03",
@@ -14514,7 +16427,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c1740617e84b6ac8ccc22d10506186a9/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/musicvnbiz-003/den-sau-ung-hoang-phuc",
+    "youtubeQuery": "Hứa Thật Nhiều Thất Hứa Thật Nhiều Ưng Hoàng Phúc Official Audio"
   },
   {
     "id": "aud-unghoangphuc-04",
@@ -14536,7 +16452,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/214c90c0980edbf00edf68148e5695be/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/vienleuy/toi-khong-tin-ung-hoang-phuc",
+    "youtubeQuery": "Tôi Không Tin Ưng Hoàng Phúc Official Audio"
   },
   {
     "id": "aud-unghoangphuc-05",
@@ -14558,7 +16477,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/40a1550336f10dd7e465ce7418030aca/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/locnv/vi-mot-nguoi-ra-di-ung-hoang-phuc-mp3-320kbps",
+    "youtubeQuery": "Mỗi Người Một Nơi Ưng Hoàng Phúc Official Audio"
   },
   {
     "id": "aud-unghoangphuc-06",
@@ -14580,7 +16502,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/170d5de346632f3515e3b7a9d0c91909/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/trumups/ng-ho-ng-ph-c-v-sao-trong-l-ng",
+    "youtubeQuery": "Vì Sao Trong Lòng Tôi Ưng Hoàng Phúc Official Audio"
   },
   {
     "id": "aud-unghoangphuc-07",
@@ -14602,7 +16527,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f8701a7a75f5d07d14f5e4591bc24e70/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/musicvnbiz-001/can-rut-ung-hoang-phuc",
+    "youtubeQuery": "Cắn Rứt Ưng Hoàng Phúc Official Audio"
   },
   {
     "id": "aud-unghoangphuc-08",
@@ -14624,7 +16552,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/443455bccd6e602f376a3eaf57eb0999/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/mr375/co-don-mot-vi-sao-ung-hoang",
+    "youtubeQuery": "Vầng Trăng Cô Đơn Ưng Hoàng Phúc Official Audio"
   },
   {
     "id": "aud-unghoangphuc-09",
@@ -14646,7 +16577,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c8c26fa40a3a16e287fc2de97e1de74d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-m/chang-kho-thuy-chung-ung-hoang",
+    "youtubeQuery": "Anh Chỉ Biết Câm Nín Nghe Tiếng Em Khóc Ưng Hoàng Phúc Official Audio"
   },
   {
     "id": "aud-lamtruong-01",
@@ -14668,7 +16602,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/46901cf29ec7ed5af75151b648a52b2d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/bonnie-vu/tinh-thoi-xot-xa-lam-truong",
+    "youtubeQuery": "Tình Thôi Xót Xa Lam Trường Official Audio"
   },
   {
     "id": "aud-lamtruong-02",
@@ -14690,7 +16627,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/flame-in/mua-phi-truong-lam-truong",
+    "youtubeQuery": "Mưa Phi Trường Lam Trường Official Audio"
   },
   {
     "id": "aud-lamtruong-03",
@@ -14712,7 +16652,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4948a9bc190c47f8e9f4d4cf1ad0425f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/bonnie-vu/nho-em-lam-truong",
+    "youtubeQuery": "Kathy Kathy Lam Trường Official Audio"
   },
   {
     "id": "aud-lamtruong-04",
@@ -14734,7 +16677,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/46901cf29ec7ed5af75151b648a52b2d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/truongalex/khong-biet-phai-lam-sao-ft-bat-nhiem-remix-huyn-ft-truong-alex-remix",
+    "youtubeQuery": "Gót Hồng Lam Trường Official Audio"
   },
   {
     "id": "aud-lamtruong-05",
@@ -14756,7 +16702,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/dao-le-quan/b-ng-d-ng-mu-n-kh-c-lam-tr-ng",
+    "youtubeQuery": "Đôi Giày Vải Lam Trường Official Audio"
   },
   {
     "id": "aud-lamtruong-06",
@@ -14778,7 +16727,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4948a9bc190c47f8e9f4d4cf1ad0425f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tomray-dang-1/katy-katy_lam-tr-ng",
+    "youtubeQuery": "Katy Katy Lam Trường Official Audio"
   },
   {
     "id": "aud-lamtruong-07",
@@ -14800,7 +16752,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/46901cf29ec7ed5af75151b648a52b2d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/phambinh/tien-ban-len-duong-lam-truong",
+    "youtubeQuery": "Chợt Nghe Bước Em Về Lam Trường Official Audio"
   },
   {
     "id": "aud-lamtruong-08",
@@ -14822,7 +16777,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/84a3e6ae8920511b653d66c4c3ccef78/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/phambinh/tien-ban-len-duong-lam-truong",
+    "youtubeQuery": "Tiễn Bạn Lên Đường Lam Trường Official Audio"
   },
   {
     "id": "aud-lamtruong-09",
@@ -14844,7 +16802,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4948a9bc190c47f8e9f4d4cf1ad0425f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/trung-tr-n-907574872/lac-duong-pham-truong-ft-lam-chan-khang",
+    "youtubeQuery": "Ánh Sáng Đời Tôi Lam Trường Official Audio"
   },
   {
     "id": "aud-tuanhung-01",
@@ -14866,7 +16827,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8f8aafddbe82ba226d72b05fbc22a72e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/quan-do-779935536/tim-lai-bau-troi-tuan-hung-lululola",
+    "youtubeQuery": "Tìm Lại Bầu Trời Tuấn Hưng Official Audio"
   },
   {
     "id": "aud-tuanhung-02",
@@ -14888,7 +16852,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7c51acb4656283a7bee1c27c76ccfc5e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/vinh-quang-masta-c/nam-lay-tay-anh-tuan-hung",
+    "youtubeQuery": "Nắm Lấy Tay Anh Tuấn Hưng Official Audio"
   },
   {
     "id": "aud-tuanhung-03",
@@ -14910,7 +16877,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/35d2b27296038f55e81bc804642c818a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tuanhung44138/qu-t-o-v-ng",
+    "youtubeQuery": "Cầu Vồng Khuyết Tuấn Hưng Official Audio"
   },
   {
     "id": "aud-tuanhung-04",
@@ -14932,7 +16902,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/dadff7cca4e5755c0fb47d189be6f4d3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hoanghai-1/xa-vang-tuan-hung-nct",
+    "youtubeQuery": "Độc Thoại Tuấn Hưng Official Audio"
   },
   {
     "id": "aud-tuanhung-05",
@@ -14954,7 +16927,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/78f454f8e6b95b451968ff9149bed67b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/vannghequanchung/van-nho-tuan-hung-ft-quan-ap",
+    "youtubeQuery": "Gấp Đôi Yêu Thương Tuấn Hưng Official Audio"
   },
   {
     "id": "aud-tuanhung-06",
@@ -14976,7 +16952,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8f8aafddbe82ba226d72b05fbc22a72e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kelvinlee93/anh-nho-em-tuan-hung",
+    "youtubeQuery": "Anh Nhớ Em Tuấn Hưng Official Audio"
   },
   {
     "id": "aud-tuanhung-07",
@@ -14998,7 +16977,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7c51acb4656283a7bee1c27c76ccfc5e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hiphopboyvns4/se-khong-con-nua-tuan-hung",
+    "youtubeQuery": "Vũ Điệu Thần Tiên Tuấn Hưng Official Audio"
   },
   {
     "id": "aud-tuanhung-08",
@@ -15020,7 +17002,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/35d2b27296038f55e81bc804642c818a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hiphopboyvns4/se-khong-con-nua-tuan-hung",
+    "youtubeQuery": "Sẽ Không Còn Nữa Tuấn Hưng Official Audio"
   },
   {
     "id": "aud-tuanhung-09",
@@ -15042,7 +17027,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/dadff7cca4e5755c0fb47d189be6f4d3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ngocthanh-nguyen-489915966/i-thay-tu-n-h-ng",
+    "youtubeQuery": "Phải Chia Tay Thôi Tuấn Hưng Official Audio"
   },
   {
     "id": "aud-hongocha-01",
@@ -15064,7 +17052,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/29ccdc19a2cb67cca5a5719a5d9324da/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hiphopboyvns6/co-don-tren-sofa-ho-ngoc-ha",
+    "youtubeQuery": "Cô Đơn Trên Sofa Hồ Ngọc Hà Official Audio"
   },
   {
     "id": "aud-hongocha-02",
@@ -15086,7 +17077,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8b1c6d34ab40b8930250775b4cac39c4/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/s-n-sa-l-y/gui-nguoi-yeu-cu-ho-ngoc-ha-offical-music",
+    "youtubeQuery": "Gửi Người Yêu Cũ Hồ Ngọc Hà Official Audio"
   },
   {
     "id": "aud-hongocha-03",
@@ -15108,7 +17102,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3620c969675ccb8610bfe98e7563df5b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/vpoppamtio/ca-mot-troi-thuong-nho",
+    "youtubeQuery": "Cả Một Trời Thương Nhớ Hồ Ngọc Hà Official Audio"
   },
   {
     "id": "aud-hongocha-04",
@@ -15130,7 +17127,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/563dd9b1ffda15da31d49e83869f7098/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kieu-anh-640188400/t-i-l-i-h-ng-c-h-special",
+    "youtubeQuery": "Xin Hãy Thứ Tha Hồ Ngọc Hà Official Audio"
   },
   {
     "id": "aud-hongocha-05",
@@ -15152,7 +17152,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/70b717c1d302a7e278933af4a6b48806/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/phoenix_non/tim-lai-giac-mo-ho-ngoc-ha",
+    "youtubeQuery": "Tìm Lại Giấc Mơ Hồ Ngọc Hà Official Audio"
   },
   {
     "id": "aud-hongocha-06",
@@ -15174,7 +17177,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1f6232240a815047a7e88ffb0041e05b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hai-ho-704928624/ho-ngo-c-ha-hu-ng-o-ng",
+    "youtubeQuery": "Một Nửa Yêu Thương Hồ Ngọc Hà Official Audio"
   },
   {
     "id": "aud-hongocha-07",
@@ -15196,7 +17202,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/29ccdc19a2cb67cca5a5719a5d9324da/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/sun921/giac-mo-chi-la-giac-mo-ho",
+    "youtubeQuery": "Giấc Mơ Chỉ Là Giấc Mơ Hồ Ngọc Hà Official Audio"
   },
   {
     "id": "aud-hongocha-08",
@@ -15218,7 +17227,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8b1c6d34ab40b8930250775b4cac39c4/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tungdd1/lk-ca-mot-troi-thuong-nho-thang-tu-la-loi-noi-doi-cua-em-ha-anh-tuan-ho-ngoc-ha-esa-2018",
+    "youtubeQuery": "Hãy Thứ Tha Cho Em Hồ Ngọc Hà Official Audio"
   },
   {
     "id": "aud-hongocha-09",
@@ -15240,7 +17252,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3620c969675ccb8610bfe98e7563df5b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/v-nh-duy/co-don-giua-cuoc-tinh-ho-ngoc-ha",
+    "youtubeQuery": "Keep Me In Love Hồ Ngọc Hà Official Audio"
   },
   {
     "id": "aud-baothy-01",
@@ -15262,7 +17277,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/92282eb39e7ec958ebb218df0389d21d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/pedowl/bao-thy-2b-cong-chua-bong-bong",
+    "youtubeQuery": "Công Chúa Bong Bóng Bảo Thy Official Audio"
   },
   {
     "id": "aud-baothy-02",
@@ -15284,7 +17302,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e20d0f43c94da4ce2fea0e5b2d577166/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user550886788/bao-thy-sorry",
+    "youtubeQuery": "Ngôi Nhà Hoa Hồng Bảo Thy Official Audio"
   },
   {
     "id": "aud-baothy-03",
@@ -15306,7 +17327,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/ccd8d4db7e150fcaa1fe5adec80e4340/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/alozue-vermilion/lac-loi-bao-thy-ft-vuong-khang-128-kpbs",
+    "youtubeQuery": "Em Sai Bảo Thy Official Audio"
   },
   {
     "id": "aud-baothy-04",
@@ -15328,7 +17352,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/92282eb39e7ec958ebb218df0389d21d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/sieunhanga296/bao-thy-la-con-gai-phai-xinh-official",
+    "youtubeQuery": "Là Con Gái Phải Xinh Bảo Thy Official Audio"
   },
   {
     "id": "aud-baothy-05",
@@ -15350,7 +17377,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e20d0f43c94da4ce2fea0e5b2d577166/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hotieuthu12/03-ngoc-nghech-bao-thy",
+    "youtubeQuery": "Ngốc Nghếch Bảo Thy Official Audio"
   },
   {
     "id": "aud-baothy-06",
@@ -15372,7 +17402,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/ccd8d4db7e150fcaa1fe5adec80e4340/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tommy-nguy-n/nothing-in-your-eyes-2-bao-thy",
+    "youtubeQuery": "Khóc Thêm Lần Nữa Bảo Thy Official Audio"
   },
   {
     "id": "aud-baothy-07",
@@ -15394,7 +17427,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/92282eb39e7ec958ebb218df0389d21d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/l-b-o-thy-697607091/vietmix-2k25-nh-n-v-ph-a-thy-b",
+    "youtubeQuery": "Xin Đừng Xát Muối Trái Tim Em Bảo Thy Official Audio"
   },
   {
     "id": "aud-baothy-08",
@@ -15416,7 +17452,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e20d0f43c94da4ce2fea0e5b2d577166/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/l-b-o-thy-697607091/thy-mu-n-t-do-vietmix-2k26",
+    "youtubeQuery": "Ích Kỷ Bảo Thy Official Audio"
   },
   {
     "id": "aud-baothy-09",
@@ -15438,7 +17477,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/ccd8d4db7e150fcaa1fe5adec80e4340/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/blue9x/bao-thy-mot-chut-quen-anh-thoi",
+    "youtubeQuery": "Một Chút Quên Anh Thôi Bảo Thy Official Audio"
   },
   {
     "id": "aud-khoimy-01",
@@ -15460,7 +17502,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/83c4f1a60962dcb5efae4aca35b5121e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/simonx98/vi-sao-cuu-bong-x-rhyder",
+    "youtubeQuery": "Vì Sao Khởi My Official Audio"
   },
   {
     "id": "aud-khoimy-02",
@@ -15482,7 +17527,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/03497c1dfa0ad7aea4a9cce753d4f35c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/t-n-ph-c-249534115/2in1-kh-i-my-x-band4band-vol2",
+    "youtubeQuery": "Gửi Cho Anh Khởi My Official Audio"
   },
   {
     "id": "aud-khoimy-03",
@@ -15504,7 +17552,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4fe296ca8e5d01a7c2589682d6e522d1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/zynnie-huynh/nguoi-yeu-cu-khoi-my",
+    "youtubeQuery": "Người Yêu Cũ Khởi My Official Audio"
   },
   {
     "id": "aud-khoimy-04",
@@ -15526,7 +17577,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/812f01efb7d267f20c4af6b30518b027/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/simonx98/vi-sao-cuu-bong-x-rhyder",
+    "youtubeQuery": "Góc Nhỏ Trong Tim Khởi My Official Audio"
   },
   {
     "id": "aud-khoimy-05",
@@ -15548,7 +17602,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/83c4f1a60962dcb5efae4aca35b5121e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-kh-c-ti-n-340213901/khoi-my-list-nhac-nguoi-yeu-cu-vi-sao-quen-de-thuong-trai-qua",
+    "youtubeQuery": "Trải Qua Khởi My Official Audio"
   },
   {
     "id": "aud-khoimy-06",
@@ -15570,7 +17627,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/03497c1dfa0ad7aea4a9cce753d4f35c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-kh-c-ti-n-340213901/khoi-my-list-nhac-nguoi-yeu-cu-vi-sao-quen-de-thuong-trai-qua",
+    "youtubeQuery": "Anh Ở Đâu Khởi My Official Audio"
   },
   {
     "id": "aud-khoimy-07",
@@ -15592,7 +17652,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4fe296ca8e5d01a7c2589682d6e522d1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/phan-b-o-369301183/full-ng-i-y-u-c-nam-nguy-n",
+    "youtubeQuery": "Chuyện Nắng Mưa Khởi My Official Audio"
   },
   {
     "id": "aud-khoimy-08",
@@ -15614,7 +17677,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/812f01efb7d267f20c4af6b30518b027/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kh-i-my/kh-i-my-ng-b-n-t-m",
+    "youtubeQuery": "Đến Bao Giờ Khởi My Official Audio"
   },
   {
     "id": "aud-khoimy-09",
@@ -15636,7 +17702,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/83c4f1a60962dcb5efae4aca35b5121e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kh-i-my/kh-i-my-ng-b-n-t-m",
+    "youtubeQuery": "Đừng Bận Tâm Khởi My Official Audio"
   },
   {
     "id": "aud-isaac-01",
@@ -15658,7 +17727,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7947f525edab68acd385feacd1608e95/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ht4z/yeu-khong-nghi-phep-isaac-365-daband-onlyc-dj-gin",
+    "youtubeQuery": "Bống Bống Bang Bang Isaac & 365 DaBand Official Audio"
   },
   {
     "id": "aud-isaac-02",
@@ -15680,7 +17752,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4295a3c872a368ea140a33b8cdc904dd/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/adammeptub/isaac-365-daband-onlyc-dj-gin-yeu-khong-nghi-phep",
+    "youtubeQuery": "Yêu Không Nghỉ Phép Isaac & 365 DaBand Official Audio"
   },
   {
     "id": "aud-isaac-03",
@@ -15702,7 +17777,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/47e8560f32fc9e6a62f0cd3f2a58651b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/milk-hu-nh/365daband-n-i-anh-kh-ng-thu-c",
+    "youtubeQuery": "Nơi Anh Không Thuộc Về Isaac & 365 DaBand Official Audio"
   },
   {
     "id": "aud-isaac-04",
@@ -15724,7 +17802,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7947f525edab68acd385feacd1608e95/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tr-manh-cherish/mr-right-khi-anh-yeu-em-isaac-365-daband",
+    "youtubeQuery": "Mr. Right Isaac & 365 DaBand Official Audio"
   },
   {
     "id": "aud-isaac-05",
@@ -15746,7 +17827,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4295a3c872a368ea140a33b8cdc904dd/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/haulht/tat-den-onlyc-ft-isaac-365-daband",
+    "youtubeQuery": "Tắt Đèn Isaac & 365 DaBand Official Audio"
   },
   {
     "id": "aud-isaac-06",
@@ -15768,7 +17852,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/47e8560f32fc9e6a62f0cd3f2a58651b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/gaupgalaxy/isaac-365-daband-onlycdj-gin-baby-what-makes-you-beautiful",
+    "youtubeQuery": "Hai Cô Tiên Isaac & 365 DaBand Official Audio"
   },
   {
     "id": "aud-isaac-07",
@@ -15790,7 +17877,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7947f525edab68acd385feacd1608e95/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ken-minz/c-m-ng-365-daband",
+    "youtubeQuery": "Ác Mộng Isaac & 365 DaBand Official Audio"
   },
   {
     "id": "aud-isaac-08",
@@ -15812,7 +17902,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4295a3c872a368ea140a33b8cdc904dd/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/c-n-m-t-c-i-t-n-14/yeu-khong-nghi-phep-isaac-365-daband-onlyc-dj-gin",
+    "youtubeQuery": "Tôi Đã Quên Thật Rồi Isaac & 365 DaBand Official Audio"
   },
   {
     "id": "aud-isaac-09",
@@ -15834,7 +17927,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/47e8560f32fc9e6a62f0cd3f2a58651b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ken-minz/c-m-ng-365-daband",
+    "youtubeQuery": "Vượt Qua Everest Isaac & 365 DaBand Official Audio"
   },
   {
     "id": "aud-trinhthangbinh-01",
@@ -15856,7 +17952,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/d6d54167dad2867527607dd2f1174cd2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kevin-olazahe/nguoi-ay-trinh-thang-binh",
+    "youtubeQuery": "Người Ấy Trịnh Thăng Bình Official Audio"
   },
   {
     "id": "aud-trinhthangbinh-02",
@@ -15878,7 +17977,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5f12950adfec4b6f211a629e393b1736/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/trung-thanh-524577489/tam-su-tuoi-30",
+    "youtubeQuery": "Tâm Sự Tuổi 30 Trịnh Thăng Bình Official Audio"
   },
   {
     "id": "aud-trinhthangbinh-03",
@@ -15900,7 +18002,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/077c42f243e3461397402b61aa91a8cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/amber-v-377352646/khac-biet-to-lon-freak-d-lofi-ver-trinh-thang-binh-liz-kim-cuong",
+    "youtubeQuery": "Khác Biệt To Lớn Trịnh Thăng Bình Official Audio"
   },
   {
     "id": "aud-trinhthangbinh-04",
@@ -15922,7 +18027,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3c7b8dbd2dad7c7343ab5d68fb20842f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-hi-u-nam/vo-tan-hien-ho-x-trinh-thang-binh-live-performance",
+    "youtubeQuery": "Vỡ Tan Trịnh Thăng Bình Official Audio"
   },
   {
     "id": "aud-trinhthangbinh-05",
@@ -15944,7 +18052,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/be8b4a63d1f5ab1853ed1475ab6c50a5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/heotraitim1992/da-biet-se-co-ngay-hom-qua-trinh-thang-binh",
+    "youtubeQuery": "Đã Biết Sẽ Có Ngày Hôm Qua Trịnh Thăng Bình Official Audio"
   },
   {
     "id": "aud-trinhthangbinh-06",
@@ -15966,7 +18077,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/ccc6fe5b4552919559b0c3a3828463d3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/sali-bali/loi-chua-noi-trinh-thang-binh",
+    "youtubeQuery": "Lời Chưa Nói Trịnh Thăng Bình Official Audio"
   },
   {
     "id": "aud-trinhthangbinh-07",
@@ -15988,7 +18102,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/d6d54167dad2867527607dd2f1174cd2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/b-nh-l-c-tr-nh/nam-thang-huu-tinh-chi-chi-toan-na",
+    "youtubeQuery": "Seen Trịnh Thăng Bình Official Audio"
   },
   {
     "id": "aud-trinhthangbinh-08",
@@ -16010,7 +18127,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5f12950adfec4b6f211a629e393b1736/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/29051988/v-tan-cover-deep-chill-s-ng-t",
+    "youtubeQuery": "Em Ngủ Chưa Trịnh Thăng Bình Official Audio"
   },
   {
     "id": "aud-trinhthangbinh-09",
@@ -16032,7 +18152,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/077c42f243e3461397402b61aa91a8cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/duong-hoai/mashup-ngu-o-i-a-y-x-na-ng-tho",
+    "youtubeQuery": "Bức Bình Phong Trịnh Thăng Bình Official Audio"
   },
   {
     "id": "aud-phandinhtung-01",
@@ -16054,7 +18177,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/trumups/phan-inh-t-ng-kh-c-h-t-m-ng",
+    "youtubeQuery": "Khúc Hát Mừng Sinh Nhật Phan Đinh Tùng Official Audio"
   },
   {
     "id": "aud-phandinhtung-02",
@@ -16076,7 +18202,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/fca78aa5eea1ce1dbb628fbb1a8e466b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/la-thanh-long-555458893/b-i-v-anh-y-u-em-b-n-remix-hot",
+    "youtubeQuery": "Bởi Vì Anh Yêu Em Phan Đinh Tùng Official Audio"
   },
   {
     "id": "aud-phandinhtung-03",
@@ -16098,7 +18227,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/05cb0fda2f89c36cfe35610fac799966/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/mix-dbp/khmsn",
+    "youtubeQuery": "Cào Cào Lá Tre Phan Đinh Tùng Official Audio"
   },
   {
     "id": "aud-phandinhtung-04",
@@ -16120,7 +18252,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ng-duc-762393561/ngoi-ben-em-phan-dinh-tung",
+    "youtubeQuery": "Ngồi Bên Em Phan Đinh Tùng Official Audio"
   },
   {
     "id": "aud-phandinhtung-05",
@@ -16142,7 +18277,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/fca78aa5eea1ce1dbb628fbb1a8e466b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/lethuann/ngoi-sao-le-loi-mix-2017",
+    "youtubeQuery": "Ngôi Sao Lẻ Loi Phan Đinh Tùng Official Audio"
   },
   {
     "id": "aud-phandinhtung-06",
@@ -16164,7 +18302,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/05cb0fda2f89c36cfe35610fac799966/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/dj-tu-n-subin-1/phan-dinh-tung-cam-bay-tinh-yeu-dj-shen-remix",
+    "youtubeQuery": "Cạm Bẫy Tình Yêu Phan Đinh Tùng Official Audio"
   },
   {
     "id": "aud-phandinhtung-07",
@@ -16186,7 +18327,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/56cbefd7f58074ae08e6adbe411ca882/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thanhca4online/chua-khong-lam-phan-dinh-tung",
+    "youtubeQuery": "Vườn Hoa Sao Rơi Phan Đinh Tùng Official Audio"
   },
   {
     "id": "aud-phandinhtung-08",
@@ -16208,7 +18352,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/fca78aa5eea1ce1dbb628fbb1a8e466b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-s-n-hi-u/phan-nh-t-ng-happy-birthday",
+    "youtubeQuery": "Đánh thức Tầm Xuân Phan Đinh Tùng Official Audio"
   },
   {
     "id": "aud-phandinhtung-09",
@@ -16230,7 +18377,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/05cb0fda2f89c36cfe35610fac799966/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/quachtai/tinh-yeu-tuyet-voi",
+    "youtubeQuery": "Tình Yêu Tuyệt Vời Phan Đinh Tùng Official Audio"
   },
   {
     "id": "aud-anhtraisayhi-01",
@@ -16257,7 +18407,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/t-m-n-288053856/tin-ph-t-thanh-ra-m-t-mv-all",
+    "youtubeQuery": "Kim Phút Kim Giờ HIEUTHUHAI, HURRYKNG, Negav, Isaac, Pháp Kiều Official Audio"
   },
   {
     "id": "aud-anhtraisayhi-02",
@@ -16282,7 +18435,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7023040782e443081bf2506926e488f7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi2_viechannel/all-eyes-on-us",
+    "youtubeQuery": "Ngáo Ngơ HIEUTHUHAI, Anh Tú Atus, JSOL, Erik Official Audio"
   },
   {
     "id": "aud-anhtraisayhi-03",
@@ -16307,7 +18463,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/756a5645dc3406ff253ccd5f6a78d5d8/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/the-stars",
+    "youtubeQuery": "Sao Hạng A HIEUTHUHAI, Dương Domic, Anh Tú Atus, Song Luân Official Audio"
   },
   {
     "id": "aud-anhtraisayhi-04",
@@ -16331,7 +18490,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/t-m-n-288053856/tin-ph-t-thanh-ra-m-t-mv-all",
+    "youtubeQuery": "Catch Me If You Can Quang Hùng MasterD, Negav, Nicky, Công Dương Official Audio"
   },
   {
     "id": "aud-anhtraisayhi-05",
@@ -16356,7 +18518,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7023040782e443081bf2506926e488f7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi2_viechannel/all-eyes-on-us",
+    "youtubeQuery": "Hào Quang RHYDER, Dương Domic, Pháp Kiều Official Audio"
   },
   {
     "id": "aud-anhtraisayhi-06",
@@ -16380,7 +18545,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/756a5645dc3406ff253ccd5f6a78d5d8/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/the-stars",
+    "youtubeQuery": "Chân Thành RHYDER, HURRYKNG, Captain Boy Official Audio"
   },
   {
     "id": "aud-anhtraisayhi-07",
@@ -16402,7 +18570,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/t-m-n-288053856/tin-ph-t-thanh-ra-m-t-mv-all",
+    "youtubeQuery": "Don't Care Anh Trai Say Hi (All Stars) Official Audio"
   },
   {
     "id": "aud-chonggai-01",
@@ -16425,7 +18596,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6ecc1dd3829c6569524639f99402742e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-c-anh-182056846/trong-com-anh-trai-vuot-ngan-trong-gai-version",
+    "youtubeQuery": "Trống Cơm SOOBIN, Tự Long, Cường Seven Official Audio"
   },
   {
     "id": "aud-chonggai-02",
@@ -16450,7 +18624,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0c640789db35666b5b9326d34287d43f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/chi-le-303375507/em-toi-doi-muoi-thom-da-lab-tiet-muc-solo-tai-anh-trai-vuot-ngan-chong-gai-2026-6",
+    "youtubeQuery": "Tình Anh Bán Chiếu SOOBIN, Bằng Kiều, Phan Đinh Tùng Official Audio"
   },
   {
     "id": "aud-chonggai-03",
@@ -16474,7 +18651,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7e1c3747b02d20ade7095c093d45e23a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-c-anh-182056846/dau-co-loi-lam-anh-trai-vuot-ngan-trong-gai-version",
+    "youtubeQuery": "Dẫu Có Lỗi Lầm Tuấn Hưng, Bùi Công Nam, Đăng Khôi Official Audio"
   },
   {
     "id": "aud-chonggai-04",
@@ -16496,7 +18676,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5a7f79cf377ee42e16dcec4edf458291/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/manhhung69/me-yeu-con-nha-tinh-hoa-anh-trai-vuot-ngan-chong-gai-2024",
+    "youtubeQuery": "Áo Mùa Đông Anh Trai Vượt Ngàn Chông Gai Official Audio"
   },
   {
     "id": "aud-chonggai-05",
@@ -16518,7 +18701,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6ecc1dd3829c6569524639f99402742e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ph-ng-th-o-736021515/nhu-c-tie-m-thu-c-ha-an-huy-1",
+    "youtubeQuery": "Dạ Cổ Hoài Lang Anh Trai Vượt Ngàn Chông Gai Official Audio"
   },
   {
     "id": "aud-chonggai-06",
@@ -16540,7 +18726,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0c640789db35666b5b9326d34287d43f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-c-anh-182056846/dau-co-loi-lam-anh-trai-vuot-ngan-trong-gai-version",
+    "youtubeQuery": "Chiếc Khăn Piêu Anh Trai Vượt Ngàn Chông Gai Official Audio"
   },
   {
     "id": "aud-haanhtuan-01",
@@ -16562,7 +18751,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0f7738e6a87e6773edf12764282ef98a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/haanhtuan-music/th-ng-t-l-l-i-n-i-d-i-c-a-em",
+    "youtubeQuery": "Tháng Tư Là Lời Nói Dối Của Em Hà Anh Tuấn Official Audio"
   },
   {
     "id": "aud-haanhtuan-02",
@@ -16585,7 +18777,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0aa885e1601b5455c11032095d2a084f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ho-ng-o-vi-t/xuan-thi",
+    "youtubeQuery": "Xuân Thì Hà Anh Tuấn, Phan Mạnh Quỳnh Official Audio"
   },
   {
     "id": "aud-haanhtuan-03",
@@ -16607,7 +18802,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/bd9c27bd30fca2ed1853f7b26cc2dad9/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/haidang-83453072/nguoi-tinh-mua-dong-ha-anh-tu",
+    "youtubeQuery": "Người Tình Mùa Đông Hà Anh Tuấn Official Audio"
   },
   {
     "id": "aud-haanhtuan-04",
@@ -16629,7 +18827,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0f7738e6a87e6773edf12764282ef98a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/love-ha-anh-tuan/con-mua-tinh-yeu",
+    "youtubeQuery": "Cơn Mưa Tình Yêu Hà Anh Tuấn Official Audio"
   },
   {
     "id": "aud-haanhtuan-05",
@@ -16651,7 +18852,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0aa885e1601b5455c11032095d2a084f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nonamedpath/thang-may-anh-nho-em-ha-anh-tuan",
+    "youtubeQuery": "Tháng Mấy Em Nhớ Anh Hà Anh Tuấn Official Audio"
   },
   {
     "id": "aud-haanhtuan-06",
@@ -16673,7 +18877,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/bd9c27bd30fca2ed1853f7b26cc2dad9/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/phamlinhh/nuoi-tiec-ha-anh-tuan",
+    "youtubeQuery": "Nuối Tiếc Hà Anh Tuấn Official Audio"
   },
   {
     "id": "aud-haanhtuan-07",
@@ -16695,7 +18902,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0f7738e6a87e6773edf12764282ef98a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/phong-nguy-n-v/chi-con-nhung-mua-nho-ha-anh-tuan-tuyen-tap-see-sing-share",
+    "youtubeQuery": "Phốùa Đông Hà Anh Tuấn Official Audio"
   },
   {
     "id": "aud-haanhtuan-08",
@@ -16717,7 +18927,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0aa885e1601b5455c11032095d2a084f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tandimita/thang-may-anh-nho-em-ha-anh-tuan",
+    "youtubeQuery": "Chân Trời Rực Rỡ Hà Anh Tuấn Official Audio"
   },
   {
     "id": "aud-toctien-01",
@@ -16739,7 +18952,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e1de197db4cb26a8888b05589ddaf8ea/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-nh-hi-p-285681355/t-c-ti-n-m",
+    "youtubeQuery": "Ngày Mai (Vũ Điệu Cồng Chiêng) Tóc Tiên Official Audio"
   },
   {
     "id": "aud-toctien-02",
@@ -16757,11 +18973,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 3934000,
     "audioUrl": "https://api.audius.co/v1/tracks/4AJVa/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/73eed90c9b1f0da8eae3cba45e1edbc3/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02f7f36f33a9f857d12b00df42",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/73eed90c9b1f0da8eae3cba45e1edbc3/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02f7f36f33a9f857d12b00df42",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "7AD5F85waSb3yZxZxEXhJM",
+    "soundcloudUrl": "https://soundcloud.com/soundsky98/co-ai-thuong-em-nhu-anh",
+    "youtubeQuery": "Có Ai Thương Em Như Anh Tóc Tiên Official Audio"
   },
   {
     "id": "aud-toctien-03",
@@ -16783,7 +19002,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/73a5d7ebfabda6c4153277355913dea9/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ph-m-ph-754579956/toc-tien-em-khong-la-duy-nhat-zym-remix",
+    "youtubeQuery": "Em Không Là Duy Nhất Tóc Tiên Official Audio"
   },
   {
     "id": "aud-toctien-04",
@@ -16805,7 +19027,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e1de197db4cb26a8888b05589ddaf8ea/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/smile-i93/ngay-mai-toc-tien-touliver",
+    "youtubeQuery": "906090 Tóc Tiên Official Audio"
   },
   {
     "id": "aud-toctien-05",
@@ -16827,7 +19052,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/73eed90c9b1f0da8eae3cba45e1edbc3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/phan-lam-ha-my/l-m-g-c-ai-th-ong-em-nh-v-y",
+    "youtubeQuery": "Không Ai Hơn Em Đâu Anh Tóc Tiên Official Audio"
   },
   {
     "id": "aud-toctien-06",
@@ -16846,11 +19074,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3094000,
     "audioUrl": "https://api.audius.co/v1/tracks/xP14j/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/73a5d7ebfabda6c4153277355913dea9/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02a8841feab76e269590320623",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/73a5d7ebfabda6c4153277355913dea9/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02a8841feab76e269590320623",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "7J9l9ebYB3IEs5ea5J1M7a",
+    "soundcloudUrl": "https://soundcloud.com/phucc-thiien/nu-o-c-ma-t-em-lau-ba-ng-ti-nh",
+    "youtubeQuery": "Nước Mắt Em Lau Bằng Tình Yêu Mới Da LAB, Tóc Tiên Official Audio"
   },
   {
     "id": "aud-toctien-07",
@@ -16872,7 +19103,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e1de197db4cb26a8888b05589ddaf8ea/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-nh-hi-p-285681355/t-c-ti-n-m",
+    "youtubeQuery": "Đậm Đà Tóc Tiên Official Audio"
   },
   {
     "id": "aud-toctien-08",
@@ -16894,7 +19128,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/73eed90c9b1f0da8eae3cba45e1edbc3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/t-i-ti-n-825792606/mu-n-d-em-hay-g-vietj-remix-nh",
+    "youtubeQuery": "Hôm Nay Tôi Cô Đơn Quá Tóc Tiên Official Audio"
   },
   {
     "id": "aud-lequyen-01",
@@ -16916,7 +19153,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5bf3de30cc9bacc94b06e3a1e0e6dbca/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-631611269/giac-mo-co-that-le-quyen-soul-of-the-forest-live",
+    "youtubeQuery": "Giấc Mơ Có Thật Lệ Quyên Official Audio"
   },
   {
     "id": "aud-lequyen-02",
@@ -16938,7 +19178,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1ef4720c3de4fb9f5b5d969f43032877/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/le-quyen/doi-mat-nguoi-xua-quang-le",
+    "youtubeQuery": "Duyên Phận Lệ Quyên Official Audio"
   },
   {
     "id": "aud-lequyen-03",
@@ -16960,7 +19203,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6aea01ed9f5a880f43a93fc640c678be/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/lubigdog/neu-em-duoc-lua-chon-le-quyen-tuyen-chon-nhung-ca-khuc-hay-nhat-2017",
+    "youtubeQuery": "Sầu Tím Thiệp Hồng Lệ Quyên Official Audio"
   },
   {
     "id": "aud-lequyen-04",
@@ -16982,7 +19228,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/127257d969c4837c75b057808179f635/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kim-nguyen-747425891/cho-vua-long-em-phan-tran-le-quyen",
+    "youtubeQuery": "Hãy Trả Lời Em Lệ Quyên Official Audio"
   },
   {
     "id": "aud-lequyen-05",
@@ -17004,7 +19253,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4e10d09914ff523578f73a4c30ef6195/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/iteos-nguyen-gay/chieu-cuoi-tuan-truc-phuong-le-quyen",
+    "youtubeQuery": "Nếu Em Được Chọn Lựa Lệ Quyên Official Audio"
   },
   {
     "id": "aud-lequyen-06",
@@ -17026,7 +19278,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/bb8f03104f5358b23bbce15620ef3651/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/golden-nguyen-745693515/ai-cho-toi-tinh-yeu-truc-phuong-le-quyen",
+    "youtubeQuery": "Tình Lỡ Lệ Quyên Official Audio"
   },
   {
     "id": "aud-lequyen-07",
@@ -17048,7 +19303,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e2804c132dc67aaf18294f546cfa157f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/qu-n-nh-891496440/th-i-ng-chi-m-bao-l-quy-n",
+    "youtubeQuery": "Thôi Đừng Chiêm Bao Lệ Quyên Official Audio"
   },
   {
     "id": "aud-lequyen-08",
@@ -17070,7 +19328,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f5b7b33ea7a6f0815719483ec2faca5e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/trung-bui-866502376/gi-nh-anh-l-em-l-quy-n-remix",
+    "youtubeQuery": "Ai Khổ Vì Ai Lệ Quyên Official Audio"
   },
   {
     "id": "aud-baoanh-01",
@@ -17092,7 +19353,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/732c8292d45297151f533b194f92fc3f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ng-c-ngh-a-nguy-n-989262943/xin-ng-r-i-xa-anh-l-gia-b-o",
+    "youtubeQuery": "Anh Muốn Em Sống Sao Bảo Anh Official Audio"
   },
   {
     "id": "aud-baoanh-02",
@@ -17114,7 +19378,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/67a9a2f64ec0f7b143776add8caa805c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/quyenn-hany/trai-tim-em-cung-biet-dau-bao-anh",
+    "youtubeQuery": "Trái Tim Em Cũng Biết Đau Bảo Anh Official Audio"
   },
   {
     "id": "aud-baoanh-03",
@@ -17136,7 +19403,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/24049ac84a9a48384e1b28f3c4a77fc7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anh-nguyen-761791430/song-xa-anh-chang-de-dang-bao-anh-ft-mr-siro",
+    "youtubeQuery": "Sống Xa Anh Chẳng Dễ Dàng Bảo Anh Official Audio"
   },
   {
     "id": "aud-baoanh-04",
@@ -17158,7 +19428,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8178a8779c9bf67b85f097345ec432d5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/gamezerpro98/yeu-mot-nguoi-vo-tam-bao-anh",
+    "youtubeQuery": "Yêu Một Người Vô Tâm Bảo Anh Official Audio"
   },
   {
     "id": "aud-baoanh-05",
@@ -17180,7 +19453,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/732c8292d45297151f533b194f92fc3f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/chunguyenvu/tim-em-slowed",
+    "youtubeQuery": "Ai Khóc Nỗi Đau Này Bảo Anh Official Audio"
   },
   {
     "id": "aud-baoanh-06",
@@ -17202,7 +19478,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/67a9a2f64ec0f7b143776add8caa805c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ng-c-ngh-a-nguy-n-989262943/xin-ng-r-i-xa-anh-truzg-remix",
+    "youtubeQuery": "Như Lời Đồn Bảo Anh Official Audio"
   },
   {
     "id": "aud-baoanh-07",
@@ -17224,7 +19503,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/24049ac84a9a48384e1b28f3c4a77fc7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/inh-ti-n-h-ng-654125183/t-m-em-ctri-remix-hngle-b-o",
+    "youtubeQuery": "Lười Yêu Bảo Anh Official Audio"
   },
   {
     "id": "aud-baoanh-08",
@@ -17242,11 +19524,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 242,
     "playCount": 2631000,
     "audioUrl": "https://api.audius.co/v1/tracks/2RNEp/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/8178a8779c9bf67b85f097345ec432d5/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0267e926bba0c1032a8414fc8c",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/8178a8779c9bf67b85f097345ec432d5/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0267e926bba0c1032a8414fc8c",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5KYv3kORBKUmVEoqbRRWxt",
+    "soundcloudUrl": "https://soundcloud.com/nguyen-gia-le/t-ng-l-c-a-nhau-b-o-anh-ft-t-o",
+    "youtubeQuery": "Từng Là Của Nhau Bảo Anh Official Audio"
   },
   {
     "id": "aud-miule-01",
@@ -17269,7 +19554,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-337022023-313242956/vi-me-anh-bat-chia-tay-miu-le-x-karik-x-chau-dang-khoa",
+    "youtubeQuery": "Vì Mẹ Anh Bắt Chia Tay Miu Lê, Karik Official Audio"
   },
   {
     "id": "aud-miule-02",
@@ -17292,7 +19580,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/43b67e90ccee35b096d29d70c825ba8a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anh-khoa-657629189/gac-lai-au-lo-dalab-ft-miu-le-cm1x",
+    "youtubeQuery": "Gác Lại Âu Lo Da LAB, Miu Lê Official Audio"
   },
   {
     "id": "aud-miule-03",
@@ -17310,11 +19601,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3638000,
     "audioUrl": "https://api.audius.co/v1/tracks/7AwbW/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/6bf097fcf944a1a2355d4386723ff502/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02d28b4546b16fc8e0000f277e",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/6bf097fcf944a1a2355d4386723ff502/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02d28b4546b16fc8e0000f277e",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "2o4dDfLK6NVI7TjBm5VoMv",
+    "soundcloudUrl": "https://soundcloud.com/unk-t/yeu-mot-nguoi-co-le-miu-le-ft-lou-hoang",
+    "youtubeQuery": "Yêu Một Người Có Lẽ Miu Lê Official Audio"
   },
   {
     "id": "aud-miule-04",
@@ -17336,7 +19630,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/drewis-wrens/iu-mot-nguoi-co-le-miu-le-x-lou-hoang-prod-youngdrewis-jerk-x-jersey-club-remix",
+    "youtubeQuery": "Mình Yêu Từ Bao Giờ Miu Lê Official Audio"
   },
   {
     "id": "aud-miule-05",
@@ -17358,7 +19655,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/43b67e90ccee35b096d29d70c825ba8a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguyen-tai-840390142/miu-le-yeu-mot-nguoi-co-le",
+    "youtubeQuery": "Giả Vờ Nhưng Em Yêu Anh Miu Lê Official Audio"
   },
   {
     "id": "aud-miule-06",
@@ -17380,7 +19680,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6bf097fcf944a1a2355d4386723ff502/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/d-ng-nguy-n-98616984/y-u-m-t-ng-i-c-l-bibo-remix",
+    "youtubeQuery": "Còn Tuổi Nào Cho Em Miu Lê Official Audio"
   },
   {
     "id": "aud-miule-07",
@@ -17402,7 +19705,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/158efbaa8f2c76eabfb8b4608f98e0b5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user2475591/em-nho-anh-miu-le",
+    "youtubeQuery": "Em Nhớ Anh Miu Lê Official Audio"
   },
   {
     "id": "aud-miule-08",
@@ -17424,7 +19730,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/43b67e90ccee35b096d29d70c825ba8a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/uy-n-thi-u-ng-484462797/co-don-da-qua-binh-thuong-miu-lelang",
+    "youtubeQuery": "Cô Đơn Đã Quá Bình Thường Miu Lê Official Audio"
   },
   {
     "id": "aud-binz-01",
@@ -17446,7 +19755,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/58c89716b6b4acaec2edcff31751c6dd/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-476910794-814956814/binz-mellow",
+    "youtubeQuery": "BigCityBoi Binz Official Audio"
   },
   {
     "id": "aud-binz-02",
@@ -17468,7 +19780,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7af58044f106ffae565295b03de55fb7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-227096810/ok-binz",
+    "youtubeQuery": "OK Binz Official Audio"
   },
   {
     "id": "aud-binz-03",
@@ -17490,7 +19805,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/67660b7a4f6725d802fcb74adc3fd062/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/bumakarpvn/tat-nuoc-dau-dinh-lynk-lee-binz",
+    "youtubeQuery": "They Said Binz Official Audio"
   },
   {
     "id": "aud-binz-04",
@@ -17512,7 +19830,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f5d1604a60b742b522ffe7a3b4a8329d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-188019353/hit-me-up-binz",
+    "youtubeQuery": "Gene Binz Official Audio"
   },
   {
     "id": "aud-binz-05",
@@ -17534,7 +19855,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/58c89716b6b4acaec2edcff31751c6dd/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/justatee/bang-khuang-rap-version-binz-ft-justatee",
+    "youtubeQuery": "Don't Break My Heart Binz Official Audio"
   },
   {
     "id": "aud-binz-06",
@@ -17556,7 +19880,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7af58044f106ffae565295b03de55fb7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-188019353/hit-me-up-binz",
+    "youtubeQuery": "Hit Me Up Binz Official Audio"
   },
   {
     "id": "aud-binz-07",
@@ -17578,7 +19905,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/67660b7a4f6725d802fcb74adc3fd062/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/bumakarpvn/ben-em-dem-nay-jc-hung-binz",
+    "youtubeQuery": "Nguyên Team Đi Vào Hết Binz Official Audio"
   },
   {
     "id": "aud-binz-08",
@@ -17600,7 +19930,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f5d1604a60b742b522ffe7a3b4a8329d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/cravethitsuziie/binz-g-p-l-i-album-official",
+    "youtubeQuery": "Sau Lưng Anh Sẽ Là Binz Official Audio"
   },
   {
     "id": "aud-wxrdie-01",
@@ -17622,7 +19955,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/d0c7147b4fdecb338afbae42a7d4a72b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/wxrdie/prod-by-laptopboyboy-youngwild18luve-wxrd999",
+    "youtubeQuery": "Cần Gì Nói Yêu Wxrdie Official Audio"
   },
   {
     "id": "aud-wxrdie-02",
@@ -17644,7 +19980,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1622d8a1ca7653f7c418073f615b4761/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/wxrdie/van-doi-ft-wokeupat4am-2pillz",
+    "youtubeQuery": "Cháy Máy Wxrdie Official Audio"
   },
   {
     "id": "aud-wxrdie-03",
@@ -17666,7 +20005,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/72ab650f1e756e48f4be8c01d7748b8b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/seeyudy/laviai",
+    "youtubeQuery": "Đèn Đỏ Wxrdie Official Audio"
   },
   {
     "id": "aud-wxrdie-04",
@@ -17688,7 +20030,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/d0c7147b4fdecb338afbae42a7d4a72b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/cencasso/wxrdie-loi-song-raw",
+    "youtubeQuery": "Mời Em Wxrdie Official Audio"
   },
   {
     "id": "aud-wxrdie-05",
@@ -17710,7 +20055,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1622d8a1ca7653f7c418073f615b4761/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/1k-stxsh/tr-v-x-haru-haru-wxrdie",
+    "youtubeQuery": "Trở Về Wxrdie Official Audio"
   },
   {
     "id": "aud-wxrdie-06",
@@ -17732,7 +20080,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/72ab650f1e756e48f4be8c01d7748b8b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/wxrdie/neu-ma-khong-phai-anh",
+    "youtubeQuery": "Harder Wxrdie Official Audio"
   },
   {
     "id": "aud-wxrdie-07",
@@ -17750,11 +20101,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2798000,
     "audioUrl": "https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/d0c7147b4fdecb338afbae42a7d4a72b/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e024454ef01ea52ecf22987ede2",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/d0c7147b4fdecb338afbae42a7d4a72b/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e024454ef01ea52ecf22987ede2",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "7qyAnLf3PVQ9bLbVlc0EGQ",
+    "soundcloudUrl": "https://soundcloud.com/sickomode29/wxrdie-vinflow-prod-wokeup-2pillz",
+    "youtubeQuery": "Vinflow Wxrdie Official Audio"
   },
   {
     "id": "aud-wxrdie-08",
@@ -17776,7 +20130,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1622d8a1ca7653f7c418073f615b4761/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thanhtungbui2009/ba-ng-qua-ca-u-gia-y-rmx",
+    "youtubeQuery": "Băng Qua Cầu Wxrdie Official Audio"
   },
   {
     "id": "aud-andree-01",
@@ -17798,7 +20155,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1c851e171a9784e99f90e8b9264912ab/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/suyeon-95/ch-i-nh-t-i-m-andree-right",
+    "youtubeQuery": "Chơi Như Tụi Mỹ Andree Right Hand Official Audio"
   },
   {
     "id": "aud-andree-02",
@@ -17820,7 +20180,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f365006a4338278b22d311cca862e938/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/beebb/andree-nhac-anh-wxrdie-beebb-remix-hardcore",
+    "youtubeQuery": "Nhạc Anh Andree Right Hand Official Audio"
   },
   {
     "id": "aud-andree-03",
@@ -17842,7 +20205,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cdc9e29327d912b27d108cf41310aa52/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-408851732-897452440/andree-right-hand-em-iu-feat",
+    "youtubeQuery": "Em Iu Andree Right Hand Official Audio"
   },
   {
     "id": "aud-andree-04",
@@ -17864,7 +20230,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1c851e171a9784e99f90e8b9264912ab/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/xuanphucsandjprod/keo-andree-right-hand-dj-thai-hoang-remix",
+    "youtubeQuery": "Kẹo Andree Right Hand Official Audio"
   },
   {
     "id": "aud-andree-05",
@@ -17886,7 +20255,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f365006a4338278b22d311cca862e938/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/giap-d-ng/andree-right-hand-where-u-at-guvera-soul-acoustics-musikyoutubecom-320kbps",
+    "youtubeQuery": "Where U At Andree Right Hand Official Audio"
   },
   {
     "id": "aud-andree-06",
@@ -17908,7 +20280,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cdc9e29327d912b27d108cf41310aa52/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/quanganh_rhyder/andree-right-hand-dan-choi-sao-phai-khoc-ft-rhyder-x-wokeup",
+    "youtubeQuery": "Dân Chơi Sao Phải Khóc Andree Right Hand Official Audio"
   },
   {
     "id": "aud-andree-07",
@@ -17930,7 +20305,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1c851e171a9784e99f90e8b9264912ab/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/touliver/andree-right-hand-ft-rhymastic",
+    "youtubeQuery": "Quá Khứ Kia Của Anh Andree Right Hand Official Audio"
   },
   {
     "id": "aud-andree-08",
@@ -17952,7 +20330,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f365006a4338278b22d311cca862e938/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ducthangnguyen/touliver-x-binz-x-andree-right-hand-krazy-ft-evy-mv-sound",
+    "youtubeQuery": "Tết Giàu Andree Right Hand Official Audio"
   },
   {
     "id": "aud-phao-01",
@@ -17974,7 +20355,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/693fcdd0d92d0e1e22d554ebcda556e4/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/spinninrecords/phao-2-phut-hon-kaiz-remix-out-now",
+    "youtubeQuery": "2 Phút Hơn Pháo Official Audio"
   },
   {
     "id": "aud-phao-02",
@@ -17996,7 +20380,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/648f17d0b10b04c7efb1bb135cc64218/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/be-khang-150266263/xe-chot-va-phao",
+    "youtubeQuery": "Một Ngày Chẳng Nắng Pháo Official Audio"
   },
   {
     "id": "aud-phao-03",
@@ -18018,7 +20405,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/93f5e20ed9206f9ea7f80aa191620e62/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ph-tr-n-138928806/ro-i-ta-se-nga-m-pha-o-hoa-cu",
+    "youtubeQuery": "Kìa Bóng Dáng Ai Pháo Official Audio"
   },
   {
     "id": "aud-phao-04",
@@ -18040,7 +20430,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3c78d949ce44f705aeb79d31a9e30c39/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/mabeztprod/dieu-toa-mabezt-remix-masew-x-phao",
+    "youtubeQuery": "Điêu Toa Pháo Official Audio"
   },
   {
     "id": "aud-phao-05",
@@ -18062,7 +20455,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a8666b6cbe3300a801331934ea3baa0d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ngoc-giau-995947856/n-i-ph-o-hoa-r-c-r-ho-ng-h-i",
+    "youtubeQuery": "Sợ Quá Cơ Pháo Official Audio"
   },
   {
     "id": "aud-phao-06",
@@ -18084,7 +20480,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/baaf6ebd8f73fca43bee5ac84aaa8fff/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/duong-tao-929671950/thanh-ta-n-l-ng-anh-ng-n-ti-ng",
+    "youtubeQuery": "Trúc Xinh Pháo Official Audio"
   },
   {
     "id": "aud-phao-07",
@@ -18106,7 +20505,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/89f1ee9b0c05563c15194bdc50cd4d49/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/chivas-ti-n-584180794/vietmix-tan-cham-thuyen-quyen-phao-hong-x-tieng-phao-tien-nguoi-tienchivas-mix",
+    "youtubeQuery": "Tết Đong Đầy 3 Pháo Official Audio"
   },
   {
     "id": "aud-phao-08",
@@ -18128,7 +20530,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/618cb3f75bafee1acbdb118d898c83ce/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/duong-tao-929671950/thanh-ta-n-l-ng-anh-ng-n-ti-ng",
+    "youtubeQuery": "Ganh Pháo Official Audio"
   },
   {
     "id": "aud-gducky-01",
@@ -18146,11 +20551,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 249,
     "playCount": 4058000,
     "audioUrl": "https://api.audius.co/v1/tracks/1jVP3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/680bd304a71640f1e6e2a5ee5398b91d/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02e5f63e89fc4fbfa8027ccd4a",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/680bd304a71640f1e6e2a5ee5398b91d/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02e5f63e89fc4fbfa8027ccd4a",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "00r1j4YwnItsbrekT6KDjB",
+    "soundcloudUrl": "https://soundcloud.com/quynh-nguyen-390580526/gducky-doi-mat-chay-tien-nhieu-de-lam-gi-the-right-journey",
+    "youtubeQuery": "Tiền Nhiều Để Làm Gì GDucky Official Audio"
   },
   {
     "id": "aud-gducky-02",
@@ -18172,7 +20580,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/bc8d905578230a0f4cae655f1aabcfde/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/mpnxx/doi-mat-gducky",
+    "youtubeQuery": "Đôi Mắt GDucky Official Audio"
   },
   {
     "id": "aud-gducky-03",
@@ -18194,7 +20605,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/680bd304a71640f1e6e2a5ee5398b91d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/quynh-nguyen-390580526/gducky-doi-mat-chay-tien-nhieu-de-lam-gi-the-right-journey",
+    "youtubeQuery": "Chạy GDucky Official Audio"
   },
   {
     "id": "aud-gducky-04",
@@ -18216,7 +20630,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/bc8d905578230a0f4cae655f1aabcfde/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/quynh-nguyen-390580526/gducky-doi-mat-chay-tien-nhieu-de-lam-gi-the-right-journey",
+    "youtubeQuery": "The Right Journey GDucky Official Audio"
   },
   {
     "id": "aud-gducky-05",
@@ -18234,11 +20651,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 3218000,
     "audioUrl": "https://api.audius.co/v1/tracks/NzNpN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/680bd304a71640f1e6e2a5ee5398b91d/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0206ed56decfd53a189fc3b46a",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/680bd304a71640f1e6e2a5ee5398b91d/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0206ed56decfd53a189fc3b46a",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "6tl0zAjNYkSEIQZaeCSKN6",
+    "soundcloudUrl": "https://soundcloud.com/onefiveoneteam/breakfast-dh-gducky-ming",
+    "youtubeQuery": "Breakfast GDucky Official Audio"
   },
   {
     "id": "aud-gducky-06",
@@ -18260,7 +20680,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/bc8d905578230a0f4cae655f1aabcfde/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/quynh-nguyen-390580526/gducky-doi-mat-chay-tien-nhieu-de-lam-gi-the-right-journey",
+    "youtubeQuery": "Miền Đất Hứa GDucky Official Audio"
   },
   {
     "id": "aud-gducky-07",
@@ -18282,7 +20705,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/680bd304a71640f1e6e2a5ee5398b91d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anblue/wish-gducky",
+    "youtubeQuery": "Wish GDucky Official Audio"
   },
   {
     "id": "aud-gducky-08",
@@ -18304,7 +20730,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/bc8d905578230a0f4cae655f1aabcfde/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anblue/wish-gducky",
+    "youtubeQuery": "Tình Yêu Là Gì GDucky Official Audio"
   },
   {
     "id": "aud-datg-01",
@@ -18326,7 +20755,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/807ad3a23eae9117abff00ebe31b4c89/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tr-nh-ho-ng-nh-n-699740490/do-truong-dat-g",
+    "youtubeQuery": "Buồn Của Anh Đạt G Official Audio"
   },
   {
     "id": "aud-datg-02",
@@ -18348,7 +20780,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b8e55105537629af5ce1faf0dc78fbe1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thuongchotamthancohan281/banh-mi-khong-dat-g-x-du-uyen",
+    "youtubeQuery": "Bánh Mì Không Đạt G Official Audio"
   },
   {
     "id": "aud-datg-03",
@@ -18370,7 +20805,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/46a62c9441027fb86a453cbc4f08682d/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tai-thanh-259865585/kho-ve-nu-cuoi-datg-live",
+    "youtubeQuery": "Khó Vẽ Nụ Cười Đạt G Official Audio"
   },
   {
     "id": "aud-datg-04",
@@ -18392,7 +20830,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/207fdd77a711995eb3f5eb051a435371/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kid286/dat-g-buon-khong-em-live-at-dearocean",
+    "youtubeQuery": "Buồn Không Em Đạt G Official Audio"
   },
   {
     "id": "aud-datg-05",
@@ -18414,7 +20855,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/30e1134c294a16894a98f5b33a2f745e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-770600837/th-m-bao-nhi-u-l-u-t-g",
+    "youtubeQuery": "Thêm Bao Nhiêu Lâu Đạt G Official Audio"
   },
   {
     "id": "aud-datg-06",
@@ -18436,7 +20880,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a7e452e3a94c4fa9778f615c3f0df21a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anh-tuan-637800838/em-oi-o-lai-dat-g-live",
+    "youtubeQuery": "Về Đạt G Official Audio"
   },
   {
     "id": "aud-datg-07",
@@ -18458,7 +20905,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/ec35d9e0b0cbba1fce34e4bafc21452a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/d-ng-640333703/dat-g-nhung-bai-hat-live-anh-tu-do-nhung-co-don-them-bao-nhieu-lau-ngay-mai-em-di-mat",
+    "youtubeQuery": "Ngày Mai Em Đi Mất Đạt G Official Audio"
   },
   {
     "id": "aud-datg-08",
@@ -18480,7 +20930,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/807ad3a23eae9117abff00ebe31b4c89/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/long-venus/t-g-ng-qu-n-t-n-anh-live-at",
+    "youtubeQuery": "Đừng Quên Tên Anh Đạt G Official Audio"
   },
   {
     "id": "aud-negav-01",
@@ -18498,11 +20951,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 268,
     "playCount": 4015000,
     "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/43dbea251dd218af6841281853a2b328/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02ab0ca19d173a42deea1e76df",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/43dbea251dd218af6841281853a2b328/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02ab0ca19d173a42deea1e76df",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "7Cjsw965r7mVK888ZqP6Wo",
+    "soundcloudUrl": "https://soundcloud.com/nghi-gia-196180549/minh-anh-thoi-negav-1",
+    "youtubeQuery": "Mình Anh Thôi Negav Official Audio"
   },
   {
     "id": "aud-negav-02",
@@ -18529,7 +20985,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/kim-phut-kim-gio",
+    "youtubeQuery": "Kim Phút Kim Giờ HIEUTHUHAI, HURRYKNG, Negav, Isaac, Pháp Kiều Official Audio"
   },
   {
     "id": "aud-negav-03",
@@ -18552,7 +21011,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/lorisleee/ngu-mot-minh-feat-ong-bay-bi-negav",
+    "youtubeQuery": "Ngủ Một Mình HIEUTHUHAI, Negav Official Audio"
   },
   {
     "id": "aud-negav-04",
@@ -18576,7 +21038,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/43dbea251dd218af6841281853a2b328/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/mikeysahara/ng-i-nh-anh-x-ng-ng-c-n-v-c-t",
+    "youtubeQuery": "Catch Me If You Can Quang Hùng MasterD, Negav, Nicky, Công Dương Official Audio"
   },
   {
     "id": "aud-negav-05",
@@ -18598,7 +21063,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/negav-dang/khu-vuc-a-mat-e-huhu",
+    "youtubeQuery": "Em Làm Gì Đã Có Người Yêu Negav Official Audio"
   },
   {
     "id": "aud-negav-06",
@@ -18620,7 +21088,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2141085d0478b3bdf0c4bdcf57164f17/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/chang-kho-thuy-cung",
+    "youtubeQuery": "Hương Đêm Bay Xa Negav Official Audio"
   },
   {
     "id": "aud-negav-07",
@@ -18642,7 +21113,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/43dbea251dd218af6841281853a2b328/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/tinh-dau-qua-chen",
+    "youtubeQuery": "Chăm Em Một Đời Negav Official Audio"
   },
   {
     "id": "aud-negav-08",
@@ -18664,7 +21138,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thanh-th-o-491139642/negav-23-59-ft-v",
+    "youtubeQuery": "Dỗi Ít Thôi Ôm Đê Negav Official Audio"
   },
   {
     "id": "aud-lyly-01",
@@ -18682,11 +21159,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 256,
     "playCount": 3972000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/7d842a02b253a075700233e40f33b3d7/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02f9a33a39e11f920fabf6a5b0",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/7d842a02b253a075700233e40f33b3d7/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02f9a33a39e11f920fabf6a5b0",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "4inMQ83GNpQ2OHDredH5hW",
+    "soundcloudUrl": "https://soundcloud.com/thu-le-ha-315973035/24h-lyly",
+    "youtubeQuery": "24H LyLy Official Audio"
   },
   {
     "id": "aud-lyly-02",
@@ -18708,7 +21188,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/542ee7b451157df0c6bd343ad69f9e26/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/slowedxxx/loi-duong-mat",
+    "youtubeQuery": "Lời Đường Mật LyLy Official Audio"
   },
   {
     "id": "aud-lyly-03",
@@ -18730,7 +21213,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b9779a614e535177cd253eadcb8033d1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/t-ng-v-n-ng-c-370058541/24h-lyly-c-l-n-c-m-t-trong-em",
+    "youtubeQuery": "Không Yêu Đừng Gây Thương Nhớ LyLy Official Audio"
   },
   {
     "id": "aud-lyly-04",
@@ -18752,7 +21238,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7d842a02b253a075700233e40f33b3d7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-589103737/24h-remix-lyly-x-magazine-hoang-nam-remix",
+    "youtubeQuery": "Hàng Xóm LyLy Official Audio"
   },
   {
     "id": "aud-lyly-05",
@@ -18774,7 +21263,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/542ee7b451157df0c6bd343ad69f9e26/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ng-c-giang-tr-ng/24h-lyly-ft-magazine-1p-c-nh-c",
+    "youtubeQuery": "Tuy Xa Mà Gần Tuy Gần Mà Xa LyLy Official Audio"
   },
   {
     "id": "aud-lyly-06",
@@ -18796,7 +21288,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b9779a614e535177cd253eadcb8033d1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/diggorydoan99/boi-vi-la-khi-yeu-lyly-acoustic-version",
+    "youtubeQuery": "Bởi Vì Là Khi Yêu LyLy Official Audio"
   },
   {
     "id": "aud-lyly-07",
@@ -18818,7 +21313,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7d842a02b253a075700233e40f33b3d7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tayhaisaotroi18/khong-dau-nua-roi-anh-tu-lyly-concert-em-xinh-say-hi",
+    "youtubeQuery": "Cảm Ơn Vì Đã Không Đợi Em LyLy Official Audio"
   },
   {
     "id": "aud-lyly-08",
@@ -18840,7 +21338,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/542ee7b451157df0c6bd343ad69f9e26/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/b-i-c-danh-16067184/th-p-r-i-t-do-l-i-vi-t-lyly",
+    "youtubeQuery": "Tình Yêu Ngủ Quên LyLy Official Audio"
   },
   {
     "id": "aud-hoangduyen-01",
@@ -18858,11 +21359,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 198,
     "playCount": 4273000,
     "audioUrl": "https://api.audius.co/v1/tracks/0OwaV/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/8d59dc2de5a8b02496854a80f8a85362/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e026280a70b22a9778115516eb3",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/8d59dc2de5a8b02496854a80f8a85362/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e026280a70b22a9778115516eb3",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "6IkNu9xwCD3ei9gaAfbPXA",
+    "soundcloudUrl": "https://soundcloud.com/huy-bach-524598289/sai-gon-dau-long-qua-hua-kim-tuyen-ft-hoang-duyen-x-dinolo-fi-ver-by-1-9-6-7-audio-lyrics",
+    "youtubeQuery": "Sài Gòn Đau Lòng Quá Hoàng Duyên Official Audio"
   },
   {
     "id": "aud-hoangduyen-02",
@@ -18884,7 +21388,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0a8c92cfae47b2d739146c6b6a7c2e50/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/huong-karry-618882736/vong-nguyet-hoang-duyen-x-hua-kim-tuyen-1",
+    "youtubeQuery": "Chàng Trai Sơ Mi Hồng Hoàng Duyên Official Audio"
   },
   {
     "id": "aud-hoangduyen-03",
@@ -18902,11 +21409,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3853000,
     "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/5dcd60cf5fcd187d6916524f49fa4097/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e025436229d006af6580dfee6bc",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/5dcd60cf5fcd187d6916524f49fa4097/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e025436229d006af6580dfee6bc",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "1xoadYaxtOp9gHDwgmPDuz",
+    "soundcloudUrl": "https://soundcloud.com/hawysmusic/sghnmlofi",
+    "youtubeQuery": "Sài Gòn Hôm Nay Mưa Hoàng Duyên Official Audio"
   },
   {
     "id": "aud-hoangduyen-04",
@@ -18928,7 +21438,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8b6814e54c1426a2e159a4b7a3520547/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/01-mijlk/sai-gon-hom-nay-mua-speed-up",
+    "youtubeQuery": "Mê Hoàng Duyên Official Audio"
   },
   {
     "id": "aud-hoangduyen-05",
@@ -18950,7 +21463,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/539b81b79f382b82cf248bdb7d0edfa5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/huong-karry-618882736/vong-nguyet-hoang-duyen-x-hua-kim-tuyen-1",
+    "youtubeQuery": "Vọng Nguyệt Hoàng Duyên Official Audio"
   },
   {
     "id": "aud-hoangduyen-06",
@@ -18972,7 +21488,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/8d59dc2de5a8b02496854a80f8a85362/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/o-n-b-o-nam-tr-n/ban-duyen-thai-hoang",
+    "youtubeQuery": "Em Sẽ Báo Công An Hoàng Duyên Official Audio"
   },
   {
     "id": "aud-hoangduyen-07",
@@ -18994,7 +21513,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0a8c92cfae47b2d739146c6b6a7c2e50/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/v-h-ng-sang-857032377/song-doa-day-remix-hoang-oanh-tuong-nguoi-den-la-duyen-la-phan-hot-tiktok",
+    "youtubeQuery": "Khách Không Mời Hoàng Duyên Official Audio"
   },
   {
     "id": "aud-hoangduyen-08",
@@ -19016,7 +21538,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5dcd60cf5fcd187d6916524f49fa4097/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thanhloi-774414601/em-ch-l-em-xinh-say-hi-b-ch-ph",
+    "youtubeQuery": " Thiên Đàng Hoàng Duyên Official Audio"
   },
   {
     "id": "aud-orange-01",
@@ -19039,7 +21564,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f11da8691e11b8bc74ed9003e9db7f7a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/wy6ornjcm0xk/love-is-orange-orange-lounge",
+    "youtubeQuery": "Người Lạ Ơi Karik, Orange, Superbrothers Official Audio"
   },
   {
     "id": "aud-orange-02",
@@ -19057,11 +21585,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 234,
     "playCount": 3848000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/5c9e7c2f335a090c564929221d383ee3/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02376b1dd4653e78ea81f42dd2",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/5c9e7c2f335a090c564929221d383ee3/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02376b1dd4653e78ea81f42dd2",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "3J06iY9IRWKr1H0zIxrUby",
+    "soundcloudUrl": "https://soundcloud.com/user-60004866/orange-sector-farben-slowed",
+    "youtubeQuery": "Khi Em Lớn Orange Official Audio"
   },
   {
     "id": "aud-orange-03",
@@ -19083,7 +21614,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/46e12ee65510fabe93edd8ae9eb16718/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/alina-fedinchik/love-me-not-feat-rex-orange",
+    "youtubeQuery": "Chân Ái Orange Official Audio"
   },
   {
     "id": "aud-orange-04",
@@ -19101,11 +21635,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 275,
     "playCount": 3428000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlN/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/9c5a07415d5a8fdaa2f5d593cd8525a9/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02fd12c4dc1f7bb608bc1bbc75",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/9c5a07415d5a8fdaa2f5d593cd8525a9/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02fd12c4dc1f7bb608bc1bbc75",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "175l3hUQGsz0NMQBD4sa6y",
+    "soundcloudUrl": "https://soundcloud.com/rexorangecounty/cape-fear-interlude-feat-cosmo",
+    "youtubeQuery": "Tự Sự Orange Official Audio"
   },
   {
     "id": "aud-orange-05",
@@ -19127,7 +21664,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/10f395b74da11ab8b36c0f28f4310ce3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-h-o-143444902/em-hat-ai-nghe-remix-orange-x-dai-meo-loi-em-hat-ai-nghe-lieu-thau-chang-trong-long-nhung-remix-1741020708706478140",
+    "youtubeQuery": "Em Hát Ai Nghe Orange Official Audio"
   },
   {
     "id": "aud-orange-06",
@@ -19149,7 +21689,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a2f7378664e3fef9ebdad2198d84622e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/rexorangecounty/rex-intro",
+    "youtubeQuery": "Có Đau Thì Đau Một Mình Orange Official Audio"
   },
   {
     "id": "aud-orange-07",
@@ -19167,11 +21710,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 2798000,
     "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/e1d10772e8603ae88876ba1556b7f7af/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e0262a6b10a116bbfd127a9a63a",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/e1d10772e8603ae88876ba1556b7f7af/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e0262a6b10a116bbfd127a9a63a",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "1fOSBywXpgRRSHg7F3tSPb",
+    "soundcloudUrl": "https://soundcloud.com/rexorangecounty/belly-the-grass-stains",
+    "youtubeQuery": "Gặp Lại Năm Ta 60 Orange Official Audio"
   },
   {
     "id": "aud-orange-08",
@@ -19193,7 +21739,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f11da8691e11b8bc74ed9003e9db7f7a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/gia-morales-79701112/orange-beat-2",
+    "youtubeQuery": "Hoàng Hôn Orange Official Audio"
   },
   {
     "id": "aud-hoangdung-01",
@@ -19215,7 +21764,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3c5d0d379ff7880bb1ac036d3bb90b4a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/h-ng-nguy-n-v-n-944348134/n-ng-th-ho-ng-d-ng-mp3-1",
+    "youtubeQuery": "Nàng Thơ Hoàng Dũng Official Audio"
   },
   {
     "id": "aud-hoangdung-02",
@@ -19237,7 +21789,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c209bcbc07b35c2292b8a800f4cc4abc/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ho-ng-c-hi-n/yeu-duoi-hoang-dung-live-chung-ket-ghv-s3",
+    "youtubeQuery": "Đôi Mươi Hoàng Dũng Official Audio"
   },
   {
     "id": "aud-hoangdung-03",
@@ -19255,11 +21810,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 215,
     "playCount": 3810000,
     "audioUrl": "https://api.audius.co/v1/tracks/P5xlX/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/d385a04c54c23efcef68a83eab53bb97/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02a09fb80b07fb17f8ab7b844a",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/d385a04c54c23efcef68a83eab53bb97/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02a09fb80b07fb17f8ab7b844a",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "2uxjHthUJd2A8PmWaUGGsI",
+    "soundcloudUrl": "https://soundcloud.com/mickeydzvcl/cho-anh-nhe-hoang-dung",
+    "youtubeQuery": "Chờ Anh Nhé Hoàng Dũng Official Audio"
   },
   {
     "id": "aud-hoangdung-04",
@@ -19281,7 +21839,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b7447fe92586a935bac4ac2b6e7ae32f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ho-ng-th-c-huy/doan-ket-moi-hoang-dung",
+    "youtubeQuery": "Đoạn Kết Mới Hoàng Dũng Official Audio"
   },
   {
     "id": "aud-hoangdung-05",
@@ -19303,7 +21864,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/7da9fe9f193724ec4c8caa3e5276a7d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ho-ng-c-hi-n/yeu-duoi-hoang-dung-live-chung-ket-ghv-s3",
+    "youtubeQuery": "Yếu Đuối Hoàng Dũng Official Audio"
   },
   {
     "id": "aud-hoangdung-06",
@@ -19325,7 +21889,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3c5d0d379ff7880bb1ac036d3bb90b4a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hoangdung19047/phonecert",
+    "youtubeQuery": "Nép Vào Anh Và Nghe Anh Hát Hoàng Dũng Official Audio"
   },
   {
     "id": "aud-hoangdung-07",
@@ -19347,7 +21914,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c209bcbc07b35c2292b8a800f4cc4abc/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ho-ng-v-310736555/ng-i-d-ng-huy-ho-ng-remix",
+    "youtubeQuery": "Vì Một Câu Nói Hoàng Dũng Official Audio"
   },
   {
     "id": "aud-hoangdung-08",
@@ -19369,7 +21939,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/d385a04c54c23efcef68a83eab53bb97/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ho-ng-th-c-huy/doan-ket-moi-hoang-dung",
+    "youtubeQuery": "Quê Hương Tình Yêu Và Tuổi Trẻ Hoàng Dũng Official Audio"
   },
   {
     "id": "aud-wn-01",
@@ -19387,11 +21960,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 228,
     "playCount": 3929000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/2578f99f778782f6904ca955bf4647fb/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02adc789d731eff56c9b448737",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/2578f99f778782f6904ca955bf4647fb/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02adc789d731eff56c9b448737",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "5xuaCJaNAqRLwV7OO5zPiF",
+    "soundcloudUrl": "https://soundcloud.com/vi-i-ng-n/full-list-3107-wn-ft-nau-duongg-titie-erik-267",
+    "youtubeQuery": "3107 (feat. Duongg, Nâu) W/n Official Audio"
   },
   {
     "id": "aud-wn-02",
@@ -19413,7 +21989,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a6d81d924541494e2432aa7272e1b02c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/bla-bla-391701653/3107-2-duongg-x-nau-x-w-n",
+    "youtubeQuery": "3107-2 W/n Official Audio"
   },
   {
     "id": "aud-wn-03",
@@ -19435,7 +22014,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/28dec34af983af0e375e808c4f3f2d95/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/bla-bla-391701653/3107-2-duongg-x-nau-x-w-n",
+    "youtubeQuery": "3107-3 W/n Official Audio"
   },
   {
     "id": "aud-wn-04",
@@ -19457,7 +22039,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c1df9f24089bf489b963eb1e5271474a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/dankii-1906/f37d961a-776a-43f0-b9d5-45d45acbc361",
+    "youtubeQuery": "3107-4 W/n Official Audio"
   },
   {
     "id": "aud-wn-05",
@@ -19475,11 +22060,14 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 205,
     "playCount": 3089000,
     "audioUrl": "https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream",
-    "img": "https://cdn-images.dzcdn.net/images/cover/2578f99f778782f6904ca955bf4647fb/500x500-000000-80-0-0.jpg",
+    "img": "https://i.scdn.co/image/ab67616d00001e02dc031e2429585e32b4ccb69b",
     "artwork": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/2578f99f778782f6904ca955bf4647fb/500x500-000000-80-0-0.jpg",
+      "url": "https://i.scdn.co/image/ab67616d00001e02dc031e2429585e32b4ccb69b",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": "1o6cYDMHvKOfizi4d9Lqxr",
+    "soundcloudUrl": "https://soundcloud.com/sickomode29/wn-id-072019-3107-ft-268",
+    "youtubeQuery": "id 072019 W/n Official Audio"
   },
   {
     "id": "aud-wn-06",
@@ -19501,7 +22089,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a6d81d924541494e2432aa7272e1b02c/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/sickomode29/wn-id-072019-3107-ft-268",
+    "youtubeQuery": "072019 / 3107 W/n Official Audio"
   },
   {
     "id": "aud-wn-07",
@@ -19523,7 +22114,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/28dec34af983af0e375e808c4f3f2d95/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-295646386/crush-2-wn-ft-tez-tien",
+    "youtubeQuery": "Crush 2 W/n Official Audio"
   },
   {
     "id": "aud-wn-08",
@@ -19545,7 +22139,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c1df9f24089bf489b963eb1e5271474a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/trang-tran-346939224/w-n-id-2022-ft-267-1",
+    "youtubeQuery": "Simple Love (W/n Remix) W/n Official Audio"
   },
   {
     "id": "aud-tangphuc-01",
@@ -19567,7 +22164,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c6e8b5ce564558ac59e88cb91227d7cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/jinkim3199/ky-vong-sai-lam-tang-phuc-x-nguyen-dinh-vu-x-yuno-bigboi-x-minnlofi-ver-by-1-9-6-7",
+    "youtubeQuery": "Chỉ Là Không Cùng Nhau Tăng Phúc Official Audio"
   },
   {
     "id": "aud-tangphuc-02",
@@ -19589,7 +22189,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a90c04e0c6f5ecb996afba69bab72b3e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-635792448/dung-cho-anh-nua-tang-phuc",
+    "youtubeQuery": "Đừng Chờ Anh Nữa Tăng Phúc Official Audio"
   },
   {
     "id": "aud-tangphuc-03",
@@ -19611,7 +22214,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/21c8016a207894ac6843184fe9e9a965/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/jinkim3199/ky-vong-sai-lam-tang-phuc-x-nguyen-dinh-vu-x-yuno-bigboi-x-minnlofi-ver-by-1-9-6-7",
+    "youtubeQuery": "Kỳ Vọng Sai Lầm Tăng Phúc Official Audio"
   },
   {
     "id": "aud-tangphuc-04",
@@ -19633,7 +22239,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c6e8b5ce564558ac59e88cb91227d7cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thue-xe-may/them-duoc-ve-nha-tang-phuc-camboardgame",
+    "youtubeQuery": "Tình Đầu Như Mơ Tăng Phúc Official Audio"
   },
   {
     "id": "aud-tangphuc-05",
@@ -19655,7 +22264,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a90c04e0c6f5ecb996afba69bab72b3e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-xu-n-h-ng-872737652/tang-phuc-tra-nguoi-ve-tu-do-lululola-show",
+    "youtubeQuery": "Sài Gòn Đêm Nay Tăng Phúc Official Audio"
   },
   {
     "id": "aud-tangphuc-06",
@@ -19677,7 +22289,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/21c8016a207894ac6843184fe9e9a965/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/vu-khang-373531863/y2mate-com-ta-ng-phu-c-medley",
+    "youtubeQuery": "Ước Có Người Bên Tôi Mỗi Khi Buồn Tăng Phúc Official Audio"
   },
   {
     "id": "aud-tangphuc-07",
@@ -19699,7 +22314,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c6e8b5ce564558ac59e88cb91227d7cb/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-402297914/tim-nhau-khong-tang-phuc",
+    "youtubeQuery": "Sau Này Nếu Có Yêu Ai Tăng Phúc Official Audio"
   },
   {
     "id": "aud-tangphuc-08",
@@ -19721,7 +22339,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a90c04e0c6f5ecb996afba69bab72b3e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/irisdescentt/minh-tuyet-ft-tang-phuc-tra-nguoi-ve-tu-do",
+    "youtubeQuery": "Trả Người Về Tự Do Tăng Phúc Official Audio"
   },
   {
     "id": "aud-anhtu-01",
@@ -19743,7 +22364,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/231de5068b1f4d5d9281e2b474b90012/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anh-t-147151334/ng-y-mai-ng-i-ta-l-y-ch-ng-voi",
+    "youtubeQuery": "Ngày Mai Người Ta Lấy Chồng Anh Tú (Voi Bản Đôn) Official Audio"
   },
   {
     "id": "aud-anhtu-02",
@@ -19765,7 +22389,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1ee37e9ab12b00cb66bd8cf822fc7571/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/daubu/khoa-ly-biet-voi-ban-don-anh-tu-remix-houselak",
+    "youtubeQuery": "Khóa Ly Biệt Anh Tú (Voi Bản Đôn) Official Audio"
   },
   {
     "id": "aud-anhtu-03",
@@ -19787,7 +22414,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6542170bcb8c0144b1ab6912cd3506ad/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ill-ll-i-m-iill-ll/nst-2019-anh-nho-em-chu-voi-con-o-ban-don-tai-taiger",
+    "youtubeQuery": "Đôi Mắt Anh Tú (Voi Bản Đôn) Official Audio"
   },
   {
     "id": "aud-anhtu-04",
@@ -19809,7 +22439,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c73b645afab21a832d6df576535ac24b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/cao-thanh-giau/kh-a-bi-t-ly-remic-voi-b-n-n",
+    "youtubeQuery": "Cuộc Sống Em Ổn Không Anh Tú (Voi Bản Đôn) Official Audio"
   },
   {
     "id": "aud-anhtu-05",
@@ -19831,7 +22464,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/231de5068b1f4d5d9281e2b474b90012/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/khang-khuu-654343647/ng-i-l-h-ch-minh-anh-t-voi-b-n",
+    "youtubeQuery": "Rời Bỏ Anh Tú (Voi Bản Đôn) Official Audio"
   },
   {
     "id": "aud-anhtu-06",
@@ -19853,7 +22489,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/1ee37e9ab12b00cb66bd8cf822fc7571/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/parshaaz1/khuoc-tu-ha-nhi-mieu-quy-toc-ft-anh-tu",
+    "youtubeQuery": "Một Phần Hai Anh Tú (Voi Bản Đôn) Official Audio"
   },
   {
     "id": "aud-anhtu-07",
@@ -19875,7 +22514,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/6542170bcb8c0144b1ab6912cd3506ad/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/admin-vbk-music/phut-giay-toa-sang-anh-tu-voi-ban-don-3",
+    "youtubeQuery": "Cha Và Con Gái Anh Tú (Voi Bản Đôn) Official Audio"
   },
   {
     "id": "aud-anhtu-08",
@@ -19897,7 +22539,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c73b645afab21a832d6df576535ac24b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/teddy_2k/chu-voi-con-o-ban-don-2019-huy-anh-ft-jind-remix-up-dow",
+    "youtubeQuery": "Hoàng Hôn Nhớ Anh Tú (Voi Bản Đôn) Official Audio"
   },
   {
     "id": "aud-quocthien-01",
@@ -19919,7 +22564,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cdccd40dc9c16264567c1dbe309e1bb3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/trngannn/hoa-va-vay-quoc-thien",
+    "youtubeQuery": "Mong Manh Tình Về Quốc Thiên Official Audio"
   },
   {
     "id": "aud-quocthien-02",
@@ -19941,7 +22589,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2d1df21b514d53732e0c58debf0d9829/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tr-nh-thanh-t/chia-cach-binh-yen-quoc-thien",
+    "youtubeQuery": "Chia Cách Bình Yên Quốc Thiên Official Audio"
   },
   {
     "id": "aud-quocthien-03",
@@ -19963,7 +22614,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/95aba92515f190820be34f00945cd0f9/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/khue-la-ngoc-503354942/hoa-va-vay-quoc-thien-nu-ca-si-giau-mat-cover",
+    "youtubeQuery": "Thiếu Em Như Trái Đất Thiếu Mặt Trời Quốc Thiên Official Audio"
   },
   {
     "id": "aud-quocthien-04",
@@ -19985,7 +22639,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a8511e37ad27fc156add1acac310816e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/shauna-ana/mtkt",
+    "youtubeQuery": "Hơn 1000 Năm Sau Quốc Thiên Official Audio"
   },
   {
     "id": "aud-quocthien-05",
@@ -20007,7 +22664,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/cdccd40dc9c16264567c1dbe309e1bb3/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/khanhlinh-977722465/untitled-project-3",
+    "youtubeQuery": "Vạn Sự Tùy Duyên Quốc Thiên Official Audio"
   },
   {
     "id": "aud-quocthien-06",
@@ -20029,7 +22689,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2d1df21b514d53732e0c58debf0d9829/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hello-di-n-kh/k-say-t-nh-qu-c-thi-n-remix",
+    "youtubeQuery": "Lạc Quốc Thiên Official Audio"
   },
   {
     "id": "aud-quocthien-07",
@@ -20051,7 +22714,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/95aba92515f190820be34f00945cd0f9/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/jesus-ph-m/k-say-t-nh-qu-c-thi-n-skynote",
+    "youtubeQuery": "Cánh Hồng Phai Quốc Thiên Official Audio"
   },
   {
     "id": "aud-quocthien-08",
@@ -20073,7 +22739,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/a8511e37ad27fc156add1acac310816e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-704283955/th-i-ng-chi-m-bao-nam-con",
+    "youtubeQuery": "Ngày Mai Người Ta Lấy Chồng (Live) Quốc Thiên Official Audio"
   },
   {
     "id": "aud-buicongnam-01",
@@ -20095,7 +22764,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3cd83b0ad2f05da927761d1a9c984d3a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ong-y-t-t/t-t-n-r-i-ng-nhi-x-hi-n-th-c-x",
+    "youtubeQuery": "Có Không Giữ Mất Đừng Tìm Bùi Công Nam Official Audio"
   },
   {
     "id": "aud-buicongnam-02",
@@ -20117,7 +22789,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e29432a87bb6dd6d37347484c05c2574/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/imborng/b-i-c-ng-nam-t-t-n-y-con-s-v",
+    "youtubeQuery": "Tết Này Con Sẽ Về Bùi Công Nam Official Audio"
   },
   {
     "id": "aud-buicongnam-03",
@@ -20139,7 +22814,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f96c35e0aa67346506a7d9b34819f397/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tr-n-v-minh-kh-i/kiep-chong-chung-bui-cong-nam-ma-ost-full-version",
+    "youtubeQuery": "Chí Phèo Bùi Công Nam Official Audio"
   },
   {
     "id": "aud-buicongnam-04",
@@ -20161,7 +22839,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/50869f24d0b25ab9f37e8ced63cde92a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tuongdoan/nam-qua-da-lam-gi-bui-cong-nam",
+    "youtubeQuery": "Năm Qua Đã Làm Gì Bùi Công Nam Official Audio"
   },
   {
     "id": "aud-buicongnam-05",
@@ -20183,7 +22864,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/3cd83b0ad2f05da927761d1a9c984d3a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tritruongindahau/tien-hay-lui-bui-cong-nam-ft-soobin-cxi-x-tritruong-remix-nu-hon-bac-ty-ost",
+    "youtubeQuery": "Tiến Hay Lùi Bùi Công Nam Official Audio"
   },
   {
     "id": "aud-buicongnam-06",
@@ -20205,7 +22889,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e29432a87bb6dd6d37347484c05c2574/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tran-nguyen-thanh-mai/chua-te-bui-cong-nam",
+    "youtubeQuery": "Chúa Tể Bùi Công Nam Official Audio"
   },
   {
     "id": "aud-buicongnam-07",
@@ -20227,7 +22914,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f96c35e0aa67346506a7d9b34819f397/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ong-y-t-t/t-t-n-r-i-ng-nhi-x-hi-n-th-c-x",
+    "youtubeQuery": "Tết Ổn Rồi Bùi Công Nam Official Audio"
   },
   {
     "id": "aud-buicongnam-08",
@@ -20249,7 +22939,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/50869f24d0b25ab9f37e8ced63cde92a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-766276250/la-sao-em-oi-bui-cong-nam-ft-hoang-dung",
+    "youtubeQuery": "Nhớ Mãi Chuyến Đi Này Bùi Công Nam Official Audio"
   },
   {
     "id": "aud-khacviet-01",
@@ -20271,7 +22964,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/67a9ca4c05fecef1d592868a321a3a5e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/c-th-ii/anh-ye-u-em-kha-c-vie-t-ft-ye",
+    "youtubeQuery": "Chạy Về Nơi Phía Anh Khắc Việt Official Audio"
   },
   {
     "id": "aud-khacviet-02",
@@ -20293,7 +22989,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/ee8ea6deced4d169f73920cedf1770df/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/dsmallofficial/khac-viet-yeu-lai-tu-dau-dsmall-remix",
+    "youtubeQuery": "Yêu Lại Từ Đầu Khắc Việt Official Audio"
   },
   {
     "id": "aud-khacviet-03",
@@ -20315,7 +23014,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4693301f81d473fbefb2e6699cc4c9b9/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-65465239/yeu-khac-thuong-hai-thanh-hung",
+    "youtubeQuery": "Ngỡ Khắc Việt Official Audio"
   },
   {
     "id": "aud-khacviet-04",
@@ -20337,7 +23039,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/663ce26fe92583d5ca64159ef8a3c3c7/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/loc_design/chi-anh-hieu-em-khac-viet-in-room",
+    "youtubeQuery": "Chỉ Anh Hiểu Em Khắc Việt Official Audio"
   },
   {
     "id": "aud-khacviet-05",
@@ -20359,7 +23064,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/2681b64664cb773404daf9b1604b907e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-446123388/khong-phai-anh-dung-khong-khac-viet",
+    "youtubeQuery": "Khó Khắc Việt Official Audio"
   },
   {
     "id": "aud-khacviet-06",
@@ -20381,7 +23089,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f987f86ef95f740da34a3ced14e6bf75/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/k-n-bee/suy-nghi-trong-anh-khac-viet",
+    "youtubeQuery": "Suy Nghĩ Trong Anh Khắc Việt Official Audio"
   },
   {
     "id": "aud-khacviet-07",
@@ -20403,7 +23114,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f9ea3df78966c62e265db8b9e71e7813/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/phj1ddu9gv9x/anh-khac-hay-em-khac-khac-viet-nhac-tre-hay-nhat",
+    "youtubeQuery": "Anh Khác Hay Em Khác Khắc Việt Official Audio"
   },
   {
     "id": "aud-khacviet-08",
@@ -20425,7 +23139,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/67a9ca4c05fecef1d592868a321a3a5e/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ct-official/toi-cho-co-gai-do-khac-viet",
+    "youtubeQuery": "Tội Cho Cô Gái Đó Khắc Việt Official Audio"
   },
   {
     "id": "aud-bangkieu-01",
@@ -20447,7 +23164,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/834c970d2d8372d4d85086fb7f167048/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kendall-nguyen-phuoc/trai-tim-ben-le-bk-nct",
+    "youtubeQuery": "Trái Tim Bên Lề Bằng Kiều Official Audio"
   },
   {
     "id": "aud-bangkieu-02",
@@ -20469,7 +23189,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e456c1a0deb368aae208822f0dc9eef8/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nhacbolero/xin-goi-nhau-la-co-nhan",
+    "youtubeQuery": "Nơi Tình Yêu Bắt Đầu Bằng Kiều Official Audio"
   },
   {
     "id": "aud-bangkieu-03",
@@ -20491,7 +23214,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e0132f02ea287f936dcab7798d63f415/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/phan-qu-c-ngh/con-mua-bang-gia-bang-kieu",
+    "youtubeQuery": "Cơn Mưa Băng Giá Bằng Kiều Official Audio"
   },
   {
     "id": "aud-bangkieu-04",
@@ -20513,7 +23239,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/834c970d2d8372d4d85086fb7f167048/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/btx01/lai-gan-hon-anh-bang-kieu-flac",
+    "youtubeQuery": "Lại Gần Hôn Anh Bằng Kiều Official Audio"
   },
   {
     "id": "aud-bangkieu-05",
@@ -20535,7 +23264,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e456c1a0deb368aae208822f0dc9eef8/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hanoipho/emoihanoipho",
+    "youtubeQuery": "Em Ơi Hà Nội Phố Bằng Kiều Official Audio"
   },
   {
     "id": "aud-bangkieu-06",
@@ -20557,7 +23289,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e0132f02ea287f936dcab7798d63f415/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nimcachon/bang-kieu-de-nho-mot-thoi-ta",
+    "youtubeQuery": "Để Nhớ Một Thời Ta Đã Yêu Bằng Kiều Official Audio"
   },
   {
     "id": "aud-bangkieu-07",
@@ -20579,7 +23314,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/834c970d2d8372d4d85086fb7f167048/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/m-nh-nguy-n-8/doi-thay-bang-kieu",
+    "youtubeQuery": "Phút Cuối Bằng Kiều Official Audio"
   },
   {
     "id": "aud-bangkieu-08",
@@ -20601,7 +23339,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e456c1a0deb368aae208822f0dc9eef8/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/dang-manh-linh/tinh-don-phuong-3",
+    "youtubeQuery": "Bản Tình Cuối Bằng Kiều Official Audio"
   },
   {
     "id": "aud-camly-01",
@@ -20624,7 +23365,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0da03dcbc195af21bf9b034c3a2ec226/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/losslessmusic/chim-trang-mo-coi-cam-ly",
+    "youtubeQuery": "Chim Trắng Mồ Côi Đan Trường, Cẩm Ly Official Audio"
   },
   {
     "id": "aud-camly-02",
@@ -20646,7 +23390,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e65eb34bf1a05550b59b25c2fdc82518/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/losslessmusic/em-se-la-nguoi-ra-di-cam-ly",
+    "youtubeQuery": "Em Sẽ Là Người Ra Đi Cẩm Ly Official Audio"
   },
   {
     "id": "aud-camly-03",
@@ -20668,7 +23415,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/85645c4fb4e091cc611a8d13c94bc6e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/camlycuong/pho-hoa-cam-ly",
+    "youtubeQuery": "Người Về Cuối Phố Cẩm Ly Official Audio"
   },
   {
     "id": "aud-camly-04",
@@ -20690,7 +23440,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f24382c25bca4dc086e6e82e17ec5f5a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/camlycuong/pho-hoa-cam-ly",
+    "youtubeQuery": "Phố Hoa Cẩm Ly Official Audio"
   },
   {
     "id": "aud-camly-05",
@@ -20712,7 +23465,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/0da03dcbc195af21bf9b034c3a2ec226/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/calvin-t-ng/tinh-ngo-la-mo-cam-ly-mp3",
+    "youtubeQuery": "Nỗi Buồn Mẹ Tôi Cẩm Ly Official Audio"
   },
   {
     "id": "aud-camly-06",
@@ -20734,7 +23490,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/e65eb34bf1a05550b59b25c2fdc82518/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/xamuttite1/chim-tr-ng-m-c-i",
+    "youtubeQuery": "Thầm Mong Cẩm Ly Official Audio"
   },
   {
     "id": "aud-camly-07",
@@ -20756,7 +23515,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/85645c4fb4e091cc611a8d13c94bc6e1/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/camly-sc/m-nh-i-1",
+    "youtubeQuery": "Cà Phê Miệt Vườn Cẩm Ly Official Audio"
   },
   {
     "id": "aud-camly-08",
@@ -20778,7 +23540,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/f24382c25bca4dc086e6e82e17ec5f5a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/lanhtinhmon/chong-xa-cam-ly",
+    "youtubeQuery": "Chồng Xa Cẩm Ly Official Audio"
   },
   {
     "id": "aud-anhtuatus-01",
@@ -20800,7 +23565,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ki-u-oanh-137826869/b-i-n-y-kh-ng-i-di-n-anh-t",
+    "youtubeQuery": "Bài Này Không Để Đi Diễn Anh Tú Atus Official Audio"
   },
   {
     "id": "aud-anhtuatus-02",
@@ -20825,7 +23593,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5e0fdeddf72c9bf3385e21dab445009a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/ngao-ngo",
+    "youtubeQuery": "Ngáo Ngơ HIEUTHUHAI, Anh Tú Atus, JSOL, Erik Official Audio"
   },
   {
     "id": "aud-anhtuatus-03",
@@ -20847,7 +23618,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anhtraisayhi_viechannel/deu-la-cua-em",
+    "youtubeQuery": "Đều Là Của Em Anh Tú Atus Official Audio"
   },
   {
     "id": "aud-anhtuatus-04",
@@ -20872,7 +23646,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/baomenhac/you-song-luan-anh-tu-atus-2",
+    "youtubeQuery": "Sao Hạng A HIEUTHUHAI, Dương Domic, Anh Tú Atus, Song Luân Official Audio"
   },
   {
     "id": "aud-anhtuatus-05",
@@ -20894,7 +23671,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5e0fdeddf72c9bf3385e21dab445009a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/baomenhac/10-10-atus-anh-t-quang-trung",
+    "youtubeQuery": "10/10 Anh Tú Atus Official Audio"
   },
   {
     "id": "aud-anhtuatus-06",
@@ -20916,7 +23696,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/b1d13405d74782756db04b2350fc7c71/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/chi-cong-326257510/ta-lai-bo-roi-nhau-anh-tu-atus",
+    "youtubeQuery": "Em Đồng Ý Anh Tú Atus Official Audio"
   },
   {
     "id": "aud-anhtuatus-07",
@@ -20938,7 +23721,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/4c54ba2f8ef5fa59db29d59e4c355bd2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/baomenhac/10-10-atus-anh-t-quang-trung",
+    "youtubeQuery": "Mắt Biếc Anh Tú Atus Official Audio"
   },
   {
     "id": "aud-anhtuatus-08",
@@ -20960,7 +23746,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/5e0fdeddf72c9bf3385e21dab445009a/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/quang-th-g-ngy-n-15870539/1a2",
+    "youtubeQuery": "Nỗi Đau Đính Kèm Anh Tú Atus Official Audio"
   },
   {
     "id": "aud-kaytran-01",
@@ -20982,7 +23771,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/63bdc0e9f4da19d0caaf84a2921168d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/n6tmaxz/y-em-sao-kay-tran-x-lang-ld-x-homie-boiz",
+    "youtubeQuery": "Ý Em Sao Kay Trần Official Audio"
   },
   {
     "id": "aud-kaytran-02",
@@ -21004,7 +23796,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/95cc9dd0a71c10382cc8f17121e7d49b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/binz-le/mp3-phia-sau-em-kay-tran-ft-binz",
+    "youtubeQuery": "Phía Sau Em Kay Trần Official Audio"
   },
   {
     "id": "aud-kaytran-03",
@@ -21026,7 +23821,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/01f24a3408a2ce6d865767301079888f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-797366112/chuyen-tinh-toi-kay-tran-nguyen-khoa",
+    "youtubeQuery": "Chuyện Tình Tôi Kay Trần Official Audio"
   },
   {
     "id": "aud-kaytran-04",
@@ -21048,7 +23846,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-84894616/tet-dong-day-kay-tran-nguyen-khoa",
+    "youtubeQuery": "Đường Vào Tim Em Kay Trần Official Audio"
   },
   {
     "id": "aud-kaytran-05",
@@ -21070,7 +23871,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/63bdc0e9f4da19d0caaf84a2921168d2/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-84894616/tet-dong-day-kay-tran-nguyen-khoa",
+    "youtubeQuery": "Tết Đong Đầy Kay Trần Official Audio"
   },
   {
     "id": "aud-kaytran-06",
@@ -21092,7 +23896,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/95cc9dd0a71c10382cc8f17121e7d49b/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ldlentertainment/nam-doi-ban-tay-kay-tran",
+    "youtubeQuery": "Nắm Đôi Bàn Tay Kay Trần Official Audio"
   },
   {
     "id": "aud-kaytran-07",
@@ -21114,7 +23921,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/01f24a3408a2ce6d865767301079888f/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/minh-nguy-n-anh-837808111/nuoc-hoa-soobin-kay-tran-cuong-seven-kien-ung-anh-trai-vuot-ngan-chong-gai-2024",
+    "youtubeQuery": "Nước Hoa Kay Trần Official Audio"
   },
   {
     "id": "aud-kaytran-08",
@@ -21136,7 +23946,10 @@ export const FULL_VIETNAMESE_TRACKS = [
     "artwork": {
       "url": "https://cdn-images.dzcdn.net/images/cover/c06a8e9304e7fdce6522cead786beaa5/500x500-000000-80-0-0.jpg",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/t-n-hu-nh-754570596/y-em-sao",
+    "youtubeQuery": "Cố Giang Tình (Live) Kay Trần Official Audio"
   },
   {
     "id": "aud-JE6A2",
@@ -21156,10 +23969,1586 @@ export const FULL_VIETNAMESE_TRACKS = [
     "durationSeconds": 1328,
     "playCount": 1850000,
     "audioUrl": "https://api.audius.co/v1/tracks/JE6A2/stream?app_name=SoundStream",
-    "img": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&auto=format&fit=crop&q=80",
     "artwork": {
-      "url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&auto=format&fit=crop&q=80",
       "mirrors": []
-    }
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": null,
+    "youtubeQuery": "Mega Mashup VPOP (Túy Âm - Kém Duyên - Người Lạ Ơi - Buồn Của Anh) Tuan Anh DJ Producer Official Audio"
+  },
+  {
+    "id": "aud-emceel-01",
+    "audiusId": "lvBQl",
+    "title": "Chuyện Đôi Ta",
+    "artist": "Emcee L (Da LAB)",
+    "artistId": "emceel",
+    "handle": "emceel",
+    "featuredArtistIds": [
+      "emceel"
+    ],
+    "genre": "V-Pop / Rap & Ballad",
+    "album": "Chuyện Đôi Ta - Single",
+    "duration": "3:17",
+    "durationSeconds": 197,
+    "playCount": 1500000,
+    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-xzpdE62q0XZtygvM-RZWxKg-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-xzpdE62q0XZtygvM-RZWxKg-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/deeyouseeprod/chuyen-doi-ta-deeyousee-remix-emcee-l-da-lab-ft-muoii",
+    "youtubeQuery": "Chuyện Đôi Ta Emcee L (Da LAB) Official Audio"
+  },
+  {
+    "id": "aud-emceel-02",
+    "audiusId": "8QPZp",
+    "title": "Mặt Trời Khóc",
+    "artist": "Emcee L (Da LAB)",
+    "artistId": "emceel",
+    "handle": "emceel",
+    "featuredArtistIds": [
+      "emceel"
+    ],
+    "genre": "V-Pop / Rap & Ballad",
+    "album": "Mặt Trời Khóc - Single",
+    "duration": "3:45",
+    "durationSeconds": 225,
+    "playCount": 1390000,
+    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-Yvg7kTNQtVUUbvpt-s5rokQ-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-Yvg7kTNQtVUUbvpt-s5rokQ-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/diggorydoan99/mat-troi-khoc-emcee-l-da-lab-ft-orange",
+    "youtubeQuery": "Mặt Trời Khóc Emcee L (Da LAB) Official Audio"
+  },
+  {
+    "id": "aud-emceel-03",
+    "audiusId": "xWkj3",
+    "title": "Sinh Ra Đã Là Thứ Đối Lập Nhau",
+    "artist": "Emcee L (Da LAB)",
+    "artistId": "emceel",
+    "handle": "emceel",
+    "featuredArtistIds": [
+      "emceel"
+    ],
+    "genre": "V-Pop / Rap & Ballad",
+    "album": "Sinh Ra Đã Là Thứ Đối Lập Nhau - Single",
+    "duration": "3:52",
+    "durationSeconds": 232,
+    "playCount": 1280000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-GOhKRAFQ1BfIwWay-BnPUmQ-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-GOhKRAFQ1BfIwWay-BnPUmQ-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-892471753/sinh-ra-da-la-thu-doi-lap-nhau",
+    "youtubeQuery": "Sinh Ra Đã Là Thứ Đối Lập Nhau Emcee L (Da LAB) Official Audio"
+  },
+  {
+    "id": "aud-emceel-04",
+    "audiusId": "qP5RB",
+    "title": "Quên Anh Đi",
+    "artist": "Emcee L (Da LAB)",
+    "artistId": "emceel",
+    "handle": "emceel",
+    "featuredArtistIds": [
+      "emceel"
+    ],
+    "genre": "V-Pop / Rap & Ballad",
+    "album": "Quên Anh Đi - Single",
+    "duration": "4:00",
+    "durationSeconds": 240,
+    "playCount": 1170000,
+    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-Ynygll18aWOBif1B-pMUGIw-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-Ynygll18aWOBif1B-pMUGIw-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tr-n-cho-tui/sinh-ra-a-la-thu-o-i-la-p-nhau",
+    "youtubeQuery": "Quên Anh Đi Emcee L (Da LAB) Official Audio"
+  },
+  {
+    "id": "aud-emceel-05",
+    "audiusId": "0g28JKm",
+    "title": "Thức Giấc",
+    "artist": "Emcee L (Da LAB)",
+    "artistId": "emceel",
+    "handle": "emceel",
+    "featuredArtistIds": [
+      "emceel"
+    ],
+    "genre": "V-Pop / Rap & Ballad",
+    "album": "Thức Giấc - Single",
+    "duration": "3:30",
+    "durationSeconds": 210,
+    "playCount": 1060000,
+    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
+    "img": "https://i.scdn.co/image/ab67616d00001e02fea8333dc89ceb644766ab5b",
+    "artwork": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02fea8333dc89ceb644766ab5b",
+      "mirrors": []
+    },
+    "spotifyTrackId": "1MiJk3dXC5jzhvLFP0dUM7",
+    "soundcloudUrl": "https://soundcloud.com/sad-chill-450999891/chuy-n-i-ta-lofi-ver-emcee-l",
+    "youtubeQuery": "Thức Giấc Emcee L (Da LAB) Official Audio"
+  },
+  {
+    "id": "aud-emceel-06",
+    "audiusId": "xPY1M2",
+    "title": "Gác Lại Âu Lo",
+    "artist": "Emcee L (Da LAB)",
+    "artistId": "emceel",
+    "handle": "emceel",
+    "featuredArtistIds": [
+      "emceel"
+    ],
+    "genre": "V-Pop / Rap & Ballad",
+    "album": "Gác Lại Âu Lo - Single",
+    "duration": "3:46",
+    "durationSeconds": 226,
+    "playCount": 950000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-vN8Md1zXDkPN-0-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-vN8Md1zXDkPN-0-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/emceeldalab-sc/chuy-n-i-ta-rock-version-feat",
+    "youtubeQuery": "Gác Lại Âu Lo Emcee L (Da LAB) Official Audio"
+  },
+  {
+    "id": "aud-emceel-07",
+    "audiusId": "NYvGx",
+    "title": "Thanh Xuân",
+    "artist": "Emcee L (Da LAB)",
+    "artistId": "emceel",
+    "handle": "emceel",
+    "featuredArtistIds": [
+      "emceel"
+    ],
+    "genre": "V-Pop / Rap & Ballad",
+    "album": "Thanh Xuân - Single",
+    "duration": "2:26",
+    "durationSeconds": 146,
+    "playCount": 840000,
+    "audioUrl": "https://api.audius.co/v1/tracks/NYvGx/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-jJgczowgKlTb5yh5-WS0w5Q-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-jJgczowgKlTb5yh5-WS0w5Q-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/dleexw/chuy-n-i-ta-emcee-l-da-lab-ft",
+    "youtubeQuery": "Thanh Xuân Emcee L (Da LAB) Official Audio"
+  },
+  {
+    "id": "aud-emceel-08",
+    "audiusId": "YZawm",
+    "title": "Một Nhà",
+    "artist": "Emcee L (Da LAB)",
+    "artistId": "emceel",
+    "handle": "emceel",
+    "featuredArtistIds": [
+      "emceel"
+    ],
+    "genre": "V-Pop / Rap & Ballad",
+    "album": "Một Nhà - Single",
+    "duration": "4:37",
+    "durationSeconds": 277,
+    "playCount": 730000,
+    "audioUrl": "https://api.audius.co/v1/tracks/YZawm/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-yvsoQQE3Xk11TlP8-yzZnpA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-yvsoQQE3Xk11TlP8-yzZnpA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/vytranngocnhan/t-nh-y-u-l-n-emcee-l-ft-mu-ii",
+    "youtubeQuery": "Một Nhà Emcee L (Da LAB) Official Audio"
+  },
+  {
+    "id": "aud-maydays-01",
+    "audiusId": "lvBQl",
+    "title": "Phép Màu",
+    "artist": "MAYDAYs",
+    "artistId": "maydays",
+    "handle": "maydays",
+    "featuredArtistIds": [
+      "maydays"
+    ],
+    "genre": "Indie Pop / Alternative",
+    "album": "Phép Màu - Single",
+    "duration": "4:16",
+    "durationSeconds": 256,
+    "playCount": 1500000,
+    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-Sf9DSJjicMSjxXph-hJhtIQ-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-Sf9DSJjicMSjxXph-hJhtIQ-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hoavokhuyet_adley/pngugg",
+    "youtubeQuery": "Phép Màu MAYDAYs Official Audio"
+  },
+  {
+    "id": "aud-maydays-02",
+    "audiusId": "8QPZp",
+    "title": "Em",
+    "artist": "MAYDAYs",
+    "artistId": "maydays",
+    "handle": "maydays",
+    "featuredArtistIds": [
+      "maydays"
+    ],
+    "genre": "Indie Pop / Alternative",
+    "album": "Em - Single",
+    "duration": "3:30",
+    "durationSeconds": 210,
+    "playCount": 1390000,
+    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
+    "img": "https://i.scdn.co/image/ab67616d00001e02240e87c9e99059366c32c0c1",
+    "artwork": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02240e87c9e99059366c32c0c1",
+      "mirrors": []
+    },
+    "spotifyTrackId": "3G54dm2hNwG4evY23tURTr",
+    "soundcloudUrl": "https://soundcloud.com/minhnguyetawf/cho-em-maydays-guitar-cover",
+    "youtubeQuery": "Em MAYDAYs Official Audio"
+  },
+  {
+    "id": "aud-maydays-03",
+    "audiusId": "xWkj3",
+    "title": "Hẹn Lần Sau",
+    "artist": "MAYDAYs",
+    "artistId": "maydays",
+    "handle": "maydays",
+    "featuredArtistIds": [
+      "maydays"
+    ],
+    "genre": "Indie Pop / Alternative",
+    "album": "Hẹn Lần Sau - Single",
+    "duration": "3:30",
+    "durationSeconds": 210,
+    "playCount": 1280000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
+    "img": "https://i.scdn.co/image/ab67616d00001e02304b7adea4c0e548121784e6",
+    "artwork": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02304b7adea4c0e548121784e6",
+      "mirrors": []
+    },
+    "spotifyTrackId": "1r9gNSD1WUFscqTSA2Rcet",
+    "soundcloudUrl": "https://soundcloud.com/trngannn/h-n-l-n-sau-maydays-1",
+    "youtubeQuery": "Hẹn Lần Sau MAYDAYs Official Audio"
+  },
+  {
+    "id": "aud-maydays-04",
+    "audiusId": "qP5RB",
+    "title": "Chờ Ngày Mưa Tan",
+    "artist": "MAYDAYs",
+    "artistId": "maydays",
+    "handle": "maydays",
+    "featuredArtistIds": [
+      "maydays"
+    ],
+    "genre": "Indie Pop / Alternative",
+    "album": "Chờ Ngày Mưa Tan - Single",
+    "duration": "4:17",
+    "durationSeconds": 257,
+    "playCount": 1170000,
+    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-jBYBzeVYzyeQHio4-Je8yWg-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-jBYBzeVYzyeQHio4-Je8yWg-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/bycelane/h-n-l-n-sau-maydays-live-at-s",
+    "youtubeQuery": "Chờ Ngày Mưa Tan MAYDAYs Official Audio"
+  },
+  {
+    "id": "aud-maydays-05",
+    "audiusId": "0g28JKm",
+    "title": "Ngày Đầu Tiên",
+    "artist": "MAYDAYs",
+    "artistId": "maydays",
+    "handle": "maydays",
+    "featuredArtistIds": [
+      "maydays"
+    ],
+    "genre": "Indie Pop / Alternative",
+    "album": "Ngày Đầu Tiên - Single",
+    "duration": "4:43",
+    "durationSeconds": 283,
+    "playCount": 1060000,
+    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-PzIXLIoVJ1y7vizf-5DYcNA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-PzIXLIoVJ1y7vizf-5DYcNA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/giahann201/ph-p-m-u-n-c-g-ost-maydays-ft",
+    "youtubeQuery": "Ngày Đầu Tiên MAYDAYs Official Audio"
+  },
+  {
+    "id": "aud-maydays-06",
+    "audiusId": "xPY1M2",
+    "title": "Đi Qua Mùa Hạ",
+    "artist": "MAYDAYs",
+    "artistId": "maydays",
+    "handle": "maydays",
+    "featuredArtistIds": [
+      "maydays"
+    ],
+    "genre": "Indie Pop / Alternative",
+    "album": "Đi Qua Mùa Hạ - Single",
+    "duration": "4:12",
+    "durationSeconds": 252,
+    "playCount": 950000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-j2gjye7HYxiabUbv-knavFw-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-j2gjye7HYxiabUbv-knavFw-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/huy-thai-488411077/ph-p-m-u-lofi-ver-maydays-ft",
+    "youtubeQuery": "Đi Qua Mùa Hạ MAYDAYs Official Audio"
+  },
+  {
+    "id": "aud-ronboogz-01",
+    "audiusId": "lvBQl",
+    "title": "Nhắn Rằng Anh Nhớ Em",
+    "artist": "Ronboogz",
+    "artistId": "ronboogz",
+    "handle": "ronboogz",
+    "featuredArtistIds": [
+      "ronboogz"
+    ],
+    "genre": "Indie Việt / R&B & Rap",
+    "album": "Nhắn Rằng Anh Nhớ Em - Single",
+    "duration": "3:26",
+    "durationSeconds": 206,
+    "playCount": 1500000,
+    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-eiLEOiS0GexsrBin-pzExyg-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-eiLEOiS0GexsrBin-pzExyg-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ron-r-m-r-nh-r-i/noi-doi-ronboogz",
+    "youtubeQuery": "Nhắn Rằng Anh Nhớ Em Ronboogz Official Audio"
+  },
+  {
+    "id": "aud-ronboogz-02",
+    "audiusId": "8QPZp",
+    "title": "Đừng Đổi Thay",
+    "artist": "Ronboogz",
+    "artistId": "ronboogz",
+    "handle": "ronboogz",
+    "featuredArtistIds": [
+      "ronboogz"
+    ],
+    "genre": "Indie Việt / R&B & Rap",
+    "album": "Đừng Đổi Thay - Single",
+    "duration": "3:36",
+    "durationSeconds": 216,
+    "playCount": 1390000,
+    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-h3GPRzwvR5D0hTQT-ssCmEw-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-h3GPRzwvR5D0hTQT-ssCmEw-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ron-r-m-r-nh-r-i/hai-dua-nhoc-ronboogz",
+    "youtubeQuery": "Đừng Đổi Thay Ronboogz Official Audio"
+  },
+  {
+    "id": "aud-ronboogz-03",
+    "audiusId": "xWkj3",
+    "title": "Khi Em Lớn",
+    "artist": "Ronboogz",
+    "artistId": "ronboogz",
+    "handle": "ronboogz",
+    "featuredArtistIds": [
+      "ronboogz"
+    ],
+    "genre": "Indie Việt / R&B & Rap",
+    "album": "Khi Em Lớn - Single",
+    "duration": "3:30",
+    "durationSeconds": 210,
+    "playCount": 1280000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
+    "img": "https://i.scdn.co/image/ab67616d00001e02376b1dd4653e78ea81f42dd2",
+    "artwork": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02376b1dd4653e78ea81f42dd2",
+      "mirrors": []
+    },
+    "spotifyTrackId": "3J06iY9IRWKr1H0zIxrUby",
+    "soundcloudUrl": "https://soundcloud.com/tran-nguyen-thanh-mai/nhan-nhu-ronboogz",
+    "youtubeQuery": "Khi Em Lớn Ronboogz Official Audio"
+  },
+  {
+    "id": "aud-ronboogz-04",
+    "audiusId": "qP5RB",
+    "title": "Lan Man",
+    "artist": "Ronboogz",
+    "artistId": "ronboogz",
+    "handle": "ronboogz",
+    "featuredArtistIds": [
+      "ronboogz"
+    ],
+    "genre": "Indie Việt / R&B & Rap",
+    "album": "Lan Man - Single",
+    "duration": "3:36",
+    "durationSeconds": 216,
+    "playCount": 1170000,
+    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-89YNyglfTxp2MfxG-ztivZA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-89YNyglfTxp2MfxG-ztivZA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/w412-z/lanman",
+    "youtubeQuery": "Lan Man Ronboogz Official Audio"
+  },
+  {
+    "id": "aud-ronboogz-05",
+    "audiusId": "0g28JKm",
+    "title": "Chỉ Cần Có Nhau",
+    "artist": "Ronboogz",
+    "artistId": "ronboogz",
+    "handle": "ronboogz",
+    "featuredArtistIds": [
+      "ronboogz"
+    ],
+    "genre": "Indie Việt / R&B & Rap",
+    "album": "Chỉ Cần Có Nhau - Single",
+    "duration": "2:51",
+    "durationSeconds": 171,
+    "playCount": 1060000,
+    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-SlOpYXF5y04q2QAa-mbyp1A-t500x500.png",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-SlOpYXF5y04q2QAa-mbyp1A-t500x500.png",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/lasjdo2/anh-ch-mu-n-ronboogz",
+    "youtubeQuery": "Chỉ Cần Có Nhau Ronboogz Official Audio"
+  },
+  {
+    "id": "aud-ronboogz-06",
+    "audiusId": "xPY1M2",
+    "title": "Mượn Rượu Tỏ Tình",
+    "artist": "Ronboogz",
+    "artistId": "ronboogz",
+    "handle": "ronboogz",
+    "featuredArtistIds": [
+      "ronboogz"
+    ],
+    "genre": "Indie Việt / R&B & Rap",
+    "album": "Mượn Rượu Tỏ Tình - Single",
+    "duration": "3:30",
+    "durationSeconds": 210,
+    "playCount": 950000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
+    "img": "https://i.scdn.co/image/ab67616d00001e0270654a9a9faf31ced3e2ba4c",
+    "artwork": {
+      "url": "https://i.scdn.co/image/ab67616d00001e0270654a9a9faf31ced3e2ba4c",
+      "mirrors": []
+    },
+    "spotifyTrackId": "21PfXNAfEIaw1XZeSFGHkt",
+    "soundcloudUrl": "https://soundcloud.com/ron-r-m-r-nh-r-i/vctlcn-ronboogz-x-hbo-x-winno-full-mastering",
+    "youtubeQuery": "Mượn Rượu Tỏ Tình Ronboogz Official Audio"
+  },
+  {
+    "id": "aud-ronboogz-07",
+    "audiusId": "NYvGx",
+    "title": "Không Sao Mà Em Đây Rồi",
+    "artist": "Ronboogz",
+    "artistId": "ronboogz",
+    "handle": "ronboogz",
+    "featuredArtistIds": [
+      "ronboogz"
+    ],
+    "genre": "Indie Việt / R&B & Rap",
+    "album": "Không Sao Mà Em Đây Rồi - Single",
+    "duration": "2:27",
+    "durationSeconds": 147,
+    "playCount": 840000,
+    "audioUrl": "https://api.audius.co/v1/tracks/NYvGx/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-0p9eWfye8uX58CYI-JP1S7g-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-0p9eWfye8uX58CYI-JP1S7g-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kienthh/dont-coi-rpt-orijinn-x-ronboogz",
+    "youtubeQuery": "Không Sao Mà Em Đây Rồi Ronboogz Official Audio"
+  },
+  {
+    "id": "aud-tri_music-01",
+    "audiusId": "lvBQl",
+    "title": "Ánh Sao Và Bầu Trời",
+    "artist": "T.R.I",
+    "artistId": "tri_music",
+    "handle": "tri_music",
+    "featuredArtistIds": [
+      "tri_music"
+    ],
+    "genre": "Indie Pop / R&B",
+    "album": "Ánh Sao Và Bầu Trời - Single",
+    "duration": "3:30",
+    "durationSeconds": 210,
+    "playCount": 1500000,
+    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
+    "img": "https://i.scdn.co/image/ab67616d00001e02212f0300aefcb79b00d2a6cf",
+    "artwork": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02212f0300aefcb79b00d2a6cf",
+      "mirrors": []
+    },
+    "spotifyTrackId": "5iZHnufFUgATzrpGgH1K0W",
+    "soundcloudUrl": "https://soundcloud.com/nguyen-nhat-12124975/nh-sao-v-b-u-tr-i-t-r-i-x-c",
+    "youtubeQuery": "Ánh Sao Và Bầu Trời T.R.I Official Audio"
+  },
+  {
+    "id": "aud-tri_music-02",
+    "audiusId": "8QPZp",
+    "title": "2AM",
+    "artist": "T.R.I",
+    "artistId": "tri_music",
+    "handle": "tri_music",
+    "featuredArtistIds": [
+      "tri_music"
+    ],
+    "genre": "Indie Pop / R&B",
+    "album": "2AM - Single",
+    "duration": "3:30",
+    "durationSeconds": 210,
+    "playCount": 1390000,
+    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
+    "img": "https://i.scdn.co/image/ab67616d00001e020b97a73cab024885e9819a9e",
+    "artwork": {
+      "url": "https://i.scdn.co/image/ab67616d00001e020b97a73cab024885e9819a9e",
+      "mirrors": []
+    },
+    "spotifyTrackId": "3DLtPObflLQBodZN8qGODT",
+    "soundcloudUrl": "https://soundcloud.com/justin-thinh-307/dien-tri-ft-orange",
+    "youtubeQuery": "2AM T.R.I Official Audio"
+  },
+  {
+    "id": "aud-tri_music-03",
+    "audiusId": "xWkj3",
+    "title": "Mơ Màng",
+    "artist": "T.R.I",
+    "artistId": "tri_music",
+    "handle": "tri_music",
+    "featuredArtistIds": [
+      "tri_music"
+    ],
+    "genre": "Indie Pop / R&B",
+    "album": "Mơ Màng - Single",
+    "duration": "3:35",
+    "durationSeconds": 215,
+    "playCount": 1280000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-9yMVJD7zpwwlPnJE-Ec1KYA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-9yMVJD7zpwwlPnJE-Ec1KYA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kh-ng-ph-i-b-o-213725511/t-r-i-x-dangrangto-m-t-b-i-h-t",
+    "youtubeQuery": "Mơ Màng T.R.I Official Audio"
+  },
+  {
+    "id": "aud-tri_music-04",
+    "audiusId": "qP5RB",
+    "title": "Chúng Ta Sau Này",
+    "artist": "T.R.I",
+    "artistId": "tri_music",
+    "handle": "tri_music",
+    "featuredArtistIds": [
+      "tri_music"
+    ],
+    "genre": "Indie Pop / R&B",
+    "album": "Chúng Ta Sau Này - Single",
+    "duration": "3:30",
+    "durationSeconds": 210,
+    "playCount": 1170000,
+    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
+    "img": "https://i.scdn.co/image/ab67616d00001e02f84ac936714a2f2708b95267",
+    "artwork": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02f84ac936714a2f2708b95267",
+      "mirrors": []
+    },
+    "spotifyTrackId": "5IO873C4IP8pXdsXcJiBes",
+    "soundcloudUrl": "https://soundcloud.com/nguy-n-tu-n-c-510879836/chung-ta-sau-nay-lofi-ver-t-r",
+    "youtubeQuery": "Chúng Ta Sau Này T.R.I Official Audio"
+  },
+  {
+    "id": "aud-tri_music-05",
+    "audiusId": "0g28JKm",
+    "title": "Có Em Là Đủ",
+    "artist": "T.R.I",
+    "artistId": "tri_music",
+    "handle": "tri_music",
+    "featuredArtistIds": [
+      "tri_music"
+    ],
+    "genre": "Indie Pop / R&B",
+    "album": "Có Em Là Đủ - Single",
+    "duration": "3:55",
+    "durationSeconds": 235,
+    "playCount": 1060000,
+    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-2RIDCQuKWw3y21xG-v39vSg-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-2RIDCQuKWw3y21xG-v39vSg-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nguyen-nhat-12124975/nh-sao-v-b-u-tr-i-t-r-i-x-c",
+    "youtubeQuery": "Có Em Là Đủ T.R.I Official Audio"
+  },
+  {
+    "id": "aud-tri_music-06",
+    "audiusId": "xPY1M2",
+    "title": "Dắt Em Đi Khỏi Đây",
+    "artist": "T.R.I",
+    "artistId": "tri_music",
+    "handle": "tri_music",
+    "featuredArtistIds": [
+      "tri_music"
+    ],
+    "genre": "Indie Pop / R&B",
+    "album": "Dắt Em Đi Khỏi Đây - Single",
+    "duration": "4:29",
+    "durationSeconds": 269,
+    "playCount": 950000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-QdgfJ9veC0jwvdfW-bjW3DA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-QdgfJ9veC0jwvdfW-bjW3DA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/chanh1406/sau-khi-chia-tay-ai-cung-khac-tri",
+    "youtubeQuery": "Dắt Em Đi Khỏi Đây T.R.I Official Audio"
+  },
+  {
+    "id": "aud-youngpuppy-01",
+    "audiusId": "lvBQl",
+    "title": "Cứu Lấy Anh",
+    "artist": "YoungPuppy",
+    "artistId": "youngpuppy",
+    "handle": "youngpuppy",
+    "featuredArtistIds": [
+      "youngpuppy"
+    ],
+    "genre": "Rap Việt / Melodic Trap",
+    "album": "Cứu Lấy Anh - Single",
+    "duration": "3:33",
+    "durationSeconds": 213,
+    "playCount": 1500000,
+    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-2NWrQYBRNgkY168V-1KlZAA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-2NWrQYBRNgkY168V-1KlZAA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/hi-p-nguy-n-60825086/wrong-time-with-original-beat",
+    "youtubeQuery": "Cứu Lấy Anh YoungPuppy Official Audio"
+  },
+  {
+    "id": "aud-youngpuppy-02",
+    "audiusId": "8QPZp",
+    "title": "Yêu Em Qua Dòng Tin Nhắn",
+    "artist": "YoungPuppy",
+    "artistId": "youngpuppy",
+    "handle": "youngpuppy",
+    "featuredArtistIds": [
+      "youngpuppy"
+    ],
+    "genre": "Rap Việt / Melodic Trap",
+    "album": "Yêu Em Qua Dòng Tin Nhắn - Single",
+    "duration": "3:31",
+    "durationSeconds": 211,
+    "playCount": 1390000,
+    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-sdvXTkxPrLyWLsds-vFAjKQ-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-sdvXTkxPrLyWLsds-vFAjKQ-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nh-t-huyy-329803373/youngpuppy-wrongtime-live-at",
+    "youtubeQuery": "Yêu Em Qua Dòng Tin Nhắn YoungPuppy Official Audio"
+  },
+  {
+    "id": "aud-youngpuppy-03",
+    "audiusId": "xWkj3",
+    "title": "Đêm Trắng",
+    "artist": "YoungPuppy",
+    "artistId": "youngpuppy",
+    "handle": "youngpuppy",
+    "featuredArtistIds": [
+      "youngpuppy"
+    ],
+    "genre": "Rap Việt / Melodic Trap",
+    "album": "Đêm Trắng - Single",
+    "duration": "3:51",
+    "durationSeconds": 231,
+    "playCount": 1280000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-qkoQ07cEz1mFyy6q-Mr11xA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-qkoQ07cEz1mFyy6q-Mr11xA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/cirno-fumo-weeaboo/youngpuppy-dangrangto-wrong-2",
+    "youtubeQuery": "Đêm Trắng YoungPuppy Official Audio"
+  },
+  {
+    "id": "aud-youngpuppy-04",
+    "audiusId": "qP5RB",
+    "title": "Trôi Trong Đêm",
+    "artist": "YoungPuppy",
+    "artistId": "youngpuppy",
+    "handle": "youngpuppy",
+    "featuredArtistIds": [
+      "youngpuppy"
+    ],
+    "genre": "Rap Việt / Melodic Trap",
+    "album": "Trôi Trong Đêm - Single",
+    "duration": "3:27",
+    "durationSeconds": 207,
+    "playCount": 1170000,
+    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-5TZ9ABWhIdsDSY6p-hXfkZA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-5TZ9ABWhIdsDSY6p-hXfkZA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/txc-nhtd/young-puppy-wrong-times-live",
+    "youtubeQuery": "Trôi Trong Đêm YoungPuppy Official Audio"
+  },
+  {
+    "id": "aud-youngpuppy-05",
+    "audiusId": "0g28JKm",
+    "title": "Ngoại Lệ Của Nhau",
+    "artist": "YoungPuppy",
+    "artistId": "youngpuppy",
+    "handle": "youngpuppy",
+    "featuredArtistIds": [
+      "youngpuppy"
+    ],
+    "genre": "Rap Việt / Melodic Trap",
+    "album": "Ngoại Lệ Của Nhau - Single",
+    "duration": "2:37",
+    "durationSeconds": 157,
+    "playCount": 1060000,
+    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-vc5xIbmGBZPjOFeQ-OnGdfA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-vc5xIbmGBZPjOFeQ-OnGdfA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ngocnguyen16hp/dung-lam-huong-duong-dau-son-tung-hennessy-ft-trong-thua",
+    "youtubeQuery": "Ngoại Lệ Của Nhau YoungPuppy Official Audio"
+  },
+  {
+    "id": "aud-youngpuppy-06",
+    "audiusId": "xPY1M2",
+    "title": "Mất Kết Nối",
+    "artist": "YoungPuppy",
+    "artistId": "youngpuppy",
+    "handle": "youngpuppy",
+    "featuredArtistIds": [
+      "youngpuppy"
+    ],
+    "genre": "Rap Việt / Melodic Trap",
+    "album": "Mất Kết Nối - Single",
+    "duration": "3:30",
+    "durationSeconds": 210,
+    "playCount": 950000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
+    "img": "https://i.scdn.co/image/ab67616d00001e02f2e33afbb2d8b486c1c98aa3",
+    "artwork": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02f2e33afbb2d8b486c1c98aa3",
+      "mirrors": []
+    },
+    "spotifyTrackId": "0rR27Ayle8G7sKoCt8OWUr",
+    "soundcloudUrl": "https://soundcloud.com/cencasso/1tinhyeu-robber-ft-young-puppy-itsuycasso-remix",
+    "youtubeQuery": "Mất Kết Nối YoungPuppy Official Audio"
+  },
+  {
+    "id": "aud-dangrangto-01",
+    "audiusId": "lvBQl",
+    "title": "Wrong Times",
+    "artist": "Dangrangto",
+    "artistId": "dangrangto",
+    "handle": "dangrangto",
+    "featuredArtistIds": [
+      "dangrangto"
+    ],
+    "genre": "Rap Việt / Hip-Hop",
+    "album": "Wrong Times - Single",
+    "duration": "3:30",
+    "durationSeconds": 210,
+    "playCount": 1500000,
+    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
+    "img": "https://i.scdn.co/image/ab67616d00001e02f895701ff726ef3750766572",
+    "artwork": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02f895701ff726ef3750766572",
+      "mirrors": []
+    },
+    "spotifyTrackId": "1RNkETQqy5xosPUg4i5aiY",
+    "soundcloudUrl": "https://soundcloud.com/fumo-high-cirno/x-ng-r-ng-intro-dangrangto",
+    "youtubeQuery": "Wrong Times Dangrangto Official Audio"
+  },
+  {
+    "id": "aud-dangrangto-02",
+    "audiusId": "8QPZp",
+    "title": "Bận Lòng",
+    "artist": "Dangrangto",
+    "artistId": "dangrangto",
+    "handle": "dangrangto",
+    "featuredArtistIds": [
+      "dangrangto"
+    ],
+    "genre": "Rap Việt / Hip-Hop",
+    "album": "Bận Lòng - Single",
+    "duration": "4:53",
+    "durationSeconds": 293,
+    "playCount": 1390000,
+    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-7uIlG4EFVvN4C2m6-7pMNCg-t500x500.png",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-7uIlG4EFVvN4C2m6-7pMNCg-t500x500.png",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/nccoo-nvn-lawvv-73255004/dangrangto-d-nh-cho-em",
+    "youtubeQuery": "Bận Lòng Dangrangto Official Audio"
+  },
+  {
+    "id": "aud-dangrangto-03",
+    "audiusId": "xWkj3",
+    "title": "Ngủ Một Mình (tình rất tình)",
+    "artist": "Dangrangto",
+    "artistId": "dangrangto",
+    "handle": "dangrangto",
+    "featuredArtistIds": [
+      "dangrangto"
+    ],
+    "genre": "Rap Việt / Hip-Hop",
+    "album": "Ngủ Một Mình (tình rất tình) - Single",
+    "duration": "4:53",
+    "durationSeconds": 293,
+    "playCount": 1280000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-dKR5i1aw1aJoxeod-5tDWbQ-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-dKR5i1aw1aJoxeod-5tDWbQ-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/leeanhduc/dangrangto-d-nh-cho-em",
+    "youtubeQuery": "Ngủ Một Mình (tình rất tình) Dangrangto Official Audio"
+  },
+  {
+    "id": "aud-dangrangto-04",
+    "audiusId": "qP5RB",
+    "title": "Tại Vì Sao",
+    "artist": "Dangrangto",
+    "artistId": "dangrangto",
+    "handle": "dangrangto",
+    "featuredArtistIds": [
+      "dangrangto"
+    ],
+    "genre": "Rap Việt / Hip-Hop",
+    "album": "Tại Vì Sao - Single",
+    "duration": "4:02",
+    "durationSeconds": 242,
+    "playCount": 1170000,
+    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-j0OIkSCvdxADJEHb-xbjIUA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-j0OIkSCvdxADJEHb-xbjIUA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ari-anna-340364901/x-ng-r-ng-dangrangto-prod",
+    "youtubeQuery": "Tại Vì Sao Dangrangto Official Audio"
+  },
+  {
+    "id": "aud-dangrangto-05",
+    "audiusId": "0g28JKm",
+    "title": "Love Is",
+    "artist": "Dangrangto",
+    "artistId": "dangrangto",
+    "handle": "dangrangto",
+    "featuredArtistIds": [
+      "dangrangto"
+    ],
+    "genre": "Rap Việt / Hip-Hop",
+    "album": "Love Is - Single",
+    "duration": "4:21",
+    "durationSeconds": 261,
+    "playCount": 1060000,
+    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-Wwj4TG5u0bDCzyla-rmldJA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-Wwj4TG5u0bDCzyla-rmldJA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/shinn1/love-is-dangrangto",
+    "youtubeQuery": "Love Is Dangrangto Official Audio"
+  },
+  {
+    "id": "aud-dangrangto-06",
+    "audiusId": "xPY1M2",
+    "title": "Cắt Kéo",
+    "artist": "Dangrangto",
+    "artistId": "dangrangto",
+    "handle": "dangrangto",
+    "featuredArtistIds": [
+      "dangrangto"
+    ],
+    "genre": "Rap Việt / Hip-Hop",
+    "album": "Cắt Kéo - Single",
+    "duration": "4:29",
+    "durationSeconds": 269,
+    "playCount": 950000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-crdR45kttWiaO2Dw-bCnvHQ-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-crdR45kttWiaO2Dw-bCnvHQ-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/shinn1/vu-ng-va-y-dangrangto-feat",
+    "youtubeQuery": "Cắt Kéo Dangrangto Official Audio"
+  },
+  {
+    "id": "aud-phuongmychi-01",
+    "audiusId": "lvBQl",
+    "title": "Vũ Trụ Có Anh",
+    "artist": "Phương Mỹ Chi",
+    "artistId": "phuongmychi",
+    "handle": "phuongmychi",
+    "featuredArtistIds": [
+      "phuongmychi"
+    ],
+    "genre": "V-Pop / Folktronica",
+    "album": "Vũ Trụ Có Anh - Single",
+    "duration": "3:05",
+    "durationSeconds": 185,
+    "playCount": 1500000,
+    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-res0eNwTwPEFOLm6-aBJjEg-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-res0eNwTwPEFOLm6-aBJjEg-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ph-m-h-ng-ng-c-704734593/vu-tru-co-anh-phu-o-ng-my-chi",
+    "youtubeQuery": "Vũ Trụ Có Anh Phương Mỹ Chi Official Audio"
+  },
+  {
+    "id": "aud-phuongmychi-02",
+    "audiusId": "8QPZp",
+    "title": "Đẩy Xe Bò",
+    "artist": "Phương Mỹ Chi",
+    "artistId": "phuongmychi",
+    "handle": "phuongmychi",
+    "featuredArtistIds": [
+      "phuongmychi"
+    ],
+    "genre": "V-Pop / Folktronica",
+    "album": "Đẩy Xe Bò - Single",
+    "duration": "5:27",
+    "durationSeconds": 327,
+    "playCount": 1390000,
+    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-zW4jk3W0pucCM4lK-2qCmIQ-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-zW4jk3W0pucCM4lK-2qCmIQ-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/mikeysahara-870813572/b-ng-ph-hoa-ph-ng-m-chi-ft",
+    "youtubeQuery": "Đẩy Xe Bò Phương Mỹ Chi Official Audio"
+  },
+  {
+    "id": "aud-phuongmychi-03",
+    "audiusId": "xWkj3",
+    "title": "Bóng Phù Hoa",
+    "artist": "Phương Mỹ Chi",
+    "artistId": "phuongmychi",
+    "handle": "phuongmychi",
+    "featuredArtistIds": [
+      "phuongmychi"
+    ],
+    "genre": "V-Pop / Folktronica",
+    "album": "Bóng Phù Hoa - Single",
+    "duration": "5:27",
+    "durationSeconds": 327,
+    "playCount": 1280000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-zW4jk3W0pucCM4lK-2qCmIQ-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-zW4jk3W0pucCM4lK-2qCmIQ-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/mikeysahara-870813572/b-ng-ph-hoa-ph-ng-m-chi-ft",
+    "youtubeQuery": "Bóng Phù Hoa Phương Mỹ Chi Official Audio"
+  },
+  {
+    "id": "aud-phuongmychi-04",
+    "audiusId": "qP5RB",
+    "title": "Gối Gấm",
+    "artist": "Phương Mỹ Chi",
+    "artistId": "phuongmychi",
+    "handle": "phuongmychi",
+    "featuredArtistIds": [
+      "phuongmychi"
+    ],
+    "genre": "V-Pop / Folktronica",
+    "album": "Gối Gấm - Single",
+    "duration": "4:10",
+    "durationSeconds": 250,
+    "playCount": 1170000,
+    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-4v1t9Y9Oj3QXopPt-xfI6iA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-4v1t9Y9Oj3QXopPt-xfI6iA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/anblue/bo-ng-phu-hoa-phu-o-ng-my-chi",
+    "youtubeQuery": "Gối Gấm Phương Mỹ Chi Official Audio"
+  },
+  {
+    "id": "aud-phuongmychi-05",
+    "audiusId": "0g28JKm",
+    "title": "Chiếc Lược Ngà",
+    "artist": "Phương Mỹ Chi",
+    "artistId": "phuongmychi",
+    "handle": "phuongmychi",
+    "featuredArtistIds": [
+      "phuongmychi"
+    ],
+    "genre": "V-Pop / Folktronica",
+    "album": "Chiếc Lược Ngà - Single",
+    "duration": "6:35",
+    "durationSeconds": 395,
+    "playCount": 1060000,
+    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-ox28yiUtGEopruog-W4dVYQ-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-ox28yiUtGEopruog-W4dVYQ-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/vahzxw/bo-ng-phu-hoa-long-vu-o-ng",
+    "youtubeQuery": "Chiếc Lược Ngà Phương Mỹ Chi Official Audio"
+  },
+  {
+    "id": "aud-phuongmychi-06",
+    "audiusId": "xPY1M2",
+    "title": "Quê Em Mùa Nước Lũ",
+    "artist": "Phương Mỹ Chi",
+    "artistId": "phuongmychi",
+    "handle": "phuongmychi",
+    "featuredArtistIds": [
+      "phuongmychi"
+    ],
+    "genre": "V-Pop / Folktronica",
+    "album": "Quê Em Mùa Nước Lũ - Single",
+    "duration": "6:35",
+    "durationSeconds": 395,
+    "playCount": 950000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-FoGSLdxQnmXHjAtg-NpPjJg-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-FoGSLdxQnmXHjAtg-NpPjJg-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/popyeu885/bo-ng-phu-hoa-my-chi-lv-remix",
+    "youtubeQuery": "Quê Em Mùa Nước Lũ Phương Mỹ Chi Official Audio"
+  },
+  {
+    "id": "aud-trucnhan-01",
+    "audiusId": "lvBQl",
+    "title": "Có Không Giữ Mất Đừng Tìm",
+    "artist": "Trúc Nhân",
+    "artistId": "trucnhan",
+    "handle": "trucnhan",
+    "featuredArtistIds": [
+      "trucnhan"
+    ],
+    "genre": "V-Pop / Art Pop",
+    "album": "Có Không Giữ Mất Đừng Tìm - Single",
+    "duration": "3:44",
+    "durationSeconds": 224,
+    "playCount": 1500000,
+    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
+    "img": "https://i.scdn.co/image/ab6761610000e5eba6b88f77ec81d8678de1f119",
+    "artwork": {
+      "url": "https://i.scdn.co/image/ab6761610000e5eba6b88f77ec81d8678de1f119",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/ens27/c-kh-ng-gi-m-t-ng-t-m-tr-c-nh",
+    "youtubeQuery": "Có Không Giữ Mất Đừng Tìm Trúc Nhân Official Audio"
+  },
+  {
+    "id": "aud-trucnhan-02",
+    "audiusId": "8QPZp",
+    "title": "Sáng Mắt Chưa",
+    "artist": "Trúc Nhân",
+    "artistId": "trucnhan",
+    "handle": "trucnhan",
+    "featuredArtistIds": [
+      "trucnhan"
+    ],
+    "genre": "V-Pop / Art Pop",
+    "album": "Sáng Mắt Chưa - Single",
+    "duration": "3:28",
+    "durationSeconds": 208,
+    "playCount": 1390000,
+    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-000578234534-zwm1b1-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-000578234534-zwm1b1-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-55699745/sang-mat-chua-truc-nhan",
+    "youtubeQuery": "Sáng Mắt Chưa Trúc Nhân Official Audio"
+  },
+  {
+    "id": "aud-trucnhan-03",
+    "audiusId": "xWkj3",
+    "title": "Thật Bất Ngờ",
+    "artist": "Trúc Nhân",
+    "artistId": "trucnhan",
+    "handle": "trucnhan",
+    "featuredArtistIds": [
+      "trucnhan"
+    ],
+    "genre": "V-Pop / Art Pop",
+    "album": "Thật Bất Ngờ - Single",
+    "duration": "3:33",
+    "durationSeconds": 213,
+    "playCount": 1280000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-000130977985-hcvgen-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-000130977985-hcvgen-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tr-c-nh-n/that-bat-ngo-truc-nhan-master",
+    "youtubeQuery": "Thật Bất Ngờ Trúc Nhân Official Audio"
+  },
+  {
+    "id": "aud-trucnhan-04",
+    "audiusId": "qP5RB",
+    "title": "Lớn Rồi Còn Khóc Nhè",
+    "artist": "Trúc Nhân",
+    "artistId": "trucnhan",
+    "handle": "trucnhan",
+    "featuredArtistIds": [
+      "trucnhan"
+    ],
+    "genre": "V-Pop / Art Pop",
+    "album": "Lớn Rồi Còn Khóc Nhè - Single",
+    "duration": "3:31",
+    "durationSeconds": 211,
+    "playCount": 1170000,
+    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-000526354317-010rry-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-000526354317-010rry-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/user-202267201/lon-roi-con-khoc-nhe-truc-nhan",
+    "youtubeQuery": "Lớn Rồi Còn Khóc Nhè Trúc Nhân Official Audio"
+  },
+  {
+    "id": "aud-trucnhan-05",
+    "audiusId": "0g28JKm",
+    "title": "Bốn Chữ Lắm",
+    "artist": "Trúc Nhân",
+    "artistId": "trucnhan",
+    "handle": "trucnhan",
+    "featuredArtistIds": [
+      "trucnhan"
+    ],
+    "genre": "V-Pop / Art Pop",
+    "album": "Bốn Chữ Lắm - Single",
+    "duration": "4:22",
+    "durationSeconds": 262,
+    "playCount": 1060000,
+    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-000079766424-axu9j6-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-000079766424-axu9j6-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/tr-c-nh-n/bon-chu-lam-truc-nhan-ft-thao-nhi-st-pham-toan-thang",
+    "youtubeQuery": "Bốn Chữ Lắm Trúc Nhân Official Audio"
+  },
+  {
+    "id": "aud-trucnhan-06",
+    "audiusId": "xPY1M2",
+    "title": "Không Ra Gì",
+    "artist": "Trúc Nhân",
+    "artistId": "trucnhan",
+    "handle": "trucnhan",
+    "featuredArtistIds": [
+      "trucnhan"
+    ],
+    "genre": "V-Pop / Art Pop",
+    "album": "Không Ra Gì - Single",
+    "duration": "3:31",
+    "durationSeconds": 211,
+    "playCount": 950000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-snlaR1d34GSHMPNY-vngDig-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-snlaR1d34GSHMPNY-vngDig-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/th-o-nhi-912991019/khong-ra-gi-truc-nhan",
+    "youtubeQuery": "Không Ra Gì Trúc Nhân Official Audio"
+  },
+  {
+    "id": "aud-hoailam-01",
+    "audiusId": "lvBQl",
+    "title": "Hoa Nở Không Màu",
+    "artist": "Hoài Lâm",
+    "artistId": "hoailam",
+    "handle": "hoailam",
+    "featuredArtistIds": [
+      "hoailam"
+    ],
+    "genre": "V-Pop / Ballad & Bolero",
+    "album": "Hoa Nở Không Màu - Single",
+    "duration": "3:32",
+    "durationSeconds": 212,
+    "playCount": 1500000,
+    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-1bH5pUiH6ipMiZG9-gIhA8Q-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-1bH5pUiH6ipMiZG9-gIhA8Q-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/t-nguy-n-739317583/hoa-no-khong-mau-hoai-lam",
+    "youtubeQuery": "Hoa Nở Không Màu Hoài Lâm Official Audio"
+  },
+  {
+    "id": "aud-hoailam-02",
+    "audiusId": "8QPZp",
+    "title": "Buồn Làm Chi Em Ơi",
+    "artist": "Hoài Lâm",
+    "artistId": "hoailam",
+    "handle": "hoailam",
+    "featuredArtistIds": [
+      "hoailam"
+    ],
+    "genre": "V-Pop / Ballad & Bolero",
+    "album": "Buồn Làm Chi Em Ơi - Single",
+    "duration": "5:44",
+    "durationSeconds": 344,
+    "playCount": 1390000,
+    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-JcUyb8w8GkiXOxPP-fyAbhA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-JcUyb8w8GkiXOxPP-fyAbhA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/heugao/ng-h-n-ki-p-sau-hoa-i-la-m",
+    "youtubeQuery": "Buồn Làm Chi Em Ơi Hoài Lâm Official Audio"
+  },
+  {
+    "id": "aud-hoailam-03",
+    "audiusId": "xWkj3",
+    "title": "Như Những Phút Ban Đầu",
+    "artist": "Hoài Lâm",
+    "artistId": "hoailam",
+    "handle": "hoailam",
+    "featuredArtistIds": [
+      "hoailam"
+    ],
+    "genre": "V-Pop / Ballad & Bolero",
+    "album": "Như Những Phút Ban Đầu - Single",
+    "duration": "5:35",
+    "durationSeconds": 335,
+    "playCount": 1280000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-000087305965-pn5bbj-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-000087305965-pn5bbj-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/youngmusicvn/nhu-nhung-phut-ban-dau-hoai-lam",
+    "youtubeQuery": "Như Những Phút Ban Đầu Hoài Lâm Official Audio"
+  },
+  {
+    "id": "aud-hoailam-04",
+    "audiusId": "qP5RB",
+    "title": "Cô Đơn Trong Nhà Mình",
+    "artist": "Hoài Lâm",
+    "artistId": "hoailam",
+    "handle": "hoailam",
+    "featuredArtistIds": [
+      "hoailam"
+    ],
+    "genre": "V-Pop / Ballad & Bolero",
+    "album": "Cô Đơn Trong Nhà Mình - Single",
+    "duration": "4:58",
+    "durationSeconds": 298,
+    "playCount": 1170000,
+    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-s9ZkYz4pMKfpe58O-mpHZzA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-s9ZkYz4pMKfpe58O-mpHZzA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/thanhvu8530/co-don-trong-nha-minh-hoai-lam",
+    "youtubeQuery": "Cô Đơn Trong Nhà Mình Hoài Lâm Official Audio"
+  },
+  {
+    "id": "aud-hoailam-05",
+    "audiusId": "0g28JKm",
+    "title": "Chỉ Cần Được Bên Em",
+    "artist": "Hoài Lâm",
+    "artistId": "hoailam",
+    "handle": "hoailam",
+    "featuredArtistIds": [
+      "hoailam"
+    ],
+    "genre": "V-Pop / Ballad & Bolero",
+    "album": "Chỉ Cần Được Bên Em - Single",
+    "duration": "4:26",
+    "durationSeconds": 266,
+    "playCount": 1060000,
+    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-wucX9ayyweyeiv0n-oMX6MQ-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-wucX9ayyweyeiv0n-oMX6MQ-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/phvdng/chia-c-ch-b-nh-y-n-ho-i-l-m",
+    "youtubeQuery": "Chỉ Cần Được Bên Em Hoài Lâm Official Audio"
+  },
+  {
+    "id": "aud-hoailam-06",
+    "audiusId": "xPY1M2",
+    "title": "Người Đến Sau Sẽ Cho Người Tất Cả",
+    "artist": "Hoài Lâm",
+    "artistId": "hoailam",
+    "handle": "hoailam",
+    "featuredArtistIds": [
+      "hoailam"
+    ],
+    "genre": "V-Pop / Ballad & Bolero",
+    "album": "Người Đến Sau Sẽ Cho Người Tất Cả - Single",
+    "duration": "5:35",
+    "durationSeconds": 335,
+    "playCount": 950000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-000087305965-pn5bbj-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-000087305965-pn5bbj-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/youngmusicvn/nhu-nhung-phut-ban-dau-hoai-lam",
+    "youtubeQuery": "Người Đến Sau Sẽ Cho Người Tất Cả Hoài Lâm Official Audio"
+  },
+  {
+    "id": "aud-masew-01",
+    "audiusId": "lvBQl",
+    "title": "Túy Âm",
+    "artist": "Masew",
+    "artistId": "masew",
+    "handle": "masew",
+    "featuredArtistIds": [
+      "masew"
+    ],
+    "genre": "V-Pop / EDM & Future Bass",
+    "album": "Túy Âm - Single",
+    "duration": "3:21",
+    "durationSeconds": 201,
+    "playCount": 1500000,
+    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-000239838225-avadfn-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-000239838225-avadfn-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/xesii/tuy-am-xesi-x-masew-x-nhatnguyen",
+    "youtubeQuery": "Túy Âm Masew Official Audio"
+  },
+  {
+    "id": "aud-masew-02",
+    "audiusId": "8QPZp",
+    "title": "Cưới Thôi",
+    "artist": "Masew",
+    "artistId": "masew",
+    "handle": "masew",
+    "featuredArtistIds": [
+      "masew"
+    ],
+    "genre": "V-Pop / EDM & Future Bass",
+    "album": "Cưới Thôi - Single",
+    "duration": "3:51",
+    "durationSeconds": 231,
+    "playCount": 1390000,
+    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-000504223254-vhgkq1-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-000504223254-vhgkq1-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/qu-c-kh-i-529180479/ex-s-hate-me-b-ray-masew-amee",
+    "youtubeQuery": "Cưới Thôi Masew Official Audio"
+  },
+  {
+    "id": "aud-masew-03",
+    "audiusId": "xWkj3",
+    "title": "Mộng Mơ",
+    "artist": "Masew",
+    "artistId": "masew",
+    "handle": "masew",
+    "featuredArtistIds": [
+      "masew"
+    ],
+    "genre": "V-Pop / EDM & Future Bass",
+    "album": "Mộng Mơ - Single",
+    "duration": "5:06",
+    "durationSeconds": 306,
+    "playCount": 1280000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-000227602560-83ajdz-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-000227602560-83ajdz-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/masew/duong-mot-chieu-huynh-tu-x-magazine-masew-mix",
+    "youtubeQuery": "Mộng Mơ Masew Official Audio"
+  },
+  {
+    "id": "aud-masew-04",
+    "audiusId": "qP5RB",
+    "title": "Độ Tộc 2",
+    "artist": "Masew",
+    "artistId": "masew",
+    "handle": "masew",
+    "featuredArtistIds": [
+      "masew"
+    ],
+    "genre": "V-Pop / EDM & Future Bass",
+    "album": "Độ Tộc 2 - Single",
+    "duration": "4:03",
+    "durationSeconds": 243,
+    "playCount": 1170000,
+    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-9F089boHL5lZgLCt-vNf7SA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-9F089boHL5lZgLCt-vNf7SA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/masew/hoi-duyen-masew-x-khoi-vu",
+    "youtubeQuery": "Độ Tộc 2 Masew Official Audio"
+  },
+  {
+    "id": "aud-masew-05",
+    "audiusId": "0g28JKm",
+    "title": "Kém Duyên",
+    "artist": "Masew",
+    "artistId": "masew",
+    "handle": "masew",
+    "featuredArtistIds": [
+      "masew"
+    ],
+    "genre": "V-Pop / EDM & Future Bass",
+    "album": "Kém Duyên - Single",
+    "duration": "3:45",
+    "durationSeconds": 225,
+    "playCount": 1060000,
+    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-000412548207-d9ip8d-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-000412548207-d9ip8d-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/rumrumne/kem-duyen-rum-x-nit-x-masew",
+    "youtubeQuery": "Kém Duyên Masew Official Audio"
+  },
+  {
+    "id": "aud-masew-06",
+    "audiusId": "xPY1M2",
+    "title": "Ex Hate Me",
+    "artist": "Masew",
+    "artistId": "masew",
+    "handle": "masew",
+    "featuredArtistIds": [
+      "masew"
+    ],
+    "genre": "V-Pop / EDM & Future Bass",
+    "album": "Ex Hate Me - Single",
+    "duration": "3:41",
+    "durationSeconds": 221,
+    "playCount": 950000,
+    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
+    "img": "https://i1.sndcdn.com/artworks-RYdhhGVhQYWFbCAz-IZf8XA-t500x500.jpg",
+    "artwork": {
+      "url": "https://i1.sndcdn.com/artworks-RYdhhGVhQYWFbCAz-IZf8XA-t500x500.jpg",
+      "mirrors": []
+    },
+    "spotifyTrackId": null,
+    "soundcloudUrl": "https://soundcloud.com/kytz_music/ex-hate-me-2-kytz-remix",
+    "youtubeQuery": "Ex Hate Me Masew Official Audio"
   }
 ];

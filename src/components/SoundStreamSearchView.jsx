@@ -3,6 +3,7 @@ import {
   searchTracks,
   searchPlaylists,
   searchArtists,
+  searchArtistsAsync,
   getTrendingTracks,
   getPlaylistTracks,
   getArtistTracks,
@@ -70,11 +71,15 @@ export default function SoundStreamSearchView({
     const timeout = setTimeout(() => {
       Promise.all([
         searchTracks(query, 24),
-        searchPlaylists(query, 6)
+        searchPlaylists(query, 6),
+        searchArtistsAsync(query, 8)
       ])
-        .then(([trackRes, plRes]) => {
+        .then(([trackRes, plRes, liveArts]) => {
           setSearchResults(trackRes || []);
           setPlaylistResults(plRes || []);
+          if (Array.isArray(liveArts) && liveArts.length > 0) {
+            setArtistResults(liveArts);
+          }
           setIsSearching(false);
         })
         .catch(() => {
