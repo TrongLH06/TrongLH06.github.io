@@ -1,8 +1,3 @@
-/**
- * Official Spotify Artist Portrait CDN Map (i.scdn.co) & Additional Popular Artists
- * Synced with https://open.spotify.com/section/0JQ5DAnM3wGh0gz1MXnu3C
- */
-
 export const SPOTIFY_ARTIST_AVATARS = {
   "sontungmtp": "https://i.scdn.co/image/ab6761610000e5eb8885185d1e914c51c15c3a13",
   "buitruonglinh": "https://i.scdn.co/image/ab6761610000e5eb462d48f31f0a51d0cf4e095a",
@@ -109,43 +104,6 @@ export const SPOTIFY_ARTIST_AVATARS = {
 
 export const EXTRA_SPOTIFY_POPULAR_ARTISTS = [
   {
-    "id": "buitruonglinh",
-    "category": "indie_band",
-    "name": "buitruonglinh",
-    "shortName": "Bùi Trường Linh",
-    "role": "Ca Sĩ / Nhạc Sĩ Indie Pop",
-    "genre": "Indie Pop / Ballad",
-    "avatar": "https://i.scdn.co/image/ab6761610000e5eb462d48f31f0a51d0cf4e095a",
-    "bio": "Ca sĩ - nhạc sĩ trẻ sở hữu loạt ca khúc Đường Tôi Chở Em Về, Dù Cho Mai Về Sau, Yêu Người Có Ước Mơ.",
-    "popularHits": [
-      "Đường Tôi Chở Em Về",
-      "Dù Cho Mai Về Sau",
-      "Yêu Người Có Ước Mơ",
-      "Lời Tạm Biệt Chưa Nói",
-      "Từng Ngày Yêu Em",
-      "Một Mình Ta"
-    ]
-  },
-  {
-    "id": "buitruonglinh",
-    "category": "indie_band",
-    "name": "buitruonglinh",
-    "shortName": "Bùi Trường Linh",
-    "role": "Hoàng Tử Nhạc Tự Sự Gen Z",
-    "genre": "Indie Pop / Ballad",
-    "avatar": "https://i.scdn.co/image/ab6761610000e5eb462d48f31f0a51d0cf4e095a",
-    "bio": "Ca sĩ - nhạc sĩ trẻ tài năng sở hữu loạt hit triệu view như Đường Tôi Chở Em Về, Dù Cho Mai Về Sau, Yêu Người Có Ước Mơ.",
-    "popularHits": [
-      "Đường Tôi Chở Em Về",
-      "Dù Cho Mai Về Sau",
-      "Yêu Người Có Ước Mơ",
-      "Lời Tạm Biệt Chưa Nói",
-      "Từng Ngày Yêu Em",
-      "Một Mình Ta",
-      "Ngày Mai Em Đi Mất"
-    ]
-  },
-  {
     "id": "emceel",
     "category": "vpop_legend",
     "name": "Emcee L (Da LAB)",
@@ -158,11 +116,8 @@ export const EXTRA_SPOTIFY_POPULAR_ARTISTS = [
       "Chuyện Đôi Ta",
       "Mặt Trời Khóc",
       "Sinh Ra Đã Là Thứ Đối Lập Nhau",
-      "Quên Anh Đi",
-      "Thức Giấc",
-      "Gác Lại Âu Lo",
-      "Thanh Xuân",
-      "Một Nhà"
+      "Hạnh Phúc Cho Mỗi Người (feat. Ngọc Khánh Chi)",
+      "Bức Tường Ngăn Cách Hai Ta (feat. Minh Tốc & Lam & Only C)"
     ]
   },
   {
@@ -178,9 +133,8 @@ export const EXTRA_SPOTIFY_POPULAR_ARTISTS = [
       "Phép Màu",
       "Em",
       "Hẹn Lần Sau",
-      "Chờ Ngày Mưa Tan",
-      "Ngày Đầu Tiên",
-      "Đi Qua Mùa Hạ"
+      "Biết Đâu",
+      "Cho Em"
     ]
   },
   {
@@ -193,13 +147,11 @@ export const EXTRA_SPOTIFY_POPULAR_ARTISTS = [
     "avatar": "https://i.scdn.co/image/ab6761610000e5eb8de0c8ed480aabd579520b48",
     "bio": "Chủ nhân những bản nhạc tự sự sâu lắng đạt hàng chục triệu lượt nghe trên Spotify Việt Nam.",
     "popularHits": [
-      "Nhắn Rằng Anh Nhớ Em",
-      "Đừng Đổi Thay",
-      "Khi Em Lớn",
+      "Anh Chỉ Muốn",
+      "Nói Dối",
+      "Khi Mà",
       "Lan Man",
-      "Chỉ Cần Có Nhau",
-      "Mượn Rượu Tỏ Tình",
-      "Không Sao Mà Em Đây Rồi"
+      "nhắn nhủ"
     ]
   },
   {
@@ -213,11 +165,10 @@ export const EXTRA_SPOTIFY_POPULAR_ARTISTS = [
     "bio": "Giọng ca ngọt ngào đứng sau bản hit Ánh Sao Và Bầu Trời phủ sóng khắp Spotify và TikTok.",
     "popularHits": [
       "Ánh Sao Và Bầu Trời",
-      "2AM",
-      "Mơ Màng",
+      "Nhạc Buồn Ngày 2",
+      "9 8 7",
       "Chúng Ta Sau Này",
-      "Có Em Là Đủ",
-      "Dắt Em Đi Khỏi Đây"
+      "Sau Chia Tay... Ai Cũng Khác"
     ]
   },
   {
@@ -230,12 +181,11 @@ export const EXTRA_SPOTIFY_POPULAR_ARTISTS = [
     "avatar": "https://i.scdn.co/image/ab6761610000e5eb14cc527aa87afe69def5ed51",
     "bio": "Gương mặt trẻ nổi bật của làn sóng Melodic Rap thế hệ mới trên bảng xếp hạng Nghệ sĩ phổ biến Spotify.",
     "popularHits": [
-      "Cứu Lấy Anh",
-      "Yêu Em Qua Dòng Tin Nhắn",
+      "Wrong Times (Remake)",
+      "Do it like Gunna",
       "Đêm Trắng",
       "Trôi Trong Đêm",
-      "Ngoại Lệ Của Nhau",
-      "Mất Kết Nối"
+      "Ngoại Lệ Của Nhau"
     ]
   },
   {
@@ -249,11 +199,10 @@ export const EXTRA_SPOTIFY_POPULAR_ARTISTS = [
     "bio": "Rapper sở hữu flow biến hóa độc đáo cùng loạt hit triệu view khuấy đảo cộng đồng Rap Việt.",
     "popularHits": [
       "Wrong Times",
-      "Bận Lòng",
-      "Ngủ Một Mình (tình rất tình)",
-      "Tại Vì Sao",
-      "Love Is",
-      "Cắt Kéo"
+      "để dành cho em",
+      "xương rồng (intro)",
+      "thế giới của anh",
+      "Love Is"
     ]
   },
   {
@@ -267,11 +216,10 @@ export const EXTRA_SPOTIFY_POPULAR_ARTISTS = [
     "bio": "Nữ ca sĩ Gen Z kết hợp tinh hoa văn hóa dân gian Việt Nam với âm nhạc hiện đại trong Vũ Trụ Cò Bay.",
     "popularHits": [
       "Vũ Trụ Có Anh",
-      "Đẩy Xe Bò",
+      "Thiên Đường Với Người Thương",
       "Bóng Phù Hoa",
       "Gối Gấm",
-      "Chiếc Lược Ngà",
-      "Quê Em Mùa Nước Lũ"
+      "Chiếc Lược Ngà"
     ]
   },
   {
@@ -288,8 +236,7 @@ export const EXTRA_SPOTIFY_POPULAR_ARTISTS = [
       "Sáng Mắt Chưa",
       "Thật Bất Ngờ",
       "Lớn Rồi Còn Khóc Nhè",
-      "Bốn Chữ Lắm",
-      "Không Ra Gì"
+      "Bốn Chữ Lắm"
     ]
   },
   {
@@ -306,8 +253,7 @@ export const EXTRA_SPOTIFY_POPULAR_ARTISTS = [
       "Buồn Làm Chi Em Ơi",
       "Như Những Phút Ban Đầu",
       "Cô Đơn Trong Nhà Mình",
-      "Chỉ Cần Được Bên Em",
-      "Người Đến Sau Sẽ Cho Người Tất Cả"
+      "Chỉ Cần Được Bên Em"
     ]
   },
   {
@@ -320,86 +266,20 @@ export const EXTRA_SPOTIFY_POPULAR_ARTISTS = [
     "avatar": "https://i.scdn.co/image/ab6761610000e5eb5994d6460124b6bca750c455",
     "bio": "Nhà sản xuất âm nhạc đứng sau hàng loạt bản hit pha trộn chất liệu ngũ cung Việt Nam với Future Bass hiện đại.",
     "popularHits": [
-      "Túy Âm",
+      "Vô Lượng",
       "Cưới Thôi",
       "Mộng Mơ",
-      "Độ Tộc 2",
-      "Kém Duyên",
-      "Ex Hate Me"
+      "Ái Nộ",
+      "Chú Đại Bi"
     ]
   }
 ];
 
 export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
   {
-    "id": "aud-buitruonglinh-01",
-    "audiusId": "lvBQl",
-    "title": "Đường Tôi Chở Em Về",
-    "artist": "buitruonglinh",
-    "artistId": "buitruonglinh",
-    "handle": "buitruonglinh",
-    "featuredArtistIds": [
-      "buitruonglinh"
-    ],
-    "genre": "Indie Pop / Ballad",
-    "album": "buitruonglinh - Single",
-    "duration": "4:26",
-    "durationSeconds": 266,
-    "playCount": null,
-    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb462d48f31f0a51d0cf4e095a",
-    "artwork": {
-      "url": "https://i.scdn.co/image/ab6761610000e5eb462d48f31f0a51d0cf4e095a",
-      "mirrors": []
-    }
-  },
-  {
-    "id": "aud-buitruonglinh-02",
-    "audiusId": "Yolgk",
-    "title": "Dù Cho Mai Về Sau",
-    "artist": "buitruonglinh",
-    "artistId": "buitruonglinh",
-    "handle": "buitruonglinh",
-    "featuredArtistIds": [
-      "buitruonglinh"
-    ],
-    "genre": "Indie Pop / Ballad",
-    "album": "buitruonglinh - Single",
-    "duration": "3:54",
-    "durationSeconds": 234,
-    "playCount": null,
-    "audioUrl": "https://api.audius.co/v1/tracks/Yolgk/stream?app_name=SoundStream",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb462d48f31f0a51d0cf4e095a",
-    "artwork": {
-      "url": "https://i.scdn.co/image/ab6761610000e5eb462d48f31f0a51d0cf4e095a",
-      "mirrors": []
-    }
-  },
-  {
-    "id": "aud-buitruonglinh-03",
-    "audiusId": "9mgmo",
-    "title": "Yêu Người Có Ước Mơ",
-    "artist": "buitruonglinh",
-    "artistId": "buitruonglinh",
-    "handle": "buitruonglinh",
-    "featuredArtistIds": [
-      "buitruonglinh"
-    ],
-    "genre": "Indie Pop / Ballad",
-    "album": "buitruonglinh - Single",
-    "duration": "4:42",
-    "durationSeconds": 282,
-    "playCount": null,
-    "audioUrl": "https://api.audius.co/v1/tracks/9mgmo/stream?app_name=SoundStream",
-    "img": "https://i.scdn.co/image/ab6761610000e5eb462d48f31f0a51d0cf4e095a",
-    "artwork": {
-      "url": "https://i.scdn.co/image/ab6761610000e5eb462d48f31f0a51d0cf4e095a",
-      "mirrors": []
-    }
-  },
-  {
     "id": "aud-emceel-01",
-    "audiusId": "lvBQl",
+    "audiusId": "emceel-01",
+    "verifiedAudiusId": null,
     "title": "Chuyện Đôi Ta",
     "artist": "Emcee L (Da LAB)",
     "artistId": "emceel",
@@ -408,23 +288,21 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "emceel"
     ],
     "genre": "V-Pop / Rap & Ballad",
-    "album": "Chuyện Đôi Ta - Single",
-    "duration": "3:17",
-    "durationSeconds": 197,
-    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-xzpdE62q0XZtygvM-RZWxKg-t500x500.jpg",
+    "album": "Chuyện Đôi Ta (feat. Muộii (Starry Night)) - Single",
+    "duration": "3:28",
+    "durationSeconds": 208,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/bf/79/88bf7983-32c2-18d0-7153-f3201e6e9f8e/mzaf_14330457426457553869.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-xzpdE62q0XZtygvM-RZWxKg-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cb/30/16/cb301693-14d3-a03e-9e3d-fa4f6a20baf5/190296357480.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/deeyouseeprod/chuyen-doi-ta-deeyousee-remix-emcee-l-da-lab-ft-muoii",
-    "youtubeQuery": "Chuyện Đôi Ta Emcee L (Da LAB) Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-emceel-02",
-    "audiusId": "8QPZp",
+    "audiusId": "emceel-02",
+    "verifiedAudiusId": null,
     "title": "Mặt Trời Khóc",
     "artist": "Emcee L (Da LAB)",
     "artistId": "emceel",
@@ -433,23 +311,21 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "emceel"
     ],
     "genre": "V-Pop / Rap & Ballad",
-    "album": "Mặt Trời Khóc - Single",
-    "duration": "3:45",
-    "durationSeconds": 225,
-    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-Yvg7kTNQtVUUbvpt-s5rokQ-t500x500.jpg",
+    "album": "Mặt Trời Khóc (Acoustic Version) - Single",
+    "duration": "3:46",
+    "durationSeconds": 226,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8f/27/8b/8f278bc3-8d3a-5ba5-cb52-c42ee4887c87/mzaf_18318479022210187392.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/fa/2e/34fa2e41-6f83-79ee-9934-3c3d399c48a9/3616849697164.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-Yvg7kTNQtVUUbvpt-s5rokQ-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/fa/2e/34fa2e41-6f83-79ee-9934-3c3d399c48a9/3616849697164.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/diggorydoan99/mat-troi-khoc-emcee-l-da-lab-ft-orange",
-    "youtubeQuery": "Mặt Trời Khóc Emcee L (Da LAB) Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-emceel-03",
-    "audiusId": "xWkj3",
+    "audiusId": "emceel-03",
+    "verifiedAudiusId": null,
     "title": "Sinh Ra Đã Là Thứ Đối Lập Nhau",
     "artist": "Emcee L (Da LAB)",
     "artistId": "emceel",
@@ -458,24 +334,22 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "emceel"
     ],
     "genre": "V-Pop / Rap & Ballad",
-    "album": "Sinh Ra Đã Là Thứ Đối Lập Nhau - Single",
-    "duration": "3:52",
-    "durationSeconds": 232,
-    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-GOhKRAFQ1BfIwWay-BnPUmQ-t500x500.jpg",
+    "album": "Sinh Ra Đã Là Thứ Đối Lập Nhau (feat. Badbies) - Single",
+    "duration": "3:54",
+    "durationSeconds": 234,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c7/16/41/c71641f6-3951-9b71-9267-68900a722ae6/mzaf_10032574032051576983.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/84/75/be/8475beaf-6724-7ab3-43e5-880ed84a1e98/190296441967.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-GOhKRAFQ1BfIwWay-BnPUmQ-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/84/75/be/8475beaf-6724-7ab3-43e5-880ed84a1e98/190296441967.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/user-892471753/sinh-ra-da-la-thu-doi-lap-nhau",
-    "youtubeQuery": "Sinh Ra Đã Là Thứ Đối Lập Nhau Emcee L (Da LAB) Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-emceel-04",
-    "audiusId": "qP5RB",
-    "title": "Quên Anh Đi",
+    "audiusId": "emceel-04",
+    "verifiedAudiusId": null,
+    "title": "Hạnh Phúc Cho Mỗi Người (feat. Ngọc Khánh Chi)",
     "artist": "Emcee L (Da LAB)",
     "artistId": "emceel",
     "handle": "emceel",
@@ -483,24 +357,22 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "emceel"
     ],
     "genre": "V-Pop / Rap & Ballad",
-    "album": "Quên Anh Đi - Single",
-    "duration": "4:00",
-    "durationSeconds": 240,
-    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-Ynygll18aWOBif1B-pMUGIw-t500x500.jpg",
+    "album": "KỊCH BẢN ĐẦU TIÊN",
+    "duration": "4:28",
+    "durationSeconds": 268,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/d5/54/5ed55432-d01c-0de4-0d21-c5c17b17adab/mzaf_6758721190708902227.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/2a/04/752a04b0-2fe6-3348-189e-35c15da1f846/26UM1IM17364.rgb.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-Ynygll18aWOBif1B-pMUGIw-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/2a/04/752a04b0-2fe6-3348-189e-35c15da1f846/26UM1IM17364.rgb.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/tr-n-cho-tui/sinh-ra-a-la-thu-o-i-la-p-nhau",
-    "youtubeQuery": "Quên Anh Đi Emcee L (Da LAB) Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-emceel-05",
-    "audiusId": "0g28JKm",
-    "title": "Thức Giấc",
+    "audiusId": "emceel-05",
+    "verifiedAudiusId": null,
+    "title": "Bức Tường Ngăn Cách Hai Ta (feat. Minh Tốc & Lam & Only C)",
     "artist": "Emcee L (Da LAB)",
     "artistId": "emceel",
     "handle": "emceel",
@@ -508,24 +380,22 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "emceel"
     ],
     "genre": "V-Pop / Rap & Ballad",
-    "album": "Thức Giấc - Single",
-    "duration": "3:30",
-    "durationSeconds": 210,
-    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://i.scdn.co/image/ab67616d00001e02fea8333dc89ceb644766ab5b",
+    "album": "KỊCH BẢN ĐẦU TIÊN",
+    "duration": "4:09",
+    "durationSeconds": 249,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/5f/5a/f45f5add-5c50-aaa1-0b88-05a6288dee6c/mzaf_5454864626737501197.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/2a/04/752a04b0-2fe6-3348-189e-35c15da1f846/26UM1IM17364.rgb.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i.scdn.co/image/ab67616d00001e02fea8333dc89ceb644766ab5b",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/2a/04/752a04b0-2fe6-3348-189e-35c15da1f846/26UM1IM17364.rgb.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": "1MiJk3dXC5jzhvLFP0dUM7",
-    "soundcloudUrl": "https://soundcloud.com/sad-chill-450999891/chuy-n-i-ta-lofi-ver-emcee-l",
-    "youtubeQuery": "Thức Giấc Emcee L (Da LAB) Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-emceel-06",
-    "audiusId": "xPY1M2",
-    "title": "Gác Lại Âu Lo",
+    "audiusId": "emceel-06",
+    "verifiedAudiusId": null,
+    "title": "Hẹn Em Mai Sau Gặp Lại (feat. Lamoon)",
     "artist": "Emcee L (Da LAB)",
     "artistId": "emceel",
     "handle": "emceel",
@@ -533,24 +403,22 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "emceel"
     ],
     "genre": "V-Pop / Rap & Ballad",
-    "album": "Gác Lại Âu Lo - Single",
-    "duration": "3:46",
-    "durationSeconds": 226,
-    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-vN8Md1zXDkPN-0-t500x500.jpg",
+    "album": "Hẹn Em Mai Sau Gặp Lại (feat. Lamoon) - Single",
+    "duration": "3:51",
+    "durationSeconds": 231,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/9b/27/e89b279c-4670-a7d1-b486-86d90146b64a/mzaf_4395579508514257179.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/d6/b0/9bd6b02e-74f8-1421-497d-e41fa3a0e39f/3617229508841.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-vN8Md1zXDkPN-0-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/d6/b0/9bd6b02e-74f8-1421-497d-e41fa3a0e39f/3617229508841.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/emceeldalab-sc/chuy-n-i-ta-rock-version-feat",
-    "youtubeQuery": "Gác Lại Âu Lo Emcee L (Da LAB) Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-emceel-07",
-    "audiusId": "NYvGx",
-    "title": "Thanh Xuân",
+    "audiusId": "emceel-07",
+    "verifiedAudiusId": null,
+    "title": "Để Ta Bắt Đầu Lại (feat. Myra Trần & Kai Đinh)",
     "artist": "Emcee L (Da LAB)",
     "artistId": "emceel",
     "handle": "emceel",
@@ -558,24 +426,22 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "emceel"
     ],
     "genre": "V-Pop / Rap & Ballad",
-    "album": "Thanh Xuân - Single",
-    "duration": "2:26",
-    "durationSeconds": 146,
-    "audioUrl": "https://api.audius.co/v1/tracks/NYvGx/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-jJgczowgKlTb5yh5-WS0w5Q-t500x500.jpg",
+    "album": "KỊCH BẢN ĐẦU TIÊN",
+    "duration": "3:18",
+    "durationSeconds": 198,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/21/1e/c6/211ec601-a8d5-8537-cb8a-74cc78785033/mzaf_17634705924359874467.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/2a/04/752a04b0-2fe6-3348-189e-35c15da1f846/26UM1IM17364.rgb.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-jJgczowgKlTb5yh5-WS0w5Q-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/2a/04/752a04b0-2fe6-3348-189e-35c15da1f846/26UM1IM17364.rgb.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/dleexw/chuy-n-i-ta-emcee-l-da-lab-ft",
-    "youtubeQuery": "Thanh Xuân Emcee L (Da LAB) Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-emceel-08",
-    "audiusId": "YZawm",
-    "title": "Một Nhà",
+    "audiusId": "emceel-08",
+    "verifiedAudiusId": null,
+    "title": "Tình Yêu Lớn (feat. Muộii)",
     "artist": "Emcee L (Da LAB)",
     "artistId": "emceel",
     "handle": "emceel",
@@ -583,23 +449,21 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "emceel"
     ],
     "genre": "V-Pop / Rap & Ballad",
-    "album": "Một Nhà - Single",
-    "duration": "4:37",
-    "durationSeconds": 277,
-    "audioUrl": "https://api.audius.co/v1/tracks/YZawm/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-yvsoQQE3Xk11TlP8-yzZnpA-t500x500.jpg",
+    "album": "KỊCH BẢN ĐẦU TIÊN",
+    "duration": "4:00",
+    "durationSeconds": 240,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/7d/00/1d7d003e-5738-e362-b233-768c2d8ba08b/mzaf_4473608642601103195.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/2a/04/752a04b0-2fe6-3348-189e-35c15da1f846/26UM1IM17364.rgb.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-yvsoQQE3Xk11TlP8-yzZnpA-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/2a/04/752a04b0-2fe6-3348-189e-35c15da1f846/26UM1IM17364.rgb.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/vytranngocnhan/t-nh-y-u-l-n-emcee-l-ft-mu-ii",
-    "youtubeQuery": "Một Nhà Emcee L (Da LAB) Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-maydays-01",
-    "audiusId": "lvBQl",
+    "audiusId": "maydays-01",
+    "verifiedAudiusId": null,
     "title": "Phép Màu",
     "artist": "MAYDAYs",
     "artistId": "maydays",
@@ -608,23 +472,21 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "maydays"
     ],
     "genre": "Indie Pop / Alternative",
-    "album": "Phép Màu - Single",
-    "duration": "4:16",
-    "durationSeconds": 256,
-    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-Sf9DSJjicMSjxXph-hJhtIQ-t500x500.jpg",
+    "album": "Phép Màu (Đàn Cá Gỗ Original Soundtrack) [feat. Minh Tốc & Lam] - Single",
+    "duration": "4:27",
+    "durationSeconds": 267,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/33/df/0b33dfe2-9239-965e-66e8-11f74fab3bda/mzaf_14905600269249517060.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/6f/87/fc6f8771-ec90-4201-c9be-e0a8f7966acc/25UMGIM35736.rgb.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-Sf9DSJjicMSjxXph-hJhtIQ-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/6f/87/fc6f8771-ec90-4201-c9be-e0a8f7966acc/25UMGIM35736.rgb.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/hoavokhuyet_adley/pngugg",
-    "youtubeQuery": "Phép Màu MAYDAYs Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-maydays-02",
-    "audiusId": "8QPZp",
+    "audiusId": "maydays-02",
+    "verifiedAudiusId": null,
     "title": "Em",
     "artist": "MAYDAYs",
     "artistId": "maydays",
@@ -633,23 +495,21 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "maydays"
     ],
     "genre": "Indie Pop / Alternative",
-    "album": "Em - Single",
-    "duration": "3:30",
-    "durationSeconds": 210,
-    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
-    "img": "https://i.scdn.co/image/ab67616d00001e02240e87c9e99059366c32c0c1",
+    "album": "Phép Màu - EP",
+    "duration": "5:38",
+    "durationSeconds": 338,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/e9/26/42e92661-e540-4701-769f-fa11896b2da6/mzaf_9818443906862762686.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/7f/e1/107fe17f-7c2a-f8b4-fd59-08ba99e52081/26UMGIM03108.rgb.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i.scdn.co/image/ab67616d00001e02240e87c9e99059366c32c0c1",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/7f/e1/107fe17f-7c2a-f8b4-fd59-08ba99e52081/26UMGIM03108.rgb.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": "3G54dm2hNwG4evY23tURTr",
-    "soundcloudUrl": "https://soundcloud.com/minhnguyetawf/cho-em-maydays-guitar-cover",
-    "youtubeQuery": "Em MAYDAYs Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-maydays-03",
-    "audiusId": "xWkj3",
+    "audiusId": "maydays-03",
+    "verifiedAudiusId": null,
     "title": "Hẹn Lần Sau",
     "artist": "MAYDAYs",
     "artistId": "maydays",
@@ -659,23 +519,21 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
     ],
     "genre": "Indie Pop / Alternative",
     "album": "Hẹn Lần Sau - Single",
-    "duration": "3:30",
-    "durationSeconds": 210,
-    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://i.scdn.co/image/ab67616d00001e02304b7adea4c0e548121784e6",
+    "duration": "3:39",
+    "durationSeconds": 219,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/42/95/54429523-5be5-3f81-ba42-8fbf26007a43/mzaf_6348767549202259702.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/83/1e/b1/831eb135-ed8c-8c0b-0e4b-9a6c06ee9d4f/25UM2IM04075.rgb.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i.scdn.co/image/ab67616d00001e02304b7adea4c0e548121784e6",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/83/1e/b1/831eb135-ed8c-8c0b-0e4b-9a6c06ee9d4f/25UM2IM04075.rgb.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": "1r9gNSD1WUFscqTSA2Rcet",
-    "soundcloudUrl": "https://soundcloud.com/trngannn/h-n-l-n-sau-maydays-1",
-    "youtubeQuery": "Hẹn Lần Sau MAYDAYs Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-maydays-04",
-    "audiusId": "qP5RB",
-    "title": "Chờ Ngày Mưa Tan",
+    "audiusId": "maydays-04",
+    "verifiedAudiusId": null,
+    "title": "Biết Đâu",
     "artist": "MAYDAYs",
     "artistId": "maydays",
     "handle": "maydays",
@@ -683,24 +541,22 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "maydays"
     ],
     "genre": "Indie Pop / Alternative",
-    "album": "Chờ Ngày Mưa Tan - Single",
-    "duration": "4:17",
-    "durationSeconds": 257,
-    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-jBYBzeVYzyeQHio4-Je8yWg-t500x500.jpg",
+    "album": "Phép Màu - EP",
+    "duration": "4:47",
+    "durationSeconds": 287,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b0/03/f0/b003f0c5-56a8-1a7b-95a0-923d6fa0d191/mzaf_18331275456556351545.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/7f/e1/107fe17f-7c2a-f8b4-fd59-08ba99e52081/26UMGIM03108.rgb.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-jBYBzeVYzyeQHio4-Je8yWg-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/7f/e1/107fe17f-7c2a-f8b4-fd59-08ba99e52081/26UMGIM03108.rgb.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/bycelane/h-n-l-n-sau-maydays-live-at-s",
-    "youtubeQuery": "Chờ Ngày Mưa Tan MAYDAYs Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-maydays-05",
-    "audiusId": "0g28JKm",
-    "title": "Ngày Đầu Tiên",
+    "audiusId": "maydays-05",
+    "verifiedAudiusId": null,
+    "title": "Cho Em",
     "artist": "MAYDAYs",
     "artistId": "maydays",
     "handle": "maydays",
@@ -708,49 +564,45 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "maydays"
     ],
     "genre": "Indie Pop / Alternative",
-    "album": "Ngày Đầu Tiên - Single",
-    "duration": "4:43",
-    "durationSeconds": 283,
-    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-PzIXLIoVJ1y7vizf-5DYcNA-t500x500.jpg",
+    "album": "Phép Màu - EP",
+    "duration": "4:28",
+    "durationSeconds": 268,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/73/98/2873985e-6f48-5d07-a0c0-b6716fd92352/mzaf_4201390828257641261.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/7f/e1/107fe17f-7c2a-f8b4-fd59-08ba99e52081/26UMGIM03108.rgb.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-PzIXLIoVJ1y7vizf-5DYcNA-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/7f/e1/107fe17f-7c2a-f8b4-fd59-08ba99e52081/26UMGIM03108.rgb.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/giahann201/ph-p-m-u-n-c-g-ost-maydays-ft",
-    "youtubeQuery": "Ngày Đầu Tiên MAYDAYs Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-maydays-06",
-    "audiusId": "xPY1M2",
-    "title": "Đi Qua Mùa Hạ",
-    "artist": "MAYDAYs",
+    "audiusId": "maydays-06",
+    "verifiedAudiusId": null,
+    "title": "Cherry",
+    "artist": "Maydays",
     "artistId": "maydays",
     "handle": "maydays",
     "featuredArtistIds": [
       "maydays"
     ],
     "genre": "Indie Pop / Alternative",
-    "album": "Đi Qua Mùa Hạ - Single",
-    "duration": "4:12",
-    "durationSeconds": 252,
-    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-j2gjye7HYxiabUbv-knavFw-t500x500.jpg",
+    "album": "Cherry - Single",
+    "duration": "2:04",
+    "durationSeconds": 124,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/ea/84/a8/ea84a8fe-4fcb-ac87-db98-3be27dbdd042/mzaf_3944606154720790512.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/70/73/2c/70732caf-bb05-60d7-fb73-e512d4123de7/artwork.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-j2gjye7HYxiabUbv-knavFw-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/70/73/2c/70732caf-bb05-60d7-fb73-e512d4123de7/artwork.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/huy-thai-488411077/ph-p-m-u-lofi-ver-maydays-ft",
-    "youtubeQuery": "Đi Qua Mùa Hạ MAYDAYs Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-ronboogz-01",
-    "audiusId": "lvBQl",
-    "title": "Nhắn Rằng Anh Nhớ Em",
+    "audiusId": "ronboogz-01",
+    "verifiedAudiusId": null,
+    "title": "Anh Chỉ Muốn",
     "artist": "Ronboogz",
     "artistId": "ronboogz",
     "handle": "ronboogz",
@@ -758,24 +610,22 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "ronboogz"
     ],
     "genre": "Indie Việt / R&B & Rap",
-    "album": "Nhắn Rằng Anh Nhớ Em - Single",
-    "duration": "3:26",
-    "durationSeconds": 206,
-    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-eiLEOiS0GexsrBin-pzExyg-t500x500.jpg",
+    "album": "Anh Chỉ Muốn - Single",
+    "duration": "2:48",
+    "durationSeconds": 168,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/58/15/2f581574-02e0-20bc-4ea3-b546d9e7934c/mzaf_1220852717054679624.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/4b/73/7f4b7358-5518-84b6-f8b4-d3b0e3ed42b5/7316475875917.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-eiLEOiS0GexsrBin-pzExyg-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/4b/73/7f4b7358-5518-84b6-f8b4-d3b0e3ed42b5/7316475875917.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/ron-r-m-r-nh-r-i/noi-doi-ronboogz",
-    "youtubeQuery": "Nhắn Rằng Anh Nhớ Em Ronboogz Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-ronboogz-02",
-    "audiusId": "8QPZp",
-    "title": "Đừng Đổi Thay",
+    "audiusId": "ronboogz-02",
+    "verifiedAudiusId": null,
+    "title": "Nói Dối",
     "artist": "Ronboogz",
     "artistId": "ronboogz",
     "handle": "ronboogz",
@@ -783,24 +633,22 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "ronboogz"
     ],
     "genre": "Indie Việt / R&B & Rap",
-    "album": "Đừng Đổi Thay - Single",
-    "duration": "3:36",
-    "durationSeconds": 216,
-    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-h3GPRzwvR5D0hTQT-ssCmEw-t500x500.jpg",
+    "album": "Nói Dối - Single",
+    "duration": "3:26",
+    "durationSeconds": 206,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/53/46/23534633-3d48-9bc3-a3dc-30f32d109bf4/mzaf_6588243812104423939.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/a8/f2/c5a8f260-7a76-30d7-0f34-2d979a4b8769/7316471811766.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-h3GPRzwvR5D0hTQT-ssCmEw-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/a8/f2/c5a8f260-7a76-30d7-0f34-2d979a4b8769/7316471811766.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/ron-r-m-r-nh-r-i/hai-dua-nhoc-ronboogz",
-    "youtubeQuery": "Đừng Đổi Thay Ronboogz Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-ronboogz-03",
-    "audiusId": "xWkj3",
-    "title": "Khi Em Lớn",
+    "audiusId": "ronboogz-03",
+    "verifiedAudiusId": null,
+    "title": "Khi Mà",
     "artist": "Ronboogz",
     "artistId": "ronboogz",
     "handle": "ronboogz",
@@ -808,23 +656,21 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "ronboogz"
     ],
     "genre": "Indie Việt / R&B & Rap",
-    "album": "Khi Em Lớn - Single",
-    "duration": "3:30",
-    "durationSeconds": 210,
-    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://i.scdn.co/image/ab67616d00001e02376b1dd4653e78ea81f42dd2",
+    "album": "Khi Mà - Single",
+    "duration": "3:49",
+    "durationSeconds": 229,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/79/8a/62/798a62cd-9cf6-a036-8337-954baf74333d/mzaf_1067414999322548555.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/5b/4d/605b4dec-57af-ff88-7fcf-33ce5841af56/7316471811728.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i.scdn.co/image/ab67616d00001e02376b1dd4653e78ea81f42dd2",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/5b/4d/605b4dec-57af-ff88-7fcf-33ce5841af56/7316471811728.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": "3J06iY9IRWKr1H0zIxrUby",
-    "soundcloudUrl": "https://soundcloud.com/tran-nguyen-thanh-mai/nhan-nhu-ronboogz",
-    "youtubeQuery": "Khi Em Lớn Ronboogz Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-ronboogz-04",
-    "audiusId": "qP5RB",
+    "audiusId": "ronboogz-04",
+    "verifiedAudiusId": null,
     "title": "Lan Man",
     "artist": "Ronboogz",
     "artistId": "ronboogz",
@@ -836,21 +682,19 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
     "album": "Lan Man - Single",
     "duration": "3:36",
     "durationSeconds": 216,
-    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-89YNyglfTxp2MfxG-ztivZA-t500x500.jpg",
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/a6/90/7aa690a7-784b-9c0c-c52e-1cac0e704352/mzaf_17030035264819813174.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/e1/41/9fe14166-eea5-3748-100b-e29177688796/7316473066096.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-89YNyglfTxp2MfxG-ztivZA-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/e1/41/9fe14166-eea5-3748-100b-e29177688796/7316473066096.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/w412-z/lanman",
-    "youtubeQuery": "Lan Man Ronboogz Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-ronboogz-05",
-    "audiusId": "0g28JKm",
-    "title": "Chỉ Cần Có Nhau",
+    "audiusId": "ronboogz-05",
+    "verifiedAudiusId": null,
+    "title": "nhắn nhủ",
     "artist": "Ronboogz",
     "artistId": "ronboogz",
     "handle": "ronboogz",
@@ -858,24 +702,22 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "ronboogz"
     ],
     "genre": "Indie Việt / R&B & Rap",
-    "album": "Chỉ Cần Có Nhau - Single",
-    "duration": "2:51",
-    "durationSeconds": 171,
-    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-SlOpYXF5y04q2QAa-mbyp1A-t500x500.png",
+    "album": "nhắn nhủ - Single",
+    "duration": "4:01",
+    "durationSeconds": 241,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/df/f2/e6dff215-d106-6718-ff44-2b53a9793f3c/mzaf_16468626614937807205.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b1/f7/3d/b1f73dce-0fe9-43ed-306d-591b29d69785/7316476339784.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-SlOpYXF5y04q2QAa-mbyp1A-t500x500.png",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b1/f7/3d/b1f73dce-0fe9-43ed-306d-591b29d69785/7316476339784.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/lasjdo2/anh-ch-mu-n-ronboogz",
-    "youtubeQuery": "Chỉ Cần Có Nhau Ronboogz Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-ronboogz-06",
-    "audiusId": "xPY1M2",
-    "title": "Mượn Rượu Tỏ Tình",
+    "audiusId": "ronboogz-06",
+    "verifiedAudiusId": null,
+    "title": "Hai đứa nhóc",
     "artist": "Ronboogz",
     "artistId": "ronboogz",
     "handle": "ronboogz",
@@ -883,48 +725,44 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "ronboogz"
     ],
     "genre": "Indie Việt / R&B & Rap",
-    "album": "Mượn Rượu Tỏ Tình - Single",
-    "duration": "3:30",
-    "durationSeconds": 210,
-    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://i.scdn.co/image/ab67616d00001e0270654a9a9faf31ced3e2ba4c",
+    "album": "Hai đứa nhóc - Single",
+    "duration": "3:36",
+    "durationSeconds": 216,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/17/84/cd/1784cd4b-d223-a1ec-6cdc-9b6a117fb277/mzaf_9626468365330467493.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/c8/43/78c843ba-8129-b5a6-5679-d31591aa8474/7316472099873.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i.scdn.co/image/ab67616d00001e0270654a9a9faf31ced3e2ba4c",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/c8/43/78c843ba-8129-b5a6-5679-d31591aa8474/7316472099873.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": "21PfXNAfEIaw1XZeSFGHkt",
-    "soundcloudUrl": "https://soundcloud.com/ron-r-m-r-nh-r-i/vctlcn-ronboogz-x-hbo-x-winno-full-mastering",
-    "youtubeQuery": "Mượn Rượu Tỏ Tình Ronboogz Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-ronboogz-07",
-    "audiusId": "NYvGx",
-    "title": "Không Sao Mà Em Đây Rồi",
-    "artist": "Ronboogz",
+    "audiusId": "ronboogz-07",
+    "verifiedAudiusId": null,
+    "title": "Sớm Mai",
+    "artist": "PiaLinh, Ronboogz & BONN!EX",
     "artistId": "ronboogz",
     "handle": "ronboogz",
     "featuredArtistIds": [
       "ronboogz"
     ],
     "genre": "Indie Việt / R&B & Rap",
-    "album": "Không Sao Mà Em Đây Rồi - Single",
-    "duration": "2:27",
-    "durationSeconds": 147,
-    "audioUrl": "https://api.audius.co/v1/tracks/NYvGx/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-0p9eWfye8uX58CYI-JP1S7g-t500x500.jpg",
+    "album": "Sớm Mai - Single",
+    "duration": "3:00",
+    "durationSeconds": 180,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/f7/42/01/f74201f7-8f5f-a33a-df2f-4184ee432a96/mzaf_15692703153435008319.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/33/ac/b6/33acb626-13e2-34fa-850b-bb0a1264a18b/196922834110_Cover.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-0p9eWfye8uX58CYI-JP1S7g-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/33/ac/b6/33acb626-13e2-34fa-850b-bb0a1264a18b/196922834110_Cover.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/kienthh/dont-coi-rpt-orijinn-x-ronboogz",
-    "youtubeQuery": "Không Sao Mà Em Đây Rồi Ronboogz Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-tri_music-01",
-    "audiusId": "lvBQl",
+    "audiusId": "tri_music-01",
+    "verifiedAudiusId": null,
     "title": "Ánh Sao Và Bầu Trời",
     "artist": "T.R.I",
     "artistId": "tri_music",
@@ -934,23 +772,21 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
     ],
     "genre": "Indie Pop / R&B",
     "album": "Ánh Sao Và Bầu Trời - Single",
-    "duration": "3:30",
-    "durationSeconds": 210,
-    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://i.scdn.co/image/ab67616d00001e02212f0300aefcb79b00d2a6cf",
+    "duration": "4:21",
+    "durationSeconds": 261,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/d9/54/51d95477-c021-2a63-1e81-d3fae73f07f5/mzaf_7585889903688768776.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/00/b0/60/00b060c0-b9fe-57bc-7627-94a66a158fe9/190296486593.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i.scdn.co/image/ab67616d00001e02212f0300aefcb79b00d2a6cf",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/00/b0/60/00b060c0-b9fe-57bc-7627-94a66a158fe9/190296486593.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": "5iZHnufFUgATzrpGgH1K0W",
-    "soundcloudUrl": "https://soundcloud.com/nguyen-nhat-12124975/nh-sao-v-b-u-tr-i-t-r-i-x-c",
-    "youtubeQuery": "Ánh Sao Và Bầu Trời T.R.I Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-tri_music-02",
-    "audiusId": "8QPZp",
-    "title": "2AM",
+    "audiusId": "tri_music-02",
+    "verifiedAudiusId": null,
+    "title": "Nhạc Buồn Ngày 2",
     "artist": "T.R.I",
     "artistId": "tri_music",
     "handle": "tri_music",
@@ -958,24 +794,22 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "tri_music"
     ],
     "genre": "Indie Pop / R&B",
-    "album": "2AM - Single",
-    "duration": "3:30",
-    "durationSeconds": 210,
-    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
-    "img": "https://i.scdn.co/image/ab67616d00001e020b97a73cab024885e9819a9e",
+    "album": "Nhạc Buồn Ngày 2 - Single",
+    "duration": "4:24",
+    "durationSeconds": 264,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/e9/b1/39/e9b1396e-55dc-4c6d-12b2-5db8c39a312e/mzaf_13940173690721174402.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/47/c4/af/47c4af34-0cbd-4233-ad7e-543be4d50c78/5054197322716.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i.scdn.co/image/ab67616d00001e020b97a73cab024885e9819a9e",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/47/c4/af/47c4af34-0cbd-4233-ad7e-543be4d50c78/5054197322716.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": "3DLtPObflLQBodZN8qGODT",
-    "soundcloudUrl": "https://soundcloud.com/justin-thinh-307/dien-tri-ft-orange",
-    "youtubeQuery": "2AM T.R.I Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-tri_music-03",
-    "audiusId": "xWkj3",
-    "title": "Mơ Màng",
+    "audiusId": "tri_music-03",
+    "verifiedAudiusId": null,
+    "title": "9 8 7",
     "artist": "T.R.I",
     "artistId": "tri_music",
     "handle": "tri_music",
@@ -983,23 +817,21 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "tri_music"
     ],
     "genre": "Indie Pop / R&B",
-    "album": "Mơ Màng - Single",
-    "duration": "3:35",
-    "durationSeconds": 215,
-    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-9yMVJD7zpwwlPnJE-Ec1KYA-t500x500.jpg",
+    "album": "9 8 7 - Single",
+    "duration": "3:41",
+    "durationSeconds": 221,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d0/c0/ee/d0c0ee8e-8c83-e7c2-9b8d-613ae62a864b/mzaf_14473979198595948491.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dc/97/55/dc9755f8-5587-2976-c1cb-4c898d209f7f/197338890813.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-9yMVJD7zpwwlPnJE-Ec1KYA-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dc/97/55/dc9755f8-5587-2976-c1cb-4c898d209f7f/197338890813.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/kh-ng-ph-i-b-o-213725511/t-r-i-x-dangrangto-m-t-b-i-h-t",
-    "youtubeQuery": "Mơ Màng T.R.I Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-tri_music-04",
-    "audiusId": "qP5RB",
+    "audiusId": "tri_music-04",
+    "verifiedAudiusId": null,
     "title": "Chúng Ta Sau Này",
     "artist": "T.R.I",
     "artistId": "tri_music",
@@ -1009,23 +841,21 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
     ],
     "genre": "Indie Pop / R&B",
     "album": "Chúng Ta Sau Này - Single",
-    "duration": "3:30",
-    "durationSeconds": 210,
-    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
-    "img": "https://i.scdn.co/image/ab67616d00001e02f84ac936714a2f2708b95267",
+    "duration": "3:31",
+    "durationSeconds": 211,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b4/b4/a3/b4b4a3f7-cfd5-b8c3-7da6-422fa42c29c8/mzaf_4469099548856637291.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6c/90/e1/6c90e1d5-a1eb-d2d3-7a2c-ff2fd7fce601/190296445293.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i.scdn.co/image/ab67616d00001e02f84ac936714a2f2708b95267",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6c/90/e1/6c90e1d5-a1eb-d2d3-7a2c-ff2fd7fce601/190296445293.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": "5IO873C4IP8pXdsXcJiBes",
-    "soundcloudUrl": "https://soundcloud.com/nguy-n-tu-n-c-510879836/chung-ta-sau-nay-lofi-ver-t-r",
-    "youtubeQuery": "Chúng Ta Sau Này T.R.I Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-tri_music-05",
-    "audiusId": "0g28JKm",
-    "title": "Có Em Là Đủ",
+    "audiusId": "tri_music-05",
+    "verifiedAudiusId": null,
+    "title": "Sau Chia Tay... Ai Cũng Khác",
     "artist": "T.R.I",
     "artistId": "tri_music",
     "handle": "tri_music",
@@ -1033,198 +863,92 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "tri_music"
     ],
     "genre": "Indie Pop / R&B",
-    "album": "Có Em Là Đủ - Single",
-    "duration": "3:55",
-    "durationSeconds": 235,
-    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-2RIDCQuKWw3y21xG-v39vSg-t500x500.jpg",
+    "album": "Sau Chia Tay...Ai Cũng Khác - Single",
+    "duration": "4:43",
+    "durationSeconds": 283,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/3d/6b/5d/3d6b5d09-e242-5b09-8e84-6425ed49df72/mzaf_7256867149701159384.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/79/12/64791237-6fb9-5525-f11a-3864bf1bad25/893614818327.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-2RIDCQuKWw3y21xG-v39vSg-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/64/79/12/64791237-6fb9-5525-f11a-3864bf1bad25/893614818327.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/nguyen-nhat-12124975/nh-sao-v-b-u-tr-i-t-r-i-x-c",
-    "youtubeQuery": "Có Em Là Đủ T.R.I Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-tri_music-06",
-    "audiusId": "xPY1M2",
-    "title": "Dắt Em Đi Khỏi Đây",
-    "artist": "T.R.I",
+    "audiusId": "tri_music-06",
+    "verifiedAudiusId": null,
+    "title": "một bài hát không vui mấy (Extended Version)",
+    "artist": "T.R.I, Dangrangto & DONAL",
     "artistId": "tri_music",
     "handle": "tri_music",
     "featuredArtistIds": [
-      "tri_music"
+      "tri_music",
+      "dangrangto"
     ],
     "genre": "Indie Pop / R&B",
-    "album": "Dắt Em Đi Khỏi Đây - Single",
-    "duration": "4:29",
-    "durationSeconds": 269,
-    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-QdgfJ9veC0jwvdfW-bjW3DA-t500x500.jpg",
+    "album": "một bài hát không vui mấy (Extended Version) - Single",
+    "duration": "3:55",
+    "durationSeconds": 235,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/c1/b6/4ac1b621-036f-99fd-ead4-e1e25c1e5eea/mzaf_258856020310842025.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/ce/91/35ce91ec-a699-5b73-d90a-5ac108e88505/24UM1IM42321.rgb.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-QdgfJ9veC0jwvdfW-bjW3DA-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/ce/91/35ce91ec-a699-5b73-d90a-5ac108e88505/24UM1IM42321.rgb.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/chanh1406/sau-khi-chia-tay-ai-cung-khac-tri",
-    "youtubeQuery": "Dắt Em Đi Khỏi Đây T.R.I Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-youngpuppy-01",
-    "audiusId": "lvBQl",
-    "title": "Cứu Lấy Anh",
-    "artist": "YoungPuppy",
+    "audiusId": "youngpuppy-01",
+    "verifiedAudiusId": null,
+    "title": "Wrong Times (Remake)",
+    "artist": "YoungPuppy & Dangrangto",
     "artistId": "youngpuppy",
     "handle": "youngpuppy",
     "featuredArtistIds": [
-      "youngpuppy"
+      "youngpuppy",
+      "dangrangto"
     ],
     "genre": "Rap Việt / Melodic Trap",
-    "album": "Cứu Lấy Anh - Single",
-    "duration": "3:33",
-    "durationSeconds": 213,
-    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-2NWrQYBRNgkY168V-1KlZAA-t500x500.jpg",
+    "album": "Wrong Times (Remake) - Single",
+    "duration": "3:35",
+    "durationSeconds": 215,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/43/da/4d43da21-6b1f-c575-3eca-84ac75e14cae/mzaf_7688857602912697492.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/57/cf/4f/57cf4f2e-a339-3d6a-19bc-0bef66eb8d79/711641005117.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-2NWrQYBRNgkY168V-1KlZAA-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/57/cf/4f/57cf4f2e-a339-3d6a-19bc-0bef66eb8d79/711641005117.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/hi-p-nguy-n-60825086/wrong-time-with-original-beat",
-    "youtubeQuery": "Cứu Lấy Anh YoungPuppy Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-youngpuppy-02",
-    "audiusId": "8QPZp",
-    "title": "Yêu Em Qua Dòng Tin Nhắn",
-    "artist": "YoungPuppy",
+    "audiusId": "youngpuppy-02",
+    "verifiedAudiusId": null,
+    "title": "Do it like Gunna",
+    "artist": "Young Puppy",
     "artistId": "youngpuppy",
     "handle": "youngpuppy",
     "featuredArtistIds": [
       "youngpuppy"
     ],
     "genre": "Rap Việt / Melodic Trap",
-    "album": "Yêu Em Qua Dòng Tin Nhắn - Single",
-    "duration": "3:31",
-    "durationSeconds": 211,
-    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-sdvXTkxPrLyWLsds-vFAjKQ-t500x500.jpg",
+    "album": "Do it like Gunna - Single",
+    "duration": "3:03",
+    "durationSeconds": 183,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/c4/cb/95c4cb9b-1295-7d6c-6cda-abe7451c2a5a/mzaf_410777441628888563.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/a9/12/1fa9129b-9f2a-34a5-fee2-ffbf9cdccbd7/artwork.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-sdvXTkxPrLyWLsds-vFAjKQ-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/a9/12/1fa9129b-9f2a-34a5-fee2-ffbf9cdccbd7/artwork.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/nh-t-huyy-329803373/youngpuppy-wrongtime-live-at",
-    "youtubeQuery": "Yêu Em Qua Dòng Tin Nhắn YoungPuppy Official Audio",
-    "playCount": null
-  },
-  {
-    "id": "aud-youngpuppy-03",
-    "audiusId": "xWkj3",
-    "title": "Đêm Trắng",
-    "artist": "YoungPuppy",
-    "artistId": "youngpuppy",
-    "handle": "youngpuppy",
-    "featuredArtistIds": [
-      "youngpuppy"
-    ],
-    "genre": "Rap Việt / Melodic Trap",
-    "album": "Đêm Trắng - Single",
-    "duration": "3:51",
-    "durationSeconds": 231,
-    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-qkoQ07cEz1mFyy6q-Mr11xA-t500x500.jpg",
-    "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-qkoQ07cEz1mFyy6q-Mr11xA-t500x500.jpg",
-      "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/cirno-fumo-weeaboo/youngpuppy-dangrangto-wrong-2",
-    "youtubeQuery": "Đêm Trắng YoungPuppy Official Audio",
-    "playCount": null
-  },
-  {
-    "id": "aud-youngpuppy-04",
-    "audiusId": "qP5RB",
-    "title": "Trôi Trong Đêm",
-    "artist": "YoungPuppy",
-    "artistId": "youngpuppy",
-    "handle": "youngpuppy",
-    "featuredArtistIds": [
-      "youngpuppy"
-    ],
-    "genre": "Rap Việt / Melodic Trap",
-    "album": "Trôi Trong Đêm - Single",
-    "duration": "3:27",
-    "durationSeconds": 207,
-    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-5TZ9ABWhIdsDSY6p-hXfkZA-t500x500.jpg",
-    "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-5TZ9ABWhIdsDSY6p-hXfkZA-t500x500.jpg",
-      "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/txc-nhtd/young-puppy-wrong-times-live",
-    "youtubeQuery": "Trôi Trong Đêm YoungPuppy Official Audio",
-    "playCount": null
-  },
-  {
-    "id": "aud-youngpuppy-05",
-    "audiusId": "0g28JKm",
-    "title": "Ngoại Lệ Của Nhau",
-    "artist": "YoungPuppy",
-    "artistId": "youngpuppy",
-    "handle": "youngpuppy",
-    "featuredArtistIds": [
-      "youngpuppy"
-    ],
-    "genre": "Rap Việt / Melodic Trap",
-    "album": "Ngoại Lệ Của Nhau - Single",
-    "duration": "2:37",
-    "durationSeconds": 157,
-    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-vc5xIbmGBZPjOFeQ-OnGdfA-t500x500.jpg",
-    "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-vc5xIbmGBZPjOFeQ-OnGdfA-t500x500.jpg",
-      "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/ngocnguyen16hp/dung-lam-huong-duong-dau-son-tung-hennessy-ft-trong-thua",
-    "youtubeQuery": "Ngoại Lệ Của Nhau YoungPuppy Official Audio",
-    "playCount": null
-  },
-  {
-    "id": "aud-youngpuppy-06",
-    "audiusId": "xPY1M2",
-    "title": "Mất Kết Nối",
-    "artist": "YoungPuppy",
-    "artistId": "youngpuppy",
-    "handle": "youngpuppy",
-    "featuredArtistIds": [
-      "youngpuppy"
-    ],
-    "genre": "Rap Việt / Melodic Trap",
-    "album": "Mất Kết Nối - Single",
-    "duration": "3:30",
-    "durationSeconds": 210,
-    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://i.scdn.co/image/ab67616d00001e02f2e33afbb2d8b486c1c98aa3",
-    "artwork": {
-      "url": "https://i.scdn.co/image/ab67616d00001e02f2e33afbb2d8b486c1c98aa3",
-      "mirrors": []
-    },
-    "spotifyTrackId": "0rR27Ayle8G7sKoCt8OWUr",
-    "soundcloudUrl": "https://soundcloud.com/cencasso/1tinhyeu-robber-ft-young-puppy-itsuycasso-remix",
-    "youtubeQuery": "Mất Kết Nối YoungPuppy Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-dangrangto-01",
-    "audiusId": "lvBQl",
+    "audiusId": "dangrangto-01",
+    "verifiedAudiusId": null,
     "title": "Wrong Times",
     "artist": "Dangrangto",
     "artistId": "dangrangto",
@@ -1234,73 +958,67 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
     ],
     "genre": "Rap Việt / Hip-Hop",
     "album": "Wrong Times - Single",
-    "duration": "3:30",
-    "durationSeconds": 210,
-    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://i.scdn.co/image/ab67616d00001e02f895701ff726ef3750766572",
+    "duration": "3:31",
+    "durationSeconds": 211,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/6b/ac/ea6bac3a-dd29-dca6-72f3-f5daa74c572f/mzaf_9116584175014719465.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/c0/fe/78c0fe8f-11f9-ea1a-a5cc-8aa4260e90dd/7316473748343.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i.scdn.co/image/ab67616d00001e02f895701ff726ef3750766572",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/c0/fe/78c0fe8f-11f9-ea1a-a5cc-8aa4260e90dd/7316473748343.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": "1RNkETQqy5xosPUg4i5aiY",
-    "soundcloudUrl": "https://soundcloud.com/fumo-high-cirno/x-ng-r-ng-intro-dangrangto",
-    "youtubeQuery": "Wrong Times Dangrangto Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-dangrangto-02",
-    "audiusId": "8QPZp",
-    "title": "Bận Lòng",
-    "artist": "Dangrangto",
+    "audiusId": "dangrangto-02",
+    "verifiedAudiusId": null,
+    "title": "để dành cho em",
+    "artist": "Dangrangto & DONAL",
     "artistId": "dangrangto",
     "handle": "dangrangto",
     "featuredArtistIds": [
       "dangrangto"
     ],
     "genre": "Rap Việt / Hip-Hop",
-    "album": "Bận Lòng - Single",
-    "duration": "4:53",
-    "durationSeconds": 293,
-    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-7uIlG4EFVvN4C2m6-7pMNCg-t500x500.png",
+    "album": "để dành cho em - Single",
+    "duration": "4:54",
+    "durationSeconds": 294,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/b6/71/fbb67176-94c1-68d2-a97a-72da97c817c4/mzaf_14695074226150120049.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/be/61/08be61ab-eaac-156f-5b76-4acc16720df2/cover.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-7uIlG4EFVvN4C2m6-7pMNCg-t500x500.png",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/be/61/08be61ab-eaac-156f-5b76-4acc16720df2/cover.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/nccoo-nvn-lawvv-73255004/dangrangto-d-nh-cho-em",
-    "youtubeQuery": "Bận Lòng Dangrangto Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-dangrangto-03",
-    "audiusId": "xWkj3",
-    "title": "Ngủ Một Mình (tình rất tình)",
-    "artist": "Dangrangto",
+    "audiusId": "dangrangto-03",
+    "verifiedAudiusId": null,
+    "title": "xương rồng (intro)",
+    "artist": "Dangrangto & DONAL",
     "artistId": "dangrangto",
     "handle": "dangrangto",
     "featuredArtistIds": [
       "dangrangto"
     ],
     "genre": "Rap Việt / Hip-Hop",
-    "album": "Ngủ Một Mình (tình rất tình) - Single",
-    "duration": "4:53",
-    "durationSeconds": 293,
-    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-dKR5i1aw1aJoxeod-5tDWbQ-t500x500.jpg",
+    "album": "trái tim băng bó",
+    "duration": "4:05",
+    "durationSeconds": 245,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/91/95/1291957a-411f-9263-be6f-53d2cfd57d3c/mzaf_11762913479588349263.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/8b/54/918b54d7-f411-78d5-f179-9d534351946c/cover.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-dKR5i1aw1aJoxeod-5tDWbQ-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/8b/54/918b54d7-f411-78d5-f179-9d534351946c/cover.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/leeanhduc/dangrangto-d-nh-cho-em",
-    "youtubeQuery": "Ngủ Một Mình (tình rất tình) Dangrangto Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-dangrangto-04",
-    "audiusId": "qP5RB",
-    "title": "Tại Vì Sao",
+    "audiusId": "dangrangto-04",
+    "verifiedAudiusId": null,
+    "title": "thế giới của anh",
     "artist": "Dangrangto",
     "artistId": "dangrangto",
     "handle": "dangrangto",
@@ -1308,23 +1026,21 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "dangrangto"
     ],
     "genre": "Rap Việt / Hip-Hop",
-    "album": "Tại Vì Sao - Single",
-    "duration": "4:02",
-    "durationSeconds": 242,
-    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-j0OIkSCvdxADJEHb-xbjIUA-t500x500.jpg",
+    "album": "thế giới của anh - Single",
+    "duration": "4:24",
+    "durationSeconds": 264,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/6e/d0/d76ed00e-f23b-8934-0d19-80823504ed71/mzaf_7311906701465724215.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/64/e8/1e64e845-0abc-292d-f4ab-aa4de10b005a/cover.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-j0OIkSCvdxADJEHb-xbjIUA-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/64/e8/1e64e845-0abc-292d-f4ab-aa4de10b005a/cover.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/ari-anna-340364901/x-ng-r-ng-dangrangto-prod",
-    "youtubeQuery": "Tại Vì Sao Dangrangto Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-dangrangto-05",
-    "audiusId": "0g28JKm",
+    "audiusId": "dangrangto-05",
+    "verifiedAudiusId": null,
     "title": "Love Is",
     "artist": "Dangrangto",
     "artistId": "dangrangto",
@@ -1333,48 +1049,44 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "dangrangto"
     ],
     "genre": "Rap Việt / Hip-Hop",
-    "album": "Love Is - Single",
-    "duration": "4:21",
-    "durationSeconds": 261,
-    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-Wwj4TG5u0bDCzyla-rmldJA-t500x500.jpg",
+    "album": "Love is - Single",
+    "duration": "4:27",
+    "durationSeconds": 267,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/32/e7/22/32e722e1-4da7-7f3d-87ec-cbda74ede7e0/mzaf_10140230272312509157.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/e5/d4/cfe5d423-0a65-17fe-ca40-685da6316fe0/7316474339618.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-Wwj4TG5u0bDCzyla-rmldJA-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/e5/d4/cfe5d423-0a65-17fe-ca40-685da6316fe0/7316474339618.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/shinn1/love-is-dangrangto",
-    "youtubeQuery": "Love Is Dangrangto Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-dangrangto-06",
-    "audiusId": "xPY1M2",
-    "title": "Cắt Kéo",
-    "artist": "Dangrangto",
+    "audiusId": "dangrangto-06",
+    "verifiedAudiusId": null,
+    "title": "NGỰA Ô",
+    "artist": "Dangrangto, TeuYungBoy & DONAL",
     "artistId": "dangrangto",
     "handle": "dangrangto",
     "featuredArtistIds": [
       "dangrangto"
     ],
     "genre": "Rap Việt / Hip-Hop",
-    "album": "Cắt Kéo - Single",
-    "duration": "4:29",
-    "durationSeconds": 269,
-    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-crdR45kttWiaO2Dw-bCnvHQ-t500x500.jpg",
+    "album": "NGỰA Ô - Single",
+    "duration": "3:35",
+    "durationSeconds": 215,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/18/04/64180462-d94c-b546-adc1-08635050e04f/mzaf_5812778098213634878.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/48/1b/9b/481b9b09-8681-fad2-ae23-be516c6960b8/cover.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-crdR45kttWiaO2Dw-bCnvHQ-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/48/1b/9b/481b9b09-8681-fad2-ae23-be516c6960b8/cover.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/shinn1/vu-ng-va-y-dangrangto-feat",
-    "youtubeQuery": "Cắt Kéo Dangrangto Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-phuongmychi-01",
-    "audiusId": "lvBQl",
+    "audiusId": "phuongmychi-01",
+    "verifiedAudiusId": null,
     "title": "Vũ Trụ Có Anh",
     "artist": "Phương Mỹ Chi",
     "artistId": "phuongmychi",
@@ -1383,48 +1095,44 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "phuongmychi"
     ],
     "genre": "V-Pop / Folktronica",
-    "album": "Vũ Trụ Có Anh - Single",
-    "duration": "3:05",
-    "durationSeconds": 185,
-    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-res0eNwTwPEFOLm6-aBJjEg-t500x500.jpg",
+    "album": "Vũ Trụ Có Anh (feat. Pháo) - Single",
+    "duration": "3:42",
+    "durationSeconds": 222,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0d/da/a2/0ddaa213-c62c-7180-67ac-35baa958c482/mzaf_12221907410335964942.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/23/32/7a/23327aa5-8453-6317-7315-c7d845082b94/197338584019.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-res0eNwTwPEFOLm6-aBJjEg-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/23/32/7a/23327aa5-8453-6317-7315-c7d845082b94/197338584019.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/ph-m-h-ng-ng-c-704734593/vu-tru-co-anh-phu-o-ng-my-chi",
-    "youtubeQuery": "Vũ Trụ Có Anh Phương Mỹ Chi Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-phuongmychi-02",
-    "audiusId": "8QPZp",
-    "title": "Đẩy Xe Bò",
-    "artist": "Phương Mỹ Chi",
+    "audiusId": "phuongmychi-02",
+    "verifiedAudiusId": null,
+    "title": "Thiên Đường Với Người Thương",
+    "artist": "Phương Mỹ Chi & DTAP",
     "artistId": "phuongmychi",
     "handle": "phuongmychi",
     "featuredArtistIds": [
       "phuongmychi"
     ],
     "genre": "V-Pop / Folktronica",
-    "album": "Đẩy Xe Bò - Single",
-    "duration": "5:27",
-    "durationSeconds": 327,
-    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-zW4jk3W0pucCM4lK-2qCmIQ-t500x500.jpg",
+    "album": "Thiên Đường Với Người Thương - Single",
+    "duration": "3:38",
+    "durationSeconds": 218,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/18/82/a5188266-81bc-d6f4-c85e-bc767003daba/mzaf_18307315393601412611.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/97/09/949709f8-627a-6342-5842-d294e4d3c3bc/26UM1IM01866.rgb.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-zW4jk3W0pucCM4lK-2qCmIQ-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/94/97/09/949709f8-627a-6342-5842-d294e4d3c3bc/26UM1IM01866.rgb.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/mikeysahara-870813572/b-ng-ph-hoa-ph-ng-m-chi-ft",
-    "youtubeQuery": "Đẩy Xe Bò Phương Mỹ Chi Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-phuongmychi-03",
-    "audiusId": "xWkj3",
+    "audiusId": "phuongmychi-03",
+    "verifiedAudiusId": null,
     "title": "Bóng Phù Hoa",
     "artist": "Phương Mỹ Chi",
     "artistId": "phuongmychi",
@@ -1433,23 +1141,21 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "phuongmychi"
     ],
     "genre": "V-Pop / Folktronica",
-    "album": "Bóng Phù Hoa - Single",
-    "duration": "5:27",
-    "durationSeconds": 327,
-    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-zW4jk3W0pucCM4lK-2qCmIQ-t500x500.jpg",
+    "album": "Vũ Trụ Cò Bay",
+    "duration": "4:35",
+    "durationSeconds": 275,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/09/3b/0a093b4d-fae1-0be9-eb4a-f45139d57799/mzaf_3108184938556380064.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/92/92/12/92921232-a921-5e74-e36d-cd9bc5db08a7/5054197811159.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-zW4jk3W0pucCM4lK-2qCmIQ-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/92/92/12/92921232-a921-5e74-e36d-cd9bc5db08a7/5054197811159.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/mikeysahara-870813572/b-ng-ph-hoa-ph-ng-m-chi-ft",
-    "youtubeQuery": "Bóng Phù Hoa Phương Mỹ Chi Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-phuongmychi-04",
-    "audiusId": "qP5RB",
+    "audiusId": "phuongmychi-04",
+    "verifiedAudiusId": null,
     "title": "Gối Gấm",
     "artist": "Phương Mỹ Chi",
     "artistId": "phuongmychi",
@@ -1458,23 +1164,21 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "phuongmychi"
     ],
     "genre": "V-Pop / Folktronica",
-    "album": "Gối Gấm - Single",
-    "duration": "4:10",
-    "durationSeconds": 250,
-    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-4v1t9Y9Oj3QXopPt-xfI6iA-t500x500.jpg",
+    "album": "Vũ Trụ Cò Bay",
+    "duration": "3:17",
+    "durationSeconds": 197,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/17/93/2817933b-49f1-ef7d-3e97-e451c79b3b8e/mzaf_5099239972710438244.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/92/92/12/92921232-a921-5e74-e36d-cd9bc5db08a7/5054197811159.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-4v1t9Y9Oj3QXopPt-xfI6iA-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/92/92/12/92921232-a921-5e74-e36d-cd9bc5db08a7/5054197811159.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/anblue/bo-ng-phu-hoa-phu-o-ng-my-chi",
-    "youtubeQuery": "Gối Gấm Phương Mỹ Chi Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-phuongmychi-05",
-    "audiusId": "0g28JKm",
+    "audiusId": "phuongmychi-05",
+    "verifiedAudiusId": null,
     "title": "Chiếc Lược Ngà",
     "artist": "Phương Mỹ Chi",
     "artistId": "phuongmychi",
@@ -1483,48 +1187,45 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "phuongmychi"
     ],
     "genre": "V-Pop / Folktronica",
-    "album": "Chiếc Lược Ngà - Single",
-    "duration": "6:35",
-    "durationSeconds": 395,
-    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-ox28yiUtGEopruog-W4dVYQ-t500x500.jpg",
+    "album": "Vũ Trụ Cò Bay",
+    "duration": "5:00",
+    "durationSeconds": 300,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/32/ca/85/32ca85bb-7868-b021-b651-cf10afd5318c/mzaf_11577152486002955109.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/92/92/12/92921232-a921-5e74-e36d-cd9bc5db08a7/5054197811159.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-ox28yiUtGEopruog-W4dVYQ-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/92/92/12/92921232-a921-5e74-e36d-cd9bc5db08a7/5054197811159.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/vahzxw/bo-ng-phu-hoa-long-vu-o-ng",
-    "youtubeQuery": "Chiếc Lược Ngà Phương Mỹ Chi Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-phuongmychi-06",
-    "audiusId": "xPY1M2",
-    "title": "Quê Em Mùa Nước Lũ",
-    "artist": "Phương Mỹ Chi",
+    "audiusId": "phuongmychi-06",
+    "verifiedAudiusId": null,
+    "title": "Thử Lòng Quân Tử",
+    "artist": "Phương Mỹ Chi, RHYDER & DTAP",
     "artistId": "phuongmychi",
     "handle": "phuongmychi",
     "featuredArtistIds": [
-      "phuongmychi"
+      "phuongmychi",
+      "rhyder"
     ],
     "genre": "V-Pop / Folktronica",
-    "album": "Quê Em Mùa Nước Lũ - Single",
-    "duration": "6:35",
-    "durationSeconds": 395,
-    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-FoGSLdxQnmXHjAtg-NpPjJg-t500x500.jpg",
+    "album": "DÂN CHƠI DÂN CA",
+    "duration": "3:24",
+    "durationSeconds": 204,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/20/cb/5c20cb42-2497-ba3c-8740-501240d9322e/mzaf_10801282963137090317.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/f5/72/78f57222-1d26-611e-cbf2-306920a97afa/26UM1IM05207.rgb.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-FoGSLdxQnmXHjAtg-NpPjJg-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/f5/72/78f57222-1d26-611e-cbf2-306920a97afa/26UM1IM05207.rgb.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/popyeu885/bo-ng-phu-hoa-my-chi-lv-remix",
-    "youtubeQuery": "Quê Em Mùa Nước Lũ Phương Mỹ Chi Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-trucnhan-01",
-    "audiusId": "lvBQl",
+    "audiusId": "trucnhan-01",
+    "verifiedAudiusId": null,
     "title": "Có Không Giữ Mất Đừng Tìm",
     "artist": "Trúc Nhân",
     "artistId": "trucnhan",
@@ -1534,22 +1235,20 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
     ],
     "genre": "V-Pop / Art Pop",
     "album": "Có Không Giữ Mất Đừng Tìm - Single",
-    "duration": "3:44",
-    "durationSeconds": 224,
-    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://i.scdn.co/image/ab6761610000e5eba6b88f77ec81d8678de1f119",
+    "duration": "3:37",
+    "durationSeconds": 217,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/38/ba/78/38ba78e1-51b3-ebaf-0807-f782bf33a1b9/mzaf_14716176841800544162.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/23/76/8e237627-d1e9-dff9-8310-b20a03f1a3b3/cover.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i.scdn.co/image/ab6761610000e5eba6b88f77ec81d8678de1f119",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/23/76/8e237627-d1e9-dff9-8310-b20a03f1a3b3/cover.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/ens27/c-kh-ng-gi-m-t-ng-t-m-tr-c-nh",
-    "youtubeQuery": "Có Không Giữ Mất Đừng Tìm Trúc Nhân Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-trucnhan-02",
-    "audiusId": "8QPZp",
+    "audiusId": "trucnhan-02",
+    "verifiedAudiusId": null,
     "title": "Sáng Mắt Chưa",
     "artist": "Trúc Nhân",
     "artistId": "trucnhan",
@@ -1559,22 +1258,20 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
     ],
     "genre": "V-Pop / Art Pop",
     "album": "Sáng Mắt Chưa - Single",
-    "duration": "3:28",
-    "durationSeconds": 208,
-    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-000578234534-zwm1b1-t500x500.jpg",
+    "duration": "3:26",
+    "durationSeconds": 206,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dc/ad/29/dcad290e-5bbb-eae1-4aaa-446207654a2e/mzaf_5799787547737068242.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/69/72/67697226-316a-7761-090f-918976646feb/cover.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-000578234534-zwm1b1-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/69/72/67697226-316a-7761-090f-918976646feb/cover.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/user-55699745/sang-mat-chua-truc-nhan",
-    "youtubeQuery": "Sáng Mắt Chưa Trúc Nhân Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-trucnhan-03",
-    "audiusId": "xWkj3",
+    "audiusId": "trucnhan-03",
+    "verifiedAudiusId": null,
     "title": "Thật Bất Ngờ",
     "artist": "Trúc Nhân",
     "artistId": "trucnhan",
@@ -1584,22 +1281,20 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
     ],
     "genre": "V-Pop / Art Pop",
     "album": "Thật Bất Ngờ - Single",
-    "duration": "3:33",
-    "durationSeconds": 213,
-    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-000130977985-hcvgen-t500x500.jpg",
+    "duration": "3:30",
+    "durationSeconds": 210,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/ec/ee/aaeceebf-fb12-2a34-9263-06b204fa4b2d/mzaf_2576118631196874701.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/2b/1a/912b1a4a-1d8b-304a-77f4-93233ef0ae01/cover.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-000130977985-hcvgen-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/2b/1a/912b1a4a-1d8b-304a-77f4-93233ef0ae01/cover.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/tr-c-nh-n/that-bat-ngo-truc-nhan-master",
-    "youtubeQuery": "Thật Bất Ngờ Trúc Nhân Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-trucnhan-04",
-    "audiusId": "qP5RB",
+    "audiusId": "trucnhan-04",
+    "verifiedAudiusId": null,
     "title": "Lớn Rồi Còn Khóc Nhè",
     "artist": "Trúc Nhân",
     "artistId": "trucnhan",
@@ -1611,20 +1306,18 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
     "album": "Lớn Rồi Còn Khóc Nhè - Single",
     "duration": "3:31",
     "durationSeconds": 211,
-    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-000526354317-010rry-t500x500.jpg",
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/4e/33/db4e33dc-00dd-7171-7d6e-2614d535e9fb/mzaf_6201468098958586058.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/5f/d1/405fd12d-7671-0805-8463-7aa7b65ed577/cover.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-000526354317-010rry-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/5f/d1/405fd12d-7671-0805-8463-7aa7b65ed577/cover.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/user-202267201/lon-roi-con-khoc-nhe-truc-nhan",
-    "youtubeQuery": "Lớn Rồi Còn Khóc Nhè Trúc Nhân Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-trucnhan-05",
-    "audiusId": "0g28JKm",
+    "audiusId": "trucnhan-05",
+    "verifiedAudiusId": null,
     "title": "Bốn Chữ Lắm",
     "artist": "Trúc Nhân",
     "artistId": "trucnhan",
@@ -1633,23 +1326,21 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "trucnhan"
     ],
     "genre": "V-Pop / Art Pop",
-    "album": "Bốn Chữ Lắm - Single",
-    "duration": "4:22",
-    "durationSeconds": 262,
-    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-000079766424-axu9j6-t500x500.jpg",
+    "album": "Bốn Chữ Lắm (feat. Thảo Nhi) - Single",
+    "duration": "4:21",
+    "durationSeconds": 261,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/ce/be/d0cebee8-dd2d-1e4a-66ce-9e79d239aa8a/mzaf_16174046352468863416.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/04/a3/e7/04a3e744-c6e8-a9bc-9900-da29b6e58e47/cover.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-000079766424-axu9j6-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/04/a3/e7/04a3e744-c6e8-a9bc-9900-da29b6e58e47/cover.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/tr-c-nh-n/bon-chu-lam-truc-nhan-ft-thao-nhi-st-pham-toan-thang",
-    "youtubeQuery": "Bốn Chữ Lắm Trúc Nhân Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-trucnhan-06",
-    "audiusId": "xPY1M2",
+    "audiusId": "trucnhan-06",
+    "verifiedAudiusId": null,
     "title": "Không Ra Gì",
     "artist": "Trúc Nhân",
     "artistId": "trucnhan",
@@ -1659,22 +1350,20 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
     ],
     "genre": "V-Pop / Art Pop",
     "album": "Không Ra Gì - Single",
-    "duration": "3:31",
-    "durationSeconds": 211,
-    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-snlaR1d34GSHMPNY-vngDig-t500x500.jpg",
+    "duration": "3:14",
+    "durationSeconds": 194,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/05/cb/23/05cb2311-5a7e-d2d9-16e8-9d0a2be8549d/mzaf_9118716581408641348.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/98/80/9b988069-53b2-2231-6e6b-30bb1fafbba7/cover.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-snlaR1d34GSHMPNY-vngDig-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/98/80/9b988069-53b2-2231-6e6b-30bb1fafbba7/cover.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/th-o-nhi-912991019/khong-ra-gi-truc-nhan",
-    "youtubeQuery": "Không Ra Gì Trúc Nhân Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-hoailam-01",
-    "audiusId": "lvBQl",
+    "audiusId": "hoailam-01",
+    "verifiedAudiusId": null,
     "title": "Hoa Nở Không Màu",
     "artist": "Hoài Lâm",
     "artistId": "hoailam",
@@ -1684,22 +1373,20 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
     ],
     "genre": "V-Pop / Ballad & Bolero",
     "album": "Hoa Nở Không Màu - Single",
-    "duration": "3:32",
-    "durationSeconds": 212,
-    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-1bH5pUiH6ipMiZG9-gIhA8Q-t500x500.jpg",
+    "duration": "5:28",
+    "durationSeconds": 328,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/14/39/5b143956-3e31-a48d-a481-c1b903d9434b/mzaf_3832396717306268035.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/a6/79/14a67908-8487-961e-7972-7602c5690e42/190296416910.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-1bH5pUiH6ipMiZG9-gIhA8Q-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/a6/79/14a67908-8487-961e-7972-7602c5690e42/190296416910.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/t-nguy-n-739317583/hoa-no-khong-mau-hoai-lam",
-    "youtubeQuery": "Hoa Nở Không Màu Hoài Lâm Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-hoailam-02",
-    "audiusId": "8QPZp",
+    "audiusId": "hoailam-02",
+    "verifiedAudiusId": null,
     "title": "Buồn Làm Chi Em Ơi",
     "artist": "Hoài Lâm",
     "artistId": "hoailam",
@@ -1709,22 +1396,20 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
     ],
     "genre": "V-Pop / Ballad & Bolero",
     "album": "Buồn Làm Chi Em Ơi - Single",
-    "duration": "5:44",
-    "durationSeconds": 344,
-    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-JcUyb8w8GkiXOxPP-fyAbhA-t500x500.jpg",
+    "duration": "4:33",
+    "durationSeconds": 273,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/8e/89/af8e895e-6d13-313f-e656-5125a123587d/mzaf_7856515940248463639.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3a/36/a9/3a36a948-c897-f730-bf6d-6c2e4eae4172/190296381966.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-JcUyb8w8GkiXOxPP-fyAbhA-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3a/36/a9/3a36a948-c897-f730-bf6d-6c2e4eae4172/190296381966.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/heugao/ng-h-n-ki-p-sau-hoa-i-la-m",
-    "youtubeQuery": "Buồn Làm Chi Em Ơi Hoài Lâm Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-hoailam-03",
-    "audiusId": "xWkj3",
+    "audiusId": "hoailam-03",
+    "verifiedAudiusId": null,
     "title": "Như Những Phút Ban Đầu",
     "artist": "Hoài Lâm",
     "artistId": "hoailam",
@@ -1733,23 +1418,21 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "hoailam"
     ],
     "genre": "V-Pop / Ballad & Bolero",
-    "album": "Như Những Phút Ban Đầu - Single",
+    "album": "Chính Mình - Single",
     "duration": "5:35",
     "durationSeconds": 335,
-    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-000087305965-pn5bbj-t500x500.jpg",
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/be/23/a6/be23a665-ddcf-c46d-4af0-bca0e369c80c/mzaf_1669043315344366748.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/a3/6f/04a36fb5-f4f4-bf99-0b05-c023787ab904/197187450565.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-000087305965-pn5bbj-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/a3/6f/04a36fb5-f4f4-bf99-0b05-c023787ab904/197187450565.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/youngmusicvn/nhu-nhung-phut-ban-dau-hoai-lam",
-    "youtubeQuery": "Như Những Phút Ban Đầu Hoài Lâm Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-hoailam-04",
-    "audiusId": "qP5RB",
+    "audiusId": "hoailam-04",
+    "verifiedAudiusId": null,
     "title": "Cô Đơn Trong Nhà Mình",
     "artist": "Hoài Lâm",
     "artistId": "hoailam",
@@ -1759,22 +1442,20 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
     ],
     "genre": "V-Pop / Ballad & Bolero",
     "album": "Cô Đơn Trong Nhà Mình - Single",
-    "duration": "4:58",
-    "durationSeconds": 298,
-    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-s9ZkYz4pMKfpe58O-mpHZzA-t500x500.jpg",
+    "duration": "5:02",
+    "durationSeconds": 302,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/9e/f0/659ef0ee-d1bd-fcdf-6c25-0cbde514bfc2/mzaf_4316815530831323587.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/46/f1/df/46f1df13-59a8-df4c-b754-d52c768d0cf4/893606126874_cover.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-s9ZkYz4pMKfpe58O-mpHZzA-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/46/f1/df/46f1df13-59a8-df4c-b754-d52c768d0cf4/893606126874_cover.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/thanhvu8530/co-don-trong-nha-minh-hoai-lam",
-    "youtubeQuery": "Cô Đơn Trong Nhà Mình Hoài Lâm Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-hoailam-05",
-    "audiusId": "0g28JKm",
+    "audiusId": "hoailam-05",
+    "verifiedAudiusId": null,
     "title": "Chỉ Cần Được Bên Em",
     "artist": "Hoài Lâm",
     "artistId": "hoailam",
@@ -1783,24 +1464,22 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "hoailam"
     ],
     "genre": "V-Pop / Ballad & Bolero",
-    "album": "Chỉ Cần Được Bên Em - Single",
-    "duration": "4:26",
-    "durationSeconds": 266,
-    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-wucX9ayyweyeiv0n-oMX6MQ-t500x500.jpg",
+    "album": "Chỉ Cần Được Bên Em (Acoustic Version) - Single",
+    "duration": "5:23",
+    "durationSeconds": 323,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/7a/83/e17a838d-9933-7e4b-1893-7fd90fc81dc4/mzaf_3807098116767521274.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/5b/4f/735b4f33-6d1e-5eab-dd97-b8ad61839e1a/197338653852.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-wucX9ayyweyeiv0n-oMX6MQ-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/5b/4f/735b4f33-6d1e-5eab-dd97-b8ad61839e1a/197338653852.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/phvdng/chia-c-ch-b-nh-y-n-ho-i-l-m",
-    "youtubeQuery": "Chỉ Cần Được Bên Em Hoài Lâm Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-hoailam-06",
-    "audiusId": "xPY1M2",
-    "title": "Người Đến Sau Sẽ Cho Người Tất Cả",
+    "audiusId": "hoailam-06",
+    "verifiedAudiusId": null,
+    "title": "Có Khi",
     "artist": "Hoài Lâm",
     "artistId": "hoailam",
     "handle": "hoailam",
@@ -1808,48 +1487,44 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "hoailam"
     ],
     "genre": "V-Pop / Ballad & Bolero",
-    "album": "Người Đến Sau Sẽ Cho Người Tất Cả - Single",
-    "duration": "5:35",
-    "durationSeconds": 335,
-    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-000087305965-pn5bbj-t500x500.jpg",
+    "album": "Chính Mình - Single",
+    "duration": "4:15",
+    "durationSeconds": 255,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b5/76/d0/b576d029-c73b-f616-e0dc-70e6e2036852/mzaf_4967076681522201536.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/a3/6f/04a36fb5-f4f4-bf99-0b05-c023787ab904/197187450565.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-000087305965-pn5bbj-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/a3/6f/04a36fb5-f4f4-bf99-0b05-c023787ab904/197187450565.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/youngmusicvn/nhu-nhung-phut-ban-dau-hoai-lam",
-    "youtubeQuery": "Người Đến Sau Sẽ Cho Người Tất Cả Hoài Lâm Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-masew-01",
-    "audiusId": "lvBQl",
-    "title": "Túy Âm",
-    "artist": "Masew",
+    "audiusId": "masew-01",
+    "verifiedAudiusId": null,
+    "title": "Vô Lượng",
+    "artist": "Masew & Khoi Vu",
     "artistId": "masew",
     "handle": "masew",
     "featuredArtistIds": [
       "masew"
     ],
     "genre": "V-Pop / EDM & Future Bass",
-    "album": "Túy Âm - Single",
-    "duration": "3:21",
-    "durationSeconds": 201,
-    "audioUrl": "https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-000239838225-avadfn-t500x500.jpg",
+    "album": "Vô Lượng - Single",
+    "duration": "3:53",
+    "durationSeconds": 233,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/97/10/5b/97105be7-5f84-dbeb-c3b3-6435f5d14bd8/mzaf_16938679916845565582.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/40/76/d9/4076d904-d968-096d-ee9d-42b1a15594c3/197187331765.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-000239838225-avadfn-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/40/76/d9/4076d904-d968-096d-ee9d-42b1a15594c3/197187331765.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/xesii/tuy-am-xesi-x-masew-x-nhatnguyen",
-    "youtubeQuery": "Túy Âm Masew Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-masew-02",
-    "audiusId": "8QPZp",
+    "audiusId": "masew-02",
+    "verifiedAudiusId": null,
     "title": "Cưới Thôi",
     "artist": "Masew",
     "artistId": "masew",
@@ -1859,22 +1534,20 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
     ],
     "genre": "V-Pop / EDM & Future Bass",
     "album": "Cưới Thôi - Single",
-    "duration": "3:51",
-    "durationSeconds": 231,
-    "audioUrl": "https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-000504223254-vhgkq1-t500x500.jpg",
+    "duration": "3:03",
+    "durationSeconds": 183,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/27/e1/e2/27e1e233-f08d-aaee-7230-6742ae68f53f/mzaf_11670690101660618210.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/9c/43/8d9c43dd-de31-6110-4e2a-b2671138f0e7/190296436017.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-000504223254-vhgkq1-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/9c/43/8d9c43dd-de31-6110-4e2a-b2671138f0e7/190296436017.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/qu-c-kh-i-529180479/ex-s-hate-me-b-ray-masew-amee",
-    "youtubeQuery": "Cưới Thôi Masew Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-masew-03",
-    "audiusId": "xWkj3",
+    "audiusId": "masew-03",
+    "verifiedAudiusId": null,
     "title": "Mộng Mơ",
     "artist": "Masew",
     "artistId": "masew",
@@ -1883,93 +1556,84 @@ export const EXTRA_SPOTIFY_POPULAR_TRACKS = [
       "masew"
     ],
     "genre": "V-Pop / EDM & Future Bass",
-    "album": "Mộng Mơ - Single",
-    "duration": "5:06",
-    "durationSeconds": 306,
-    "audioUrl": "https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-000227602560-83ajdz-t500x500.jpg",
+    "album": "Mộng Mơ (feat. RedT) - Single",
+    "duration": "3:47",
+    "durationSeconds": 227,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/86/78/73867882-be8f-1620-0865-d90975ec0469/mzaf_14224249222640711274.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/56/e8/5556e80f-c257-19c4-4f10-403fdee5c9bb/7290114351454.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-000227602560-83ajdz-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/56/e8/5556e80f-c257-19c4-4f10-403fdee5c9bb/7290114351454.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/masew/duong-mot-chieu-huynh-tu-x-magazine-masew-mix",
-    "youtubeQuery": "Mộng Mơ Masew Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-masew-04",
-    "audiusId": "qP5RB",
-    "title": "Độ Tộc 2",
-    "artist": "Masew",
+    "audiusId": "masew-04",
+    "verifiedAudiusId": null,
+    "title": "Ái Nộ",
+    "artist": "Masew & Khoi Vu",
     "artistId": "masew",
     "handle": "masew",
     "featuredArtistIds": [
       "masew"
     ],
     "genre": "V-Pop / EDM & Future Bass",
-    "album": "Độ Tộc 2 - Single",
-    "duration": "4:03",
-    "durationSeconds": 243,
-    "audioUrl": "https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-9F089boHL5lZgLCt-vNf7SA-t500x500.jpg",
+    "album": "Ái Nộ - Single",
+    "duration": "3:52",
+    "durationSeconds": 232,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/27/ad/5d/27ad5da8-8c9f-a394-c839-80dfc16f057b/mzaf_7079812379464058375.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/70/58/3370583c-a704-9fd8-e781-6948540a994a/190296436154.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-9F089boHL5lZgLCt-vNf7SA-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/70/58/3370583c-a704-9fd8-e781-6948540a994a/190296436154.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/masew/hoi-duyen-masew-x-khoi-vu",
-    "youtubeQuery": "Độ Tộc 2 Masew Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-masew-05",
-    "audiusId": "0g28JKm",
-    "title": "Kém Duyên",
-    "artist": "Masew",
+    "audiusId": "masew-05",
+    "verifiedAudiusId": null,
+    "title": "Chú Đại Bi",
+    "artist": "Masew & Khoi Vu",
     "artistId": "masew",
     "handle": "masew",
     "featuredArtistIds": [
       "masew"
     ],
     "genre": "V-Pop / EDM & Future Bass",
-    "album": "Kém Duyên - Single",
-    "duration": "3:45",
-    "durationSeconds": 225,
-    "audioUrl": "https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-000412548207-d9ip8d-t500x500.jpg",
+    "album": "Chú Đại Bi - Single",
+    "duration": "3:54",
+    "durationSeconds": 234,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/c0/25/d4/c025d43b-e5eb-1d0b-fb39-e3347b6cd8df/mzaf_18027017653801134105.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/8b/5b/16/8b5b16cd-a6a3-7ace-e137-f98a054e0895/197187547456.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-000412548207-d9ip8d-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/8b/5b/16/8b5b16cd-a6a3-7ace-e137-f98a054e0895/197187547456.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/rumrumne/kem-duyen-rum-x-nit-x-masew",
-    "youtubeQuery": "Kém Duyên Masew Official Audio",
-    "playCount": null
+    }
   },
   {
     "id": "aud-masew-06",
-    "audiusId": "xPY1M2",
-    "title": "Ex Hate Me",
-    "artist": "Masew",
+    "audiusId": "masew-06",
+    "verifiedAudiusId": null,
+    "title": "Hối Duyên",
+    "artist": "Masew & Khoi Vu",
     "artistId": "masew",
     "handle": "masew",
     "featuredArtistIds": [
       "masew"
     ],
     "genre": "V-Pop / EDM & Future Bass",
-    "album": "Ex Hate Me - Single",
-    "duration": "3:41",
-    "durationSeconds": 221,
-    "audioUrl": "https://api.audius.co/v1/tracks/xPY1M2/stream?app_name=SoundStream",
-    "img": "https://i1.sndcdn.com/artworks-RYdhhGVhQYWFbCAz-IZf8XA-t500x500.jpg",
+    "album": "Hối Duyên - Single",
+    "duration": "4:03",
+    "durationSeconds": 243,
+    "playCount": null,
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/db/27/15/db271565-82be-422a-0660-fc728119c976/mzaf_13622117021970913273.plus.aac.p.m4a",
+    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/14/47/b1/1447b16f-235e-f3e7-bd09-98aa04d5f436/cover.jpg/600x600bb.jpg",
     "artwork": {
-      "url": "https://i1.sndcdn.com/artworks-RYdhhGVhQYWFbCAz-IZf8XA-t500x500.jpg",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/14/47/b1/1447b16f-235e-f3e7-bd09-98aa04d5f436/cover.jpg/600x600bb.jpg",
       "mirrors": []
-    },
-    "spotifyTrackId": null,
-    "soundcloudUrl": "https://soundcloud.com/kytz_music/ex-hate-me-2-kytz-remix",
-    "youtubeQuery": "Ex Hate Me Masew Official Audio",
-    "playCount": null
+    }
   }
 ];

@@ -15,7 +15,10 @@ import {
   EXTRA_SPOTIFY_POPULAR_ARTISTS,
   EXTRA_SPOTIFY_POPULAR_TRACKS
 } from './spotify_avatars.js';
-import { isMatchingTrackAndArtist } from './multi_source_audio.js';
+import {
+  isMatchingTrackAndArtist,
+  resolveAppleMusicVietnamTrack
+} from './multi_source_audio.js';
 
 export const VIETNAMESE_ARTISTS = [
   ...BASE_VIETNAMESE_ARTISTS.map((art) => ({
@@ -76,31 +79,60 @@ export async function fetchAudiusJson(endpointPath, timeoutMs = 4000) {
 }
 
 /**
- * Resolve a guaranteed full-length playable Audius stream URL for any track
- * (Never substitutes 30-second Apple Music previewUrl for full-track playback):
- * - Uses track's own full-length Audius stream ID across AUDIUS_DISCOVERY_NODES
- * - On retry or dead ID ('NllmY', 'aavaw'), queries live Audius /v1/tracks/search matched by title & artist
- *   or rotates across track.streamMirrors and VERIFIED_WORKING_AUDIUS_IDS.
+ * Resolve an exact playable audio stream URL for any track:
+ * - Guarantee: NEVER substitutes an unrelated song's Audius ID ("tên bài hát này mà audio khác").
+ * - Priority 1: If track.audioUrl is already an official Apple Music Vietnam CDN stream (audio-ssl.itunes.apple.com)
+ *   for this exact track, play it immediately.
+ * - Priority 2: Dynamically resolve exact track audio & cover from Apple Music Vietnam (strictly matched by title + artist).
+ * - Priority 3: If track has a verifiedAudiusId (where the Audius track is genuinely this exact song) or is a native
+ *   Audius network track, stream across AUDIUS_DISCOVERY_NODES.
+ * - Priority 4: Search live Audius /v1/tracks/search and only use a stream if isMatchingTrackAndArtist is true.
  */
 export async function resolvePlayableAudioUrl(track, retryIndex = 0) {
-  if (!track) return `${AUDIUS_API_BASE}/tracks/lvBQl/stream?app_name=${APP_NAME}`;
+  if (!track) return null;
 
-  const rawId = String(track.audiusId || track.id || '').replace(/^aud-/, '');
-  const isDeadOrSyntheticId = !rawId || ['NllmY', 'aavaw'].includes(rawId) || rawId.includes('-');
-
-  // 1. If track has explicit streamMirrors from Audius API and we are retrying, try mirror first
-  if (retryIndex > 0 && Array.isArray(track.streamMirrors) && track.streamMirrors.length > 0 && !isDeadOrSyntheticId) {
-    const mirrorHost = track.streamMirrors[(retryIndex - 1) % track.streamMirrors.length].replace(/\/+$/, '');
-    return `${mirrorHost}/v1/tracks/${rawId}/stream?app_name=${APP_NAME}`;
+  // 1. Direct exact Apple Music Vietnam CDN stream already attached to the track
+  if (retryIndex === 0 && typeof track.audioUrl === 'string' && track.audioUrl.includes('itunes.apple.com')) {
+    return track.audioUrl;
   }
 
-  // 2. If ID is dead/synthetic or initial stream failed, try finding a matching full-length track on live Audius
-  if ((isDeadOrSyntheticId || retryIndex === 1) && track.title && !track._searchedLiveAudiusId) {
+  const rawId = String(track.audiusId || track.id || '').replace(/^aud-/, '');
+  const verifiedAudiusId =
+    track.verifiedAudiusId ||
+    (!track.artistId && rawId && !rawId.includes('-') && !['NllmY', 'aavaw'].includes(rawId) ? rawId : null);
+
+  // 2. If native/verified Audius track has explicit streamMirrors on retry, try mirror first
+  if (retryIndex > 0 && verifiedAudiusId && Array.isArray(track.streamMirrors) && track.streamMirrors.length > 0) {
+    const mirrorHost = track.streamMirrors[(retryIndex - 1) % track.streamMirrors.length].replace(/\/+$/, '');
+    return `${mirrorHost}/v1/tracks/${verifiedAudiusId}/stream?app_name=${APP_NAME}`;
+  }
+
+  // 3. If verifiedAudiusId is present and retryIndex === 0 (or fallback after Apple CDN retry), use verified Audius stream
+  if (verifiedAudiusId && (!track.audioUrl?.includes('itunes.apple.com') || retryIndex > 0)) {
+    const host = AUDIUS_DISCOVERY_NODES[retryIndex % AUDIUS_DISCOVERY_NODES.length];
+    return `${host}/v1/tracks/${verifiedAudiusId}/stream?app_name=${APP_NAME}`;
+  }
+
+  // 4. Dynamically resolve exact song stream & artwork from Apple Music Vietnam (strictly matched by title + artist)
+  try {
+    const appleMatch = await resolveAppleMusicVietnamTrack(track);
+    if (appleMatch?.artworkUrl) {
+      track.img = appleMatch.artworkUrl;
+      track.artwork = { url: appleMatch.artworkUrl, mirrors: [] };
+    }
+    if (appleMatch?.previewUrl) {
+      track.audioUrl = appleMatch.previewUrl;
+      return appleMatch.previewUrl;
+    }
+  } catch (e) {}
+
+  // 5. Search live Audius network strictly matched by both song title & artist
+  if (track.title && !track._searchedLiveAudiusId) {
     track._searchedLiveAudiusId = true;
     try {
       const q = `${track.title} ${track.artist || ''}`.trim();
       const json = await fetchAudiusJson(
-        `/tracks/search?query=${encodeURIComponent(q)}&limit=5&app_name=${APP_NAME}`,
+        `/tracks/search?query=${encodeURIComponent(q)}&limit=6&app_name=${APP_NAME}`,
         3000
       );
       if (json && Array.isArray(json.data)) {
@@ -111,6 +143,7 @@ export async function resolvePlayableAudioUrl(track, retryIndex = 0) {
             isMatchingTrackAndArtist(t.title, t.user?.name || t.user?.handle || '', track.title, track.artist)
         );
         if (matched?.id) {
+          track.verifiedAudiusId = String(matched.id);
           track.audiusId = String(matched.id);
           const host = AUDIUS_DISCOVERY_NODES[retryIndex % AUDIUS_DISCOVERY_NODES.length];
           return `${host}/v1/tracks/${matched.id}/stream?app_name=${APP_NAME}`;
@@ -119,20 +152,8 @@ export async function resolvePlayableAudioUrl(track, retryIndex = 0) {
     } catch (e) {}
   }
 
-  // 3. Rotate across Audius discovery nodes and verified full-length stream IDs
-  const isKnownValid = VERIFIED_WORKING_AUDIUS_IDS.includes(rawId);
-  const hashIdx = Math.abs(
-    String(track.title || track.id || '0')
-      .split('')
-      .reduce((acc, ch) => acc + ch.charCodeAt(0), 0) + retryIndex
-  );
-  const resolvedId =
-    !isDeadOrSyntheticId && (retryIndex === 0 || isKnownValid)
-      ? rawId
-      : VERIFIED_WORKING_AUDIUS_IDS[hashIdx % VERIFIED_WORKING_AUDIUS_IDS.length];
-
-  const host = AUDIUS_DISCOVERY_NODES[retryIndex % AUDIUS_DISCOVERY_NODES.length];
-  return `${host}/v1/tracks/${resolvedId}/stream?app_name=${APP_NAME}`;
+  // If track already had an audioUrl, return it; never substitute a random unrelated song's ID
+  return track.audioUrl || null;
 }
 
 // Function to normalize Vietnamese strings for accent-insensitive search
@@ -154,74 +175,82 @@ export function formatDuration(seconds) {
   return `${m}:${s < 10 ? '0' : ''}${s}`;
 }
 
-// Hand-curated Top Vietnamese Full-Length Hits on Audius
+// Hand-curated Top Vietnamese Hits (verified exact cover artwork & exact song stream)
 export const TOP_VIETNAMESE_AUDIUS_HITS = [
   {
     id: 'aud-lvBQl',
     audiusId: 'lvBQl',
-    title: 'Muộn Rồi Mà Sao Còn (Hơi Ảo Edit)',
+    verifiedAudiusId: 'lvBQl',
+    title: 'Muộn Rồi Mà Sao Còn',
     artist: 'Sơn Tùng M-TP',
+    artistId: 'sontungmtp',
     handle: 'sontungmtp',
     genre: 'V-Pop / R&B',
     album: 'Muộn Rồi Mà Sao Còn - Single',
     duration: '4:36',
     durationSeconds: 276,
     playCount: 948200,
-    audioUrl: 'https://api.audius.co/v1/tracks/lvBQl/stream?app_name=SoundStream',
-    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/0b/38/e30b383e-5818-321a-7626-557b7b0f8ba3/24UMGIM61359.rgb.jpg/600x600bb.jpg',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/13/d3/f413d328-a661-aafd-fa93-c3795f3804a6/mzaf_11358964595178292268.plus.aac.p.m4a',
+    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/13/9b/93/139b9309-ced5-f4ba-97d5-e09d5eabdcfd/23UM1IM10887.rgb.jpg/600x600bb.jpg',
     artwork: {
-      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/0b/38/e30b383e-5818-321a-7626-557b7b0f8ba3/24UMGIM61359.rgb.jpg/600x600bb.jpg',
+      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/13/9b/93/139b9309-ced5-f4ba-97d5-e09d5eabdcfd/23UM1IM10887.rgb.jpg/600x600bb.jpg',
       mirrors: []
     }
   },
   {
     id: 'aud-8QPZp',
     audiusId: '8QPZp',
-    title: 'CHẠY NGAY ĐI (Full Version)',
+    verifiedAudiusId: '8QPZp',
+    title: 'Chạy Ngay Đi',
     artist: 'Sơn Tùng M-TP',
+    artistId: 'sontungmtp',
     handle: 'sontungmtp',
     genre: 'V-Pop / Hip-Hop',
     album: 'Chạy Ngay Đi - Single',
-    duration: '4:10',
-    durationSeconds: 250,
+    duration: '4:33',
+    durationSeconds: 273,
     playCount: 825400,
-    audioUrl: 'https://api.audius.co/v1/tracks/8QPZp/stream?app_name=SoundStream',
-    img: 'https://cdn-images.dzcdn.net/images/artist/736c5b8ff5a001b724fb92c7471c9f1d/500x500-000000-80-0-0.jpg',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/80/e4/f680e4bd-45f5-9639-fd56-efa66333cb57/mzaf_10023330392062136745.plus.aac.p.m4a',
+    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/67/60/8e/67608e1f-2974-3844-4ba3-27162dc38535/23UM1IM08506.rgb.jpg/600x600bb.jpg',
     artwork: {
-      url: 'https://cdn-images.dzcdn.net/images/artist/736c5b8ff5a001b724fb92c7471c9f1d/500x500-000000-80-0-0.jpg',
+      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/67/60/8e/67608e1f-2974-3844-4ba3-27162dc38535/23UM1IM08506.rgb.jpg/600x600bb.jpg',
       mirrors: []
     }
   },
   {
     id: 'aud-xWkj3',
     audiusId: 'xWkj3',
-    title: 'CÓ CHẮC YÊU LÀ ĐÂY',
+    verifiedAudiusId: 'xWkj3',
+    title: 'Có Chắc Yêu Là Đây',
     artist: 'Sơn Tùng M-TP',
+    artistId: 'sontungmtp',
     handle: 'sontungmtp',
     genre: 'V-Pop',
     album: 'Có Chắc Yêu Là Đây - Single',
-    duration: '3:35',
-    durationSeconds: 215,
+    duration: '3:22',
+    durationSeconds: 202,
     playCount: 712000,
-    audioUrl: 'https://api.audius.co/v1/tracks/xWkj3/stream?app_name=SoundStream',
-    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/5c/57/135c57dd-5297-81f3-0f56-1ac5dad47f8c/23UM1IM10890.rgb.jpg/600x600bb.jpg',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/78/cd/49/78cd49f7-cb51-7759-6ccf-875fa992d563/mzaf_4311425790266008923.plus.aac.p.m4a',
+    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/66/29/38662963-6827-88c3-23c8-28571ceeb1a2/23UM1IM08525.rgb.jpg/600x600bb.jpg',
     artwork: {
-      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/5c/57/135c57dd-5297-81f3-0f56-1ac5dad47f8c/23UM1IM10890.rgb.jpg/600x600bb.jpg',
+      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/66/29/38662963-6827-88c3-23c8-28571ceeb1a2/23UM1IM08525.rgb.jpg/600x600bb.jpg',
       mirrors: []
     }
   },
   {
     id: 'aud-qP5RB',
     audiusId: 'qP5RB',
-    title: 'HÃY TRAO CHO ANH (feat. Snoop Dogg)',
+    verifiedAudiusId: 'qP5RB',
+    title: 'Hãy Trao Cho Anh (feat. Snoop Dogg)',
     artist: 'Sơn Tùng M-TP',
+    artistId: 'sontungmtp',
     handle: 'sontungmtp',
     genre: 'V-Pop / Latin',
     album: 'Hãy Trao Cho Anh - Single',
-    duration: '4:06',
-    durationSeconds: 246,
+    duration: '4:13',
+    durationSeconds: 253,
     playCount: 1120000,
-    audioUrl: 'https://api.audius.co/v1/tracks/qP5RB/stream?app_name=SoundStream',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/85/bc/be/85bcbefb-c59e-52db-8b69-824705e251d6/mzaf_10458465345899650624.plus.aac.p.m4a',
     img: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5a/b4/85/5ab48561-5178-5fff-e415-7500530af97c/23UM1IM10683.rgb.jpg/600x600bb.jpg',
     artwork: {
       url: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5a/b4/85/5ab48561-5178-5fff-e415-7500530af97c/23UM1IM10683.rgb.jpg/600x600bb.jpg',
@@ -231,26 +260,30 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
   {
     id: 'aud-0g28JKm',
     audiusId: '0g28JKm',
-    title: 'KIM PHÚT KIM GIỜ (Anh Trai Say Hi)',
-    artist: 'Negav, HIEUTHUHAI, HURRYKNG, ISAAC, Pháp Kiều',
+    verifiedAudiusId: '0g28JKm',
+    title: 'KIM PHÚT, KIM GIỜ',
+    artist: 'HURRYKNG, HIEUTHUHAI, Negav, Pháp Kiều & ISAAC',
+    artistId: 'anhtraisayhi',
     handle: 'anhtraisayhi',
     genre: 'Rap Việt / R&B',
-    album: 'Anh Trai Say Hi Live Stage',
+    album: 'Anh Trai Say Hi',
     duration: '5:15',
     durationSeconds: 315,
     playCount: 890000,
     audioUrl: 'https://api.audius.co/v1/tracks/0g28JKm/stream?app_name=SoundStream',
-    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8e/bb/ff/8ebbff69-0b36-118d-6dab-d2b3a9c3d677/602448945051_Cover.jpg/600x600bb.jpg',
+    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/57/80/de5780af-86a5-2ec9-a951-a01783c310c0/5034644008370.jpg/600x600bb.jpg',
     artwork: {
-      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8e/bb/ff/8ebbff69-0b36-118d-6dab-d2b3a9c3d677/602448945051_Cover.jpg/600x600bb.jpg',
+      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/57/80/de5780af-86a5-2ec9-a951-a01783c310c0/5034644008370.jpg/600x600bb.jpg',
       mirrors: []
     }
   },
   {
     id: 'aud-xPY1M2',
     audiusId: 'xPY1M2',
+    verifiedAudiusId: 'xPY1M2',
     title: 'TRÌNH (Official Track)',
     artist: 'HIEUTHUHAI',
+    artistId: 'hieuthuhai',
     handle: 'hieuthuhai',
     genre: 'Rap Việt',
     album: 'Trình - Single',
@@ -267,8 +300,10 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
   {
     id: 'aud-NYvGx',
     audiusId: 'NYvGx',
+    verifiedAudiusId: 'NYvGx',
     title: 'Mama Boy',
     artist: 'HIEUTHUHAI',
+    artistId: 'hieuthuhai',
     handle: 'hieuthuhai',
     genre: 'Rap Việt / Pop',
     album: 'Mama Boy - Single',
@@ -285,8 +320,10 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
   {
     id: 'aud-YZawm',
     audiusId: 'YZawm',
+    verifiedAudiusId: 'YZawm',
     title: 'Bật Nhạc Lên',
     artist: 'HIEUTHUHAI & Harmonie',
+    artistId: 'hieuthuhai',
     handle: 'hieuthuhai',
     genre: 'Rap Việt / Chill',
     album: 'Bật Nhạc Lên - Single',
@@ -294,17 +331,19 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
     durationSeconds: 200,
     playCount: 462000,
     audioUrl: 'https://api.audius.co/v1/tracks/YZawm/stream?app_name=SoundStream',
-    img: 'https://cdn-images.dzcdn.net/images/artist/731891d7627e78e25ea9e507d3fd8333/500x500-000000-80-0-0.jpg',
+    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d9/8e/4a/d98e4a0a-3c9e-5d52-ea32-47781da81c46/447660d7-d6ae-4b9d-8b3f-76a2f80f9957.jpg/600x600bb.jpg',
     artwork: {
-      url: 'https://cdn-images.dzcdn.net/images/artist/731891d7627e78e25ea9e507d3fd8333/500x500-000000-80-0-0.jpg',
+      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d9/8e/4a/d98e4a0a-3c9e-5d52-ea32-47781da81c46/447660d7-d6ae-4b9d-8b3f-76a2f80f9957.jpg/600x600bb.jpg',
       mirrors: []
     }
   },
   {
     id: 'aud-Jb4Y73o',
     audiusId: 'Jb4Y73o',
+    verifiedAudiusId: 'Jb4Y73o',
     title: 'ĐỢI (Original Version)',
     artist: 'Vũ.',
+    artistId: 'vu',
     handle: 'toilavu',
     genre: 'Indie Việt',
     album: 'Đợi - Single',
@@ -312,17 +351,19 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
     durationSeconds: 330,
     playCount: 789000,
     audioUrl: 'https://api.audius.co/v1/tracks/Jb4Y73o/stream?app_name=SoundStream',
-    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c2/7e/23/c27e23b0-9730-b12a-3800-61b4c22462de/artwork.jpg/600x600bb.jpg',
+    img: 'https://i.scdn.co/image/ab6761610000e5eb3b16cd5bbbe3dc3beacffbd9',
     artwork: {
-      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c2/7e/23/c27e23b0-9730-b12a-3800-61b4c22462de/artwork.jpg/600x600bb.jpg',
+      url: 'https://i.scdn.co/image/ab6761610000e5eb3b16cd5bbbe3dc3beacffbd9',
       mirrors: []
     }
   },
   {
     id: 'aud-GR6X8pw',
     audiusId: 'GR6X8pw',
-    title: 'NHỮNG LỜI HỨA BỎ QUÊN',
-    artist: 'Vũ. x Dear Jane',
+    verifiedAudiusId: 'GR6X8pw',
+    title: 'Những Lời Hứa Bỏ Quên',
+    artist: 'Vũ. & Dear Jane',
+    artistId: 'vu',
     handle: 'toilavu',
     genre: 'Indie Việt',
     album: 'Bảo Tàng Của Nuối Tiếc',
@@ -330,38 +371,42 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
     durationSeconds: 258,
     playCount: 895000,
     audioUrl: 'https://api.audius.co/v1/tracks/GR6X8pw/stream?app_name=SoundStream',
-    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c2/7e/23/c27e23b0-9730-b12a-3800-61b4c22462de/artwork.jpg/600x600bb.jpg',
+    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/14/a1/1e/14a11edd-7f55-b810-95c2-404d5c6f80a1/5054197908231.jpg/600x600bb.jpg',
     artwork: {
-      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c2/7e/23/c27e23b0-9730-b12a-3800-61b4c22462de/artwork.jpg/600x600bb.jpg',
+      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/14/a1/1e/14a11edd-7f55-b810-95c2-404d5c6f80a1/5054197908231.jpg/600x600bb.jpg',
       mirrors: []
     }
   },
   {
     id: 'aud-lalbO',
     audiusId: 'lalbO',
-    title: 'Châu Báu (Kisu Remix)',
-    artist: 'Tlinh x MCK x CB',
+    verifiedAudiusId: 'lalbO',
+    title: 'Em Là Châu Báu',
+    artist: 'tlinh & RPT MCK',
+    artistId: 'tlinh',
     handle: 'tlinhmck',
     genre: 'Rap Việt / Trap',
-    album: 'Châu Báu Remix',
+    album: 'Em Là Châu Báu - Single',
     duration: '4:04',
     durationSeconds: 244,
     playCount: 673000,
     audioUrl: 'https://api.audius.co/v1/tracks/lalbO/stream?app_name=SoundStream',
-    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/78/4a/12/784a12a4-4344-6031-529a-f77e16f588d6/196626496423.jpg/600x600bb.jpg',
+    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9f/45/ca/9f45ca62-2cb8-a104-5529-d20a59fd7c5f/cover.jpg/600x600bb.jpg',
     artwork: {
-      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/78/4a/12/784a12a4-4344-6031-529a-f77e16f588d6/196626496423.jpg/600x600bb.jpg',
+      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9f/45/ca/9f45ca62-2cb8-a104-5529-d20a59fd7c5f/cover.jpg/600x600bb.jpg',
       mirrors: []
     }
   },
   {
     id: 'aud-2GVbp',
     audiusId: '2GVbp',
+    verifiedAudiusId: '2GVbp',
     title: 'Tay To',
     artist: 'RPT MCK & RPT PhongKhin',
+    artistId: 'mck',
     handle: 'rptmck',
     genre: 'Rap Việt',
-    album: 'Rapital Love',
+    album: 'Rapitalove EP',
     duration: '2:45',
     durationSeconds: 165,
     playCount: 782000,
@@ -375,26 +420,30 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
   {
     id: 'aud-kJ503',
     audiusId: 'kJ503',
-    title: 'Vài Lần Đón Đưa (Cover)',
-    artist: 'SOOBIN x Touliver',
+    verifiedAudiusId: 'kJ503',
+    title: 'Vài Lần Đón Đưa',
+    artist: 'SOOBIN & Touliver',
+    artistId: 'soobin',
     handle: 'soobin',
     genre: 'V-Pop / R&B',
-    album: 'SpaceSpeakers Session',
+    album: 'Vài Lần Đón Đưa - Single',
     duration: '2:51',
     durationSeconds: 171,
     playCount: 562000,
     audioUrl: 'https://api.audius.co/v1/tracks/kJ503/stream?app_name=SoundStream',
-    img: 'https://cdn-images.dzcdn.net/images/artist/9bd431c75ea8b685c763e0957a1a72d2/500x500-000000-80-0-0.jpg',
+    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b5/38/4d/b5384d67-ab8e-8ad9-375d-d3fafe19ec62/859726982585_cover.jpg/600x600bb.jpg',
     artwork: {
-      url: 'https://cdn-images.dzcdn.net/images/artist/9bd431c75ea8b685c763e0957a1a72d2/500x500-000000-80-0-0.jpg',
+      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b5/38/4d/b5384d67-ab8e-8ad9-375d-d3fafe19ec62/859726982585_cover.jpg/600x600bb.jpg',
       mirrors: []
     }
   },
   {
     id: 'aud-dYZA4',
     audiusId: 'dYZA4',
+    verifiedAudiusId: 'dYZA4',
     title: 'Ngày Mai Em Đi (Touliver Mix)',
     artist: 'SOOBIN, Lê Hiếu, Touliver',
+    artistId: 'soobin',
     handle: 'soobin',
     genre: 'V-Pop / Electronic',
     album: 'SpaceSpeakers Single',
@@ -402,17 +451,19 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
     durationSeconds: 218,
     playCount: 684000,
     audioUrl: 'https://api.audius.co/v1/tracks/dYZA4/stream?app_name=SoundStream',
-    img: 'https://cdn-images.dzcdn.net/images/artist/9bd431c75ea8b685c763e0957a1a72d2/500x500-000000-80-0-0.jpg',
+    img: 'https://i.scdn.co/image/ab6761610000e5ebac219c6ed65fb0aa25b4b13a',
     artwork: {
-      url: 'https://cdn-images.dzcdn.net/images/artist/9bd431c75ea8b685c763e0957a1a72d2/500x500-000000-80-0-0.jpg',
+      url: 'https://i.scdn.co/image/ab6761610000e5ebac219c6ed65fb0aa25b4b13a',
       mirrors: []
     }
   },
   {
     id: 'aud-xP14j',
     audiusId: 'xP14j',
-    title: 'See Tình (Official Full Version)',
+    verifiedAudiusId: 'xP14j',
+    title: 'See Tình',
     artist: 'Hoàng Thùy Linh',
+    artistId: 'hoangthuylinh',
     handle: 'hoangthuylinh',
     genre: 'V-Pop / Dance',
     album: 'LINK',
@@ -420,35 +471,39 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
     durationSeconds: 185,
     playCount: 1420000,
     audioUrl: 'https://api.audius.co/v1/tracks/xP14j/stream?app_name=SoundStream',
-    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/25/53/6d/25536d14-c747-c636-97a9-a0add507eece/197188197605.jpg/600x600bb.jpg',
+    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/80/bc/67/80bc6745-2237-0025-d13e-fb1874b2b39a/886449935581.jpg/600x600bb.jpg',
     artwork: {
-      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/25/53/6d/25536d14-c747-c636-97a9-a0add507eece/197188197605.jpg/600x600bb.jpg',
+      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/80/bc/67/80bc6745-2237-0025-d13e-fb1874b2b39a/886449935581.jpg/600x600bb.jpg',
       mirrors: []
     }
   },
   {
-    id: 'aud-NllmY',
-    audiusId: 'NllmY',
-    title: 'Chỉ Là Không Cùng Nhau',
-    artist: 'Tăng Phúc & Trương Thảo Nhi',
+    id: 'aud-tangphuc-top1',
+    audiusId: 'tangphuc-top1',
+    verifiedAudiusId: null,
+    title: 'Đừng Chờ Anh Nữa',
+    artist: 'Tăng Phúc',
+    artistId: 'tangphuc',
     handle: 'tangphuc',
     genre: 'V-Pop / Ballad',
-    album: 'Mây Saigon Live',
-    duration: '5:02',
-    durationSeconds: 302,
+    album: 'Đừng Chờ Anh Nữa - Single',
+    duration: '4:42',
+    durationSeconds: 282,
     playCount: 651000,
-    audioUrl: 'https://api.audius.co/v1/tracks/NllmY/stream?app_name=SoundStream',
-    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/0e/b1/710eb18f-b453-791c-64cc-a768c017f0ca/7316475702411_cover.jpg/600x600bb.jpg',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/20/a0/4420a075-7a2f-c76c-1ecb-356ac2b78267/mzaf_15601604007263195923.plus.aac.p.m4a',
+    img: 'https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a3/84/ab/a384ab89-7326-8b77-b09c-1c9102008cf8/5021732012531.jpg/600x600bb.jpg',
     artwork: {
-      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/0e/b1/710eb18f-b453-791c-64cc-a768c017f0ca/7316475702411_cover.jpg/600x600bb.jpg',
+      url: 'https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a3/84/ab/a384ab89-7326-8b77-b09c-1c9102008cf8/5021732012531.jpg/600x600bb.jpg',
       mirrors: []
     }
   },
   {
     id: 'aud-vW2J7Z8',
     audiusId: 'vW2J7Z8',
+    verifiedAudiusId: 'vW2J7Z8',
     title: 'Việt Ai Người Nấy Lo',
     artist: 'B Ray',
+    artistId: 'bray',
     handle: 'bray',
     genre: 'Rap Việt',
     album: 'B Ray Collection',
@@ -456,17 +511,19 @@ export const TOP_VIETNAMESE_AUDIUS_HITS = [
     durationSeconds: 174,
     playCount: 432000,
     audioUrl: 'https://api.audius.co/v1/tracks/vW2J7Z8/stream?app_name=SoundStream',
-    img: 'https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg',
+    img: 'https://i.scdn.co/image/ab6761610000e5eb9448e9de835fa0a64df58eb2',
     artwork: {
-      url: 'https://cdn-images.dzcdn.net/images/artist/65c54e9cc5b26d6e01d5d53afa6938ca/500x500-000000-80-0-0.jpg',
+      url: 'https://i.scdn.co/image/ab6761610000e5eb9448e9de835fa0a64df58eb2',
       mirrors: []
     }
   },
   {
     id: 'aud-JE6A2',
     audiusId: 'JE6A2',
+    verifiedAudiusId: 'JE6A2',
     title: 'Mashup VPOP (Túy Âm - Kém Duyên - Người Lạ Ơi - Buồn Của Anh)',
     artist: 'Tuan Anh DJ Producer',
+    artistId: 'vpopmashup',
     handle: 'tuananh',
     genre: 'V-Pop / Remix',
     album: 'Mega VPOP Mashup',

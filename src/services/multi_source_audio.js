@@ -5,8 +5,8 @@
  * - Does not fabricate playCount or verification badges
  */
 
-const YT_CACHE_KEY = 'soundstream_yt_video_cache_v2';
-const ITUNES_CACHE_KEY = 'soundstream_itunes_track_cache_v2';
+const YT_CACHE_KEY = 'soundstream_yt_video_cache_v3';
+const ITUNES_CACHE_KEY = 'soundstream_itunes_track_cache_v3';
 
 let ytCache = {};
 let itunesCache = {};
@@ -50,8 +50,15 @@ export function normalizeMusicText(str) {
     .trim();
 }
 
+function hasWholePhrase(haystack, needle) {
+  if (!haystack || !needle) return false;
+  if (haystack === needle) return true;
+  return ` ${haystack} `.includes(` ${needle} `);
+}
+
 /**
- * Verify that a candidate result matches BOTH the target track title and artist
+ * Verify that a candidate result strictly matches BOTH the target track title and artist
+ * using whole-word boundary checks (prevents short titles like "Đợi" or "Vũ." matching "Có Em Đời Bỗng Vui").
  */
 export function isMatchingTrackAndArtist(candidateTitle, candidateArtist, targetTitle, targetArtist) {
   const cTitle = normalizeMusicText(candidateTitle);
@@ -61,7 +68,17 @@ export function isMatchingTrackAndArtist(candidateTitle, candidateArtist, target
 
   if (!cTitle || !tTitle) return false;
 
-  const titleMatched = cTitle === tTitle || cTitle.includes(tTitle) || tTitle.includes(cTitle);
+  const tWords = tTitle.split(' ').filter(Boolean);
+  const cWords = cTitle.split(' ').filter(Boolean);
+
+  let titleMatched = false;
+  if (cTitle === tTitle) {
+    titleMatched = true;
+  } else if (tWords.length >= 2 && tTitle.length >= 6 && hasWholePhrase(cTitle, tTitle)) {
+    titleMatched = true;
+  } else if (cWords.length >= 2 && cTitle.length >= 6 && hasWholePhrase(tTitle, cTitle)) {
+    titleMatched = true;
+  }
   if (!titleMatched) return false;
 
   if (!tArtist) return true;
@@ -74,8 +91,7 @@ export function isMatchingTrackAndArtist(candidateTitle, candidateArtist, target
 
   if (targetTokens.length === 0) return true;
 
-  const combinedCandidate = `${cArtist} ${cTitle}`;
-  return targetTokens.some((tok) => combinedCandidate.includes(tok));
+  return targetTokens.some((tok) => hasWholePhrase(cArtist, tok) || hasWholePhrase(cTitle, tok));
 }
 
 const PIPED_SEARCH_APIS = [

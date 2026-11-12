@@ -102,12 +102,22 @@ export default function SoundStreamLayout() {
     return saved ? JSON.parse(saved) : [];
   });
 
-  // Liked Tracks
+  // Liked Tracks (reconciled against latest VERIFIED_AUDIUS_TRACKS so stale cover/audio URLs in localStorage are refreshed)
   const [likedTracks, setLikedTracks] = useState(() => {
     const saved = localStorage.getItem('soundstream_liked_tracks');
     if (saved) {
       try {
-        return JSON.parse(saved);
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          return parsed.map((oldTrack) => {
+            const fresh = VERIFIED_AUDIUS_TRACKS.find(
+              (v) =>
+                v.id === oldTrack.id ||
+                removeVietnameseTones(v.title) === removeVietnameseTones(oldTrack.title)
+            );
+            return fresh || oldTrack;
+          });
+        }
       } catch (e) {}
     }
     // Default top 4 hits
