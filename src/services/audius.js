@@ -1,6 +1,7 @@
 /**
- * SoundStream Music Engine & Audius Full-Length Audio Service
- * All tracks are 100% FULL-LENGTH (NO 30-second preview limitations).
+ * SoundStream Music Engine & Audius Audio Service
+ * Note: catalog tracks sourced from Apple Music VN play the official ~30-second preview
+ * (exact song). Only tracks with a verifiedAudiusId / native Audius tracks stream full-length.
  * Reference: https://audius.co/agents.md & https://audius.co/skill.md
  */
 
